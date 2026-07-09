@@ -1,0 +1,464 @@
+[
+    {
+        "id": "REQ-001",
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a sourcing event (RFI, RFQ, RFP) with customizable templates."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can manage and track sourcing events in real-time with automated workflows and notifications."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Collaboration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can collaborate with suppliers in real-time through the platform."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Evaluation",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can evaluate suppliers based on their bids and proposals."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Contract Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can award contracts to selected suppliers."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Document Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Buyer can manage and track document revisions and approvals."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate a sourcing request form with required information."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can participate and respond to sourcing events via email."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Evaluators can manually collate and evaluate all responses in a spreadsheet."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement buyer can review and approve the comparative schedule."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "New suppliers can be onboarded by procurement buyer."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "LOA can approve awards."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement buyer can award suppliers."
+    },
+    {
+        "id": "REQ-008",
+        "module": "Reporting",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Advanced reporting capabilities provide actionable insights into sourcing events, supplier performance, and spend data."
+    },
+    {
+        "id": "REQ-009",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa supports automated scoring and evaluation of supplier responses."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Sourcing Request",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Requester can submit a sourcing request form for approval by the line manager."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Owner can create a sourcing event in draft status after approval of the sourcing request."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can initiate a sourcing event in one of three ways: from scratch, from an existing template, or by copying from a previously conducted event."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can configure event settings, including event name, currency, and basic information."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can add suppliers, set evaluations, and configure event timelines."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can define the type of sourcing event being created, including RFx stage, allow multiple responses, and hide supplier responses."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can attach terms and conditions or other relevant documents for suppliers to accept."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Event Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can create an event and invite internal team members to conduct specific tasks."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Event Configuration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can configure event details such as attachments, forms, and event timeline."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Item Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can add items individually or in bulk, including uploading data from CSV, and configure item details such as quantity, need by date, and total cost formula."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can add suppliers to the sourcing event, including selecting from the Coupa supplier list, copying from a previous event, or loading from CSV."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Evaluator Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can manually add evaluators for the sourcing event."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can create a sourcing event with evaluation criteria, weights, and evaluators."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can launch the sourcing event and make it visible to suppliers."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier receives an invitation email with a link to the login page and system-generated OTP for accessing the event."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier must accept Terms and Conditions before participating in the event."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can access and participate in the event after accepting Terms and Conditions."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Communication",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer and Supplier can communicate through a live chat window."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Event Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can edit the event, including weights for scoring and planned savings, after launching it."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can invite suppliers to an event."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can submit responses to the event."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Event Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Procurement Buyer can view event details, including invited suppliers and responses."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Event Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Procurement Buyer can send email reminders to suppliers."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Event Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can extend the timeline of the event."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Event Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Event can be auto-closed or manually ended by Procurement Buyer."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Evaluation",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can view and evaluate supplier responses."
+    },
+    {
+        "id": "REQ-008",
+        "module": "Evaluation",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Procurement Buyer can request internal users for evaluation."
+    },
+    {
+        "id": "REQ-009",
+        "module": "Follow-on Event",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Procurement Buyer can create a follow-on event for further negotiations."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Purchase Order",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a purchase order for approved suppliers."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Evaluation",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Evaluator can add scores and evaluations for supplier responses."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Evaluation",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Team can review evaluator's evaluations."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Award",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Sourcing owner can decide on the event award based on evaluations."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Award",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can award the selected winner(s) in the Sourcing event."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Award",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Once approvals are completed, the event is marked as awarded."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Requisition",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can flip the Sourcing event into a new Requisition."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Purchase Requisition",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Requester can create a purchase requisition and submit it for approval."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can initiate the sourcing process by flipping a purchase requisition to a sourcing event."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can create a sourcing event from scratch, using a template, or copying from a previous event."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can configure sourcing event settings, timelines, details, add suppliers, and set evaluations."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Sourcing Event",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can create a sourcing event with various options such as event type, terms and conditions, and event team."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Event Configuration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can configure event details such as attachments, forms, and items."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Timeline",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Buyer can define timelines specific to the event, including event start and end dates, and invite internal team members to conduct tasks."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Suppliers can bid in different currencies, and their responses will be evaluated in the event currency."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Communication",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Suppliers can add attachments while communicating on the message centre."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Event Tracking",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Procurement Buyer can track the sourcing event, including the ability to convert the event into 1 Envelope or 2 Envelope by selecting the Unseal manually option."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Reporting",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Cost avoidance and planned savings can be tracked and reported."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can add and invite suppliers to sourcing events."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Evaluation",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can add evaluators and assign weights to specific categories for sourcing events."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Event Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can launch and publish sourcing events, and edit event details after launch."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Item Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Buyer can add items to purchase orders, including searching for preloaded options and manually entering prices."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Event Configuration",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Buyer can configure event settings, including terms and conditions, event type, and currency."
+    }
+]

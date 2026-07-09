@@ -1,0 +1,26 @@
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+.env.*
+
+# Node
+frontend/node_modules/
+node_modules/
+dist/
+
+# Generated Files
+uploads/
+outputs/
+generated_testcases.xlsx
+storage/projects/
+
+# Mac
+.DS_Store
+
+# Chroma
+chromaDB/

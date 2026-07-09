@@ -1,0 +1,170 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Sourcing Event (RFI) with Customizable Template",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Sourcing Event (RFI) with Non-Existent Template",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Sourcing Event (RFI) Template Fields",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer Attempts to Create Sourcing Event (RFI) without Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Sourcing Event (RFI) with Template on Edge of Character Limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates a sourcing event and assigns it to a supplier, triggering automated workflow and notification",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to create a sourcing event without assigning a supplier, no automated workflow and notification is triggered",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer creates a sourcing event and assigns it to a supplier, but the supplier has not been approved, automated workflow and notification is not triggered",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer views the sourcing event status in real-time, automated workflow and notification is displayed",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer with 'Buyer' role creates a sourcing event, automated workflow and notification is triggered",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Buyer attempts to create a sourcing event with a supplier that has a maximum limit of 100 sourcing events, and the 101st event is created, automated workflow and notification is triggered",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer Creates Supplier Collaboration Request and Supplier Approves",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Collaboration"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer Creates Supplier Collaboration Request but Supplier Rejects",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Collaboration"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer Creates Supplier Collaboration Request but Supplier Does Not Respond Within Timeframe",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Collaboration"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Buyer Does Not Have Permission to Create Supplier Collaboration Request",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Collaboration"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Buyer Creates Supplier Collaboration Request with Supplier That Has Been Disabled",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Collaboration"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer Evaluates Supplier with Valid Bid and Proposal",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Evaluation"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer Attempts to Evaluate Supplier with Invalid Bid and Proposal",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Evaluation"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer Evaluates Supplier and Saves Evaluation with Valid Data",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Evaluation"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer Evaluates Supplier but Does Not Have Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Evaluation"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer Evaluates Supplier with Bid and Proposal Exceeding Maximum Allowed Values",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Evaluation"
+    }
+]
