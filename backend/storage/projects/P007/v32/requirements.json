@@ -1,0 +1,242 @@
+[
+    {
+        "id": "REQ-001",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process is designed for engaging suppliers with whom the organization intends to conduct business with or procure goods and services.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier data accuracy, completeness, and consistency of supplier master data across Coupa and SAP must be ensured.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Unvetted suppliers or services must go through the proper approval channels.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Information for all suppliers must be accurate and current.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Visibility to certifications and contact information must be ensured.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "id": "REQ-006",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Multiple channels of managing information (e.g. paper forms, emails, phone calls, spreadsheets) must be eliminated.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "id": "REQ-007",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier participation must be encouraged.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "id": "REQ-008",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa SIM must manage the Supplier creation and onboarding process.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "id": "REQ-009",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "A Supplier will only be created in Coupa once they have completed the onboarding process.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "id": "REQ-010",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Data accuracy, completeness, and consistency of supplier master data across Coupa and SAP must be ensured.",
+        "requirement_id": "REQ-010"
+    },
+    {
+        "id": "REQ-011",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier data must be accurate and current.",
+        "requirement_id": "REQ-011"
+    },
+    {
+        "id": "REQ-013",
+        "module": "Procurement",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information must be accurate and current.",
+        "requirement_id": "REQ-012"
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal supplier registration in Coupa is used when a supplier is onboarded by internal users due to urgency, business constraints, or specific supplier types, while still adhering to governance and approval controls.",
+        "requirement_id": "REQ-013"
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The One-Time Vendor (OTV) process is designed for suppliers engaged for a single or non-recurring transaction.",
+        "requirement_id": "REQ-014"
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The OTV process retains the existing structure while streamlining approvals and reducing data capture and documentation requirements.",
+        "requirement_id": "REQ-015"
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa uses different status labels to help users quickly see the status of each supplier.",
+        "requirement_id": "REQ-016"
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The Supplier Portal Status column is used to see CSP statuses in the Suppliers table.",
+        "requirement_id": "REQ-017"
+    },
+    {
+        "id": "REQ-006",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Vendors are responsible for ensuring that all required documentation is accurate, complete, and up to date to facilitate timely review and approval.",
+        "requirement_id": "REQ-018"
+    },
+    {
+        "id": "REQ-007",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The list of documents that are required to be completed or attached by vendors during the onboarding and update processes is detailed in the Excel sheet referenced below.",
+        "requirement_id": "REQ-019"
+    },
+    {
+        "id": "REQ-008",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The respective geography’s subject matter experts will need to provide us with the necessary translation for custom information added in the system.",
+        "requirement_id": "REQ-020"
+    },
+    {
+        "id": "REQ-009",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa supports the auto-translation of the standard information on the user interface for the following languages.",
+        "requirement_id": "REQ-021"
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can verify supplier information and update it in the system.",
+        "requirement_id": "REQ-022"
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System supports supplier self-service for updating their information.",
+        "requirement_id": "REQ-023"
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "System sends notifications to suppliers for updates and changes.",
+        "requirement_id": "REQ-024"
+    },
+    {
+        "id": "REQ-004",
+        "module": "Procurement",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create purchase requisitions for approved suppliers.",
+        "requirement_id": "REQ-025"
+    },
+    {
+        "id": "REQ-005",
+        "module": "Procurement",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System supports approval workflow for purchase requisitions.",
+        "requirement_id": "REQ-026"
+    },
+    {
+        "id": "REQ-006",
+        "module": "Procurement",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "System generates purchase orders automatically from approved purchase requisitions.",
+        "requirement_id": "REQ-027"
+    },
+    {
+        "id": "REQ-007",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System tracks and reports on ESG metrics for suppliers.",
+        "requirement_id": "REQ-028"
+    },
+    {
+        "id": "REQ-008",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System supports compliance with local language requirements.",
+        "requirement_id": "REQ-029"
+    },
+    {
+        "id": "REQ-009",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "System generates reports on compliance status for suppliers.",
+        "requirement_id": "REQ-030"
+    }
+]

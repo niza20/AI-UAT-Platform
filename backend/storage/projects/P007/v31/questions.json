@@ -1,0 +1,122 @@
+[
+    {
+        "id": "Q1",
+        "question": "What constitutes an 'approved supplier' for the purpose of creating sourcing events?",
+        "reason": "Definition of approved supplier missing",
+        "options": [
+            "Suppliers with a valid tax ID and business license",
+            "Suppliers with a minimum credit score of 700",
+            "Suppliers with a valid certificate of insurance",
+            "Suppliers with a minimum annual revenue of $1M"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system determine if a supplier is approved?",
+        "reason": "Approval determination process missing",
+        "options": [
+            "Automated system check",
+            "Manual review by procurement team",
+            "Approval by finance department",
+            "Approval by reporting manager"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q3",
+        "question": "Can a sourcing event be created for a supplier that is not approved?",
+        "reason": "Error handling for unapproved suppliers missing",
+        "options": [
+            "Yes, but with a warning message",
+            "Yes, without any restrictions",
+            "No, and the system will prevent creation",
+            "No, but with an error message"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q4",
+        "question": "Are there any specific fields or information required for a supplier to be considered approved?",
+        "reason": "Approval criteria missing",
+        "options": [
+            "Business license and tax ID",
+            "Certificate of insurance and credit score",
+            "Annual revenue and business history",
+            "All of the above"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q5",
+        "question": "Can a buyer create a sourcing event for a supplier that has been approved in the past but is no longer approved?",
+        "reason": "Supplier approval status handling missing",
+        "options": [
+            "Yes, but with a warning message",
+            "Yes, without any restrictions",
+            "No, and the system will prevent creation",
+            "No, but with an error message"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q1",
+        "question": "What are the specific data requirements for the One-Time Vendor (OTV) process?",
+        "reason": "Data requirements missing for OTV process",
+        "options": [
+            "Minimal data required for vendor creation",
+            "Standard data required for vendor creation with some exceptions",
+            "Full data required for vendor creation with no exceptions",
+            "Custom data required for vendor creation based on supplier type"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle country-specific attachments for vendor onboarding and update processes?",
+        "reason": "Attachment handling missing for country-specific requirements",
+        "options": [
+            "Attachments are uploaded and stored separately for each country",
+            "Attachments are uploaded and stored in a single location with country-specific flags",
+            "Attachments are not required for vendor onboarding and update processes",
+            "Attachments are automatically detected and handled by the system"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the approval workflow for internal supplier registration initiated by business users?",
+        "reason": "Approval workflow missing for internal supplier registration",
+        "options": [
+            "Approval by Procurement team only",
+            "Approval by Finance team only",
+            "Approval by Procurement and Finance teams",
+            "No approval required for internal supplier registration"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system handle language requirements for auto-translation of standard information on the user interface?",
+        "reason": "Language requirements missing for auto-translation",
+        "options": [
+            "Auto-translation is supported for all languages",
+            "Auto-translation is supported for a limited set of languages",
+            "No auto-translation is supported for language requirements",
+            "Custom translation is required for language requirements"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for supplier deactivation and reactivation, including purchase block and payment block?",
+        "reason": "Supplier status management missing for deactivation and reactivation",
+        "options": [
+            "Deactivation and reactivation require separate approval workflows",
+            "Deactivation and reactivation require a single approval workflow",
+            "No approval is required for deactivation and reactivation",
+            "Custom process is required for deactivation and reactivation"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    }
+]

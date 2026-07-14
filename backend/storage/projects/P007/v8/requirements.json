@@ -1,0 +1,107 @@
+[
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate supplier onboarding process by providing basic supplier information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process undergoes internal approval workflow before sending invitation to supplier.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier receives invitation via email to register with AECI and complete due diligence steps.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurate and current, and certifications and contact information are visible.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Multiple channels of managing supplier information are eliminated, and supplier participation is facilitated.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Creation and Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier is created in Coupa only after completing the onboarding process.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Supplier Status Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier status management includes purchase block, payment block, supplier deactivation, and reactivation.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Approval Workflows",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows involve Procurement, Finance, General Accounting, and Master Data teams.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Integration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Integration touchpoints exist between Coupa SIM and SAP for supplier creation, updates, and activation.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can register suppliers in Coupa for urgent or business-critical situations, adhering to governance and approval controls.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Vendor Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyers can update vendor information in Coupa, including status changes.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "One-Time Vendor Process",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The One-Time Vendor process enables faster vendor creation with a simplified approval flow and reduced data requirements, while ensuring basic compliance and procurement controls.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Status Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa displays supplier status labels to help users quickly see the status of each supplier.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Geography-Specific Requirements",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "The system accommodates geography-specific requirements, including field-level requirements, attachments, and language support.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "System Configuration",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "System supports local language requirements.",
+        "requirement_id": "REQ-001"
+    }
+]

@@ -1,0 +1,27 @@
+{
+    "summary": {
+        "requirements": 9,
+        "testcases": 184,
+        "covered": 9,
+        "missing": 0,
+        "coverage": 100.0
+    },
+    "modules": {
+        "Supplier Onboarding": 51,
+        "Supplier Information Management": 37,
+        "Supplier Status Management": 14,
+        "Approval Workflows": 10,
+        "Integration": 9,
+        "Supplier Update": 10,
+        "One-Time Vendor": 8,
+        "Supplier Status": 12,
+        "Geographical Process Deviations": 10,
+        "Language Support": 13,
+        "Acknowledgment and Signature": 10
+    },
+    "priorities": {
+        "High": 114,
+        "Medium": 47,
+        "Low": 23
+    }
+}

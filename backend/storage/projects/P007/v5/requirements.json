@@ -1,0 +1,121 @@
+[
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the supplier onboarding process by providing basic supplier information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process undergoes internal approval workflow before sending invitation to supplier.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can register with AECI and complete due diligence steps after receiving invitation via email.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurate and current, and certifications and contact information are visible.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier creation and onboarding process is managed by Coupa SIM, and a supplier will only be created once they have completed the onboarding process.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier status management includes purchase block, payment block, supplier deactivation, and reactivation.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier data maintenance processes include external supplier updates via Coupa Supplier Portal and internal supplier updates initiated by AECI users.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Integration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa SIM integrates with SAP for supplier creation, updates, and activation.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can register new suppliers in Coupa for urgent or business-critical situations, adhering to governance and approval controls.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can update existing supplier information in Coupa, following the same approval workflow as new supplier registration.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can change the status of a supplier in Coupa, including blocking purchases or payments, deactivating, or reactivating the supplier.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "One-Time Vendor",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can create a one-time vendor in Coupa with a simplified approval flow and reduced data requirements, while ensuring basic compliance and procurement controls.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa displays different status labels to help users quickly see the status of each supplier, including Supplier Record Status and Coupa Supplier Portal (CSP) Status.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The system controls the visibility of inputs required from suppliers based on the country selected for the supplier, adhering to local guidelines and requirements.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Vendors are responsible for ensuring that all required documentation is accurate, complete, and up-to-date to facilitate timely review and approval.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa supports the auto-translation of standard information on the user interface for internal users and suppliers, with the option to configure custom translations for specific geographies.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "System Configuration",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "The system supports local language requirements.",
+        "requirement_id": "REQ-001"
+    }
+]

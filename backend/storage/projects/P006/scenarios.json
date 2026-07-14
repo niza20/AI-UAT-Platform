@@ -1,0 +1,202 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Order with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Purchase Order for Approved Supplier with Valid PO Details",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer Attempts to Create Purchase Order without Approvals",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Purchase Order for Approved Supplier with Maximum Allowed Quantity",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier with Valid Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Supplier with Invalid Email",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Supplier Information is Stored Correctly",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Supplier with Valid Information by User with Supplier Management Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Supplier with Valid Information at Maximum Character Limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier with Valid Details and Approve Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Supplier with Invalid Details",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Supplier Approval Status is Updated in Real-time",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Test Supplier Approval Process with Different User Roles",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Supplier with Maximum Allowed Characters in Name Field",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier Performance Evaluation for Active Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Evaluate Performance of Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Supplier Performance Evaluation Metrics",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Evaluate Supplier Performance as a Supplier Admin User",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Evaluate Supplier Performance with Zero Performance Metrics",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier Profile and Verify Communication Settings",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Supplier Profile with Invalid Email Address",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Supplier Profile Communication Settings are Saved Correctly",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify Only Authorized Users Can Create and Edit Supplier Profiles",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Supplier Profile with Maximum Allowed Characters in Company Name",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    }
+]

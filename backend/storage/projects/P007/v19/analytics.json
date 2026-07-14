@@ -1,0 +1,25 @@
+{
+    "summary": {
+        "requirements": 8,
+        "testcases": 80,
+        "covered": 8,
+        "missing": 0,
+        "coverage": 100.0
+    },
+    "modules": {
+        "Supplier Onboarding": 30,
+        "Supplier Information Management": 15,
+        "Supplier Creation and Onboarding": 5,
+        "Supplier Status Management": 5,
+        "One-Time Vendor": 5,
+        "Coupa Supplier Portal": 5,
+        "Geography-Specific Requirements": 5,
+        "Language Support": 5,
+        "Acknowledgment and Signature": 5
+    },
+    "priorities": {
+        "High": 58,
+        "Medium": 20,
+        "Low": 2
+    }
+}

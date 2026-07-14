@@ -1,0 +1,842 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer initiates supplier onboarding with valid supplier information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to initiate supplier onboarding with missing supplier information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer initiates supplier onboarding with invalid email format",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer initiates supplier onboarding with existing supplier",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer initiates supplier onboarding without required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Buyer initiates supplier onboarding with supplier information at maximum allowed length",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal approval workflow is triggered after supplier onboarding initiation by authorized user",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal approval workflow is not triggered after supplier onboarding initiation by unauthorized user",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Internal approval workflow is triggered after supplier onboarding initiation with valid approval configuration",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Internal approval workflow is not triggered after supplier onboarding initiation without valid approval configuration",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Internal approval workflow is triggered after supplier onboarding initiation by user with required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Approved Supplier Receives Invitation to Register",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Approved Supplier Declines Invitation to Register",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Invitation Sent to Approved Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier Approver Receives Notification of Invitation Sent",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Approved Supplier Registers with AECI on Same Day Invitation is Sent",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier successfully registers with AECI via Coupa Supplier Portal",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier attempts to register with AECI via Coupa Supplier Portal without completing due diligence steps",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier validates registration with AECI via Coupa Supplier Portal",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier with 'Supplier' role attempts to register with AECI via Coupa Supplier Portal",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier attempts to register with AECI via Coupa Supplier Portal with invalid email address",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier with Accurate and Current Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Supplier with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Certifications and Contact Information are Visible for Active Supplier",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify Only Authorized Users Can View Supplier Information",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Supplier with Information at Maximum Character Limit",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier Profile with Valid Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Supplier Profile with Invalid Email",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Supplier Profile Information for Completeness",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Supplier Profile as Non-Approved User",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Supplier Profile with Maximum Allowed Characters in Name",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier and Complete Onboarding Process Successfully",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Supplier without Completing Onboarding Process",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Supplier Creation and Onboarding Status in Coupa SIM",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Create Supplier with Incomplete Onboarding Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify Supplier Creation and Onboarding Permissions for Administrator",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Order with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Supplier Status Changes After Deactivation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt Purchase Order with Supplier in Payment Block",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify Supplier Reactivation After Deactivation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Verify Purchase Block on Supplier Deactivation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Verify Supplier Status Changes After Purchase Block",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Verify Supplier Status Changes After Payment Block",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Verify Supplier Status Changes After Reactivation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Verify Supplier Status Changes After Purchase Block and Reactivation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Verify Supplier Status Changes After Payment Block and Reactivation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Verify Supplier Status Changes After Deactivation and Reactivation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Procurement Team Approves Supplier Request",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Finance Team Rejects Supplier Request",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "General Accounting Team Fails to Approve Supplier Request within Deadline",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Master Data Team Does Not Have Access to Supplier Request",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Procurement Team Submits Request with All Required Fields",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier in Coupa SIM and Verify Integration with SAP",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Supplier in Coupa SIM with Duplicate Name",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Update Supplier Information in Coupa SIM and Verify Changes in SAP",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Deactivate Supplier in Coupa SIM and Verify Status in SAP",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify Supplier Activation in Coupa SIM and SAP after Manual Activation in SAP",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal user successfully registers a new supplier in Coupa for urgent situation",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal user attempts to register a new supplier in Coupa without required information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Internal user validates the newly registered supplier's information in Coupa",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Internal user without supplier onboarding permission attempts to register a new supplier in Coupa",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Internal user registers a new supplier in Coupa with maximum allowed supplier information fields",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Order with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Purchase Order Details for Approved Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Purchase Order by Non-Approved Buyer for Approved Supplier",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Purchase Order with Zero Quantity for Approved Supplier",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Update Supplier Information with Active Status",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Update Supplier Information with Inactive Status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Supplier Information Update is Reflected in Purchase Order",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Update Supplier Information by User with Supplier Admin Role",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Update Supplier Information with Status Change from Active to Inactive",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create One-Time Vendor with minimal required data and auto-approve",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to create One-Time Vendor with incomplete data and verify error message",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that One-Time Vendor is created with basic compliance and procurement controls",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify that non-approver user cannot create One-Time Vendor",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create One-Time Vendor with maximum allowed data and verify no errors",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier with Active Status is Displayed with 'Active' Label",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier with Inactive Status is Displayed with 'Inactive' Label",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier with Pending Status is Displayed with 'Pending' Label",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier with Unknown Status is Displayed with 'Unknown' Label",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier with Active Status is Displayed with 'Active' Label when User has View Supplier Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier with Inactive Status is Displayed with 'Inactive' Label when User does not have View Supplier Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Supplier with Active Status is Displayed with 'Active' Label when Supplier is Approaching Inactive Date",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Supplier with Inactive Status is Displayed with 'Inactive' Label when Supplier is Approaching Active Date",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Supplier Status Label is not Displayed when Supplier Status is not Available",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Supplier Status Label is not Displayed when Supplier Status is not Valid",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier with English Language and Verify Auto-Translation to French",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Supplier with French Language and Verify Auto-Translation to English",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Supplier with Non-Supported Language and Verify Error Message",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Supplier with English Language and Verify Auto-Translation to French after Changing Language Preference",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify that only Authorized Users can Create Supplier with Auto-Translation Feature",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier with US Country and Verify Required Attachments",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Supplier with Non-US Country and Verify No Required Attachments",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Attempt to Create Supplier with Non-US Country and Required Attachments",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Supplier with US Country and Verify Field Requirements",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Supplier with Non-US Country and Verify No Field Requirements",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt to Create Supplier with Non-Admin User",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Create Supplier with US Country and Verify Boundary (Maximum Attachment Size)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order with Local Language",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Order with Non-Supported Local Language",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Local Language Displayed in Purchase Order",
+        "priority": "Low",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Purchase Order Creation with Local Language by Non-Admin User",
+        "priority": "Low",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Purchase Order Creation with Local Language at Maximum Character Limit",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    }
+]

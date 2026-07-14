@@ -1,0 +1,1492 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer initiates supplier onboarding process with valid supplier information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to initiate supplier onboarding process with missing supplier information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer initiates supplier onboarding process with invalid email address",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer initiates supplier onboarding process with existing supplier record",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Internal user attempts to initiate supplier onboarding process without required approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Buyer initiates supplier onboarding process with supplier information in multiple channels (e.g. email, portal)",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Supplier completes due diligence steps and receives invitation to register with AECI",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Buyer attempts to initiate supplier onboarding process with supplier record in inactive status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Buyer initiates supplier onboarding process and supplier record is successfully activated",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Buyer initiates supplier onboarding process and supplier record is successfully deactivated",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal User Registers New Supplier with All Required Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal User Attempts to Register Supplier with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Internal User Submits Supplier Registration for Approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Internal User Attempts to Submit Supplier Registration without Approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier Completes Due Diligence Steps and Receives Approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier Fails to Complete Due Diligence Steps and Receives Rejection",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Internal User Deactivates Supplier Account",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Internal User Attempts to Deactivate Supplier Account without Permission",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Internal User Reactivates Supplier Account",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Internal User Attempts to Reactivate Supplier Account without Permission",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Internal User Updates Supplier Information through Multiple Channels",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Internal User Attempts to Update Supplier Information without Permission",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-013",
+        "scenario": "Internal User Tracks Supplier Record Status",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-014",
+        "scenario": "Internal User Attempts to Track Supplier Record Status without Permission",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal User Creates New Supplier with Governance and Approval Controls",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal User Attempts to Create New Supplier without Governance and Approval Controls",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Approved Supplier Receives Invitation to Register with AECI and Completes Due Diligence Steps",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Approved Supplier Fails to Complete Due Diligence Steps within Specified Timeframe",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Internal User Attempts to Create New Supplier with Inactive Status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Internal User Attempts to Create New Supplier with Invalid Supplier Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Internal User Attempts to Deactivate or Reactivate Supplier without Required Permissions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Internal User Successfully Deactivates or Reactivates Supplier with Required Permissions",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "System Handles Multiple Channels of Managing Supplier Information Correctly",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "System Updates Supplier Record Status Correctly for Easy Tracking",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Internal User Attempts to Create New Supplier with Expiration Date in the Past",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Internal User Attempts to Create New Supplier with Expiration Date in the Future",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal User Registers New Supplier with Complete Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal User Attempts to Register New Supplier with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Internal User Registers New Supplier without Completing Due Diligence Steps",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Internal User Attempts to Deactivate Supplier without Approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Internal User Reactivates Supplier after Deactivation",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Internal User Attempts to Update Supplier Information without Approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Internal User Registers New Supplier with Invalid Email Address",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Internal User Attempts to Register New Supplier with Existing Supplier Name",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Internal User Registers New Supplier with Complete Information and Completes Due Diligence Steps",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Internal User Updates Supplier Information with Complete Information and Completes Due Diligence Steps",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Internal User Deactivates Supplier with Complete Information and Completes Due Diligence Steps",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Internal User Reactivates Supplier with Complete Information and Completes Due Diligence Steps",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-013",
+        "scenario": "Internal User Registers New Supplier with Complete Information and Multiple Channels of Managing Supplier Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-014",
+        "scenario": "Internal User Attempts to Register New Supplier with Incomplete Information and Multiple Channels of Managing Supplier Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal User Registers New Supplier with Valid Governance and Approval Controls",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal User Attempts to Register New Supplier without Valid Governance and Approval Controls",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier Record Status is Inactive due to Lack of Due Diligence Completion",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Internal User Attempts to View Supplier Certifications and Contact Information before Due Diligence Completion",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Internal User Registers New Supplier through Multiple Channels (e.g., Email, Portal) and Supplier Information is Consistent",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Internal User Attempts to Deactivate or Reactivate Supplier without Proper Authorization",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Internal User Successfully Deactivates Supplier and Supplier Information is Removed from System",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Internal User Attempts to Reactivate Supplier with Incomplete or Inaccurate Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Internal User Registers New Supplier with Valid Governance and Approval Controls and Supplier Record Status is Active",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Internal User Attempts to View Supplier Certifications and Contact Information after Due Diligence Completion",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal User Registers New Supplier with Approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal User Attempts to Register New Supplier without Approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier Completes Due Diligence Steps after Invitation",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier Fails to Complete Due Diligence Steps after Invitation",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "System Handles Multiple Channels of Managing Supplier Information",
+        "priority": "Low",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Internal User Deactivates Supplier",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Internal User Attempts to Reactivate Deactivated Supplier",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Internal User without Supplier Management Permission Attempts to Deactivate Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Internal User without Supplier Management Permission Attempts to Reactivate Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Supplier Record Status is Inactive due to Non-Completion of Due Diligence Steps",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier Record Status is Active after Completion of Due Diligence Steps",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Internal User Attempts to Register New Supplier with Inactive Supplier Status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-013",
+        "scenario": "Internal User Attempts to Deactivate Active Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create New Supplier with Valid Information and Activate",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create New Supplier with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Deactivate Existing Supplier with Active Purchase Block",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Reactivate Deactivated Supplier without Approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Update Supplier Information and Reactivate with New Approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Manage Supplier Status through Multiple Channels (Internal User and External Supplier)",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Supplier Completes Due Diligence Steps and Receives Invitation to Register with AECI",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Internal User Registers New Supplier without Governance and Approval Controls",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "System Handles Multiple Channels of Managing Supplier Information (Internal User and External Supplier)",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Supplier Status Determination for Easy Tracking (Supplier Record Status)",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Process for Deactivating or Reactivating a Supplier (Responsibility and Approval)",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Supplier Information Update and Reactivation with New Approval (Validation)",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-013",
+        "scenario": "Supplier Status Management with Governance and Approval Controls (Permission)",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-014",
+        "scenario": "Supplier Status Management with Boundary Values (Maximum/Minimum Supplier Status)",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order with Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Procurement team creates a purchase order with an approved supplier, and the system allows the creation of the purchase order.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Order with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Procurement team attempts to create a purchase order with an inactive supplier, and the system prevents the creation of the purchase order.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Supplier Approval Status",
+        "priority": "Medium",
+        "type": "Validation",
+        "description": "Procurement team checks the approval status of a supplier, and the system displays the correct approval status.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Procurement Team Creates Purchase Order without Approval",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Procurement team creates a purchase order without approval from the Finance team, and the system prevents the creation of the purchase order.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Finance Team Approves Purchase Order",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Finance team approves a purchase order, and the system updates the purchase order status to 'Approved'.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "General Accounting Team Validates Purchase Order",
+        "priority": "Medium",
+        "type": "Validation",
+        "description": "General Accounting team validates a purchase order, and the system displays the correct purchase order details.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Master Data Team Updates Supplier Information",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Master Data team updates supplier information, and the system reflects the changes in the supplier details.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Procurement Team Creates Purchase Order with Unapproved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Procurement team creates a purchase order with an unapproved supplier, and the system prevents the creation of the purchase order.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Boundary Case: Purchase Order Creation with Zero Quantity",
+        "priority": "Low",
+        "type": "Boundary",
+        "description": "Procurement team creates a purchase order with zero quantity, and the system allows the creation of the purchase order.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Permission Scenario: Procurement Team Creates Purchase Order without Supplier Approval",
+        "priority": "High",
+        "type": "Permission",
+        "description": "Procurement team creates a purchase order without supplier approval, and the system prevents the creation of the purchase order due to lack of permission.",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier in Coupa SIM and SAP, Verify Supplier is Activated in Coupa SIM",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Supplier in Coupa SIM but do not Activate in SAP, Verify Supplier is Inactive in Coupa SIM",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Update Existing Supplier in Coupa SIM and SAP, Verify Supplier Details are Updated in Coupa SIM",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Update Inactive Supplier in Coupa SIM and SAP, Verify Error Message is Displayed",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Supplier with Invalid Data in Coupa SIM, Verify Error Message is Displayed",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Verify Supplier Creation and Activation Process is Successful when User has 'Supplier Management' Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Verify Supplier Creation and Activation Process Fails when User does not have 'Supplier Management' Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Create Supplier with Maximum Allowed Characters in Coupa SIM, Verify Supplier is Created Successfully",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Create Supplier with Minimum Required Characters in Coupa SIM, Verify Supplier is Created Successfully",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-009",
+        "module": "Integration"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal User Registers New Supplier with Urgent Type",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal User Attempts to Register New Supplier without Urgent or Specific Type",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Internal User Registers New Supplier with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Internal User Submits Supplier Registration with Valid Governance and Approval Controls",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Internal User Attempts to Register New Supplier without Governance and Approval Controls",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Internal User Registers New Supplier with Valid Due Diligence Steps",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Internal User Attempts to Register New Supplier without Completing Due Diligence Steps",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Internal User Manages Supplier Information through Multiple Channels",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Internal User Attempts to Manage Supplier Information through Inactive Channel",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Internal User Deactivates Supplier Account",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Internal User Attempts to Deactivate Supplier Account without Permission",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Internal User Reactivates Supplier Account",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-013",
+        "scenario": "Internal User Attempts to Reactivate Supplier Account without Permission",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-014",
+        "scenario": "Internal User Registers New Supplier with Valid Supplier Record Status",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-015",
+        "scenario": "Internal User Attempts to Register New Supplier with Invalid Supplier Record Status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal User Updates Vendor Information Successfully",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal User Attempts to Update Inactive Vendor Information",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Internal User Updates Vendor Information with Valid Governance and Approval Controls",
+        "priority": "Medium",
+        "type": "Positive",
+        "precondition": "Internal user has the necessary permissions and has completed the required due diligence steps.",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Internal User Attempts to Update Vendor Information without Valid Governance and Approval Controls",
+        "priority": "Medium",
+        "type": "Negative",
+        "precondition": "Internal user does not have the necessary permissions or has not completed the required due diligence steps.",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Internal User Updates Vendor Information with Multiple Channels of Managing Supplier Information",
+        "priority": "Medium",
+        "type": "Positive",
+        "precondition": "Internal user has access to multiple channels of managing supplier information, such as Coupa and external supplier portals.",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Internal User Attempts to Deactivate or Reactivate a Supplier without Necessary Permissions",
+        "priority": "Medium",
+        "type": "Negative",
+        "precondition": "Internal user does not have the necessary permissions to deactivate or reactivate a supplier.",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Internal User Updates Vendor Information with Valid Supplier Record Status",
+        "priority": "Medium",
+        "type": "Positive",
+        "precondition": "Internal user updates the supplier record status to reflect the current status of the supplier.",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Internal User Attempts to Update Vendor Information with Invalid Supplier Record Status",
+        "priority": "Medium",
+        "type": "Negative",
+        "precondition": "Internal user attempts to update the supplier record status with an invalid status.",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Internal User Updates Vendor Information with Valid Due Diligence Steps",
+        "priority": "Medium",
+        "type": "Positive",
+        "precondition": "Internal user has completed the required due diligence steps for the supplier.",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Internal User Attempts to Update Vendor Information without Valid Due Diligence Steps",
+        "priority": "Medium",
+        "type": "Negative",
+        "precondition": "Internal user has not completed the required due diligence steps for the supplier.",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Update"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create One-Time Vendor with Simplified Approval Flow",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create One-Time Vendor with Incomplete Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate One-Time Vendor Creation with Reduced Data Requirements",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Internal User Creates One-Time Vendor without Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create One-Time Vendor with Approver outside of Simplified Approval Flow",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt to Create One-Time Vendor with Duplicate Name",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Internal User Creates One-Time Vendor with Non-Compliant Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Validate One-Time Vendor Creation with Compliance Checks",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Internal User Registers New Supplier with Approved Governance and Approval Controls",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Internal User Attempts to Register New Supplier without Approved Governance and Approval Controls",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier Record Status is Updated Automatically after Supplier Completes Due Diligence Steps",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier Record Status is Not Updated if Supplier Fails to Complete Due Diligence Steps",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier Portal Status is Updated Manually by Supplier after Receiving Invitation",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier Portal Status is Not Updated if Supplier Fails to Complete Invitation Process",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Supplier Information is Updated through Multiple Channels (e.g., Email, Portal, API)",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Supplier Information is Not Updated if Multiple Channels are Used Inconsistently",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Supplier is Deactivated by Authorized User with Correct Permissions",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Supplier is Not Deactivated if Authorized User Lacks Correct Permissions",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier is Reactivated by Authorized User with Correct Permissions",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Supplier is Not Reactivated if Authorized User Lacks Correct Permissions",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier with Standardized Information and Approve for Global Use",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Supplier with Incomplete Information and Attempt Approval for Global Use",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Supplier with Standardized Information and Approve for Australia with Local Guidelines",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Supplier with Incomplete Information and Attempt Approval for Australia with Local Guidelines",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt to Approve Supplier for Global Use without Standardized Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt to Approve Supplier for Australia with Global Approval Workflow",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Validate Supplier Information for Global Use",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Validate Supplier Information for Australia with Local Guidelines",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Supplier Onboarding and Management Process for Global Use with Standardized Information",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Supplier Onboarding and Management Process for Australia with Local Guidelines and Standardized Information",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Geographical Process Deviations"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order with English as Default Language and Auto-Translate Standard Information",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Purchase Order with French as Default Language and Auto-Translate Standard Information",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Purchase Order with English as Default Language, Auto-Translate Standard Information, and Custom Information Translation for Specific Geography (USA)",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Create Purchase Order with English as Default Language and No Auto-Translation of Standard Information",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt to Create Purchase Order with French as Default Language and No Auto-Translation of Standard Information",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt to Create Purchase Order with English as Default Language, Auto-Translate Standard Information, and Custom Information Translation for Non-Specific Geography (Invalid Geography)",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Validate that Standard Information is Translated Correctly for English as Default Language",
+        "priority": "Low",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Validate that Standard Information is Translated Correctly for French as Default Language",
+        "priority": "Low",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Validate that Custom Information is Translated Correctly for Specific Geography (USA)",
+        "priority": "Low",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Test that User with Limited Permissions Cannot Create Purchase Order with Custom Information Translation",
+        "priority": "Low",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Test that User with Full Permissions Can Create Purchase Order with Custom Information Translation",
+        "priority": "Low",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "Test that Purchase Order with Custom Information Translation is Saved Correctly when Default Language is Changed to English",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-013",
+        "scenario": "Test that Purchase Order with Custom Information Translation is Saved Correctly when Default Language is Changed to French",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Language Support"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Process Owner Acknowledges and Signs Document",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Document Reviewer Acknowledges and Signs Document",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Attempt to Acknowledge and Sign Document without Permission",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Process Owner Acknowledges and Signs Document with Invalid Signature",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Document Reviewer Acknowledges and Signs Document with Invalid Signature",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Process Owner Acknowledges and Signs Document with Blank Signature",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Document Reviewer Acknowledges and Signs Document with Blank Signature",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Process Owner Acknowledges and Signs Document with Signature Expiration Date in the Past",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Document Reviewer Acknowledges and Signs Document with Signature Expiration Date in the Future",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Process Owner Acknowledges and Signs Document with Signature Expiration Date Today",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Acknowledgment and Signature"
+    }
+]

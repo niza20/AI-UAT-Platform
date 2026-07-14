@@ -1,0 +1,501 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates a sourcing event for RFIs with centre-managed commodity",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to create sourcing event for RFQs with non-centre-managed commodity",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer creates sourcing event for RFPs with approved supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer attempts to create sourcing event for Auctions with inactive supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer creates sourcing event for RFIs with centre-managed commodity and tracks planned savings",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier Participates in Sourcing Event via Email",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier Participates in Sourcing Event via Coupa Supplier Portal",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier Attempts to Participate in Sourcing Event without Email Invitation",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier Attempts to Participate in Sourcing Event with Inactive Account",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier Attempts to Participate in Sourcing Event with Invalid Email",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Sourcing Event with Timelines, Evaluations, Scoring, and Award Decision",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Sourcing Event without Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Configure Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": "Coupa Admin has necessary permissions and access to configure centre-managed commodities and services",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Track Planned, Negotiated, and Cost Avoidance Savings",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": "Sourcing event has been created and savings have been planned, negotiated, and cost avoidance tracked",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Flip Purchase Request into Sourcing Event",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": "Purchase request has been created and user has necessary permissions to flip it into a sourcing event",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Sourcing Event for Centre-Managed Commodity with Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create a sourcing event for a centre-managed commodity with an approved supplier and verify that the approval workflow is aligned with the Limits of Authority (DOA / LOA).",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Sourcing Event for Non-Centre-Managed Commodity with Unapproved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Attempt to create a sourcing event for a non-centre-managed commodity with an unapproved supplier and verify that the system prevents the creation of the sourcing event.",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Track Planned, Negotiated, and Cost Avoidance Savings for Sourcing Event",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Create a sourcing event and track planned, negotiated, and cost avoidance savings to verify that the system accurately differentiates between these types of savings.",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Flip Purchase Request into Sourcing Event",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Flip a purchase request into a sourcing event and verify that the system correctly updates the sourcing event with the relevant information.",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Customize Sourcing Settings and Configurations as Coupa Admin",
+        "priority": "Low",
+        "type": "Positive",
+        "description": "Log in as a Coupa Admin and customize sourcing settings and configurations to verify that the system allows for the necessary customizations.",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Sourcing Event with Planned Savings",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Sourcing Event with Inactive Category",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Planned Savings Tracking for Sourcing Event",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Sourcing Event with Negotiated Savings for Centre-Managed Commodity",
+        "priority": "High",
+        "type": "Positive",
+        "precondition": "Centre-managed commodities and services are defined with specific criteria (e.g., annual spend threshold)",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt to Flip Purchase Request into Sourcing Event without Required Approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Sourcing Event for Centre-Managed Commodity",
+        "priority": "High",
+        "type": "Positive",
+        "description": "As a Coupa Admin, create a sourcing event for a centre-managed commodity and verify that the system settings and administrative configurations are relevant to sourcing activities.",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Sourcing Event for Non-Centre-Managed Commodity",
+        "priority": "High",
+        "type": "Negative",
+        "description": "As a Coupa Admin, attempt to create a sourcing event for a non-centre-managed commodity and verify that the system prevents the creation of such an event.",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Track Planned Savings for Sourcing Event",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "As a Sourcing Manager, create a sourcing event and track planned savings, verifying that the system accurately differentiates between planned, negotiated, and cost avoidance savings.",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Flip Purchase Request into Sourcing Event",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "As a Sourcing Manager, flip a purchase request into a sourcing event and verify that the system correctly updates the sourcing event details.",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Align Approval Workflows with DOA/LOA",
+        "priority": "High",
+        "type": "Positive",
+        "description": "As a Coupa Admin, configure approval workflows for different sourcing event types and verify that they align with the Limits of Authority (DOA/LOA) for each event type.",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Category Managers initiate strategic sourcing activity for centre-managed commodity",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Category Managers attempt to initiate strategic sourcing activity for non-centre-managed commodity",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Procurement team attempts to initiate strategic sourcing activity without Category Manager approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Category Manager initiates strategic sourcing activity and tracks planned savings",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Category Manager initiates strategic sourcing activity and tracks negotiated savings",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Request for Centre-Managed Commodity",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Request with Non-Centre-Managed Commodity",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Centre-Managed Commodity Criteria",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Flip Purchase Request into Sourcing Event with Planned Savings",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Flip Purchase Request into Sourcing Event with Negotiated Savings",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create RFx Event for Centre-Managed Commodities",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create RFx Event for Non-Centre-Managed Commodities",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate RFx Event Details (Event Type, Description, Start Date, End Date)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create RFx Event with Invalid Dates (Start Date > End Date)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt to Create RFx Event without Required Fields (Event Type, Description)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Reverse Auction for Approved Supplier with Competitive Bidding",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Auctions"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Auctions"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Reverse Auction Details (Auction Name, Description, Start Date, End Date)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Auctions"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Reverse Auction with Unapproved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Auctions"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt Reverse Auction with Excessive Number of Bidders (Boundary Case)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Auctions"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Define Savings for Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "User defines savings for centre-managed commodities and services, and Coupa tracks the savings.",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Define Savings for Non-Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Negative",
+        "description": "User attempts to define savings for non-centre-managed commodities and services, and Coupa prevents the action.",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Track Planned, Negotiated, and Cost Avoidance Savings",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "User tracks planned, negotiated, and cost avoidance savings in Coupa, and Coupa differentiates between the types of savings.",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Track Savings without Correct Sourcing Event Type",
+        "priority": "Medium",
+        "type": "Negative",
+        "description": "User attempts to track savings without selecting the correct sourcing event type, and Coupa prevents the action.",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Flip Purchase Request into Sourcing Event",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "User flips a purchase request into a sourcing event, and Coupa creates a new sourcing event.",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Coupa Admin customizes sourcing settings to enable centre-managed commodities and services",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Coupa Admin fails to customize sourcing settings due to lack of permissions",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Coupa Admin attempts to customize sourcing settings with invalid input",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Coupa Admin successfully customizes sourcing settings to track planned, negotiated, and cost avoidance savings",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Coupa Admin fails to customize sourcing settings to track planned, negotiated, and cost avoidance savings due to system error",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    }
+]

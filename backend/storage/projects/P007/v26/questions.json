@@ -1,0 +1,62 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a supplier to be considered 'Preferred'?",
+        "reason": "Supplier classification criteria missing",
+        "options": [
+            "Price",
+            "Quality",
+            "Reliability",
+            "All of the above"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q2",
+        "question": "How are supplier performance metrics tracked and measured?",
+        "reason": "Performance metrics tracking method missing",
+        "options": [
+            "Manual Review",
+            "Automated System",
+            "Regular Audits",
+            "Supplier Self-Reporting"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling supplier disputes or complaints?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Escalation to Management",
+            "Mediation by a Third Party",
+            "Arbitration",
+            "Supplier Self-Resolution"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q4",
+        "question": "How are supplier contracts managed and renewed?",
+        "reason": "Contract management process missing",
+        "options": [
+            "Automated System",
+            "Manual Renewal",
+            "Contractor Self-Management",
+            "Procurement Team Oversight"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the frequency of supplier audits and assessments?",
+        "reason": "Audit frequency missing",
+        "options": [
+            "Annually",
+            "Bi-Annually",
+            "Quarterly",
+            "As Needed"
+        ],
+        "module": "Sourcing"
+    }
+]

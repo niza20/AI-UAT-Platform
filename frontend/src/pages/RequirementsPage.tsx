@@ -1,136 +1,169 @@
+import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Layout from "../components/Layout";
+import AnalyticsCard from "../components/analyticscard";
+import RequirementCard from "../components/RequirementCard";
 
-function RequirementsPage() {
-  const navigate = useNavigate();
+export default function RequirementsPage() {
+    const navigate = useNavigate();
 
-  const data = JSON.parse(
-    localStorage.getItem("uat_result") || "{}"
-  );
+    const data = JSON.parse(
+        localStorage.getItem("uat_result") || "{}"
+    );
 
-  const requirements = data.requirements || [];
+    const requirements = data.requirements || [];
 
-  return (
-    <div className="min-h-screen bg-slate-100 p-10">
+    const traceability = data.traceability || [];
 
-      <div className="max-w-7xl mx-auto">
+    const analytics = data.analytics || {};
+    const summary = analytics.summary || {};
+    console.log("Analytics:", analytics);
+    console.log("Summary:", summary);
+    console.log("Coverage:", summary.coverage);
 
-        {/* Page Title */}
+    const [search, setSearch] = useState("");
 
-        <div className="flex justify-between items-center mb-8">
+    const [filter, setFilter] = useState("All");
 
-          <div>
+    const filtered = useMemo(() => {
 
-            <h1 className="text-4xl font-bold">
-              Extracted Requirements
-            </h1>
+        return requirements.filter((req: any) => {
 
-            <p className="text-gray-500 mt-2">
-              AI extracted business requirements from uploaded BRD
-            </p>
+            const trace = traceability.find(
+                (t: any) =>
+                    t.requirement_id === req.requirement_id
+            );
 
-          </div>
+            const matchesSearch =
+                req.requirement
+                    .toLowerCase()
+                    .includes(search.toLowerCase()) ||
+                req.requirement_id
+                    .toLowerCase()
+                    .includes(search.toLowerCase());
 
-          <div className="bg-white shadow rounded-xl px-6 py-4">
+            const matchesFilter =
+                filter === "All"
+                    ? true
+                    : trace?.coverage === filter;
 
-            <div className="text-3xl font-bold text-blue-600">
-              {requirements.length}
+            return matchesSearch && matchesFilter;
+
+        });
+
+    }, [
+        requirements,
+        traceability,
+        search,
+        filter,
+    ]);
+
+    return (
+
+        <Layout
+            title="Requirements Workspace"
+            subtitle="AI Requirement Analysis"
+        >
+
+            <div className="grid grid-cols-4 gap-6">
+
+                <AnalyticsCard
+                    title="Requirements"
+                    value={requirements.length}
+                />
+
+                <AnalyticsCard
+                    title="Covered"
+                    value={summary.covered || 0}
+                    color="text-green-600"
+                />
+
+                <AnalyticsCard
+                    title="Missing"
+                    value={summary.missing || 0}
+                    color="text-red-600"
+                />
+
+               <AnalyticsCard
+    title="Coverage"
+    value={`${summary.coverage || 0}%`}
+    color="text-blue-600"
+/>
+
             </div>
 
-            <div className="text-gray-500">
-              Requirements
+            <div className="bg-white rounded-2xl border border-slate-200 shadow-sm mt-8 p-6">
+
+                <div className="flex justify-between items-center">
+
+                    <input
+                        placeholder="Search Requirement..."
+                        value={search}
+                        onChange={(e) =>
+                            setSearch(e.target.value)
+                        }
+                        className="border rounded-xl p-3 w-96"
+                    />
+
+                    <div className="flex gap-3">
+
+                        {[
+                            "All",
+                            "Covered",
+                            "Missing",
+                        ].map((f) => (
+
+                            <button
+                                key={f}
+                                onClick={() =>
+                                    setFilter(f)
+                                }
+                                className={`px-4 py-2 rounded-xl ${
+                                    filter === f
+                                        ? "bg-blue-600 text-white"
+                                        : "bg-slate-100"
+                                }`}
+                            >
+                                {f}
+                            </button>
+
+                        ))}
+
+                    </div>
+
+                </div>
+
             </div>
 
-          </div>
+            <div className="mt-8 space-y-5">
 
-        </div>
+                {filtered.map((req: any) => (
 
-        {/* Table */}
-
-        <div className="bg-white rounded-xl shadow overflow-hidden">
-
-          <table className="w-full">
-
-            <thead className="bg-blue-600 text-white">
-
-              <tr>
-
-                <th className="text-left p-4">ID</th>
-
-                <th className="text-left p-4">Module</th>
-
-                <th className="text-left p-4">Priority</th>
-
-                <th className="text-left p-4">Requirement</th>
-
-              </tr>
-
-            </thead>
-
-            <tbody>
-
-              {requirements.map((req: any) => (
-
-                <tr
-                  key={req.id}
-                  className="border-b hover:bg-slate-50 transition"
-                >
-
-                  <td className="p-4 font-semibold">
-                    {req.id}
-                  </td>
-
-                  <td className="p-4">
-                    {req.module}
-                  </td>
-
-                  <td className="p-4">
-
-                    <span
-                      className={`px-3 py-1 rounded-full text-sm font-semibold
-                      ${
-                        req.priority === "High"
-                          ? "bg-red-100 text-red-600"
-                          : req.priority === "Medium"
-                          ? "bg-yellow-100 text-yellow-700"
-                          : "bg-green-100 text-green-700"
-                      }`}
-                    >
-                      {req.priority}
-                    </span>
-
-                  </td>
-
-                  <td className="p-4">
-                    {req.requirement}
-                  </td>
-
-                </tr>
-
-              ))}
-
-            </tbody>
-
-          </table>
-
-        </div>
-
-        {/* Next Button */}
-
-        <div className="flex justify-end mt-8">
-
-          <button
-            onClick={() => navigate("/clarifications")}
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold shadow"
-          >
-            Next →
-          </button>
-
-        </div>
-
-      </div>
-
-    </div>
-  );
+<div
+key={req.requirement_id}
+onClick={() =>
+    navigate(`/requirement/${req.requirement_id}`)
 }
+className="cursor-pointer hover:scale-[1.01] transition-all duration-200"
+>
 
-export default RequirementsPage;
+<RequirementCard
+    requirement={req}
+    traceability={traceability.find(
+        (t: any) =>
+            t.requirement_id ===
+            req.requirement_id
+    )}
+/>
+
+</div>
+
+                ))}
+
+            </div>
+
+        </Layout>
+
+    );
+
+}

@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the approval workflow for creating a one-time vendor in Coupa?",
+        "reason": "Approval workflow missing for one-time vendor",
+        "options": [
+            "Simplified approval flow with no approvals required",
+            "Approval by Requestor Selected",
+            "Approval by Reporting Manager",
+            "Approval by Procurement"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system control the visibility of inputs required from suppliers based on the country selected?",
+        "reason": "Country-based input visibility control missing",
+        "options": [
+            "Country selection triggers a separate approval workflow",
+            "Country selection hides certain input fields",
+            "Country selection requires additional documentation",
+            "Country selection does not affect input visibility"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for extending the supplier onboarding process for suppliers that require additional time?",
+        "reason": "Extension process missing for suppliers requiring additional time",
+        "options": [
+            "Internal users can extend the process via a separate workflow",
+            "Internal users can extend the process by updating the supplier status",
+            "Internal users can extend the process by requesting approval from Procurement",
+            "Internal users cannot extend the process"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system support local language requirements?",
+        "reason": "Local language support missing",
+        "options": [
+            "System supports auto-translation of standard information on the user interface",
+            "System requires manual translation of standard information on the user interface",
+            "System does not support local language requirements",
+            "System supports local language requirements via a separate module"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for managing supplier status, including purchase block, payment block, deactivation, and reactivation?",
+        "reason": "Supplier status management process missing",
+        "options": [
+            "Internal users can manage supplier status via a separate workflow",
+            "Internal users can manage supplier status by updating the supplier status field",
+            "Internal users can manage supplier status by requesting approval from Procurement",
+            "Internal users cannot manage supplier status"
+        ]
+    }
+]

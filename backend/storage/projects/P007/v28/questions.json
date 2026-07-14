@@ -1,0 +1,62 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining the 'centre-managed commodities and services'?",
+        "reason": "Ambiguous business rule",
+        "options": [
+            "Based on company-wide policies",
+            "Based on departmental needs",
+            "Based on supplier categorization",
+            "Based on product/service type"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "id": "Q2",
+        "question": "How does Coupa handle conflicts between automated scoring and manual evaluation?",
+        "reason": "Ambiguous business rule",
+        "options": [
+            "Automated scoring takes precedence",
+            "Manual evaluation takes precedence",
+            "Both automated scoring and manual evaluation are used",
+            "Manual evaluation overrides automated scoring"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for resending a sourcing event to production?",
+        "reason": "Missing business process",
+        "options": [
+            "Buyer initiates resend via Coupa",
+            "Supplier initiates resend via Coupa",
+            "Coupa system automatically resends",
+            "Manual intervention by Coupa support team"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "id": "Q4",
+        "question": "How are 'centre-managed commodities and services' sourced in relation to operational sourcing needs?",
+        "reason": "Ambiguous business rule",
+        "options": [
+            "Separate sourcing process",
+            "Integrated sourcing process",
+            "Prioritized sourcing process",
+            "No distinction made"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the role of 'Limits of Authority' (DOA/LOA) in approval workflows for sourcing events?",
+        "reason": "Ambiguous business rule",
+        "options": [
+            "DOA/LOA defines approval hierarchy",
+            "DOA/LOA defines approval thresholds",
+            "DOA/LOA defines approval types",
+            "DOA/LOA is not used in approval workflows"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    }
+]

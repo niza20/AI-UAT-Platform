@@ -1,0 +1,602 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates a sourcing event for strategic sourcing initiative with valid details",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to create a sourcing event with invalid supplier ID",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer creates a sourcing event with missing required fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer attempts to create a sourcing event with duplicate event name",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer creates a sourcing event with valid details, but the supplier is not approved",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates a sourcing event for operational sourcing initiative with valid details",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to create a sourcing event with invalid supplier ID",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer creates a sourcing event with missing required fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer creates a sourcing event with valid details but exceeds the character limit for event description",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer attempts to create a sourcing event without required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier Participates in Sourcing Event via Email",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier Participates in Sourcing Event via Coupa Supplier Portal",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier Attempts to Participate in Sourcing Event via Email with Invalid Email Address",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier Attempts to Participate in Sourcing Event via Coupa Supplier Portal without Login Credentials",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier Receives Sourcing Event Notification via Email but Fails to Respond within the Specified Timeframe",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer configures event timeline with valid dates and saves it successfully",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to configure event timeline with invalid dates (future date) and receives error message",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer configures event timeline with valid dates, but evaluation criteria is missing and receives error message",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer configures event timeline with valid dates and evaluation criteria, but scoring is not configured and receives warning message",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer configures event timeline with valid dates, evaluation criteria, and scoring, but award decision is not configured and receives warning message",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order for Approved Supplier within Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Order for Approved Supplier exceeding Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Approve Purchase Order for Approved Supplier within Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Reject Purchase Order for Approved Supplier within Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Purchase Order for Unapproved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates a new purchase order and tracks planned savings",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to track savings for a purchase order with no planned savings",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer enters incorrect planned savings amount and attempts to save the purchase order",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer views the savings history for a purchase order and verifies the correct values are displayed",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer attempts to track savings without having the necessary permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer views sourcing-related system settings and administrative configurations without any issues",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to view sourcing-related system settings and administrative configurations without required permissions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer views sourcing-related system settings and administrative configurations with valid permissions but invalid data format",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer views sourcing-related system settings and administrative configurations with valid permissions but data exceeds maximum allowed limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer views sourcing-related system settings and administrative configurations with valid permissions but system is in maintenance mode",
+        "priority": "Low",
+        "type": "Exception Flow",
+        "requirement_id": "REQ-007",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer views sourcing event analytics and insights for an active sourcing event",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to view sourcing event analytics and insights for an inactive sourcing event",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer views sourcing event analytics and insights for a sourcing event with no bids",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer views sourcing event analytics and insights without proper permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-008",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer views sourcing event analytics and insights for a sourcing event with a large number of bids (boundary case)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-008",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Procurement team member attempts to initiate strategic sourcing activity without Category Manager approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity with valid commodity code and description",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-009",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Category Manager attempts to initiate strategic sourcing activity without centre-managed commodity designation",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-009",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity with invalid commodity code",
+        "priority": "High",
+        "type": "Exception Flow",
+        "requirement_id": "REQ-009",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Procurement Admin (Buyer) initiates operational sourcing activity for immediate procurement need",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Procurement Admin (Buyer) attempts to initiate operational sourcing activity without required permissions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Procurement Admin (Buyer) initiates operational sourcing activity with incorrect supplier information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Procurement Admin (Buyer) initiates operational sourcing activity for a procurement need with a valid approval workflow",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Procurement Admin (Buyer) attempts to initiate operational sourcing activity for a procurement need with an invalid approval workflow",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create RFI event with valid details",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-011",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to create RFI event with missing required fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate RFI event details for correct formatting and data type",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-011",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create RFI event with valid details by a user with 'Sourcing Manager' role",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-011",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create RFI event with valid details on the maximum allowed date",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-011",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create English Reverse Auction with Valid Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-012",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Dutch Reverse Auction with Valid Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-012",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Japanese Reverse Auction with Valid Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-012",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt English Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-012",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt Dutch Reverse Auction with Supplier without Dutch Auction Capability",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-012",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create a new reverse auction with English auction type and validate that it is successfully created",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-013",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to create a new reverse auction with an invalid auction type (e.g. 'Invalid') and validate that an error message is displayed",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-013",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create a new reverse auction with Dutch auction type and validate that the auction type is correctly set",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-013",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create a new reverse auction with Japanese auction type and validate that the auction type is correctly set",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-013",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt to create a new reverse auction with a supplier that does not have the required permissions and validate that an error message is displayed",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-013",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Procurement Admin (Buyer) successfully configures sourcing settings and enables controls in the Coupa sourcing module",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-014",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Procurement Admin (Buyer) attempts to configure sourcing settings without proper permissions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-014",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Procurement Admin (Buyer) configures sourcing settings but fails to save due to invalid input",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-014",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Procurement Admin (Buyer) tries to configure sourcing settings when the Coupa sourcing module is disabled",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-014",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Procurement Admin (Buyer) successfully configures sourcing settings and enables controls in the Coupa sourcing module, but the changes are not reflected due to a system error",
+        "priority": "High",
+        "type": "Exception Flow",
+        "requirement_id": "REQ-014",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Savings in Coupa Sourcing Module with Valid Data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-015",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Savings with Incomplete Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Savings with Invalid Currency",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Savings with Excessive Decimal Places",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-015",
+        "module": "General"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Savings with Special Characters in Description",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "General"
+    }
+]

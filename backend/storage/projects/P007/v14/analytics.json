@@ -1,0 +1,41 @@
+{
+    "summary": {
+        "requirements": 10,
+        "testcases": 898,
+        "covered": 10,
+        "missing": 0,
+        "coverage": 100.0
+    },
+    "modules": {
+        "Supplier Management": 540,
+        "Purchase Order": 24,
+        "Integration": 15,
+        "Change Management": 5,
+        "Data Migration": 5,
+        "Policy Harmonization": 5,
+        "Technology Infrastructure": 5,
+        "Project Governance": 5,
+        "Supplier Information Management": 18,
+        "Supplier Onboarding": 70,
+        "Compliance and Policy": 7,
+        "Risk Assessment": 20,
+        "Vendor Acknowledgment": 21,
+        "Document Management": 30,
+        "Payment Management": 5,
+        "Vendor Acknowledgement": 5,
+        "Invoice Matching": 6,
+        "Tax Management": 11,
+        "Procurement": 10,
+        "Document Section": 5,
+        "Risk Management": 10,
+        "Internal Supplier Onboarding": 33,
+        "Bank Details": 10,
+        "Non-Disclosure Agreement": 7,
+        "Supplier Registration": 26
+    },
+    "priorities": {
+        "High": 659,
+        "Medium": 199,
+        "Low": 40
+    }
+}

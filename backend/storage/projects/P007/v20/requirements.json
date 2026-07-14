@@ -1,0 +1,121 @@
+[
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the supplier onboarding process by providing basic supplier information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier registration process should involve internal approval workflow.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier should receive an invitation to register with AECI and complete due diligence steps after internal approval.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information should be accurate and current.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier certifications and contact information should be visible.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Multiple channels for managing supplier information should be eliminated.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Supplier Status Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier status should be managed, including purchase block, payment block, supplier deactivation, and reactivation.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Approval Workflows",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows should involve Procurement, Finance, General Accounting, and Master Data teams.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Integration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa SIM should integrate with SAP for supplier creation, updates, and activation.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can register new suppliers in Coupa for urgent or business-critical situations, adhering to governance and approval controls.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can update existing supplier information in Coupa, adhering to governance and approval controls.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can change the status of a supplier in Coupa, including blocking purchase orders or payments, deactivating, or reactivating the supplier.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "One-Time Vendor",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can create a one-time vendor in Coupa with a simplified approval flow and reduced data requirements.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Coupa Supplier Portal",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can view the status of each supplier in the Suppliers table, including Coupa Supplier Portal (CSP) statuses.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Geography-Specific Requirements",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The system must accommodate geography-specific requirements, including field-level requirements and attachments, based on local guidelines and regulations.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Language Support",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The system must support auto-translation of standard information on the user interface for multiple languages and accommodate custom translations for geography-specific requirements.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "System Configuration",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "System supports local language requirements.",
+        "requirement_id": "REQ-001"
+    }
+]

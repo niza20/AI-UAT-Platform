@@ -1,0 +1,554 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates a new sourcing event (RFI) with valid details",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Buyer attempts to create a sourcing event (RFI) with missing required fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Buyer validates the created sourcing event (RFI) details",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer with 'Sourcing Manager' role creates a sourcing event (RFQ) but does not have 'RFQ' permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Buyer creates a sourcing event (RFI) with a supplier that has a maximum allowed sourcing events limit reached",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier Participates in Sourcing Event via Email",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier Participates in Sourcing Event via CSP",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Attempt Sourcing Event Participation with Unverified Supplier Email",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify Supplier Participation in Sourcing Event via Email",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier with CSP Access Participates in Sourcing Event",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Sourcing Event with Timelines, Evaluations, Scoring, and Award Decision",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Sourcing Event without Evaluations",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Sourcing Event Timeline and Evaluation Scoring",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Sourcing Event with Award Decision by User without Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Sourcing Event with Timeline and Evaluations on the Maximum Allowed Date",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order with Approved Supplier within Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Order with Supplier exceeding Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that Purchase Order is approved automatically when Supplier is within Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "User with insufficient authority attempts to approve Purchase Order for Supplier within Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Purchase Order with Supplier at the maximum allowed value within Limits of Authority (DOA)",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Savings Plan with Planned Savings and Verify Savings Tracking",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Savings Plan with Invalid Planned Savings Value",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that Savings Tracking is Updated Automatically when Savings Plan is Approved",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify that Only Authorized Users Can View and Edit Savings Plans",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Savings Plan with Planned Savings Value at Maximum Limit (e.g. $999,999.99) and Verify Savings Tracking",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Sourcing Event with Valid Supplier and Receive Actionable Insights",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Sourcing Event with Inactive Supplier and Receive Error Message",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Sourcing Event Report for Correct Supplier Performance Metrics",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Sourcing Event with Valid Supplier and Verify Access to Spend Data for Authorized User",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Sourcing Event with Maximum Allowed Suppliers and Verify Correct Error Message",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order as a Buyer with approved supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to create Purchase Order as a Buyer with inactive supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate that Buyer role has correct permissions to view Purchase Order details",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to create Purchase Order as a non-authorized user (e.g. Guest)",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Purchase Order with a supplier that has a pending approval status",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "Sourcing Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Category Manager attempts to initiate strategic sourcing activity for non-centre-managed commodity",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity and validates the commodity type",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Procurement team member attempts to initiate strategic sourcing activity for centre-managed commodity without Category Manager approval",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity with a large number of suppliers (boundary test)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Request for Active Supplier and Flip to Sourcing Event",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Flip Purchase Request to Sourcing Event with Inactive Supplier",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that Purchase Request is Successfully Flipped to Sourcing Event with Correct Supplier Information",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Buyer without Sourcing Event Creation Permission Attempts to Flip Purchase Request",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Purchase Request with Maximum Allowed Suppliers (Boundary)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create RFx for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create RFx with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate RFx Details (RFI, RFP, RFQ) for Valid Input",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Conduct English Reverse Auction with Valid Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt to Conduct Dutch Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Conduct Japanese Reverse Auction with Valid Supplier and Validate Results",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Attempt to Conduct RFx without Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Conduct RFx with Valid Supplier and Validate Permissions for User",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Create RFx with Valid Supplier and Validate Boundary Conditions (Max/Min RFx Value)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Module"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Auction with Known Supplier and Limited Items",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Auction Process"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Auction with Unknown Supplier and Complex Pricing Structure",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Auction Process"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Auction Details after Successful Creation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Auction Process"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Auction as Non-Procurement User",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Auction Process"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Auction with Zero Items",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Auction Process"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Savings Definition for Approved Supplier",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Savings Definition with Inactive Supplier",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Savings Definition Details (Supplier Name, Savings Amount, etc.)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Savings Definition with Non-Approved Supplier (Permission Test)",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Savings Definition with Savings Amount Greater than Maximum Allowed (Boundary Test)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Coupa Admin enables 'Allow Buyer to Approve' setting for a Procurement Admin",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Coupa Admin disables 'Allow Buyer to Approve' setting for a Procurement Admin",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Coupa Admin attempts to enable 'Allow Buyer to Approve' setting for a Procurement Admin without proper permissions",
+        "priority": "Low",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Coupa Admin enables 'Allow Buyer to Approve' setting for a Procurement Admin with an invalid value",
+        "priority": "Low",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Coupa Admin enables 'Allow Buyer to Approve' setting for a Procurement Admin with a value at the boundary (e.g. 0 or 1)",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a supplier to be considered 'active'?",
+        "reason": "Ambiguity in supplier status",
+        "options": [
+            "Last purchase within the last 12 months",
+            "Last purchase within the last 6 months",
+            "Supplier has a valid certificate",
+            "Supplier has a valid tax ID"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q2",
+        "question": "How are duplicate supplier records handled?",
+        "reason": "Duplicate record handling missing",
+        "options": [
+            "Merge records and retain most recent information",
+            "Delete the duplicate record",
+            "Mark the duplicate record as inactive",
+            "Prompt the user to resolve the conflict"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for updating a supplier's contact information?",
+        "reason": "Update process missing",
+        "options": [
+            "Requestor updates contact information directly",
+            "Requestor submits a request to the procurement team",
+            "Requestor submits a request to the finance team",
+            "Requestor submits a request to the reporting manager"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q4",
+        "question": "How are supplier ratings and reviews collected and displayed?",
+        "reason": "Rating and review process missing",
+        "options": [
+            "Collected through a separate survey system",
+            "Collected through the SIM system",
+            "Displayed on the supplier's profile page",
+            "Displayed on the supplier's dashboard"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the frequency of supplier data backups?",
+        "reason": "Backup frequency missing",
+        "options": [
+            "Daily backups",
+            "Weekly backups",
+            "Monthly backups",
+            "Quarterly backups"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    }
+]

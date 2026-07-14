@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the approval workflow for internal users registering new suppliers in Coupa for urgent or business-critical situations?",
+        "reason": "Approval workflow missing",
+        "options": [
+            "Procurement and Finance approval",
+            "Procurement and General Accounting approval",
+            "Finance and General Accounting approval",
+            "Procurement, Finance, and General Accounting approval"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle supplier status changes initiated by internal users?",
+        "reason": "Supplier status change process missing",
+        "options": [
+            "Automated approval",
+            "Manual approval by Procurement",
+            "Manual approval by Finance",
+            "Manual approval by General Accounting"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the approval process for extending supplier contracts in Coupa?",
+        "reason": "Contract extension approval process missing",
+        "options": [
+            "Procurement approval only",
+            "Finance approval only",
+            "Procurement and Finance approval",
+            "Procurement, Finance, and General Accounting approval"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system ensure supplier participation through multiple channels of managing information?",
+        "reason": "Supplier participation process missing",
+        "options": [
+            "Email notifications",
+            "In-app notifications",
+            "SMS notifications",
+            "All of the above"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the approval workflow for creating one-time vendors in Coupa?",
+        "reason": "One-time vendor approval workflow missing",
+        "options": [
+            "Simplified approval flow with Procurement approval",
+            "Simplified approval flow with Finance approval",
+            "Simplified approval flow with General Accounting approval",
+            "Simplified approval flow with no approval required"
+        ]
+    }
+]

@@ -1,0 +1,566 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the process for auto-matching of PO, GRN, and Invoice for 3-way matching?",
+        "reason": "Matching process missing",
+        "options": [
+            "Manual matching by AP user",
+            "Auto-matching by Coupa system",
+            "3-way matching by AP user and Coupa system",
+            "No auto-matching, manual matching only"
+        ],
+        "module": "Invoice Management"
+    },
+    {
+        "id": "Q2",
+        "question": "Who can approve invoices in Coupa if required?",
+        "reason": "Approval actor missing",
+        "options": [
+            "Requester",
+            "Financial Manager",
+            "AP Team",
+            "Procurement"
+        ],
+        "module": "Invoice Management"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for disputing an invoice to the supplier for corrections?",
+        "reason": "Dispute process missing",
+        "options": [
+            "Invoice can be disputed by AP user",
+            "Invoice can be disputed by Admin role",
+            "Invoice can be disputed by Supplier",
+            "No dispute process, manual correction only"
+        ],
+        "module": "Invoice Management"
+    },
+    {
+        "id": "Q4",
+        "question": "What is the process for voiding an approved invoice?",
+        "reason": "Voiding process missing",
+        "options": [
+            "Invoice can be voided by AP user",
+            "Invoice can be voided by Admin role",
+            "Invoice can be voided by Supplier",
+            "No voiding process, manual correction only"
+        ],
+        "module": "Invoice Management"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for adjusting an invoice to apply available balances to the invoice net balance?",
+        "reason": "Adjustment process missing",
+        "options": [
+            "Invoice can be adjusted by AP user",
+            "Invoice can be adjusted by Admin role",
+            "Invoice can be adjusted by Supplier",
+            "No adjustment process, manual correction only"
+        ],
+        "module": "Invoice Management"
+    },
+    {
+        "id": "Q6",
+        "question": "What is the process for selecting and editing multiple invoices in a sequence without having to exit the current screen?",
+        "reason": "Editing process missing",
+        "options": [
+            "AP user can select and edit multiple invoices",
+            "AP user can select and edit multiple invoices in a sequence",
+            "AP user can select and edit multiple invoices without exiting the current screen",
+            "No editing process, manual correction only"
+        ],
+        "module": "Invoice Management"
+    },
+    {
+        "id": "Q7",
+        "question": "What is the process for moving to the next invoice or credit note after saving or submitting an invoice?",
+        "reason": "Navigation process missing",
+        "options": [
+            "AP user can move to the next invoice or credit note",
+            "AP user can move to the next invoice or credit note after saving",
+            "AP user can move to the next invoice or credit note after submitting",
+            "No navigation process, manual correction only"
+        ],
+        "module": "Invoice Management"
+    },
+    {
+        "id": "Q8",
+        "question": "What is the process for extracting reports per invoice category to manage the spend?",
+        "reason": "Reporting process missing",
+        "options": [
+            "Reports can be extracted by AP user",
+            "Reports can be extracted by Admin role",
+            "Reports can be extracted by Supplier",
+            "No reporting process, manual correction only"
+        ],
+        "module": "Invoice Management"
+    },
+    {
+        "id": "Q1",
+        "question": "What constitutes an 'approved supplier' for the purpose of creating a purchase order?",
+        "reason": "Definition of approved supplier missing",
+        "options": [
+            "Supplier with a valid tax ID",
+            "Supplier with a minimum annual spend of $10,000",
+            "Supplier with a valid business license",
+            "Supplier with a minimum credit score of 700"
+        ],
+        "module": "Purchase Order"
+    },
+    {
+        "id": "Q2",
+        "question": "What is the expected format for the purchase order number?",
+        "reason": "Format of purchase order number missing",
+        "options": [
+            "YYYYMMDD-PO-001",
+            "PO-001-YYYYMMDD",
+            "PO-001",
+            "YYYYMMDD-001"
+        ],
+        "module": "Purchase Order"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the expected frequency for automatic purchase order expiration?",
+        "reason": "Expiration frequency missing",
+        "options": [
+            "After 30 days",
+            "After 60 days",
+            "After 90 days",
+            "After 120 days"
+        ],
+        "module": "Purchase Order"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for rejecting a credit note submitted by a supplier?",
+        "reason": "Rejection criteria missing",
+        "options": [
+            "Invalid PO number",
+            "Incorrect amount",
+            "Incomplete information",
+            "All of the above"
+        ],
+        "module": "Credit Note Management"
+    },
+    {
+        "id": "Q2",
+        "question": "Can a credit note be created for a non-PO backed invoice?",
+        "reason": "PO-backed credit note requirement unclear",
+        "options": [
+            "Yes, with AP Team approval",
+            "Yes, without AP Team approval",
+            "No, only for PO-backed invoices",
+            "No, only for supplier-submitted credit notes"
+        ],
+        "module": "Credit Note Management"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for updating a rejected credit note?",
+        "reason": "Update process missing",
+        "options": [
+            "Supplier can resubmit with corrections",
+            "AP Team can update and resubmit",
+            "Requestor can update and resubmit",
+            "Finance can update and resubmit"
+        ],
+        "module": "Credit Note Management"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the expected behavior when the 'u-turn' icon is clicked multiple times?",
+        "reason": "Ambiguous behavior",
+        "options": [
+            "Invoice remains voided",
+            "Invoice is re-enabled",
+            "Error message is displayed",
+            "Invoice status is unchanged"
+        ],
+        "module": "Void Invoice Management"
+    },
+    {
+        "id": "Q2",
+        "question": "Are there any specific audit logs required for voiding an invoice?",
+        "reason": "Audit log requirements unclear",
+        "options": [
+            "Only void action logged",
+            "Void action and user logged",
+            "Void action, user, and timestamp logged",
+            "Void action, user, timestamp, and reason logged"
+        ],
+        "module": "Void Invoice Management"
+    },
+    {
+        "id": "Q3",
+        "question": "Can an invoice be voided if it has already been partially or fully paid?",
+        "reason": "Payment impact unclear",
+        "options": [
+            "Yes, voiding is allowed",
+            "No, voiding is not allowed",
+            "Voiding is allowed with warning",
+            "Voiding is allowed with reversal of payment"
+        ],
+        "module": "Void Invoice Management"
+    },
+    {
+        "id": "Q1",
+        "question": "What constitutes 'required details' in the template?",
+        "reason": "Ambiguous term",
+        "options": [
+            "Invoice date, amount, and vendor",
+            "Invoice date, amount, vendor, and PO number",
+            "Invoice date, amount, vendor, and payment terms",
+            "All invoice details, including line items"
+        ],
+        "module": "Invoice Bulk Activity"
+    },
+    {
+        "id": "Q2",
+        "question": "What is the expected file format for the uploaded template?",
+        "reason": "File format missing",
+        "options": [
+            "CSV",
+            "Excel (.xlsx)",
+            "PDF",
+            "Text (.txt)"
+        ],
+        "module": "Invoice Bulk Activity"
+    },
+    {
+        "id": "Q3",
+        "question": "Are there any specific validation rules for the uploaded template?",
+        "reason": "Validation rules missing",
+        "options": [
+            "Date format, amount range, and vendor existence",
+            "Date format, amount range, vendor existence, and PO number validation",
+            "Invoice date, amount, and vendor validation",
+            "All invoice details validation, including line items"
+        ],
+        "module": "Invoice Bulk Activity"
+    },
+    {
+        "id": "Q1",
+        "question": "What constitutes the final payment status in Coupa?",
+        "reason": "Payment status definition missing",
+        "options": [
+            "Payment received and processed",
+            "Payment pending and not processed",
+            "Payment failed and not processed",
+            "Payment partially processed"
+        ],
+        "module": "Payment"
+    },
+    {
+        "id": "Q2",
+        "question": "How does NetSuite communicate the payment update to Coupa?",
+        "reason": "Communication method missing",
+        "options": [
+            "API call",
+            "Webhook",
+            "Email notification",
+            "Scheduled batch process"
+        ],
+        "module": "Payment"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the expected behavior if the payment update fails to send to Coupa?",
+        "reason": "Error handling missing",
+        "options": [
+            "Retry the update after a specified interval",
+            "Notify the requestor via email",
+            "Log the error and continue processing",
+            "Roll back the payment processing"
+        ],
+        "module": "Payment"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining when an invoice variance is considered 'SST variance'?",
+        "reason": "Ambiguous term",
+        "options": [
+            "Any variance related to Sales Tax",
+            "Only variance related to Sales Tax in Malaysia",
+            "Any variance related to Sales Tax in Malaysia or Singapore",
+            "Only variance related to Sales Tax in Malaysia or other SST countries"
+        ],
+        "module": "Invoice Tolerances"
+    },
+    {
+        "id": "Q2",
+        "question": "How are Commodity-level tolerances applied when an invoice has multiple commodities with different tolerances?",
+        "reason": "Ambiguous requirement",
+        "options": [
+            "The highest tolerance applies",
+            "The lowest tolerance applies",
+            "The average tolerance applies",
+            "The tolerance for each commodity is applied separately"
+        ],
+        "module": "Invoice Tolerances"
+    },
+    {
+        "id": "Q3",
+        "question": "What happens when a Chart of Accounts has both Chart of Accounts-level and Commodity-level tolerances set?",
+        "reason": "Ambiguous requirement",
+        "options": [
+            "The Commodity-level tolerance overrides the Chart of Accounts-level tolerance",
+            "The Chart of Accounts-level tolerance overrides the Commodity-level tolerance",
+            "The two tolerances are averaged",
+            "The system throws an error"
+        ],
+        "module": "Invoice Tolerances"
+    },
+    {
+        "id": "Q1",
+        "question": "What are the specific matching rules that an invoice must satisfy?",
+        "reason": "Matching rules missing",
+        "options": [
+            "Exact match of invoice number and date",
+            "Partial match of invoice number and date",
+            "Exact match of invoice date only",
+            "Other (please specify)"
+        ],
+        "module": "Invoice Status"
+    },
+    {
+        "id": "Q2",
+        "question": "What is the threshold for invoice tolerance rules?",
+        "reason": "Invoice tolerance threshold missing",
+        "options": [
+            "5% of total invoice amount",
+            "10% of total invoice amount",
+            "Customizable threshold",
+            "Not applicable"
+        ],
+        "module": "Invoice Status"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the duration for which an invoice can be on 'On hold' status?",
+        "reason": "On hold duration missing",
+        "options": [
+            "Maximum 30 days",
+            "Maximum 60 days",
+            "Until further notice",
+            "Not limited"
+        ],
+        "module": "Invoice Status"
+    },
+    {
+        "id": "Q1",
+        "question": "What are the admin-set criteria for blocking invoice submission?",
+        "reason": "Criteria missing",
+        "options": [
+            "Invoice amount exceeds a certain threshold",
+            "Invoice date is outside a specified range",
+            "Invoice is from an unapproved supplier",
+            "All of the above"
+        ],
+        "module": "Invoice Submission"
+    },
+    {
+        "id": "Q2",
+        "question": "What is the difference between blocking and displaying a soft warning message?",
+        "reason": "Behavior unclear",
+        "options": [
+            "Blocking prevents submission, while warning allows submission",
+            "Blocking prevents submission, while warning allows submission after user confirmation",
+            "Blocking prevents submission, while warning displays an error message",
+            "Blocking and warning have the same effect"
+        ],
+        "module": "Invoice Submission"
+    },
+    {
+        "id": "Q3",
+        "question": "How does the system handle invoices that meet some but not all admin-set criteria?",
+        "reason": "Edge case unclear",
+        "options": [
+            "System blocks submission",
+            "System displays a soft warning message",
+            "System displays a hard error message",
+            "System allows submission with a flag indicating non-compliance"
+        ],
+        "module": "Invoice Submission"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining the standard reporting level?",
+        "reason": "Reporting level criteria missing",
+        "options": [
+            "Based on user role",
+            "Based on organization size",
+            "Based on reporting frequency",
+            "Based on data volume"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q2",
+        "question": "Can users create custom views for advanced reporting levels?",
+        "reason": "Custom views for advanced reporting unclear",
+        "options": [
+            "Yes, with admin approval",
+            "Yes, without approval",
+            "No, only for standard reporting",
+            "No, only for dashboards"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q3",
+        "question": "How are scheduled reports delivered to users?",
+        "reason": "Scheduled report delivery method unclear",
+        "options": [
+            "Via email",
+            "Via Coupa in-app notification",
+            "Via third-party integration",
+            "Via manual download"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q1",
+        "question": "What constitutes a 'differ' in the context of the manually entered invoice total and calculated total?",
+        "reason": "Ambiguity in the definition of 'differ'",
+        "options": [
+            "Any non-zero difference",
+            "A difference greater than 1%",
+            "A difference greater than 5%",
+            "A difference greater than 10%"
+        ],
+        "module": "Invoice Control Total"
+    },
+    {
+        "id": "Q2",
+        "question": "What is the threshold for the system to display an error when the manually entered invoice total and calculated total differ?",
+        "reason": "Threshold value missing",
+        "options": [
+            "Manual override required",
+            "Automatically display error",
+            "Display warning instead of error",
+            "No error displayed"
+        ],
+        "module": "Invoice Control Total"
+    },
+    {
+        "id": "Q3",
+        "question": "How does the system handle rounding errors between the manually entered invoice total and calculated total?",
+        "reason": "Rounding error handling missing",
+        "options": [
+            "Rounding errors are ignored",
+            "Rounding errors are displayed as an error",
+            "Rounding errors are displayed as a warning",
+            "Rounding errors are manually configurable"
+        ],
+        "module": "Invoice Control Total"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a user to be assigned the 'admin' role?",
+        "reason": "Role assignment criteria missing",
+        "options": [
+            "Based on job function",
+            "Based on department",
+            "Based on manager approval",
+            "Automatically assigned upon user creation"
+        ],
+        "module": "Roles"
+    },
+    {
+        "id": "Q2",
+        "question": "Can a user have multiple roles, and if so, how do role hierarchies work?",
+        "reason": "Role hierarchy and overlap missing",
+        "options": [
+            "Yes, with hierarchical access",
+            "Yes, with equal access",
+            "No, only one role per user",
+            "Yes, but only for specific features"
+        ],
+        "module": "Roles"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for revoking or updating a user's role?",
+        "reason": "Role revocation and update process missing",
+        "options": [
+            "Automatically updated upon job function change",
+            "Requires manager approval and notification",
+            "Can be done by user themselves",
+            "Requires IT department intervention"
+        ],
+        "module": "Roles"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the expected behavior when NetSuite payment information is not available?",
+        "reason": "Edge case missing",
+        "options": [
+            "System should display an error message to the user",
+            "System should default to a generic payment method",
+            "System should prompt the user to re-enter payment information",
+            "System should skip payment integration"
+        ],
+        "module": "Payment Integration"
+    },
+    {
+        "id": "Q2",
+        "question": "What is the format of the payment information being integrated from NetSuite?",
+        "reason": "Data format missing",
+        "options": [
+            "CSV file",
+            "JSON object",
+            "XML file",
+            "Fixed-length text file"
+        ],
+        "module": "Payment Integration"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the expected frequency of payment information updates from NetSuite?",
+        "reason": "Timing missing",
+        "options": [
+            "Real-time updates",
+            "Daily batch updates",
+            "Weekly batch updates",
+            "Monthly batch updates"
+        ],
+        "module": "Payment Integration"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the expected behavior when invoicing tolerance checks are configured with a '0' value tolerance?",
+        "reason": "Behavior unclear",
+        "options": [
+            "Invoicing is blocked until tolerance is met",
+            "Invoicing is allowed with a warning",
+            "Invoicing is allowed without any checks",
+            "Invoicing is blocked with an error message"
+        ],
+        "module": "Procure To Pay"
+    },
+    {
+        "id": "Q2",
+        "question": "What is the scope of group reporting in USD currency?",
+        "reason": "Scope unclear",
+        "options": [
+            "Reporting is limited to specific departments",
+            "Reporting is limited to specific locations",
+            "Reporting is available for all groups",
+            "Reporting is available for all entities"
+        ],
+        "module": "Procure To Pay"
+    },
+    {
+        "id": "Q3",
+        "question": "What are the specific exception cases that require central receiving role?",
+        "reason": "Exception cases unclear",
+        "options": [
+            "Late deliveries",
+            "Damaged goods",
+            "Incorrect quantities",
+            "All of the above"
+        ],
+        "module": "Procure To Pay"
+    }
+]

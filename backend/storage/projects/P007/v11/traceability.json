@@ -1,0 +1,368 @@
+[
+    {
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management",
+        "requirement": "Buyer can initiate the supplier onboarding process by providing basic supplier information.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005",
+            "TC-006",
+            "TC-059",
+            "TC-060",
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-101",
+            "TC-102",
+            "TC-103",
+            "TC-104",
+            "TC-105"
+        ],
+        "testcase_count": 16
+    },
+    {
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management",
+        "requirement": "Internal approval workflow is triggered after supplier onboarding initiation.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-007",
+            "TC-008",
+            "TC-009",
+            "TC-010",
+            "TC-011",
+            "TC-064",
+            "TC-065",
+            "TC-066",
+            "TC-067",
+            "TC-068"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management",
+        "requirement": "Approved supplier receives an invitation to register with AECI and complete due diligence steps.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-012",
+            "TC-013",
+            "TC-014",
+            "TC-015",
+            "TC-016",
+            "TC-069",
+            "TC-070",
+            "TC-071",
+            "TC-072",
+            "TC-073"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management",
+        "requirement": "Supplier can register with AECI and complete due diligence steps via Coupa Supplier Portal.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-017",
+            "TC-018",
+            "TC-019",
+            "TC-020",
+            "TC-021",
+            "TC-074",
+            "TC-075",
+            "TC-076",
+            "TC-077",
+            "TC-078"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management",
+        "requirement": "Supplier information is accurate and current, and certifications and contact information are visible.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-022",
+            "TC-023",
+            "TC-024",
+            "TC-025",
+            "TC-026",
+            "TC-079",
+            "TC-080",
+            "TC-081",
+            "TC-082",
+            "TC-083",
+            "TC-084",
+            "TC-085",
+            "TC-086",
+            "TC-087",
+            "TC-088"
+        ],
+        "testcase_count": 15
+    },
+    {
+        "requirement_id": "REQ-006",
+        "module": "Supplier Management",
+        "requirement": "Multiple channels of managing supplier information are eliminated, and supplier participation is encouraged.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-027",
+            "TC-028",
+            "TC-029",
+            "TC-030",
+            "TC-031",
+            "TC-089",
+            "TC-090",
+            "TC-091",
+            "TC-092",
+            "TC-093"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-007",
+        "module": "Supplier Management",
+        "requirement": "Supplier creation and onboarding process is managed by Coupa SIM, and a supplier is only created once they have completed the onboarding process.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-032",
+            "TC-033",
+            "TC-034",
+            "TC-035",
+            "TC-036",
+            "TC-094",
+            "TC-095",
+            "TC-096",
+            "TC-097",
+            "TC-098",
+            "TC-099",
+            "TC-100"
+        ],
+        "testcase_count": 12
+    },
+    {
+        "requirement_id": "REQ-008",
+        "module": "Supplier Management",
+        "requirement": "Supplier status management includes purchase block, payment block, supplier deactivation, and reactivation.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-037",
+            "TC-038",
+            "TC-039",
+            "TC-040",
+            "TC-041",
+            "TC-042",
+            "TC-043",
+            "TC-044",
+            "TC-045",
+            "TC-046",
+            "TC-047",
+            "TC-048"
+        ],
+        "testcase_count": 12
+    },
+    {
+        "requirement_id": "REQ-009",
+        "module": "Supplier Management",
+        "requirement": "Approval workflows involve Procurement, Finance, General Accounting, and Master Data teams.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-049",
+            "TC-050",
+            "TC-051",
+            "TC-052",
+            "TC-053"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-010",
+        "module": "Supplier Management",
+        "requirement": "Integration touchpoints between Coupa SIM and SAP for supplier creation, updates, and activation are established.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-054",
+            "TC-055",
+            "TC-056",
+            "TC-057",
+            "TC-058"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "requirement": "Internal users can register a new supplier in Coupa for urgent or business-critical situations, adhering to governance and approval controls.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005",
+            "TC-006",
+            "TC-059",
+            "TC-060",
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-101",
+            "TC-102",
+            "TC-103",
+            "TC-104",
+            "TC-105"
+        ],
+        "testcase_count": 16
+    },
+    {
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "requirement": "Buyers can create a purchase order for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-007",
+            "TC-008",
+            "TC-009",
+            "TC-010",
+            "TC-011",
+            "TC-064",
+            "TC-065",
+            "TC-066",
+            "TC-067",
+            "TC-068"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management",
+        "requirement": "Users can update a supplier's information in Coupa, including status changes.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-012",
+            "TC-013",
+            "TC-014",
+            "TC-015",
+            "TC-016",
+            "TC-069",
+            "TC-070",
+            "TC-071",
+            "TC-072",
+            "TC-073"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-004",
+        "module": "Supplier Onboarding",
+        "requirement": "The One-Time Vendor (OTV) process enables faster vendor creation with a simplified approval flow and reduced data requirements, while ensuring basic compliance and procurement controls.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-017",
+            "TC-018",
+            "TC-019",
+            "TC-020",
+            "TC-021",
+            "TC-074",
+            "TC-075",
+            "TC-076",
+            "TC-077",
+            "TC-078"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management",
+        "requirement": "Coupa displays different status labels to help users quickly see the status of each supplier.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-022",
+            "TC-023",
+            "TC-024",
+            "TC-025",
+            "TC-026",
+            "TC-079",
+            "TC-080",
+            "TC-081",
+            "TC-082",
+            "TC-083",
+            "TC-084",
+            "TC-085",
+            "TC-086",
+            "TC-087",
+            "TC-088"
+        ],
+        "testcase_count": 15
+    },
+    {
+        "requirement_id": "REQ-006",
+        "module": "Supplier Onboarding",
+        "requirement": "The system supports auto-translation of standard information on the user interface for multiple languages.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-027",
+            "TC-028",
+            "TC-029",
+            "TC-030",
+            "TC-031",
+            "TC-089",
+            "TC-090",
+            "TC-091",
+            "TC-092",
+            "TC-093"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-007",
+        "module": "Supplier Onboarding",
+        "requirement": "Country-specific attachments and field requirements are controlled based on the selected country for the supplier.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-032",
+            "TC-033",
+            "TC-034",
+            "TC-035",
+            "TC-036",
+            "TC-094",
+            "TC-095",
+            "TC-096",
+            "TC-097",
+            "TC-098",
+            "TC-099",
+            "TC-100"
+        ],
+        "testcase_count": 12
+    },
+    {
+        "requirement_id": "REQ-001",
+        "module": "General",
+        "requirement": "System supports local language requirements.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005",
+            "TC-006",
+            "TC-059",
+            "TC-060",
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-101",
+            "TC-102",
+            "TC-103",
+            "TC-104",
+            "TC-105"
+        ],
+        "testcase_count": 16
+    }
+]

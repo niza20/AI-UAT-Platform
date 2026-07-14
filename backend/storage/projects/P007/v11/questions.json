@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the purpose of the One-Time Vendor (OTV) process?",
+        "reason": "Process description missing",
+        "options": [
+            "Faster vendor creation with simplified approval flow and reduced data requirements",
+            "Basic compliance and procurement controls",
+            "Both A and B",
+            "Neither A nor B"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system determine the status labels for suppliers?",
+        "reason": "Status label determination missing",
+        "options": [
+            "Based on supplier type",
+            "Based on supplier status",
+            "Based on both supplier type and status",
+            "Based on other factors"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the purpose of auto-translation of standard information on the user interface?",
+        "reason": "Auto-translation purpose missing",
+        "options": [
+            "To support multiple languages",
+            "To improve user experience",
+            "To reduce data entry errors",
+            "To improve system performance"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system control country-specific attachments and field requirements?",
+        "reason": "Country-specific control missing",
+        "options": [
+            "Based on selected country for the supplier",
+            "Based on supplier type",
+            "Based on supplier status",
+            "Based on other factors"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the purpose of integrating touchpoints between Coupa SIM and SAP?",
+        "reason": "Integration purpose missing",
+        "options": [
+            "To establish supplier creation, updates, and activation",
+            "To improve data consistency",
+            "To reduce data entry errors",
+            "To improve system performance"
+        ]
+    }
+]

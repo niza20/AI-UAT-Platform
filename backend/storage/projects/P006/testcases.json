@@ -1,0 +1,1101 @@
+[
+    {
+        "testcase_id": "TC-001",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management",
+        "scenario": "Create Purchase Order for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier",
+                "action": "Open Purchase Order For Approved Supplier",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier",
+                "action": "Enter Purchase Order For Approved Supplier details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier",
+                "action": "Verify Purchase Order For Approved Supplier created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order for Approved Supplier completed successfully."
+    },
+    {
+        "testcase_id": "TC-002",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management",
+        "scenario": "Attempt Purchase Order with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt Purchase Order with Inactive Supplier completed successfully."
+    },
+    {
+        "testcase_id": "TC-003",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management",
+        "scenario": "Create Purchase Order for Approved Supplier with Valid PO Details",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Valid Po Details",
+                "action": "Open Purchase Order For Approved Supplier With Valid Po Details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Valid Po Details",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Valid Po Details",
+                "action": "Enter Purchase Order For Approved Supplier With Valid Po Details details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Valid Po Details",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Valid Po Details",
+                "action": "Verify Purchase Order For Approved Supplier With Valid Po Details created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order for Approved Supplier with Valid PO Details completed successfully."
+    },
+    {
+        "testcase_id": "TC-004",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management",
+        "scenario": "Buyer Attempts to Create Purchase Order without Approvals",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order Without Approvals",
+                "action": "Open Purchase Order Without Approvals",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order Without Approvals",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order Without Approvals",
+                "action": "Enter Purchase Order Without Approvals details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order Without Approvals",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order Without Approvals",
+                "action": "Verify Purchase Order Without Approvals created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer Attempts to Create Purchase Order without Approvals completed successfully."
+    },
+    {
+        "testcase_id": "TC-005",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Management",
+        "scenario": "Create Purchase Order for Approved Supplier with Maximum Allowed Quantity",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Maximum Allowed Quantity",
+                "action": "Open Purchase Order For Approved Supplier With Maximum Allowed Quantity",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Maximum Allowed Quantity",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Maximum Allowed Quantity",
+                "action": "Enter Purchase Order For Approved Supplier With Maximum Allowed Quantity details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Maximum Allowed Quantity",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Approved Supplier With Maximum Allowed Quantity",
+                "action": "Verify Purchase Order For Approved Supplier With Maximum Allowed Quantity created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order for Approved Supplier with Maximum Allowed Quantity completed successfully."
+    },
+    {
+        "testcase_id": "TC-006",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management",
+        "scenario": "Create Supplier with Valid Information",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information",
+                "action": "Open Supplier With Valid Information",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information",
+                "action": "Enter Supplier With Valid Information details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information",
+                "action": "Verify Supplier With Valid Information created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier with Valid Information completed successfully."
+    },
+    {
+        "testcase_id": "TC-007",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management",
+        "scenario": "Attempt to Create Supplier with Invalid Email",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Email",
+                "action": "Open Supplier With Invalid Email",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Email",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Email",
+                "action": "Enter Supplier With Invalid Email details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Email",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Email",
+                "action": "Verify Supplier With Invalid Email created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Supplier with Invalid Email completed successfully."
+    },
+    {
+        "testcase_id": "TC-008",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management",
+        "scenario": "Verify Supplier Information is Stored Correctly",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Verify Supplier Information is Stored Correctly completed successfully."
+    },
+    {
+        "testcase_id": "TC-009",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management",
+        "scenario": "Create Supplier with Valid Information by User with Supplier Management Permission",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information By User With Supplier Management Permission",
+                "action": "Open Supplier With Valid Information By User With Supplier Management Permission",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information By User With Supplier Management Permission",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information By User With Supplier Management Permission",
+                "action": "Enter Supplier With Valid Information By User With Supplier Management Permission details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information By User With Supplier Management Permission",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information By User With Supplier Management Permission",
+                "action": "Verify Supplier With Valid Information By User With Supplier Management Permission created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier with Valid Information by User with Supplier Management Permission completed successfully."
+    },
+    {
+        "testcase_id": "TC-010",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Management",
+        "scenario": "Create Supplier with Valid Information at Maximum Character Limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information At Maximum Character Limit",
+                "action": "Open Supplier With Valid Information At Maximum Character Limit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information At Maximum Character Limit",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information At Maximum Character Limit",
+                "action": "Enter Supplier With Valid Information At Maximum Character Limit details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information At Maximum Character Limit",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information At Maximum Character Limit",
+                "action": "Verify Supplier With Valid Information At Maximum Character Limit created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier with Valid Information at Maximum Character Limit completed successfully."
+    },
+    {
+        "testcase_id": "TC-011",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management",
+        "scenario": "Create Supplier with Valid Details and Approve Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Details And Approve Supplier",
+                "action": "Open Supplier With Valid Details And Approve Supplier",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Details And Approve Supplier",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Details And Approve Supplier",
+                "action": "Enter Supplier With Valid Details And Approve Supplier details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Details And Approve Supplier",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Details And Approve Supplier",
+                "action": "Verify Supplier With Valid Details And Approve Supplier created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier with Valid Details and Approve Supplier completed successfully."
+    },
+    {
+        "testcase_id": "TC-012",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management",
+        "scenario": "Attempt to Create Supplier with Invalid Details",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Details",
+                "action": "Open Supplier With Invalid Details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Details",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Details",
+                "action": "Enter Supplier With Invalid Details details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Details",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Invalid Details",
+                "action": "Verify Supplier With Invalid Details created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Supplier with Invalid Details completed successfully."
+    },
+    {
+        "testcase_id": "TC-013",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management",
+        "scenario": "Verify Supplier Approval Status is Updated in Real-time",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Verify Supplier Approval Status is Updated in Real-time completed successfully."
+    },
+    {
+        "testcase_id": "TC-014",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management",
+        "scenario": "Test Supplier Approval Process with Different User Roles",
+        "priority": "Medium",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Test Supplier Approval Process with Different User Roles completed successfully."
+    },
+    {
+        "testcase_id": "TC-015",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Management",
+        "scenario": "Create Supplier with Maximum Allowed Characters in Name Field",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field",
+                "action": "Open Supplier With Maximum Allowed Characters In Name Field",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field",
+                "action": "Enter Supplier With Maximum Allowed Characters In Name Field details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field",
+                "action": "Verify Supplier With Maximum Allowed Characters In Name Field created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier with Maximum Allowed Characters in Name Field completed successfully."
+    },
+    {
+        "testcase_id": "TC-016",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management",
+        "scenario": "Create Supplier Performance Evaluation for Active Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Performance Evaluation For Active Supplier",
+                "action": "Open Supplier Performance Evaluation For Active Supplier",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Performance Evaluation For Active Supplier",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Performance Evaluation For Active Supplier",
+                "action": "Enter Supplier Performance Evaluation For Active Supplier details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Performance Evaluation For Active Supplier",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Performance Evaluation For Active Supplier",
+                "action": "Verify Supplier Performance Evaluation For Active Supplier created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Performance Evaluation for Active Supplier completed successfully."
+    },
+    {
+        "testcase_id": "TC-017",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management",
+        "scenario": "Attempt to Evaluate Performance of Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Evaluate Performance of Inactive Supplier completed successfully."
+    },
+    {
+        "testcase_id": "TC-018",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management",
+        "scenario": "Validate Supplier Performance Evaluation Metrics",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Validate Supplier Performance Evaluation Metrics completed successfully."
+    },
+    {
+        "testcase_id": "TC-019",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management",
+        "scenario": "Evaluate Supplier Performance as a Supplier Admin User",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Evaluate Supplier Performance as a Supplier Admin User completed successfully."
+    },
+    {
+        "testcase_id": "TC-020",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Management",
+        "scenario": "Evaluate Supplier Performance with Zero Performance Metrics",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Evaluate Supplier Performance with Zero Performance Metrics completed successfully."
+    },
+    {
+        "testcase_id": "TC-021",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management",
+        "scenario": "Create Supplier Profile and Verify Communication Settings",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Profile And Verify Communication Settings",
+                "action": "Open Supplier Profile And Verify Communication Settings",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Profile And Verify Communication Settings",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Profile And Verify Communication Settings",
+                "action": "Enter Supplier Profile And Verify Communication Settings details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Profile And Verify Communication Settings",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Profile And Verify Communication Settings",
+                "action": "Verify Supplier Profile And Verify Communication Settings created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Profile and Verify Communication Settings completed successfully."
+    },
+    {
+        "testcase_id": "TC-022",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management",
+        "scenario": "Attempt to Create Supplier Profile with Invalid Email Address",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email Address",
+                "action": "Open Supplier Profile With Invalid Email Address",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email Address",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email Address",
+                "action": "Enter Supplier Profile With Invalid Email Address details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email Address",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email Address",
+                "action": "Verify Supplier Profile With Invalid Email Address created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Supplier Profile with Invalid Email Address completed successfully."
+    },
+    {
+        "testcase_id": "TC-023",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management",
+        "scenario": "Verify Supplier Profile Communication Settings are Saved Correctly",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Verify Supplier Profile Communication Settings are Saved Correctly completed successfully."
+    },
+    {
+        "testcase_id": "TC-024",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management",
+        "scenario": "Verify Only Authorized Users Can Create and Edit Supplier Profiles",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Edit Supplier Profiles",
+                "action": "Open And Edit Supplier Profiles",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Edit Supplier Profiles",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Edit Supplier Profiles",
+                "action": "Enter And Edit Supplier Profiles details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "And Edit Supplier Profiles",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "And Edit Supplier Profiles",
+                "action": "Verify And Edit Supplier Profiles created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Verify Only Authorized Users Can Create and Edit Supplier Profiles completed successfully."
+    },
+    {
+        "testcase_id": "TC-025",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Management",
+        "scenario": "Create Supplier Profile with Maximum Allowed Characters in Company Name",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Open Supplier Profile With Maximum Allowed Characters In Company Name",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Enter Supplier Profile With Maximum Allowed Characters In Company Name details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Verify Supplier Profile With Maximum Allowed Characters In Company Name created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Profile with Maximum Allowed Characters in Company Name completed successfully."
+    }
+]

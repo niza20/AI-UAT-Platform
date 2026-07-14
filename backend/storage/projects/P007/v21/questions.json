@@ -1,0 +1,362 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining centre-managed commodities and services?",
+        "reason": "Ambiguous definition of centre-managed commodities and services",
+        "options": [
+            "Based on annual spend",
+            "Based on category classification",
+            "Based on business unit",
+            "Based on procurement team approval"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q2",
+        "question": "How are planned, negotiated, and cost avoidance savings tracked and differentiated?",
+        "reason": "Ambiguous savings tracking",
+        "options": [
+            "Through separate fields in the sourcing event",
+            "Through a single field with a dropdown for savings type",
+            "Through a separate module for savings tracking",
+            "Through a custom report"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for 'flipping' a purchase request into a sourcing event?",
+        "reason": "Missing process for purchase request conversion",
+        "options": [
+            "Automated conversion upon request submission",
+            "Manual conversion by the procurement team",
+            "Approval by the buyer or procurement team",
+            "Custom configuration by Coupa Admins"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q4",
+        "question": "How are approval workflows aligned with Limits of Authority (DOA / LOA) for different sourcing event types?",
+        "reason": "Missing alignment details for approval workflows",
+        "options": [
+            "DOA/LOA aligned for all sourcing event types",
+            "DOA/LOA aligned for RFx events only",
+            "DOA/LOA aligned for auctions only",
+            "Custom configuration by Coupa Admins"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the role of the Coupa Admin in customizing sourcing settings and configurations?",
+        "reason": "Missing details on Coupa Admin role",
+        "options": [
+            "Coupa Admin can customize all sourcing settings",
+            "Coupa Admin can customize sourcing settings for centre-managed commodities and services",
+            "Coupa Admin can customize sourcing settings for specific business units",
+            "Coupa Admin can only view sourcing settings"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q1",
+        "question": "What constitutes a valid supplier registration?",
+        "reason": "Definition of valid registration missing",
+        "options": [
+            "Completed online form",
+            "Uploaded required documents",
+            "Paid registration fee",
+            "All of the above"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q2",
+        "question": "How are duplicate supplier registrations handled?",
+        "reason": "Duplicate registration process missing",
+        "options": [
+            "Automatically rejected",
+            "Manually reviewed and approved",
+            "Allowed with unique identifier",
+            "Not allowed"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for updating existing supplier information?",
+        "reason": "Update process missing",
+        "options": [
+            "Requestor initiates update",
+            "Supplier initiates update",
+            "Admin updates manually",
+            "Automated update process"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q4",
+        "question": "How are supplier ratings and reviews collected and displayed?",
+        "reason": "Rating and review process missing",
+        "options": [
+            "Collected from customers",
+            "Collected from suppliers",
+            "Collected from both customers and suppliers",
+            "Not collected"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the frequency of supplier registration renewal?",
+        "reason": "Renewal frequency missing",
+        "options": [
+            "Annually",
+            "Bi-annually",
+            "Monthly",
+            "Not required"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the threshold for automatic approval of invoices?",
+        "reason": "Approval threshold missing",
+        "options": [
+            "Below $100",
+            "Below $500",
+            "Below $1000",
+            "Customizable"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q2",
+        "question": "How are invoices categorized for reporting purposes?",
+        "reason": "Categorization criteria missing",
+        "options": [
+            "By Supplier",
+            "By Department",
+            "By Project",
+            "By Date"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling disputed invoices?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Escalation to Finance",
+            "Escalation to Procurement",
+            "Automated refund",
+            "Manual refund"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q4",
+        "question": "How are invoice payment terms handled?",
+        "reason": "Payment terms missing",
+        "options": [
+            "Net 30",
+            "Net 60",
+            "Customizable",
+            "Automatically generated"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the frequency of automatic invoice reminders?",
+        "reason": "Reminder frequency missing",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Customizable"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a customer to be considered 'active'?",
+        "reason": "Ambiguous definition of 'active' customer",
+        "options": [
+            "Last purchase within the last 6 months",
+            "Minimum purchase value of $100",
+            "Customer has a valid email address",
+            "Customer has a positive credit score"
+        ],
+        "module": "Customer"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle customer data updates?",
+        "reason": "Update process unclear",
+        "options": [
+            "Manual update by customer service",
+            "Automated update via API",
+            "Manual update by customer",
+            "Scheduled batch update"
+        ],
+        "module": "Customer"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling customer complaints?",
+        "reason": "Complaint handling process unclear",
+        "options": [
+            "Escalated to customer service team",
+            "Automated response via email",
+            "Escalated to management team",
+            "Resolved by customer support agent"
+        ],
+        "module": "Customer"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system handle customer data deletion?",
+        "reason": "Deletion process unclear",
+        "options": [
+            "Soft delete with audit trail",
+            "Hard delete with no recovery",
+            "Scheduled deletion",
+            "Manual deletion by customer service"
+        ],
+        "module": "Customer"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the frequency of customer data backups?",
+        "reason": "Backup frequency unclear",
+        "options": [
+            "Daily backups",
+            "Weekly backups",
+            "Monthly backups",
+            "On-demand backups"
+        ],
+        "module": "Customer"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining a report is 'critical'?",
+        "reason": "Ambiguous report classification",
+        "options": [
+            "Report contains sensitive information",
+            "Report is used for high-level decision making",
+            "Report is generated by a critical business process",
+            "Report is overdue"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q2",
+        "question": "How often are report schedules reviewed and updated?",
+        "reason": "Schedule review frequency missing",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "Quarterly"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling report errors or discrepancies?",
+        "reason": "Error handling process missing",
+        "options": [
+            "Report is re-run",
+            "Error is escalated to reporting team",
+            "Error is escalated to business owner",
+            "Error is ignored"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q4",
+        "question": "Can reports be customized by individual users?",
+        "reason": "Report customization missing",
+        "options": [
+            "Yes, users can customize report layout",
+            "Yes, users can customize report data",
+            "No, reports are standardized",
+            "No, reports are customizable by role"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the retention period for report data?",
+        "reason": "Data retention period missing",
+        "options": [
+            "Data is retained for 1 year",
+            "Data is retained for 5 years",
+            "Data is retained indefinitely",
+            "Data is deleted after each report run"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q1",
+        "question": "What specific sourcing settings can be customized by Coupa Admins?",
+        "reason": "Customization options missing",
+        "options": [
+            "Supplier Registration",
+            "Contract Management",
+            "Sourcing Rules",
+            "All of the above"
+        ],
+        "module": "Configuration"
+    },
+    {
+        "id": "Q2",
+        "question": "Who has access to view and modify the customized sourcing settings?",
+        "reason": "Access control missing",
+        "options": [
+            "Coupa Admins only",
+            "Procurement Admins and Coupa Admins",
+            "All users with Procurement role",
+            "Customizable access control"
+        ],
+        "module": "Configuration"
+    },
+    {
+        "id": "Q3",
+        "question": "Are the customized sourcing settings enforced at the Procurement Admin (Buyer) side?",
+        "reason": "Enforcement mechanism missing",
+        "options": [
+            "Yes, enforced through system rules",
+            "Yes, enforced through manual checks",
+            "No, for demonstration purposes only",
+            "Customizable enforcement"
+        ],
+        "module": "Configuration"
+    },
+    {
+        "id": "Q4",
+        "question": "Can Coupa Admins revert or reset customized sourcing settings to their default values?",
+        "reason": "Reversion mechanism missing",
+        "options": [
+            "Yes, with system administrator approval",
+            "Yes, without approval",
+            "No, once customized",
+            "Customizable reversion"
+        ],
+        "module": "Configuration"
+    },
+    {
+        "id": "Q5",
+        "question": "Are there any audit logs or tracking mechanisms for changes made to customized sourcing settings?",
+        "reason": "Audit and tracking missing",
+        "options": [
+            "Yes, with detailed logs",
+            "Yes, with minimal logs",
+            "No, for performance reasons",
+            "Customizable logging"
+        ],
+        "module": "Configuration"
+    }
+]

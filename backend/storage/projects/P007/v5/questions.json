@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What triggers the internal approval workflow for new supplier registration?",
+        "reason": "Approval trigger missing",
+        "options": [
+            "Manual trigger by buyer",
+            "Automated trigger after supplier registration",
+            "Manual trigger by procurement team",
+            "Automated trigger after supplier data is complete"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How does Coupa determine the country for a supplier?",
+        "reason": "Country determination process unclear",
+        "options": [
+            "Supplier provides country information during registration",
+            "Country is determined based on supplier's billing address",
+            "Country is determined based on supplier's registered address",
+            "Country is determined based on supplier's IP address"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for updating supplier information in Coupa?",
+        "reason": "Update process unclear",
+        "options": [
+            "Internal users can update supplier information without approval",
+            "Internal users can update supplier information with approval from procurement team",
+            "Internal users can update supplier information with approval from finance team",
+            "Internal users can update supplier information with approval from reporting manager"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How does Coupa handle supplier data maintenance for external suppliers?",
+        "reason": "Data maintenance process unclear",
+        "options": [
+            "External suppliers can update their own information in Coupa",
+            "External suppliers can request updates to their information, which are then approved by internal users",
+            "Internal users can update external supplier information without approval",
+            "Internal users can update external supplier information with approval from procurement team"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for reactivating a deactivated supplier in Coupa?",
+        "reason": "Reactivation process unclear",
+        "options": [
+            "Internal users can reactivate a deactivated supplier without approval",
+            "Internal users can reactivate a deactivated supplier with approval from procurement team",
+            "Internal users can reactivate a deactivated supplier with approval from finance team",
+            "Internal users can reactivate a deactivated supplier with approval from reporting manager"
+        ]
+    }
+]

@@ -1,0 +1,457 @@
+[
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can create invoices with required fields such as supplier name, invoice number, invoice date, payment term, currency, control total, and chart of accounts.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can view and manage invoice status, including approved, reviewing, and draft.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can attach documents and images to invoices.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can view and manage invoice history, including revision history and document reviewers.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can submit invoices for approval and track their status.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can view and manage invoice reports, including invoice control total and payment terms.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can configure and manage invoice tolerances and blockers.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can view and manage on-hold invoices.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can edit invoices in a sequence and manage invoice matching.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can view and manage credit notes and void approved invoices.",
+        "requirement_id": "REQ-010"
+    },
+    {
+        "module": "Purchase Order",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a purchase order for approved suppliers.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can create an invoice via Coupa Supplier Portal, SAN/PO Link, AP Mailbox/Invoice Smash, or Direct Entry.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can create a PO-backed invoice by flipping a relevant PO into an invoice in Coupa Supplier Portal or SAN.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa performs auto-matching of PO, GRN, and Invoice for 3-way matching.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can add various invoice fields such as Line Number, Line Type, Description, Quantity, UOM, Unit Price, Total Price, PO Line, Contract, Supplier Part Number, Commodity, Period, Billing String, Tax, WHT Applicable, Car Plate ID, and Inspection Code.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP Team can create a purchase order-backed invoice in Coupa.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can create a non-PO backed invoice in Coupa.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP Team can review and update invoice details in Coupa.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Requester can approve invoices in Coupa.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Financial Manager can approve invoices in Coupa if required.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP Team can reject invoices in Coupa and dispute with suppliers.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP Team can rectify invoices in Coupa and resubmit for approval.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa can check for VAT and other charges before approval.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "NetSuite can process payments and send updates to Coupa.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa can update the final payment status as 'Paid'.",
+        "requirement_id": "REQ-010"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Requester can create a non-PO invoice through the invoice form, add the invoice category, and submit it in draft status in Coupa.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Accounts Payable can review, update, and submit the invoice for approval after it is picked from the draft state.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Requester can review and approve the invoice to confirm the legitimacy of the spend.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Final AP Clerk can perform a final check and approval before marking the invoice as ready for payment.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approved invoices can be processed for payment and updated in Coupa.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Reports can be extracted per invoice category to manage the spend.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Credit Note Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can create a credit note by flipping an invoice to credit note in the Purchase Order section.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Credit Note Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP Team can review, reject, or approve the credit note after it is submitted.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Credit Note Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP Team can create a credit note directly in Coupa for PO-backed credit notes.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "module": "Void Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP Team can void an approved invoice by clicking the red 'u-turn' icon and confirming the action.",
+        "requirement_id": "REQ-010"
+    },
+    {
+        "module": "Invoice Bulk Activity",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP Team can bulk load invoices in Coupa by downloading a template, filling in the required details, and uploading the template.",
+        "requirement_id": "REQ-011"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can submit invoices to Coupa for approval and payment.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice status can be updated through various stages including Draft, Processing, AP Hold, Pending Action, Pending Receipt, On Hold, Pending Approval, Booking Hold, Approved, Disputed, and Rejected.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Invoice can be disputed and sent to the supplier for corrections, and can be withdrawn from dispute or resolved by the supplier.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Invoice can be approved and marked for payment after passing additional checks for correct syncing into the ERP and matching validations.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Payment",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "NetSuite processes the payment and sends the update to Coupa.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Payment",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Final payment status is reflected in Coupa.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a standard invoice for approved suppliers.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice can be submitted for approval after passing validation checks.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice can be placed on hold for additional review and approval.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice can be matched against purchase orders and receipts for accurate invoicing.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice can be automatically approved if 2-way or 3-way matching is satisfied.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice can be disputed to the supplier for corrections.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice can be voided by an AP user or Admin role.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice can be adjusted to apply available balances to the invoice net balance.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP user can select and edit multiple invoices in a sequence without having to exit the current screen.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Invoice Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "AP user can move to the next invoice or credit note after saving or submitting an invoice.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Invoice Tolerances",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa runs invoice tolerances to determine whether invoices can be automatically approved or require further review and approval.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Invoice Tolerances",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Tolerances for Malaysia will be set at 8% SST variance, while other entities will have tolerances set as per specified rules.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Invoice Status",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "An invoice goes on 'Pending Receipt' or 'On hold' status if it does not satisfy matching or invoice tolerance rules.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Invoice Tolerances",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa provides two types of invoice tolerance settings: Chart of Accounts-level tolerances and Commodity-level tolerances.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Invoice Tolerances",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Commodity-level tolerances override Chart of Accounts-level tolerances and apply to all Charts of Accounts.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Invoice Submission",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System blocks invoice submission if it doesn't meet admin-set criteria, or displays a soft warning message.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Reporting",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa provides various reporting levels, including standard, advanced, and dashboards, with features like filtering, custom views, and scheduled reports.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Invoice Control Total",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System compares manually entered invoice total to calculated total and displays an error if they differ.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Roles",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System has various roles with different access levels, including admin, user, buyer, accounts payable, accounting supervisor, edit requisition as approver, and edit invoice as approver.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Payment Integration",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Payment information is integrated from NetSuite to Coupa.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Procure To Pay",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Configure invoicing tolerance checks with a '0' value tolerance.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Procure To Pay",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Enable group reporting in USD currency.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Procure To Pay",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Enable central receiving role for exception cases.",
+        "requirement_id": "REQ-003"
+    }
+]

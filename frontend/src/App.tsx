@@ -6,6 +6,9 @@ import RequirementsPage from "./pages/RequirementsPage";
 import ClarificationPage from "./pages/ClarificationPage";
 import TestcasePage from "./pages/TestcasePage";
 import DashboardPage from "./pages/Dashboard";
+import TraceabilityPage from "./pages/TraceabilityPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import RequirementWorkspace from "./pages/RequirementWorkspace";
 
 function App() {
   return (
@@ -29,6 +32,21 @@ function App() {
           path="/testcases"
           element={<TestcasePage />}
         />
+        <Route
+  path="/traceability"
+  element={<TraceabilityPage />}
+/>
+        <Route
+    path="/projects"
+    element={<ProjectsPage />}
+/>
+<Route
+
+path="/requirement/:id"
+
+element={<RequirementWorkspace />}
+
+/>
         
         <Route
           path="/dashboard"

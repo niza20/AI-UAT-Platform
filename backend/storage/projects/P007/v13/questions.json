@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What constitutes a 'centre-managed commodity' in the context of strategic sourcing?",
+        "reason": "Ambiguous term",
+        "options": [
+            "A commodity with a high annual spend",
+            "A commodity with a high volume of purchases",
+            "A commodity with a high level of complexity",
+            "A commodity designated by the procurement team"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How does the 'flipping' of purchase requests into sourcing events streamline supplier engagement?",
+        "reason": "Process unclear",
+        "options": [
+            "By automatically sending RFx to suppliers",
+            "By creating a new sourcing event with the same requirements",
+            "By allowing buyers to easily convert purchase requests to sourcing events",
+            "By enabling automated supplier selection"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the difference between an 'English reverse auction' and a 'Dutch reverse auction'?",
+        "reason": "Lack of clarity",
+        "options": [
+            "English reverse auction: suppliers bid in real-time, Dutch reverse auction: suppliers bid in a sequential manner",
+            "English reverse auction: sequential bidding, Dutch reverse auction: real-time bidding",
+            "English reverse auction: sequential bidding, Dutch reverse auction: simultaneous bidding",
+            "English reverse auction: simultaneous bidding, Dutch reverse auction: sequential bidding"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How does the 'Savings Definition Sourcing' module enable cost-saving opportunities?",
+        "reason": "Process unclear",
+        "options": [
+            "By allowing users to define and track savings targets",
+            "By enabling users to compare prices and negotiate better deals",
+            "By providing a platform for suppliers to submit savings proposals",
+            "By automating the process of identifying cost-saving opportunities"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What controls can Coupa Admins customize at the Procurement Admin (Buyer) side?",
+        "reason": "Lack of clarity",
+        "options": [
+            "Approval workflows, user roles, and access controls",
+            "Sourcing event templates, supplier selection criteria, and auction settings",
+            "Reporting and analytics, user notifications, and system integrations",
+            "Sourcing settings, procurement workflows, and supplier onboarding"
+        ]
+    }
+]

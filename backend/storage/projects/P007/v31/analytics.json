@@ -1,0 +1,25 @@
+{
+    "summary": {
+        "requirements": 41,
+        "testcases": 165,
+        "covered": 33,
+        "missing": 8,
+        "coverage": 80.49
+    },
+    "modules": {
+        "Supplier Information Management (SIM)": 120,
+        "Sourcing": 5,
+        "Procurement": 5,
+        "Contract Management": 5,
+        "Receiving": 5,
+        "Spend Analytics": 5,
+        "Community AI": 5,
+        "Contingent Workforce": 5,
+        "ESG & Compliance": 5,
+        "Fraud Detection": 5
+    },
+    "priorities": {
+        "High": 107,
+        "Medium": 58
+    }
+}

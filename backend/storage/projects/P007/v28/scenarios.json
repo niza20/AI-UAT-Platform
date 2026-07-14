@@ -1,0 +1,775 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates sourcing event for RFI with centre-managed commodities and services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer attempts to create sourcing event for RFI with centre-managed commodities and services without required permissions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates sourcing event for RFQ with centre-managed commodities and services but does not select any suppliers",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates sourcing event for RFP with centre-managed commodities and services but exceeds the Limits of Authority (DOA/LOA)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer attempts to create sourcing event for RFP with centre-managed commodities and services when Coupa is in maintenance mode",
+        "priority": "High",
+        "type": "Exception",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier participates in sourcing event via email and CSP",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier attempts to participate in sourcing event via email with invalid email address",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier participates in sourcing event via CSP with valid credentials",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier attempts to participate in sourcing event via CSP with invalid credentials",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier receives sourcing event via email and participates via CSP",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Create Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create a sourcing event with centre-managed commodities and services and verify that Coupa supports automated scoring and evaluation of supplier responses.",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Create a sourcing event with incomplete centre-managed commodities and services and verify that Coupa prevents the sourcing event from being created.",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Verify Automated Scoring and Evaluation of Supplier Responses",
+        "priority": "High",
+        "type": "Validation",
+        "description": "Create a sourcing event with multiple suppliers and verify that Coupa's automated scoring and evaluation accurately ranks the suppliers.",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Conflict Between Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Exception",
+        "description": "Create a sourcing event with conflicting automated scoring and manual evaluation and verify that Coupa handles the conflict correctly.",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Resend Sourcing Event to Production",
+        "priority": "Medium",
+        "type": "Boundary",
+        "description": "Create a sourcing event and verify that Coupa allows the sourcing event to be resent to production.",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Buyer configures event timelines with valid dates",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Buyer attempts to configure event timelines with invalid dates",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Buyer validates event timelines configuration",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Buyer attempts to configure event timelines without required permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Buyer configures event timelines with maximum allowed dates",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Create Sourcing Event for Centre-Managed Commodities and Services with Valid DOA/LOA",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Attempt to Create Sourcing Event for Centre-Managed Commodities and Services with Invalid DOA/LOA",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Validate Sourcing Event Approval Workflow Aligned with DOA/LOA",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Attempt to Create Sourcing Event with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Resend Sourcing Event to Production with Valid Reason",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Create sourcing event with centre-managed commodities and services",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Create a sourcing event with centre-managed commodities and services and verify that it is successfully created.",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Attempt sourcing event with conflicting automated scoring and manual evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Create a sourcing event with conflicting automated scoring and manual evaluation and verify that it is rejected due to conflict.",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Resend sourcing event to production",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Resend a sourcing event to production and verify that it is successfully resent.",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Source centre-managed commodities and services for operational sourcing needs",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Source centre-managed commodities and services for operational sourcing needs and verify that it is successfully sourced.",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Approve sourcing event with Limits of Authority (DOA/LOA)",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Approve a sourcing event with Limits of Authority (DOA/LOA) and verify that it is successfully approved.",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Create Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services Criteria",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Validate Centre-Managed Commodities and Services Criteria for Savings Tracking",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Create Sourcing Event with Automated Scoring Conflict",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Validate Conflict Resolution between Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Create centre-managed commodities and services with valid settings",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Attempt to create centre-managed commodities and services with invalid settings",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Validate centre-managed commodities and services settings for completeness",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Test centre-managed commodities and services settings for centre-managed commodities and services",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Attempt to create centre-managed commodities and services without required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Create Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services Criteria",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Validate Sourcing Event with Automated Scoring and Manual Evaluation Conflict",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Resend Sourcing Event to Production with Valid Reason",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Attempt Resend Sourcing Event to Production with Invalid Reason",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Buyer initiates sourcing event for centre-managed commodity with automated scoring enabled",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Buyer initiates sourcing event for centre-managed commodity with manual evaluation enabled",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Buyer attempts to initiate sourcing event for non-centre-managed commodity",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Buyer initiates sourcing event with conflicting automated scoring and manual evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Buyer attempts to resend sourcing event to production without approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Buyer creates sourcing event for operational sourcing need with centre-managed commodities and services",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Buyer attempts to create sourcing event for operational sourcing need with centre-managed commodities and services without required permissions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Buyer creates sourcing event for operational sourcing need with centre-managed commodities and services but centre-managed commodities and services criteria is not met",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Buyer attempts to create sourcing event for operational sourcing need with centre-managed commodities and services but Coupa handles conflict between automated scoring and manual evaluation incorrectly",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Buyer attempts to resend sourcing event to production but process is not followed correctly",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Create RFI event for centre-managed commodities and services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Attempt to create RFP event with missing centre-managed commodities and services criteria",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Validate centre-managed commodities and services criteria in RFP event",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Create RFP event with centre-managed commodities and services criteria exceeding Limits of Authority (LOA)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Attempt to create RFP event with centre-managed commodities and services criteria below minimum threshold",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create English Reverse Auction for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Attempt to Create English Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Validate English Reverse Auction Details (Supplier, Category, Event Type)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create English Reverse Auction with Centre-Managed Commodities and Services - Insufficient Authority",
+        "priority": "High",
+        "type": "Negative",
+        "permission": "Insufficient Authority",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create English Reverse Auction with Centre-Managed Commodities and Services - Exceeding Limits of Authority (DOA/LOA)",
+        "priority": "High",
+        "type": "Negative",
+        "permission": "Exceeding Limits of Authority (DOA/LOA)",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Create Auction Event with Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Attempt to Create Auction Event without Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Create Auction Event with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Resend Sourcing Event to Production",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Create Reverse Auction for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Attempt Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Validate Automated Scoring and Manual Evaluation Conflict Resolution",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Resend Sourcing Event to Production",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Create English Reverse Auction with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Attempt English Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "English Reverse Auction with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Resend Sourcing Event to Production",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Create Dutch Reverse Auction with High Starting Price and Scheduled Price Decrease",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Attempt to Create Dutch Reverse Auction with Low Starting Price",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Verify that Dutch Reverse Auction Automatically Decreases Price at Scheduled Intervals",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Create Dutch Reverse Auction with Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": "Centre-Managed Commodities and Services criteria met",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Attempt to Create Dutch Reverse Auction with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Create Sourcing Event for Centre-Managed Commodities and Services with Low Price Point",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Attempt Sourcing Event with High Price Point for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Validate Sourcing Event Price Incremental Increase",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Attempt Sourcing Event with Inactive Supplier for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Resend Sourcing Event to Production with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Exception",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Create Sourcing Event with Customizable Settings for Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Attempt to Create Sourcing Event without Defining Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Validate Customizable Settings for Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Test Conflict Resolution between Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Resend Sourcing Event to Production with Customizable Settings",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)"
+    }
+]

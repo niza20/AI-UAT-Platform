@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "requirements": 7,
+        "testcases": 65,
+        "covered": 7,
+        "missing": 0,
+        "coverage": 100.0
+    },
+    "modules": {
+        "Sourcing Management": 35,
+        "Strategic Sourcing": 5,
+        "Operational Sourcing": 5,
+        "Sourcing Event": 5,
+        "Auction Process": 5,
+        "Savings Definition Sourcing": 5,
+        "Sourcing Settings and Configurations": 5
+    },
+    "priorities": {
+        "High": 44,
+        "Medium": 20,
+        "Low": 1
+    }
+}

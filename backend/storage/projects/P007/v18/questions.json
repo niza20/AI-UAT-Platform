@@ -1,0 +1,182 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a supplier to be considered 'high-risk'?",
+        "reason": "Ambiguity in high-risk supplier definition",
+        "options": [
+            "Financial instability",
+            "Environmental concerns",
+            "Labor practices",
+            "All of the above"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle supplier registration for new products?",
+        "reason": "Unclear process for new product registration",
+        "options": [
+            "Manual registration required",
+            "Automated registration with approval",
+            "Automated registration without approval",
+            "No registration required"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the frequency of supplier performance reviews?",
+        "reason": "Unclear review frequency",
+        "options": [
+            "Quarterly",
+            "Semi-annually",
+            "Annually",
+            "As needed"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system handle conflicts of interest for procurement personnel?",
+        "reason": "Unclear conflict of interest process",
+        "options": [
+            "Automated conflict of interest detection",
+            "Manual conflict of interest review",
+            "No conflict of interest checks",
+            "Conflicts of interest are not applicable"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for escalating supplier issues?",
+        "reason": "Unclear escalation process",
+        "options": [
+            "Escalation to procurement manager",
+            "Escalation to finance department",
+            "Escalation to supplier directly",
+            "No escalation process"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q1",
+        "question": "What are the specific governance and approval controls for internal users registering new suppliers in Coupa?",
+        "reason": "Approval controls missing",
+        "options": [
+            "Manager approval only",
+            "Finance approval only",
+            "Procurement approval only",
+            "Multi-level approval (Manager, Finance, Procurement)"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q2",
+        "question": "How does Coupa determine the supplier record status for easy tracking?",
+        "reason": "Supplier record status logic missing",
+        "options": [
+            "Automatically updated based on Coupa Supplier Portal status",
+            "Manually updated by internal users",
+            "Automatically updated based on internal approval workflow",
+            "Automatically updated based on supplier certification status"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q3",
+        "question": "What are the specific due diligence steps that suppliers must complete after receiving the invitation to register with AECI?",
+        "reason": "Due diligence steps missing",
+        "options": [
+            "Basic supplier information verification",
+            "Certification verification and validation",
+            "Contact information verification and validation",
+            "All of the above"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system handle multiple channels of managing supplier information, as mentioned in the requirement?",
+        "reason": "Multiple channel handling missing",
+        "options": [
+            "System automatically consolidates information from multiple channels",
+            "Internal users manually consolidate information from multiple channels",
+            "System blocks multiple channels for supplier information management",
+            "System allows multiple channels for supplier information management"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for deactivating or reactivating a supplier, and who is responsible for this action?",
+        "reason": "Supplier status management missing",
+        "options": [
+            "Internal users can deactivate/reactivate suppliers",
+            "Procurement team is responsible for deactivating/reactivating suppliers",
+            "Finance team is responsible for deactivating/reactivating suppliers",
+            "Manager approval is required for deactivating/reactivating suppliers"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the threshold for automatic approval of invoices?",
+        "reason": "Approval threshold missing",
+        "options": [
+            "Below $100",
+            "Below $500",
+            "Below $1000",
+            "Customizable"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q2",
+        "question": "How are invoices categorized for reporting purposes?",
+        "reason": "Invoice categorization missing",
+        "options": [
+            "By Supplier",
+            "By Department",
+            "By Project",
+            "By Type"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling disputed invoices?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Escalation to Finance",
+            "Escalation to Procurement",
+            "Escalation to Requestor",
+            "Automated Resolution"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q4",
+        "question": "Can invoices be split across multiple payment terms?",
+        "reason": "Payment terms flexibility missing",
+        "options": [
+            "Yes, with approval",
+            "Yes, without approval",
+            "No, only single term",
+            "Customizable"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the retention period for invoice records?",
+        "reason": "Data retention policy missing",
+        "options": [
+            "6 months",
+            "1 year",
+            "2 years",
+            "Customizable"
+        ],
+        "module": "Invoice"
+    }
+]

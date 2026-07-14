@@ -1,0 +1,182 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining a 'High-Risk' supplier?",
+        "reason": "Risk assessment criteria missing",
+        "options": [
+            "Financial instability",
+            "Non-compliance with regulations",
+            "Industry reputation",
+            "All of the above"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q2",
+        "question": "How are supplier performance metrics tracked and evaluated?",
+        "reason": "Performance metrics tracking process missing",
+        "options": [
+            "Manual review",
+            "Automated system",
+            "Regular audits",
+            "Supplier self-reporting"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling supplier disputes or complaints?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Escalation to procurement team",
+            "Escalation to finance team",
+            "Escalation to management",
+            "Supplier self-resolution"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q4",
+        "question": "How are supplier contracts terminated, and what are the associated procedures?",
+        "reason": "Contract termination process missing",
+        "options": [
+            "Notice period",
+            "Mutual agreement",
+            "Force majeure",
+            "Supplier performance"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q5",
+        "question": "What are the specific requirements for supplier data security and confidentiality?",
+        "reason": "Data security requirements missing",
+        "options": [
+            "Compliance with industry standards",
+            "Compliance with company policies",
+            "Regular audits and assessments",
+            "Supplier liability"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for an invoice to be considered 'paid'?",
+        "reason": "Payment status ambiguity",
+        "options": [
+            "Payment received",
+            "Invoice marked as paid by system",
+            "Payment cleared in bank",
+            "Invoice status updated by user"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q2",
+        "question": "How are late payment fees calculated?",
+        "reason": "Late payment fee calculation missing",
+        "options": [
+            "Fixed fee per day",
+            "Percentage of invoice amount",
+            "Flat fee per invoice",
+            "Customizable fee per client"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling disputes or refunds?",
+        "reason": "Dispute/refund process missing",
+        "options": [
+            "Automated refund process",
+            "Manual refund process by finance",
+            "Dispute escalated to customer service",
+            "Refund handled by procurement"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q4",
+        "question": "Can invoices be split into multiple payments?",
+        "reason": "Invoice splitting missing",
+        "options": [
+            "Yes, with system approval",
+            "Yes, without system approval",
+            "No, only full payment accepted",
+            "Yes, but only for specific clients"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q5",
+        "question": "How are exchange rates handled for international invoices?",
+        "reason": "Exchange rate handling missing",
+        "options": [
+            "System uses current exchange rate",
+            "System uses fixed exchange rate",
+            "User inputs exchange rate",
+            "Exchange rate handled by finance"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining an 'urgent or business-critical situation' for internal users to register new suppliers in Coupa?",
+        "reason": "Ambiguity in business-critical situation definition",
+        "options": [
+            "High-value purchase orders",
+            "Time-sensitive contracts",
+            "Critical business partnerships",
+            "All of the above"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle duplicate supplier registrations initiated by internal users?",
+        "reason": "Duplicate registration process unclear",
+        "options": [
+            "Automatically rejects duplicate registrations",
+            "Requires manual review and approval",
+            "Allows duplicate registrations with a warning",
+            "No duplicate check is performed"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the approval workflow for internal users updating existing supplier information in Coupa?",
+        "reason": "Approval workflow unclear",
+        "options": [
+            "Same approval workflow as new supplier registration",
+            "Different approval workflow with reduced approvals",
+            "No approval required for updates",
+            "Approval required only for critical updates"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system handle supplier status changes initiated by internal users, such as purchase block or payment block?",
+        "reason": "Supplier status change process unclear",
+        "options": [
+            "Immediate effect on supplier status",
+            "Requires manual review and approval",
+            "Automatically sends notification to suppliers",
+            "No notification sent to suppliers"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for reactivating a deactivated supplier in Coupa?",
+        "reason": "Supplier reactivation process unclear",
+        "options": [
+            "Requires approval from the same approvers as initial registration",
+            "Requires approval from a designated reactivation team",
+            "No approval required for reactivation",
+            "Automatically reactivates supplier after a set period"
+        ],
+        "module": "Supplier Management"
+    }
+]

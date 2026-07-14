@@ -1,0 +1,3544 @@
+[
+    {
+        "testcase_id": "TC-001",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer initiates supplier onboarding process with valid basic supplier information",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Information",
+                "action": "Open Supplier Information",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Information",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Information",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates supplier onboarding process with valid basic supplier information is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-002",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer attempts to initiate supplier onboarding process with missing required fields",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Required Fields",
+                "action": "Open Required Fields",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Required Fields",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Required Fields",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to initiate supplier onboarding process with missing required fields is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-003",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer initiates supplier onboarding process with invalid email format",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Email Format",
+                "action": "Open Email Format",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Email Format",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Email Format",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates supplier onboarding process with invalid email format is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-004",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer initiates supplier onboarding process as a non-authorized user",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Non-Authorized User",
+                "action": "Open Non-Authorized User",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Non-Authorized User",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Non-Authorized User",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates supplier onboarding process as a non-authorized user is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-005",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer initiates supplier onboarding process with maximum allowed characters in company name",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Company Name",
+                "action": "Open Company Name",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Company Name",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Company Name",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates supplier onboarding process with maximum allowed characters in company name is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-006",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approval Workflow: Supplier Onboarding Request is Approved",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Is Approved",
+                "action": "Open Is Approved",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Is Approved",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Is Approved",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal Approval Workflow: Supplier Onboarding Request is Approved is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-007",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approval Workflow: Supplier Onboarding Request is Rejected",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Is Rejected",
+                "action": "Open Is Rejected",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Is Rejected",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Is Rejected",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal Approval Workflow: Supplier Onboarding Request is Rejected is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-008",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approval Workflow: Supplier Onboarding Request is Pending Approval",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Pending Approval",
+                "action": "Open Pending Approval",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Pending Approval",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Pending Approval",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal Approval Workflow: Supplier Onboarding Request is Pending Approval is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-009",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approval Workflow: User without Approval Permission Attempts to Approve Supplier Onboarding Request",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Onboarding Request",
+                "action": "Open Supplier Onboarding Request",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Onboarding Request",
+                "action": "Review details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Onboarding Request",
+                "action": "Click Approve",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Onboarding Request",
+                "action": "Confirm approval",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Onboarding Request",
+                "action": "Verify Approved",
+                "expected_result": "Request is approved successfully."
+            }
+        ],
+        "overall_expected_result": "Internal Approval Workflow: User without Approval Permission Attempts to Approve Supplier Onboarding Request is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-010",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approval Workflow: Supplier Onboarding Request is Submitted with Missing Information",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Missing Information",
+                "action": "Open Missing Information",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Missing Information",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Missing Information",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal Approval Workflow: Supplier Onboarding Request is Submitted with Missing Information is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-011",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier receives invitation via email and completes registration with AECI",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "With Aeci",
+                "action": "Open With Aeci",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "With Aeci",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "With Aeci",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier receives invitation via email and completes registration with AECI is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-012",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier receives invitation via email but does not complete registration with AECI",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "With Aeci",
+                "action": "Open With Aeci",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "With Aeci",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "With Aeci",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier receives invitation via email but does not complete registration with AECI is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-013",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier receives invitation via email but email address is not valid",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Not Valid",
+                "action": "Open Not Valid",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Not Valid",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Not Valid",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier receives invitation via email but email address is not valid is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-014",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier is not assigned to any organization and receives invitation via email",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Via Email",
+                "action": "Open Via Email",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Via Email",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Via Email",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier is not assigned to any organization and receives invitation via email is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-015",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier receives invitation via email on the first day of the month, but AECI system is not configured to send emails on weekends",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "On Weekends",
+                "action": "Open On Weekends",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "On Weekends",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "On Weekends",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier receives invitation via email on the first day of the month, but AECI system is not configured to send emails on weekends is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-016",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Create Supplier with Valid Information and Verify Certifications and Contact Information are Visible",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information And Verify Certifications And Contact Information Are Visible",
+                "action": "Open Supplier With Valid Information And Verify Certifications And Contact Information Are Visible",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information And Verify Certifications And Contact Information Are Visible",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information And Verify Certifications And Contact Information Are Visible",
+                "action": "Enter Supplier With Valid Information And Verify Certifications And Contact Information Are Visible details",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information And Verify Certifications And Contact Information Are Visible",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Valid Information And Verify Certifications And Contact Information Are Visible",
+                "action": "Verify Supplier With Valid Information And Verify Certifications And Contact Information Are Visible created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier with Valid Information and Verify Certifications and Contact Information are Visible is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-017",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Attempt to Create Supplier with Incomplete Information and Verify Error Messages",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Incomplete Information And Verify Error Messages",
+                "action": "Open Supplier With Incomplete Information And Verify Error Messages",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Incomplete Information And Verify Error Messages",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Incomplete Information And Verify Error Messages",
+                "action": "Enter Supplier With Incomplete Information And Verify Error Messages details",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Incomplete Information And Verify Error Messages",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Incomplete Information And Verify Error Messages",
+                "action": "Verify Supplier With Incomplete Information And Verify Error Messages created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Supplier with Incomplete Information and Verify Error Messages is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-018",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Update Supplier Information and Verify Changes are Reflected in Certifications and Contact Information",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Information And Verify Changes Are Reflected In Certifications And Contact Information",
+                "action": "Open Supplier Information And Verify Changes Are Reflected In Certifications And Contact Information",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Information And Verify Changes Are Reflected In Certifications And Contact Information",
+                "action": "Search Supplier Information And Verify Changes Are Reflected In Certifications And Contact Information",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Information And Verify Changes Are Reflected In Certifications And Contact Information",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Information And Verify Changes Are Reflected In Certifications And Contact Information",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Information And Verify Changes Are Reflected In Certifications And Contact Information",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Update Supplier Information and Verify Changes are Reflected in Certifications and Contact Information is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-019",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Verify that Only Authorized Users can View and Edit Supplier Information",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Edit Supplier Information",
+                "action": "Open And Edit Supplier Information",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Edit Supplier Information",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Edit Supplier Information",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Only Authorized Users can View and Edit Supplier Information is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-020",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Create Supplier with Maximum Allowed Characters in Name Field and Verify No Errors are Displayed",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field And Verify No Errors Are Displayed",
+                "action": "Open Supplier With Maximum Allowed Characters In Name Field And Verify No Errors Are Displayed",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field And Verify No Errors Are Displayed",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field And Verify No Errors Are Displayed",
+                "action": "Enter Supplier With Maximum Allowed Characters In Name Field And Verify No Errors Are Displayed details",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field And Verify No Errors Are Displayed",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier With Maximum Allowed Characters In Name Field And Verify No Errors Are Displayed",
+                "action": "Verify Supplier With Maximum Allowed Characters In Name Field And Verify No Errors Are Displayed created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier with Maximum Allowed Characters in Name Field and Verify No Errors are Displayed is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-021",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management",
+        "scenario": "Create Supplier Profile with Valid Information",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Valid Information",
+                "action": "Open Supplier Profile With Valid Information",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Valid Information",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Valid Information",
+                "action": "Enter Supplier Profile With Valid Information details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Valid Information",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Valid Information",
+                "action": "Verify Supplier Profile With Valid Information created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Profile with Valid Information is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-022",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management",
+        "scenario": "Attempt to Create Supplier Profile with Invalid Email",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email",
+                "action": "Open Supplier Profile With Invalid Email",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email",
+                "action": "Enter Supplier Profile With Invalid Email details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Invalid Email",
+                "action": "Verify Supplier Profile With Invalid Email created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Supplier Profile with Invalid Email is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-023",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management",
+        "scenario": "Validate Supplier Profile Information for Completeness",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "For Completeness",
+                "action": "Open For Completeness",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "For Completeness",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "For Completeness",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Supplier Profile Information for Completeness is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-024",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management",
+        "scenario": "Create Supplier Profile as Non-Approved User",
+        "priority": "Medium",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Profile As Non-Approved User",
+                "action": "Open Supplier Profile As Non-Approved User",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Profile As Non-Approved User",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Profile As Non-Approved User",
+                "action": "Enter Supplier Profile As Non-Approved User details",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Profile As Non-Approved User",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Profile As Non-Approved User",
+                "action": "Verify Supplier Profile As Non-Approved User created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Profile as Non-Approved User is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-025",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management",
+        "scenario": "Create Supplier Profile with Maximum Allowed Characters in Company Name",
+        "priority": "Low",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Open Supplier Profile With Maximum Allowed Characters In Company Name",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Enter Supplier Profile With Maximum Allowed Characters In Company Name details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Profile With Maximum Allowed Characters In Company Name",
+                "action": "Verify Supplier Profile With Maximum Allowed Characters In Company Name created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Profile with Maximum Allowed Characters in Company Name is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-026",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Creation and Onboarding",
+        "scenario": "Create Supplier and Complete Onboarding Process Successfully",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier And Complete Onboarding Process Successfully",
+                "action": "Open Supplier And Complete Onboarding Process Successfully",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier And Complete Onboarding Process Successfully",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier And Complete Onboarding Process Successfully",
+                "action": "Enter Supplier And Complete Onboarding Process Successfully details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier And Complete Onboarding Process Successfully",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier And Complete Onboarding Process Successfully",
+                "action": "Verify Supplier And Complete Onboarding Process Successfully created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier and Complete Onboarding Process Successfully is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-027",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Creation and Onboarding",
+        "scenario": "Attempt to Create Supplier without Completing Onboarding Process",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Without Completing Onboarding Process",
+                "action": "Open Supplier Without Completing Onboarding Process",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Without Completing Onboarding Process",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Without Completing Onboarding Process",
+                "action": "Enter Supplier Without Completing Onboarding Process details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Without Completing Onboarding Process",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Without Completing Onboarding Process",
+                "action": "Verify Supplier Without Completing Onboarding Process created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Supplier without Completing Onboarding Process is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-028",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Creation and Onboarding",
+        "scenario": "Verify Supplier is Created in Coupa after Completing Onboarding Process",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Onboarding Process",
+                "action": "Open Onboarding Process",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Onboarding Process",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Onboarding Process",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify Supplier is Created in Coupa after Completing Onboarding Process is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-029",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Creation and Onboarding",
+        "scenario": "Test Supplier Creation and Onboarding Process with Valid User Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "User Permissions",
+                "action": "Open User Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "User Permissions",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "User Permissions",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Test Supplier Creation and Onboarding Process with Valid User Permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-030",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Creation and Onboarding",
+        "scenario": "Test Supplier Creation and Onboarding Process with Supplier Already Existing in Coupa",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "In Coupa",
+                "action": "Open In Coupa",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "In Coupa",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "In Coupa",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Test Supplier Creation and Onboarding Process with Supplier Already Existing in Coupa is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-031",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management",
+        "scenario": "Create Purchase Order for Active Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Active Supplier",
+                "action": "Open Purchase Order For Active Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Active Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Active Supplier",
+                "action": "Enter Purchase Order For Active Supplier details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Active Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order For Active Supplier",
+                "action": "Verify Purchase Order For Active Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order for Active Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-032",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management",
+        "scenario": "Attempt Purchase Order with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Open Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Purchase Order with Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-033",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management",
+        "scenario": "Verify Supplier Status is Updated to Inactive after Purchase Block",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Block",
+                "action": "Open Purchase Block",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Block",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Block",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify Supplier Status is Updated to Inactive after Purchase Block is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-034",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management",
+        "scenario": "Supplier with Purchase Block can be Reactivated by Administrator",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "By Administrator",
+                "action": "Open By Administrator",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "By Administrator",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "By Administrator",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier with Purchase Block can be Reactivated by Administrator is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-035",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Status Management",
+        "scenario": "Supplier Status Management for Supplier with Zero Spend in Last 12 Months",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "12 Months",
+                "action": "Open 12 Months",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "12 Months",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "12 Months",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier Status Management for Supplier with Zero Spend in Last 12 Months is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-036",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Create Purchase Order with Required Approvals",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Required Approvals",
+                "action": "Open Purchase Order With Required Approvals",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Required Approvals",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Required Approvals",
+                "action": "Enter Purchase Order With Required Approvals details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Required Approvals",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Required Approvals",
+                "action": "Verify Purchase Order With Required Approvals created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order with Required Approvals is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-037",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Attempt Purchase Order without Required Approvals",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Required Approvals",
+                "action": "Open Required Approvals",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Required Approvals",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Required Approvals",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Purchase Order without Required Approvals is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-038",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Verify that Purchase Order is Approved by Procurement Team",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Procurement Team",
+                "action": "Open Procurement Team",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Procurement Team",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Procurement Team",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Purchase Order is Approved by Procurement Team is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-039",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Verify that Purchase Order is Rejected by Finance Team",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Finance Team",
+                "action": "Open Finance Team",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Finance Team",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Finance Team",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Purchase Order is Rejected by Finance Team is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-040",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Verify that Purchase Order is Approved by General Accounting Team after Rejection",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "After Rejection",
+                "action": "Open After Rejection",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "After Rejection",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "After Rejection",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Purchase Order is Approved by General Accounting Team after Rejection is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-041",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Verify that Purchase Order is Approved by Master Data Team after Rejection",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "After Rejection",
+                "action": "Open After Rejection",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "After Rejection",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "After Rejection",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Purchase Order is Approved by Master Data Team after Rejection is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-042",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Verify that Purchase Order is Approved by Procurement Team with Correct Permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "Open Correct Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Purchase Order is Approved by Procurement Team with Correct Permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-043",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Verify that Purchase Order is Rejected by Finance Team with Incorrect Permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Incorrect Permissions",
+                "action": "Open Incorrect Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Incorrect Permissions",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Incorrect Permissions",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Purchase Order is Rejected by Finance Team with Incorrect Permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-044",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Create Purchase Order with Maximum Allowed Value",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Maximum Allowed Value",
+                "action": "Open Purchase Order With Maximum Allowed Value",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Maximum Allowed Value",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Maximum Allowed Value",
+                "action": "Enter Purchase Order With Maximum Allowed Value details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Maximum Allowed Value",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Maximum Allowed Value",
+                "action": "Verify Purchase Order With Maximum Allowed Value created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order with Maximum Allowed Value is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-045",
+        "requirement_id": "REQ-008",
+        "module": "Approval Workflows",
+        "scenario": "Create Purchase Order with Minimum Allowed Value",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Minimum Allowed Value",
+                "action": "Open Purchase Order With Minimum Allowed Value",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Minimum Allowed Value",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Minimum Allowed Value",
+                "action": "Enter Purchase Order With Minimum Allowed Value details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Minimum Allowed Value",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Minimum Allowed Value",
+                "action": "Verify Purchase Order With Minimum Allowed Value created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order with Minimum Allowed Value is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-046",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Create Supplier in Coupa SIM and Verify Activation in SAP",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier In Coupa Sim And Verify Activation In Sap",
+                "action": "Open Supplier In Coupa Sim And Verify Activation In Sap",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier In Coupa Sim And Verify Activation In Sap",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier In Coupa Sim And Verify Activation In Sap",
+                "action": "Enter Supplier In Coupa Sim And Verify Activation In Sap details",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier In Coupa Sim And Verify Activation In Sap",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier In Coupa Sim And Verify Activation In Sap",
+                "action": "Verify Supplier In Coupa Sim And Verify Activation In Sap created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier in Coupa SIM and Verify Activation in SAP is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-047",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Create Supplier in SAP and Verify Activation in Coupa SIM",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier In Sap And Verify Activation In Coupa Sim",
+                "action": "Open Supplier In Sap And Verify Activation In Coupa Sim",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier In Sap And Verify Activation In Coupa Sim",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier In Sap And Verify Activation In Coupa Sim",
+                "action": "Enter Supplier In Sap And Verify Activation In Coupa Sim details",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier In Sap And Verify Activation In Coupa Sim",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier In Sap And Verify Activation In Coupa Sim",
+                "action": "Verify Supplier In Sap And Verify Activation In Coupa Sim created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier in SAP and Verify Activation in Coupa SIM is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-048",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Attempt Supplier Creation with Incomplete Data in Coupa SIM",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "Open Coupa Sim",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Supplier Creation with Incomplete Data in Coupa SIM is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-049",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Attempt Supplier Creation with Inactive Supplier in SAP",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "In Sap",
+                "action": "Open In Sap",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "In Sap",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "In Sap",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Supplier Creation with Inactive Supplier in SAP is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-050",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Verify Supplier Update from Coupa SIM Reflects in SAP",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "From Coupa Sim Reflects In Sap",
+                "action": "Open From Coupa Sim Reflects In Sap",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "From Coupa Sim Reflects In Sap",
+                "action": "Search From Coupa Sim Reflects In Sap",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "From Coupa Sim Reflects In Sap",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "From Coupa Sim Reflects In Sap",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "From Coupa Sim Reflects In Sap",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify Supplier Update from Coupa SIM Reflects in SAP is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-051",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Verify Supplier Update from SAP Reflects in Coupa SIM",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "From Sap Reflects In Coupa Sim",
+                "action": "Open From Sap Reflects In Coupa Sim",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "From Sap Reflects In Coupa Sim",
+                "action": "Search From Sap Reflects In Coupa Sim",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "From Sap Reflects In Coupa Sim",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "From Sap Reflects In Coupa Sim",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "From Sap Reflects In Coupa Sim",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify Supplier Update from SAP Reflects in Coupa SIM is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-052",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Supplier Creation and Update by Authorized User in Coupa SIM",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "By Authorized User In Coupa Sim",
+                "action": "Open By Authorized User In Coupa Sim",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "By Authorized User In Coupa Sim",
+                "action": "Search By Authorized User In Coupa Sim",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "By Authorized User In Coupa Sim",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "By Authorized User In Coupa Sim",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "By Authorized User In Coupa Sim",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier Creation and Update by Authorized User in Coupa SIM is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-053",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Supplier Creation and Update by Unauthorized User in Coupa SIM",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "By Unauthorized User In Coupa Sim",
+                "action": "Open By Unauthorized User In Coupa Sim",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "By Unauthorized User In Coupa Sim",
+                "action": "Search By Unauthorized User In Coupa Sim",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "By Unauthorized User In Coupa Sim",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "By Unauthorized User In Coupa Sim",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "By Unauthorized User In Coupa Sim",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier Creation and Update by Unauthorized User in Coupa SIM is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-054",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Supplier Creation with Maximum Allowed Characters in Coupa SIM",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "Open Coupa Sim",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier Creation with Maximum Allowed Characters in Coupa SIM is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-055",
+        "requirement_id": "REQ-009",
+        "module": "Integration",
+        "scenario": "Supplier Creation with Minimum Allowed Characters in Coupa SIM",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "Open Coupa Sim",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Coupa Sim",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier Creation with Minimum Allowed Characters in Coupa SIM is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-056",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal User Registers Supplier for Urgent Situation",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Urgent Situation",
+                "action": "Open Urgent Situation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Urgent Situation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Urgent Situation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal User Registers Supplier for Urgent Situation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-057",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal User Attempts to Register Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Open Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal User Attempts to Register Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-058",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal User Registers Supplier without Required Governance and Approval Controls",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Approval Controls",
+                "action": "Open Approval Controls",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Approval Controls",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Approval Controls",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal User Registers Supplier without Required Governance and Approval Controls is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-059",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal User Registers Supplier with Valid Governance and Approval Controls",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Approval Controls",
+                "action": "Open Approval Controls",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Approval Controls",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Approval Controls",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal User Registers Supplier with Valid Governance and Approval Controls is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-060",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal User Registers Supplier with Correct Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "Open Correct Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal User Registers Supplier with Correct Permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-061",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal User Registers Supplier with Maximum Allowed Supplier Count",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Count",
+                "action": "Open Supplier Count",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Count",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Count",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Internal User Registers Supplier with Maximum Allowed Supplier Count is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-062",
+        "requirement_id": "REQ-002",
+        "module": "Vendor Management",
+        "scenario": "Update Vendor Information with Active Status",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status",
+                "action": "Open Vendor Information With Active Status",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status",
+                "action": "Search Vendor Information With Active Status",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Update Vendor Information with Active Status is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-063",
+        "requirement_id": "REQ-002",
+        "module": "Vendor Management",
+        "scenario": "Attempt to Update Vendor Information with Inactive Status without Approval",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Inactive Status Without Approval",
+                "action": "Open Vendor Information With Inactive Status Without Approval",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Inactive Status Without Approval",
+                "action": "Search Vendor Information With Inactive Status Without Approval",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Inactive Status Without Approval",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Inactive Status Without Approval",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Inactive Status Without Approval",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt to Update Vendor Information with Inactive Status without Approval is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-064",
+        "requirement_id": "REQ-002",
+        "module": "Vendor Management",
+        "scenario": "Update Vendor Information with Active Status and Verify Changes are Reflected",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status And Verify Changes Are Reflected",
+                "action": "Open Vendor Information With Active Status And Verify Changes Are Reflected",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status And Verify Changes Are Reflected",
+                "action": "Search Vendor Information With Active Status And Verify Changes Are Reflected",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status And Verify Changes Are Reflected",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status And Verify Changes Are Reflected",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status And Verify Changes Are Reflected",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Update Vendor Information with Active Status and Verify Changes are Reflected is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-065",
+        "requirement_id": "REQ-002",
+        "module": "Vendor Management",
+        "scenario": "Update Vendor Information by Buyer with Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Vendor Information By Buyer With Required Permissions",
+                "action": "Open Vendor Information By Buyer With Required Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Vendor Information By Buyer With Required Permissions",
+                "action": "Search Vendor Information By Buyer With Required Permissions",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Vendor Information By Buyer With Required Permissions",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Vendor Information By Buyer With Required Permissions",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Vendor Information By Buyer With Required Permissions",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Update Vendor Information by Buyer with Required Permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-066",
+        "requirement_id": "REQ-002",
+        "module": "Vendor Management",
+        "scenario": "Update Vendor Information with Active Status on the Edge of the Maximum Character Limit",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status On The Edge Of The Maximum Character Limit",
+                "action": "Open Vendor Information With Active Status On The Edge Of The Maximum Character Limit",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status On The Edge Of The Maximum Character Limit",
+                "action": "Search Vendor Information With Active Status On The Edge Of The Maximum Character Limit",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status On The Edge Of The Maximum Character Limit",
+                "action": "Edit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status On The Edge Of The Maximum Character Limit",
+                "action": "Save",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Vendor Information With Active Status On The Edge Of The Maximum Character Limit",
+                "action": "Verify changes",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Update Vendor Information with Active Status on the Edge of the Maximum Character Limit is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-067",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor Process",
+        "scenario": "Create One-Time Vendor with Required Fields",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Required Fields",
+                "action": "Open One-Time Vendor With Required Fields",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Required Fields",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Required Fields",
+                "action": "Enter One-Time Vendor With Required Fields details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Required Fields",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Required Fields",
+                "action": "Verify One-Time Vendor With Required Fields created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create One-Time Vendor with Required Fields is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-068",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor Process",
+        "scenario": "Attempt to Create One-Time Vendor with Missing Required Fields",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Missing Required Fields",
+                "action": "Open One-Time Vendor With Missing Required Fields",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Missing Required Fields",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Missing Required Fields",
+                "action": "Enter One-Time Vendor With Missing Required Fields details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Missing Required Fields",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Missing Required Fields",
+                "action": "Verify One-Time Vendor With Missing Required Fields created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create One-Time Vendor with Missing Required Fields is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-069",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor Process",
+        "scenario": "Validate One-Time Vendor Creation with Duplicate Vendor Name",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Vendor Name",
+                "action": "Open Vendor Name",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Vendor Name",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Vendor Name",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate One-Time Vendor Creation with Duplicate Vendor Name is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-070",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor Process",
+        "scenario": "Create One-Time Vendor with Non-Approved User",
+        "priority": "Medium",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Non-Approved User",
+                "action": "Open One-Time Vendor With Non-Approved User",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Non-Approved User",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Non-Approved User",
+                "action": "Enter One-Time Vendor With Non-Approved User details",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Non-Approved User",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Non-Approved User",
+                "action": "Verify One-Time Vendor With Non-Approved User created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create One-Time Vendor with Non-Approved User is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-071",
+        "requirement_id": "REQ-003",
+        "module": "One-Time Vendor Process",
+        "scenario": "Create One-Time Vendor with Maximum Allowed Characters in Vendor Name",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Maximum Allowed Characters In Vendor Name",
+                "action": "Open One-Time Vendor With Maximum Allowed Characters In Vendor Name",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Maximum Allowed Characters In Vendor Name",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Maximum Allowed Characters In Vendor Name",
+                "action": "Enter One-Time Vendor With Maximum Allowed Characters In Vendor Name details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Maximum Allowed Characters In Vendor Name",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "One-Time Vendor With Maximum Allowed Characters In Vendor Name",
+                "action": "Verify One-Time Vendor With Maximum Allowed Characters In Vendor Name created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create One-Time Vendor with Maximum Allowed Characters in Vendor Name is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-072",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status Management",
+        "scenario": "Supplier Status Label Displayed for Active Supplier",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Active Supplier",
+                "action": "Open Active Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Active Supplier",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Active Supplier",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier Status Label Displayed for Active Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-073",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status Management",
+        "scenario": "Supplier Status Label Not Displayed for Inactive Supplier",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Open Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier Status Label Not Displayed for Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-074",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status Management",
+        "scenario": "Validation of Supplier Status Label Displayed for Valid Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Valid Supplier",
+                "action": "Open Valid Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Valid Supplier",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Valid Supplier",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validation of Supplier Status Label Displayed for Valid Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-075",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status Management",
+        "scenario": "Supplier with Multiple Status Labels Displayed Correctly",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Displayed Correctly",
+                "action": "Open Displayed Correctly",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Displayed Correctly",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Displayed Correctly",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier with Multiple Status Labels Displayed Correctly is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-076",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Status Management",
+        "scenario": "Only Authorized Users Can View Supplier Status Labels",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Status Labels",
+                "action": "Open Supplier Status Labels",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Status Labels",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Status Labels",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Only Authorized Users Can View Supplier Status Labels is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-077",
+        "requirement_id": "REQ-005",
+        "module": "Geography-Specific Requirements",
+        "scenario": "Create Purchase Order with Field-Level Requirements for Approved Supplier in Supported Language",
+        "priority": "Low",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Approved Supplier In Supported Language",
+                "action": "Open Purchase Order With Field-Level Requirements For Approved Supplier In Supported Language",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Approved Supplier In Supported Language",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Approved Supplier In Supported Language",
+                "action": "Enter Purchase Order With Field-Level Requirements For Approved Supplier In Supported Language details",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Approved Supplier In Supported Language",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Approved Supplier In Supported Language",
+                "action": "Verify Purchase Order With Field-Level Requirements For Approved Supplier In Supported Language created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order with Field-Level Requirements for Approved Supplier in Supported Language is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-078",
+        "requirement_id": "REQ-005",
+        "module": "Geography-Specific Requirements",
+        "scenario": "Attempt to Create Purchase Order with Field-Level Requirements for Inactive Supplier",
+        "priority": "Low",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Inactive Supplier",
+                "action": "Open Purchase Order With Field-Level Requirements For Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Inactive Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Inactive Supplier",
+                "action": "Enter Purchase Order With Field-Level Requirements For Inactive Supplier details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Inactive Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements For Inactive Supplier",
+                "action": "Verify Purchase Order With Field-Level Requirements For Inactive Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Purchase Order with Field-Level Requirements for Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-079",
+        "requirement_id": "REQ-005",
+        "module": "Geography-Specific Requirements",
+        "scenario": "Upload Attachment for Purchase Order with Field-Level Requirements in Supported Language",
+        "priority": "Low",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Supported Language",
+                "action": "Open Attachment For Purchase Order With Field-Level Requirements In Supported Language",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Supported Language",
+                "action": "Click Upload",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Supported Language",
+                "action": "Select file",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Supported Language",
+                "action": "Upload",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Supported Language",
+                "action": "Verify uploaded",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Upload Attachment for Purchase Order with Field-Level Requirements in Supported Language is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-080",
+        "requirement_id": "REQ-005",
+        "module": "Geography-Specific Requirements",
+        "scenario": "Attempt to Upload Attachment for Purchase Order with Field-Level Requirements in Unsupported Language",
+        "priority": "Low",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Unsupported Language",
+                "action": "Open Attachment For Purchase Order With Field-Level Requirements In Unsupported Language",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Unsupported Language",
+                "action": "Click Upload",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Unsupported Language",
+                "action": "Select file",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Unsupported Language",
+                "action": "Upload",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Attachment For Purchase Order With Field-Level Requirements In Unsupported Language",
+                "action": "Verify uploaded",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt to Upload Attachment for Purchase Order with Field-Level Requirements in Unsupported Language is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-081",
+        "requirement_id": "REQ-005",
+        "module": "Geography-Specific Requirements",
+        "scenario": "Create Purchase Order with Field-Level Requirements in Supported Language and Verify Language Support",
+        "priority": "Low",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements In Supported Language And Verify Language Support",
+                "action": "Open Purchase Order With Field-Level Requirements In Supported Language And Verify Language Support",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements In Supported Language And Verify Language Support",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements In Supported Language And Verify Language Support",
+                "action": "Enter Purchase Order With Field-Level Requirements In Supported Language And Verify Language Support details",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements In Supported Language And Verify Language Support",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Order With Field-Level Requirements In Supported Language And Verify Language Support",
+                "action": "Verify Purchase Order With Field-Level Requirements In Supported Language And Verify Language Support created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Order with Field-Level Requirements in Supported Language and Verify Language Support is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-082",
+        "requirement_id": "REQ-001",
+        "module": "System Configuration",
+        "scenario": "Create System Configuration with Local Language (English)",
+        "priority": "Low",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English)",
+                "action": "Open System Configuration With Local Language (English)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English)",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English)",
+                "action": "Enter System Configuration With Local Language (English) details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English)",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English)",
+                "action": "Verify System Configuration With Local Language (English) created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create System Configuration with Local Language (English) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-083",
+        "requirement_id": "REQ-001",
+        "module": "System Configuration",
+        "scenario": "Attempt to Create System Configuration with Non-Localized Language (Chinese)",
+        "priority": "Low",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "System Configuration With Non-Localized Language (Chinese)",
+                "action": "Open System Configuration With Non-Localized Language (Chinese)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "System Configuration With Non-Localized Language (Chinese)",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "System Configuration With Non-Localized Language (Chinese)",
+                "action": "Enter System Configuration With Non-Localized Language (Chinese) details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "System Configuration With Non-Localized Language (Chinese)",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "System Configuration With Non-Localized Language (Chinese)",
+                "action": "Verify System Configuration With Non-Localized Language (Chinese) created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create System Configuration with Non-Localized Language (Chinese) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-084",
+        "requirement_id": "REQ-001",
+        "module": "System Configuration",
+        "scenario": "Validate System Configuration Language after Saving",
+        "priority": "Low",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "After Saving",
+                "action": "Open After Saving",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "After Saving",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "After Saving",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate System Configuration Language after Saving is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-085",
+        "requirement_id": "REQ-001",
+        "module": "System Configuration",
+        "scenario": "System Configuration Language Change by User with 'System Administrator' Role",
+        "priority": "Low",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Administrator' Role",
+                "action": "Open Administrator' Role",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Administrator' Role",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Administrator' Role",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "System Configuration Language Change by User with 'System Administrator' Role is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-086",
+        "requirement_id": "REQ-001",
+        "module": "System Configuration",
+        "scenario": "Attempt to Create System Configuration with Local Language (English) when System Language is set to 'Spanish'",
+        "priority": "Low",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English) When System Language Is Set To 'Spanish'",
+                "action": "Open System Configuration With Local Language (English) When System Language Is Set To 'Spanish'",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English) When System Language Is Set To 'Spanish'",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English) When System Language Is Set To 'Spanish'",
+                "action": "Enter System Configuration With Local Language (English) When System Language Is Set To 'Spanish' details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English) When System Language Is Set To 'Spanish'",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "System Configuration With Local Language (English) When System Language Is Set To 'Spanish'",
+                "action": "Verify System Configuration With Local Language (English) When System Language Is Set To 'Spanish' created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create System Configuration with Local Language (English) when System Language is set to 'Spanish' is completed successfully and the system reflects the expected business outcome."
+    }
+]

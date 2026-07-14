@@ -1,0 +1,17 @@
+{
+    "summary": {
+        "requirements": 15,
+        "testcases": 70,
+        "covered": 14,
+        "missing": 1,
+        "coverage": 93.33
+    },
+    "modules": {
+        "General": 70
+    },
+    "priorities": {
+        "High": 53,
+        "Medium": 15,
+        "Low": 2
+    }
+}

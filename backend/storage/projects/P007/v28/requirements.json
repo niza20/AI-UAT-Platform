@@ -1,0 +1,154 @@
+[
+    {
+        "id": "REQ-001",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create sourcing events for RFIs, RFQs, and RFPs in Coupa.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "id": "REQ-002",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier can participate in sourcing events via email and the Coupa Supplier Portal (CSP).",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "id": "REQ-003",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa supports automated scoring and evaluation of supplier responses for sourcing events.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "id": "REQ-004",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Buyer can configure event timelines, evaluations, scoring, and award decisions in Coupa.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "id": "REQ-005",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows aligned with Limits of Authority (DOA / LOA) are supported in Coupa for sourcing events.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "id": "REQ-006",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Follow-on events, event extensions, and resend-to-production scenarios are supported in Coupa for sourcing events.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "id": "REQ-007",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Savings tracking (planned, negotiated, cost avoidance) is supported in Coupa for sourcing events.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "id": "REQ-008",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Relevant sourcing-related system settings and administrative configurations are supported in Coupa.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "id": "REQ-009",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Business scenarios for UAT validation are supported in Coupa for sourcing events.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "id": "REQ-001",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate sourcing events for centre-managed commodities and services.",
+        "requirement_id": "REQ-010"
+    },
+    {
+        "id": "REQ-002",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Buyer can create sourcing events for operational sourcing needs.",
+        "requirement_id": "REQ-011"
+    },
+    {
+        "id": "REQ-003",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can conduct RFx (RFI, RFP, RFQ) events in Coupa sourcing module.",
+        "requirement_id": "REQ-012"
+    },
+    {
+        "id": "REQ-004",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can conduct auctions (English reverse auction, Dutch reverse auction, Japanese reverse auction) in Coupa sourcing module.",
+        "requirement_id": "REQ-013"
+    },
+    {
+        "id": "REQ-005",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Auction event is implemented in the same way as any event in Coupa Sourcing.",
+        "requirement_id": "REQ-014"
+    },
+    {
+        "id": "REQ-006",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Buyer can leverage three distinct types of reverse auctions in Coupa.",
+        "requirement_id": "REQ-015"
+    },
+    {
+        "id": "REQ-007",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "English reverse auction is characterized by direct feedback on a submitted quote.",
+        "requirement_id": "REQ-016"
+    },
+    {
+        "id": "REQ-008",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Dutch reverse auction opens at a high starting price, which automatically decreases at scheduled intervals.",
+        "requirement_id": "REQ-017"
+    },
+    {
+        "id": "REQ-009",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Japanese reverse auction begins at a low price point, which increases incrementally.",
+        "requirement_id": "REQ-018"
+    },
+    {
+        "id": "REQ-010",
+        "module": "Source-to-Contract (S2C)",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Coupa allows customizable settings for sourcing, such as those found in Setup > Sourcing > Sourcing Settings.",
+        "requirement_id": "REQ-019"
+    }
+]

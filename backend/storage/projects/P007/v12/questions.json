@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What constitutes an 'approved supplier' for the purpose of creating a sourcing event?",
+        "reason": "Definition of approved supplier missing",
+        "options": [
+            "Supplier with a valid contract",
+            "Supplier with a valid purchase order",
+            "Supplier with a valid supplier registration",
+            "Supplier with a valid DOA/LOA"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How are the 'timelines, evaluations, scoring, and award decisions' configured for sourcing events?",
+        "reason": "Configuration process missing",
+        "options": [
+            "Configured by the Buyer",
+            "Configured by the Category Manager",
+            "Configured by the Procurement Admin",
+            "Configured by the System Administrator"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the scope of 'Limits of Authority (DOA / LOA)' for sourcing events?",
+        "reason": "Scope of DOA/LOA missing",
+        "options": [
+            "DOA/LOA applies to all sourcing events",
+            "DOA/LOA applies to sourcing events above a certain value",
+            "DOA/LOA applies to sourcing events for specific categories",
+            "DOA/LOA applies to sourcing events for specific suppliers"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How are 'savings tracking (planned, negotiated, cost avoidance)' metrics calculated for sourcing events?",
+        "reason": "Calculation process missing",
+        "options": [
+            "Automatically calculated by the system",
+            "Manually entered by the Buyer",
+            "Manually entered by the Category Manager",
+            "Manually entered by the Procurement Admin"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What types of 'advanced reporting capabilities' are available for sourcing events, supplier performance, and spend data?",
+        "reason": "Reporting capabilities missing",
+        "options": [
+            "Standard reporting only",
+            "Customizable reporting",
+            "Real-time reporting",
+            "Predictive analytics"
+        ]
+    }
+]

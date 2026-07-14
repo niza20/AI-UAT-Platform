@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What are the specific approval steps for the One-Time Vendor process?",
+        "reason": "Approval workflow missing",
+        "options": [
+            "Single-level approval by Procurement Manager",
+            "Multi-level approval by Procurement Manager and Finance",
+            "Automated approval based on predefined rules",
+            "Manual approval by a designated approver"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How will the system handle supplier status changes, including purchase block, payment block, deactivation, and reactivation?",
+        "reason": "Supplier status management unclear",
+        "options": [
+            "Automated status changes based on predefined rules",
+            "Manual status changes by a designated approver",
+            "Approval workflow for status changes",
+            "No approval required for status changes"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What are the specific data requirements for the One-Time Vendor process?",
+        "reason": "Data requirements unclear",
+        "options": [
+            "Minimal data required, including supplier name and address",
+            "Standard data required, including supplier name, address, and contact information",
+            "Enhanced data required, including supplier certifications and contact information",
+            "Custom data required, based on business requirements"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How will the system handle geographical deviations, including Australia and other countries?",
+        "reason": "Geographical deviations unclear",
+        "options": [
+            "Standardized process with no deviations",
+            "Standardized process with exceptions for Australia and other countries",
+            "Customized process for each country",
+            "Automated process based on predefined rules"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What are the specific governance and approval controls for internal users registering new suppliers in Coupa?",
+        "reason": "Governance and approval controls unclear",
+        "options": [
+            "No governance or approval controls required",
+            "Approval by Procurement Manager",
+            "Approval by Finance and Procurement Manager",
+            "Automated approval based on predefined rules"
+        ]
+    }
+]

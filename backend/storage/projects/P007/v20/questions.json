@@ -1,0 +1,182 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining an urgent or business-critical situation for supplier registration in Coupa?",
+        "reason": "Urgency criteria missing",
+        "options": [
+            "Supplier is a new entity",
+            "Supplier is a critical component supplier",
+            "Supplier is a high-risk supplier",
+            "Supplier is a repeat offender"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle multiple internal approvals for supplier registration?",
+        "reason": "Approval workflow missing",
+        "options": [
+            "Sequential approval flow",
+            "Parallel approval flow",
+            "Approval escalation",
+            "Approval delegation"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for supplier reactivation after deactivation?",
+        "reason": "Reactivation process missing",
+        "options": [
+            "Manual reactivation by internal user",
+            "Automatic reactivation after a specified period",
+            "Reactivation requires new approval",
+            "Reactivation requires additional documentation"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system ensure that supplier information is accurate and current?",
+        "reason": "Data validation missing",
+        "options": [
+            "Automated data validation on update",
+            "Manual data validation by internal user",
+            "Supplier self-service for updates",
+            "Scheduled data refresh"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for handling supplier status changes in Coupa?",
+        "reason": "Status change process missing",
+        "options": [
+            "Immediate status change by internal user",
+            "Status change requires approval",
+            "Status change requires additional documentation",
+            "Status change has a specified review period"
+        ],
+        "module": "Supplier Management"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the threshold for automatic approval of invoices?",
+        "reason": "Approval threshold missing",
+        "options": [
+            "Below $100",
+            "Below $500",
+            "Below $1000",
+            "Below $5000"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q2",
+        "question": "How are invoices categorized for reporting purposes?",
+        "reason": "Categorization criteria missing",
+        "options": [
+            "By Supplier",
+            "By Department",
+            "By Invoice Type",
+            "By Date Range"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling disputed invoices?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Escalation to Finance",
+            "Escalation to Procurement",
+            "Escalation to Requestor",
+            "Automated Resolution"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q4",
+        "question": "How are invoice payments scheduled?",
+        "reason": "Payment scheduling criteria missing",
+        "options": [
+            "Immediate Payment",
+            "Net 30 Days",
+            "Net 60 Days",
+            "Custom Payment Terms"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the retention period for invoice records?",
+        "reason": "Data retention policy missing",
+        "options": [
+            "6 Months",
+            "1 Year",
+            "2 Years",
+            "Indefinite"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a supplier to be considered 'Preferred'?",
+        "reason": "Ambiguous supplier classification",
+        "options": [
+            "Cost-Effective",
+            "Quality of Service",
+            "Long-Term Partnership",
+            "All of the Above"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle duplicate supplier registrations?",
+        "reason": "Duplicate supplier handling missing",
+        "options": [
+            "Allow Duplicate",
+            "Merge Duplicate",
+            "Reject Duplicate",
+            "Automatically Update"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for updating an existing supplier's details?",
+        "reason": "Supplier update process missing",
+        "options": [
+            "Requestor Updates",
+            "Reporting Manager Approves",
+            "Finance Approves",
+            "Procurement Approves"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system handle supplier performance metrics?",
+        "reason": "Supplier performance metrics missing",
+        "options": [
+            "Manual Entry",
+            "Automated Calculation",
+            "Supplier Self-Reporting",
+            "Third-Party Data Integration"
+        ],
+        "module": "P2O"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the frequency of supplier performance reviews?",
+        "reason": "Supplier performance review frequency missing",
+        "options": [
+            "Quarterly",
+            "Semi-Annually",
+            "Annually",
+            "As-Needed"
+        ],
+        "module": "P2O"
+    }
+]

@@ -33,10 +33,8 @@ async def upload_brd(file: UploadFile = File(...)):
     file_path,
     project_id
 )
-    from app.api.export import latest_testcases
 
-    latest_testcases.clear()
-    latest_testcases.extend(result["testcases"])
+    
     print("Workflow finished")
 
     print("Workflow Keys:", result.keys())

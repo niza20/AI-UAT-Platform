@@ -1,0 +1,206 @@
+[
+    {
+        "requirement_id": "REQ-001",
+        "module": "General",
+        "requirement": "Buyer can create a sourcing event for RFIs, RFQs, RFPs, and auctions.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-002",
+        "module": "General",
+        "requirement": "Supplier can participate in sourcing events via email and the Coupa Supplier Portal.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-006",
+            "TC-007",
+            "TC-008",
+            "TC-009",
+            "TC-010"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-003",
+        "module": "General",
+        "requirement": "Sourcing events can be configured with timelines, evaluations, scoring, and award decisions.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-011",
+            "TC-012",
+            "TC-013",
+            "TC-014",
+            "TC-015"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-004",
+        "module": "General",
+        "requirement": "Approval workflows are aligned with Limits of Authority (DOA / LOA) for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-016",
+            "TC-017",
+            "TC-018",
+            "TC-019",
+            "TC-020"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-005",
+        "module": "General",
+        "requirement": "Savings tracking is available for planned, negotiated, and cost avoidance savings.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-021",
+            "TC-022",
+            "TC-023",
+            "TC-024",
+            "TC-025"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-006",
+        "module": "General",
+        "requirement": "System settings and administrative configurations are relevant for sourcing activities.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-026",
+            "TC-027",
+            "TC-028",
+            "TC-029",
+            "TC-030"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-007",
+        "module": "General",
+        "requirement": "Roles and responsibilities are clear for sourcing activities across business, procurement, and suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-031",
+            "TC-032",
+            "TC-033",
+            "TC-034",
+            "TC-035"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-008",
+        "module": "General",
+        "requirement": "System configuration, testing, and user adoption are supported by clear functional requirements.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-036",
+            "TC-037",
+            "TC-038",
+            "TC-039",
+            "TC-040"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-009",
+        "module": "General",
+        "requirement": "A controlled and scalable sourcing framework supports both strategic and operational needs.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-041",
+            "TC-042",
+            "TC-043",
+            "TC-044",
+            "TC-045"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-010",
+        "module": "General",
+        "requirement": "Category Managers/Procurement team can initiate and manage strategic sourcing activities for centre-managed commodities and services.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-046",
+            "TC-047",
+            "TC-048",
+            "TC-049",
+            "TC-050"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-011",
+        "module": "General",
+        "requirement": "Procurement Admins (Buyers) can initiate and manage operational sourcing activities in Coupa.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-051",
+            "TC-052",
+            "TC-053",
+            "TC-054",
+            "TC-055"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-012",
+        "module": "General",
+        "requirement": "Users can conduct RFx (RFI, RFP, RFQ) events in Coupa sourcing module.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-056",
+            "TC-057",
+            "TC-058",
+            "TC-059",
+            "TC-060"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-013",
+        "module": "General",
+        "requirement": "Users can conduct auctions (English reverse auction, Dutch reverse auction, Japanese reverse auction) in Coupa sourcing module.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-014",
+        "module": "General",
+        "requirement": "Users can leverage English reverse auction, Dutch reverse auction, and Japanese reverse auction formats in Coupa.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-064",
+            "TC-065"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-015",
+        "module": "General",
+        "requirement": "Users can configure sourcing settings and enable controls at the Procurement Admin (Buyer) side in Coupa.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-066",
+            "TC-067",
+            "TC-068",
+            "TC-069",
+            "TC-070"
+        ],
+        "testcase_count": 5
+    }
+]

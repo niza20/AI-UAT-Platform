@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the approval threshold for internal users to register new suppliers in Coupa for urgent or business-critical situations?",
+        "reason": "Approval threshold missing",
+        "options": [
+            "Single approval by Procurement",
+            "Single approval by Finance",
+            "Dual approval by Procurement and Finance",
+            "No approval required"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle field-level requirements for supplier onboarding that vary by geography, based on local guidelines and legal requirements?",
+        "reason": "Geographical process deviations missing",
+        "options": [
+            "Manual configuration by Coupa administrators",
+            "Automated configuration based on user input",
+            "Integration with local government databases",
+            "No support for geographical process deviations"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for extending supplier contracts in Coupa, and who is responsible for initiating this process?",
+        "reason": "Contract extension process missing",
+        "options": [
+            "Internal users can extend contracts without approval",
+            "Internal users can extend contracts with approval from Procurement",
+            "Procurement team is responsible for extending contracts",
+            "Finance team is responsible for extending contracts"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system handle auto-translation of standard information on the user interface for multiple languages, as per the language requirements?",
+        "reason": "Language requirements missing",
+        "options": [
+            "Full auto-translation of all user interface elements",
+            "Partial auto-translation of some user interface elements",
+            "No auto-translation support",
+            "Manual translation required"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the simplified approval flow for creating one-time vendors in Coupa, as per the one-time vendor requirement?",
+        "reason": "Simplified approval flow missing",
+        "options": [
+            "Single approval by Procurement",
+            "Single approval by Finance",
+            "Dual approval by Procurement and Finance",
+            "No approval required"
+        ]
+    }
+]

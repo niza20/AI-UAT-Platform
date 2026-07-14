@@ -1,0 +1,19 @@
+{
+    "summary": {
+        "requirements": 10,
+        "testcases": 105,
+        "covered": 10,
+        "missing": 0,
+        "coverage": 100.0
+    },
+    "modules": {
+        "Supplier Management": 73,
+        "Supplier Onboarding": 27,
+        "General": 5
+    },
+    "priorities": {
+        "High": 66,
+        "Medium": 34,
+        "Low": 5
+    }
+}

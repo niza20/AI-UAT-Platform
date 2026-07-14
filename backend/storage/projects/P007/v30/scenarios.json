@@ -1,0 +1,812 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates sourcing event for RFI with centre-managed commodity and registered supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer attempts to create sourcing event for RFI with centre-managed commodity and unregistered supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates sourcing event for RFQ with centre-managed commodity and registered supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer attempts to create sourcing event for RFQ with centre-managed commodity and unregistered supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Buyer creates sourcing event for RFP with centre-managed commodity and registered supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Create Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create a sourcing event with centre-managed commodities and services and verify that Coupa supports automated scoring and evaluation of supplier responses.",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt Sourcing Event with Non-Registered Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Attempt to create a sourcing event with a supplier that is not registered in Coupa and verify that Coupa handles supplier responses for sourcing events accordingly.",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Award Business to Lowest Bidder in Auction Process",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create an auction process, add suppliers, and award the business to the lowest bidder to verify that Coupa handles direct negotiations with suppliers correctly.",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Direct Negotiation with Supplier in Auction Process",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create an auction process, add a supplier, and initiate direct negotiation to verify that Coupa handles direct negotiations with suppliers correctly.",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Conduct RFx Event for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create an RFx event for centre-managed commodities and services and verify that Coupa supports automated scoring and evaluation of supplier responses.",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Buyer configures event timelines for centre-managed commodities and services",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Buyer attempts to configure event timelines without centre-managed commodities and services criteria",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Buyer configures event timelines with valid centre-managed commodities and services criteria",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Buyer attempts to configure event timelines without login credentials",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Buyer configures event timelines with centre-managed commodities and services criteria at the maximum allowed value",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Create Sourcing Event for Centre-Managed Commodities and Services with Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Attempt Sourcing Event with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Validate Sourcing Event Approval Workflows Aligned with DOA/LOA",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Attempt Sourcing Event with Supplier Not Registered in Coupa",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Award Business to Lowest Bidder in Auction Process",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Create Sourcing Event for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Attempt Sourcing Event Creation with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Validate Sourcing Event Status after Creation",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Test Supplier Response Handling for Unregistered Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Award Business to Lowest Bidder in Auction Process",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Create centre-managed commodities and services with valid settings and configurations",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Attempt to create centre-managed commodities and services with invalid settings and configurations",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Validate centre-managed commodities and services settings and configurations",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Create centre-managed commodities and services with insufficient permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-008",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Create centre-managed commodities and services with extreme values (e.g., very large or very small values)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-008",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Buyer creates sourcing event for centre-managed commodity with approved supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Buyer attempts to create sourcing event for centre-managed commodity with unapproved supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Buyer creates sourcing event for centre-managed commodity and validates supplier information",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-010",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Buyer attempts to create sourcing event for centre-managed commodity without required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-010",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Buyer creates sourcing event for centre-managed commodity with supplier that is not registered in Coupa",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Create RFx event for centre-managed commodities and services with valid supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-012",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Attempt to create RFx event for centre-managed commodities and services with invalid supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-012",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Validate RFx event for centre-managed commodities and services with valid supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-012",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Create RFx event for centre-managed commodities and services with supplier not registered in Coupa",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-012",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Award business to lowest bidder in auction process with valid supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-012",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Create Auction for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create an auction for centre-managed commodities and services with valid supplier and auction type (English reverse auction, Dutch reverse auction, Japanese reverse auction).",
+        "requirement_id": "REQ-013",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Attempt Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Attempt to create an auction with an inactive supplier and verify that the auction is not created.",
+        "requirement_id": "REQ-013",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Validate Auction Supplier Responses",
+        "priority": "High",
+        "type": "Validation",
+        "description": "Create an auction and validate that supplier responses are correctly handled when the supplier is not registered in Coupa.",
+        "requirement_id": "REQ-013",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Award Business to Lowest Bidder",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create an auction, add bids from suppliers, and award the business to the lowest bidder.",
+        "requirement_id": "REQ-013",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Direct Negotiation with Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create an auction, enable direct negotiation with a supplier, and verify that the negotiation is successfully completed.",
+        "requirement_id": "REQ-013",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Create Auction with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-014",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Attempt Auction with Non-Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-014",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Validate Centre-Managed Commodities and Services Criteria",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-014",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Direct Negotiation with Registered Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-014",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Direct Negotiation with Unregistered Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-014",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Create Auction with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-015",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Attempt Auction with Non-Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Award Business to Lowest Bidder in Auction",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-015",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Award Business to Non-Lowest Bidder in Auction",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Direct Negotiation with Supplier in Auction",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-015",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Create English Reverse Auction with Approved Supplier and Receive Direct Feedback",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-016",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Attempt English Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-016",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "English Reverse Auction: Validate Supplier Response for Unregistered Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-016",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "English Reverse Auction: Award Business to Lowest Bidder with Valid Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-016",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "English Reverse Auction: Direct Negotiation with Supplier Not Allowed",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-016",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create English Reverse Auction for Centre-Managed Commodities and Services with Registered Suppliers",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-017",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create English Reverse Auction for Centre-Managed Commodities and Services with Unregistered Suppliers",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-017",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Award Business to Lowest Bidder in English Reverse Auction",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-017",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Direct Negotiation with Suppliers in English Reverse Auction",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-017",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Conduct RFx Event for Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-017",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Create Dutch Reverse Auction with High Starting Price and Scheduled Price Decrease",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-018",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Attempt to Create Dutch Reverse Auction with Low Starting Price",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Verify Dutch Reverse Auction Price Decrease at Scheduled Intervals",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-018",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Dutch Reverse Auction Opens at High Starting Price but No Scheduled Price Decrease",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-018",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Supplier Not Registered in Coupa Submits Response for Dutch Reverse Auction",
+        "priority": "High",
+        "type": "Exception",
+        "requirement_id": "REQ-018",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Create Dutch Reverse Auction with Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-019",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Attempt Dutch Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-019",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Validate Supplier Response for Dutch Reverse Auction",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-019",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Award Business to Lowest Bidder in Dutch Reverse Auction",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-019",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Direct Negotiation with Supplier in Dutch Reverse Auction",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-019",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Create centre-managed commodity with valid criteria and award contract to lowest bidder",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-021",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Attempt to create centre-managed commodity with invalid criteria",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-021",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Validate centre-managed commodity creation with valid criteria",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-021",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Attempt to award contract to supplier not registered in Coupa",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-021",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Award contract to lowest bidder in auction process",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-021",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Create Sourcing Event and Convert it into Contract with Approved Terms and Conditions",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-022",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Attempt to Convert Sourcing Event into Contract with Inactive Terms and Conditions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-022",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Validate Contract Terms and Conditions after Conversion from Sourcing Event",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-022",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Attempt to Convert Sourcing Event into Contract without Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-022",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Test Contract Conversion with Maximum Allowed Sourcing Event Value",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-022",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer creates a purchase requisition for an approved supplier with valid details (Supplier ID, Item ID, Quantity, Unit Price).",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-023",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer attempts to create a purchase requisition for an approved supplier with invalid details (Supplier ID is not a number, Item ID is not found, Quantity is negative, Unit Price is zero).",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-023",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer creates a purchase requisition for an approved supplier and checks if the requisition is saved successfully and displayed in the list.",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-023",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer attempts to create a purchase requisition for an approved supplier without login credentials.",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-023",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer creates a purchase requisition for an approved supplier with a large quantity (e.g., 1000) and checks if the system handles it correctly.",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-023",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Procurement team successfully creates a centre-managed commodity",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-024",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Procurement team attempts to create a centre-managed commodity with invalid data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-024",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Procurement team validates the centre-managed commodity details",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-024",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Procurement team tries to create a centre-managed commodity with maximum allowed characters",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-024",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Procurement team tries to create a centre-managed commodity with minimum allowed characters",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-024",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Procurement team creates a new operational sourcing event with valid details (event name, description, and expected delivery date) and it is successfully saved in the system.",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Procurement team attempts to create an operational sourcing event with invalid details (empty event name) and the system displays an error message.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Procurement team creates an operational sourcing event with valid details and the system validates the expected delivery date to ensure it is within the allowed range.",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Procurement team tries to create an operational sourcing event with a delivery date in the past and the system prevents the creation of the event.",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Procurement team does not have the required permission to create an operational sourcing event and the system displays an access denied message.",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    }
+]

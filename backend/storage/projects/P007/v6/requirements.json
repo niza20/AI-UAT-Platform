@@ -1,0 +1,114 @@
+[
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the supplier onboarding process by providing basic supplier information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process undergoes internal approval workflow.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier receives invitation to register with AECI and complete due diligence steps via email.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurate and current.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier certifications and contact information are visible.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Multiple channels of managing supplier information are eliminated.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Supplier Creation and Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier is created in Coupa only after completing the onboarding process.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Supplier Status Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier status can be managed, including purchase block, payment block, deactivation, and reactivation.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Approval Workflows",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows are in place for procurement, finance, general accounting, and master data teams.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can register new suppliers in Coupa for urgent or business-critical situations, adhering to governance and approval controls.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Update",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can update vendor information, including status changes, in Coupa.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "One-Time Vendor",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "The One-Time Vendor process enables faster vendor creation with a simplified approval flow and reduced data requirements, while ensuring basic compliance and procurement controls.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Status",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa displays different status labels to help users quickly see the status of each supplier.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Geographical Deviations",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "The supplier onboarding and management process will be standardized across geographies, with exceptions for Australia and other countries based on local guidelines and requirements.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Language Support",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Coupa supports auto-translation of standard information on the user interface for multiple languages, and custom information can be translated by geography-specific subject matter experts.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "System Configuration",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "The system supports local language requirements.",
+        "requirement_id": "REQ-001"
+    }
+]

@@ -1,0 +1,114 @@
+[
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the supplier onboarding process by providing basic supplier information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process undergoes internal approval workflow.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approved supplier receives invitation to register with AECI and complete due diligence steps.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurate and current.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier certifications and contact information are visible.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Multiple channels of managing supplier information are eliminated.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Supplier Status Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier status can be managed, including purchase block, payment block, and deactivation/reactivation.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Approval Workflows",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows involve Procurement, Finance, General Accounting, and Master Data teams.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Integration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa SIM integrates with SAP for supplier creation, updates, and activation.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can register new suppliers in Coupa for urgent or specific supplier types, adhering to governance and approval controls.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Update",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Internal users can update vendor information in Coupa, including status changes.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "One-Time Vendor",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can create a one-time vendor with a simplified approval flow and reduced data requirements, while ensuring basic compliance and procurement controls.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Status",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Coupa displays supplier record status and Coupa Supplier Portal status for easy tracking.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Geographical Process Deviations",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The supplier onboarding and supplier management process will be standardized across geographies, with exceptions for Australia in approval workflows and local guidelines for information requirements.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Language Support",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Coupa supports auto-translation of standard information and requires custom information translation for specific geographies.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Acknowledgment and Signature",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Process owners and document reviewers can acknowledge and sign the document.",
+        "requirement_id": "REQ-001"
+    }
+]

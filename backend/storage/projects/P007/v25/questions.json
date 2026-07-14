@@ -1,0 +1,122 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a supplier to be considered 'preferred'?",
+        "reason": "Ambiguous supplier classification",
+        "options": [
+            "Lowest Price",
+            "Best Quality",
+            "Longest History",
+            "Custom Criteria"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q2",
+        "question": "How are supplier performance metrics tracked and measured?",
+        "reason": "Lack of performance metrics details",
+        "options": [
+            "Manual Reporting",
+            "Automated System",
+            "Third-Party Service",
+            "Internal Database"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling supplier disputes or complaints?",
+        "reason": "Dispute resolution process unclear",
+        "options": [
+            "Escalation to Manager",
+            "Escalation to Procurement Team",
+            "Independent Review Committee",
+            "Supplier Self-Resolution"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q4",
+        "question": "How are supplier contracts managed and renewed?",
+        "reason": "Contract management process unclear",
+        "options": [
+            "Automated System",
+            "Manual Renewal Process",
+            "Third-Party Service",
+            "Contract Manager Oversight"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the threshold for supplier spend to trigger a formal RFP process?",
+        "reason": "Spend threshold unclear",
+        "options": [
+            "$10,000",
+            "$50,000",
+            "$100,000",
+            "Custom Threshold"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a contract to be considered 'high-risk'?",
+        "reason": "Risk categorization missing",
+        "options": [
+            "Contract value exceeds $100,000",
+            "Contract duration exceeds 2 years",
+            "Contract involves sensitive data",
+            "Contract involves multiple parties"
+        ],
+        "module": "Contract Management"
+    },
+    {
+        "id": "Q2",
+        "question": "How often should contract renewal notifications be sent to stakeholders?",
+        "reason": "Notification frequency missing",
+        "options": [
+            "6 months prior to renewal",
+            "3 months prior to renewal",
+            "1 month prior to renewal",
+            "Automatically upon contract renewal"
+        ],
+        "module": "Contract Management"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling contract disputes?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Escalation to management",
+            "Mediation with supplier",
+            "Arbitration with third-party",
+            "Contract termination"
+        ],
+        "module": "Contract Management"
+    },
+    {
+        "id": "Q4",
+        "question": "How are contract performance metrics tracked and measured?",
+        "reason": "Performance metrics missing",
+        "options": [
+            "Regular progress reports",
+            "Quarterly performance reviews",
+            "Annual contract audits",
+            "Automated system tracking"
+        ],
+        "module": "Contract Management"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the procedure for amending or updating an existing contract?",
+        "reason": "Amendment process missing",
+        "options": [
+            "Supplier approval required",
+            "Internal approval only",
+            "Contractor notification required",
+            "Automated system update"
+        ],
+        "module": "Contract Management"
+    }
+]

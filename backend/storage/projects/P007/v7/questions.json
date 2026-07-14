@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the purpose of the One-Time Vendor (OTV) process?",
+        "reason": "Requirement purpose missing",
+        "options": [
+            "Simplified approval flow for suppliers engaged for a single or non-recurring transaction",
+            "Reduced data requirements for suppliers engaged for a single or non-recurring transaction",
+            "Faster vendor creation for suppliers engaged for a single or non-recurring transaction",
+            "All of the above"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "What is the expected outcome of the auto-translation of standard information in Coupa?",
+        "reason": "Expected outcome missing",
+        "options": [
+            "Improved user experience for internal users",
+            "Enhanced supplier experience",
+            "Increased data accuracy",
+            "All of the above"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the trigger for the internal approval workflow in the supplier onboarding process?",
+        "reason": "Trigger missing",
+        "options": [
+            "Buyer initiates the supplier onboarding process",
+            "Supplier receives an invitation to register",
+            "Internal user registers a new supplier in Coupa",
+            "Supplier information is updated in Coupa"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "What is the expected behavior when a supplier is updated with new information in Coupa?",
+        "reason": "Expected behavior missing",
+        "options": [
+            "Supplier status is updated automatically",
+            "Supplier information is updated in real-time",
+            "Supplier status remains unchanged",
+            "All of the above"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the expected outcome of the supplier onboarding process?",
+        "reason": "Expected outcome missing",
+        "options": [
+            "Supplier is created in Coupa",
+            "Supplier receives an invitation to register",
+            "Internal approval workflow is triggered",
+            "All of the above"
+        ]
+    }
+]

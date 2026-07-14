@@ -1,0 +1,21 @@
+{
+    "summary": {
+        "requirements": 17,
+        "testcases": 102,
+        "covered": 8,
+        "missing": 9,
+        "coverage": 47.06
+    },
+    "modules": {
+        "Supplier Management": 48,
+        "Integration": 5,
+        "Supplier Onboarding": 39,
+        "One-Time Vendor": 5,
+        "System Configuration": 5
+    },
+    "priorities": {
+        "High": 54,
+        "Medium": 43,
+        "Low": 5
+    }
+}

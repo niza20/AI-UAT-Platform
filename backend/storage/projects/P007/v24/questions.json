@@ -1,0 +1,62 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the expected behavior when a contract is partially approved?",
+        "reason": "Ambiguous approval process",
+        "options": [
+            "The contract is considered approved in its entirety",
+            "The contract is considered rejected in its entirety",
+            "The contract is put on hold until all sections are approved",
+            "The contract is sent back to the requestor for re-submission"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "id": "Q2",
+        "question": "How are contract amendments handled in terms of approval and version control?",
+        "reason": "Missing information on contract amendments",
+        "options": [
+            "Contract amendments require separate approval and version control",
+            "Contract amendments are automatically approved and version-controlled",
+            "Contract amendments require approval but do not affect version control",
+            "Contract amendments do not require approval but are version-controlled"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the expected frequency of contract renewal notifications to stakeholders?",
+        "reason": "Missing information on contract renewal notifications",
+        "options": [
+            "Notifications are sent 30 days prior to contract renewal",
+            "Notifications are sent 60 days prior to contract renewal",
+            "Notifications are sent 90 days prior to contract renewal",
+            "Notifications are sent at the discretion of the contract manager"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "id": "Q4",
+        "question": "How are contract-related documents (e.g. invoices, receipts) stored and managed?",
+        "reason": "Missing information on document management",
+        "options": [
+            "Documents are stored in a centralized repository",
+            "Documents are stored in a decentralized manner (e.g. by department)",
+            "Documents are stored in a cloud-based storage solution",
+            "Documents are stored in a physical filing system"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the expected process for handling contract disputes or issues?",
+        "reason": "Missing information on dispute resolution",
+        "options": [
+            "Disputes are escalated to a designated contract manager",
+            "Disputes are escalated to a third-party mediator",
+            "Disputes are resolved through a formal arbitration process",
+            "Disputes are resolved through a collaborative negotiation process"
+        ],
+        "module": "Source-to-Contract (S2C)"
+    }
+]

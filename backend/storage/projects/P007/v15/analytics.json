@@ -1,0 +1,30 @@
+{
+    "summary": {
+        "requirements": 11,
+        "testcases": 362,
+        "covered": 11,
+        "missing": 0,
+        "coverage": 100.0
+    },
+    "modules": {
+        "Invoice Management": 247,
+        "Purchase Order": 5,
+        "Credit Note Management": 15,
+        "Void Invoice Management": 5,
+        "Invoice Bulk Activity": 5,
+        "Payment": 13,
+        "Invoice Tolerances": 25,
+        "Invoice Status": 7,
+        "Invoice Submission": 5,
+        "Reporting": 5,
+        "Invoice Control Total": 5,
+        "Roles": 5,
+        "Payment Integration": 5,
+        "Procure To Pay": 15
+    },
+    "priorities": {
+        "High": 271,
+        "Medium": 83,
+        "Low": 8
+    }
+}

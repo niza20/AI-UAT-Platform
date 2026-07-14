@@ -1,0 +1,122 @@
+[
+    {
+        "id": "REQ-001",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a sourcing event for strategic sourcing initiatives.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "id": "REQ-002",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a sourcing event for operational sourcing initiatives.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "id": "REQ-003",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can participate in sourcing events via email and the Coupa Supplier Portal.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "id": "REQ-004",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can configure event timelines, evaluations, scoring, and award decisions.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "id": "REQ-005",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows are aligned with Limits of Authority (DOA / LOA).",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "id": "REQ-006",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can track savings (planned, negotiated, cost avoidance).",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "id": "REQ-007",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can view sourcing-related system settings and administrative configurations.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "id": "REQ-008",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can view sourcing event analytics and insights.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "id": "REQ-001",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Category Managers/Procurement team can initiate and manage strategic sourcing activities for centre-managed commodities and services.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "id": "REQ-002",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Admins (Buyers) can initiate and manage operational sourcing activities for immediate or transactional procurement needs.",
+        "requirement_id": "REQ-010"
+    },
+    {
+        "id": "REQ-003",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can conduct RFx (RFI, RFP, RFQ) events in the Coupa sourcing module.",
+        "requirement_id": "REQ-011"
+    },
+    {
+        "id": "REQ-004",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can conduct auctions (English reverse auction, Dutch reverse auction, Japanese reverse auction) in the Coupa sourcing module.",
+        "requirement_id": "REQ-012"
+    },
+    {
+        "id": "REQ-005",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can leverage three distinct types of reverse auctions (English, Dutch, Japanese) in the Coupa sourcing module to promote competitive bidding and unlock cost-saving opportunities.",
+        "requirement_id": "REQ-013"
+    },
+    {
+        "id": "REQ-006",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Procurement Admins (Buyers) can configure sourcing settings and enable controls in the Coupa sourcing module.",
+        "requirement_id": "REQ-014"
+    },
+    {
+        "id": "REQ-007",
+        "module": "General",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can define savings in the Coupa sourcing module.",
+        "requirement_id": "REQ-015"
+    }
+]

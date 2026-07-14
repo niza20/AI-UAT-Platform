@@ -1,0 +1,485 @@
+[
+    {
+        "id": "REQ-001",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a purchase order for approved suppliers."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurately captured and stored in the Coupa system."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier approval process is automated and integrated with the Coupa system."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier performance is monitored and evaluated in the Coupa system."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier communication and collaboration are facilitated through the Coupa system."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Supplier onboarding process is streamlined and automated in the Coupa system."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier data is accurately and securely stored in the Coupa system."
+    },
+    {
+        "id": "REQ-008",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier spend is accurately tracked and reported in the Coupa system."
+    },
+    {
+        "id": "REQ-009",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier compliance with policies and regulations is monitored and enforced in the Coupa system."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Carsome can manage suppliers centrally, with standardization and visibility into organizational spend."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Carsome can track suppliers, requisitions, orders, invoices, and payments in real-time, enabling better decision-making and budget control."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Integration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa is integrated with Carsome's existing ERP system (NetSuite) for critical master data synchronization."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Change Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Carsome will conduct change management activities to support the adoption of new processes and the Coupa system by all relevant users."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Data Migration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Data migration from legacy systems to Coupa will be planned and executed as a separate workstream."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Master Data Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Carsome will review, cleanse, and govern key master data elements (e.g., supplier master, user data, other master data) to ensure data quality and consistency."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Policy Harmonization",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Carsome will review and update existing procurement and Supplier Management policies to align with the capabilities of the Coupa system and the objectives of the supplier transformation."
+    },
+    {
+        "id": "REQ-008",
+        "module": "Technology Infrastructure",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Carsome's technology infrastructure will be prepared to support the cloud-based Coupa solution."
+    },
+    {
+        "id": "REQ-009",
+        "module": "Project Governance",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "This document will be a key input for the overall project governance framework, guiding scope management, progress tracking, and decision-making throughout the implementation lifecycle."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the new supplier registration process by providing basic information."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurately and completely captured during the onboarding process."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approved suppliers are created in Coupa Supplier record after completing the onboarding process."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier data is accurately and up-to-date, and visibility to certifications and contact information is ensured."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Multiple channels of managing information are eliminated, and supplier participation is facilitated."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Unvetted suppliers or services go through the proper approval channels."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a new supplier request with required details."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System checks for potential duplicates and highlights missing or incomplete fields before final submission."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval process is initiated automatically in accordance with the designated workflow after the new supplier request form is submitted."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approvers can provide rejection comments, which are received by the requester to review and resubmit the request with necessary corrections."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa auto-triggers the external onboarding form after the new supplier request form is approved."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can complete the external onboarding form by registering on the Coupa Supplier Portal or submitting required information using a secure one-time password."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier is required to fill in additional details for successful onboarding as a supplier for Carsome."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a supplier profile with company details, bank details, and risk assessment information."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can classify a supplier as local, foreign, or individual and capture relevant details accordingly."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can capture vendor type (sole proprietorship/individual or company) and vendor classification (local, foreign, or individual)."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can capture and store vendor documents (e.g. Form 9/13, Certificate of Incorporation, etc.) based on vendor classification."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can capture and store vendor agreements (e.g. Non-Disclosure Agreement) and supporting documents."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can capture and store vendor bank details (e.g. payment types, bank form, etc.)."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can capture and store vendor tax information (e.g. VAT registration number, tax certificate, etc.)."
+    },
+    {
+        "id": "REQ-008",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can capture and store vendor risk assessment information (e.g. primary commodity, risk assessment questionnaire, etc.)."
+    },
+    {
+        "id": "REQ-009",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can capture and store vendor acknowledgment (e.g. anti-bribery and corruption policy, purchasing terms and conditions, etc.)."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can be onboarded with required details such as company name, address, contact information, and bank details."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can be classified as local, foreign, or individual based on their type."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier must provide required documents such as business license, certificate of incorporation, and tax residence certificate."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier must acknowledge and agree to the company's anti-bribery and corruption policy."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Risk Assessment",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Risk assessment questionnaire and completed sheet must be provided for suppliers."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a supplier profile with required details such as vendor type, classification, company name, contact information, and bank details."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can be classified as local, foreign, or individual and the system should capture relevant documents and information accordingly."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Risk Assessment",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can conduct a risk assessment for the supplier and capture relevant information such as primary commodity and other commodity."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Vendor Acknowledgement",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier must acknowledge and agree to the company's anti-bribery and corruption policy, general terms and conditions of purchase, and other relevant policies."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Document Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System should store and manage relevant documents such as tax certificates, statutory documents, and non-disclosure agreements for suppliers."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can submit an onboarding form with required details."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Vendor Management Team validates supplier details for accuracy and completeness."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Vendor Management Team reviews and approves or rejects the onboarding form based on NDA status."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Risk Manager reviews and approves or rejects the onboarding form for High-Risk commodities."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Finance Vendor Team reviews and approves or rejects the onboarding form for supplier financial data."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Purchase Order",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can receive purchase orders via email or manually."
+    },
+    {
+        "id": "REQ-008",
+        "module": "Invoice Matching",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Invoice matching can be done at 2-way or 3-way level."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the internal registration process for a new supplier."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal registration process for a new supplier requires approvals from the Requester and Procurement team."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approved internal supplier registration request is sent to the requester to register the supplier and complete due diligence steps."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier details are seamlessly integrated from Coupa Supplier Information Management (SIM) into NetSuite and updated in Coupa."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier's status in Coupa is updated to 'Active' after successful integration with NetSuite."
+    },
+    {
+        "id": "REQ-006",
+        "module": "Tax and Compliance",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Tax Team reviews and validates tax information provided by the supplier and updates the form accordingly."
+    },
+    {
+        "id": "REQ-007",
+        "module": "Tax and Compliance",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Head of Procurement verifies submitted details and approves or rejects the form based on the supplier's data."
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a new supplier request with required details, and the system performs a duplicate check to prevent invalid additions."
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "The system initiates the approval process for the new supplier request based on the designated workflow."
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Line Manager and Vendor Management Team can approve or reject the supplier request, and the system prompts approvers to provide rejection comments."
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "After approval, the Requester initiates the Internal Supplier Registration Form with detailed supplier information and submits it into the workflow."
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "The Requester completes the Internal Supplier Registration Form with required details, including company information, bank details, and tax registration information."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the tolerance threshold for SST variance in Malaysia?",
+        "reason": "Tolerance threshold missing",
+        "options": [
+            "5%",
+            "8%",
+            "10%",
+            "15%"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q2",
+        "question": "Can an invoice be edited in a sequence if it has already been submitted for approval?",
+        "reason": "Invoice editing sequence ambiguity",
+        "options": [
+            "Yes, with approval from the requester",
+            "Yes, without approval from the requester",
+            "No, only if it is in draft status",
+            "No, only if it is in approved status"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for resolving a disputed invoice that has been withdrawn from dispute?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Supplier must resubmit the invoice for approval",
+            "AP team must review and approve the invoice",
+            "Invoice is automatically approved",
+            "Invoice is automatically rejected"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q4",
+        "question": "Can an invoice be voided by an AP user if it is in the 'Approved' status and has already been paid?",
+        "reason": "Invoice voiding ambiguity",
+        "options": [
+            "Yes, with approval from the requester",
+            "Yes, without approval from the requester",
+            "No, only if it is in draft status",
+            "No, only if it is in pending receipt status"
+        ],
+        "module": "Invoice"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for bulk loading invoices in Coupa, and what is the format of the template?",
+        "reason": "Bulk loading process missing",
+        "options": [
+            "Download a CSV template, fill in details, and upload it",
+            "Download an Excel template, fill in details, and upload it",
+            "Download a PDF template, fill in details, and upload it",
+            "Download a Word document template, fill in details, and upload it"
+        ],
+        "module": "Invoice"
+    }
+]

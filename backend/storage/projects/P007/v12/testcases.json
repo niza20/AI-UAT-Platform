@@ -1,0 +1,2802 @@
+[
+    {
+        "testcase_id": "TC-001",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event (RFI) for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) For Approved Supplier",
+                "action": "Open Sourcing Event (Rfi) For Approved Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) For Approved Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) For Approved Supplier",
+                "action": "Enter Sourcing Event (Rfi) For Approved Supplier details",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) For Approved Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) For Approved Supplier",
+                "action": "Verify Sourcing Event (Rfi) For Approved Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event (RFI) for Approved Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-002",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management",
+        "scenario": "Attempt to Create Sourcing Event (RFI) with Unapproved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Unapproved Supplier",
+                "action": "Open Sourcing Event (Rfi) With Unapproved Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Unapproved Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Unapproved Supplier",
+                "action": "Enter Sourcing Event (Rfi) With Unapproved Supplier details",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Unapproved Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Unapproved Supplier",
+                "action": "Verify Sourcing Event (Rfi) With Unapproved Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event (RFI) with Unapproved Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-003",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management",
+        "scenario": "Validate Sourcing Event (RFI) Details (Supplier, Event Type, Description)",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Type, Description)",
+                "action": "Open Type, Description)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Type, Description)",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Type, Description)",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Sourcing Event (RFI) Details (Supplier, Event Type, Description) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-004",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management",
+        "scenario": "Buyer Creates Sourcing Event (RFI) with Correct Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "Open Correct Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Correct Permissions",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer Creates Sourcing Event (RFI) with Correct Permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-005",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management",
+        "scenario": "Buyer Attempts to Create Sourcing Event (RFI) with Incorrect Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Incorrect Permissions",
+                "action": "Open Sourcing Event (Rfi) With Incorrect Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Incorrect Permissions",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Incorrect Permissions",
+                "action": "Enter Sourcing Event (Rfi) With Incorrect Permissions details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Incorrect Permissions",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Incorrect Permissions",
+                "action": "Verify Sourcing Event (Rfi) With Incorrect Permissions created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer Attempts to Create Sourcing Event (RFI) with Incorrect Permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-006",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event (RFI) with Maximum Allowed Suppliers",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Maximum Allowed Suppliers",
+                "action": "Open Sourcing Event (Rfi) With Maximum Allowed Suppliers",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Maximum Allowed Suppliers",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Maximum Allowed Suppliers",
+                "action": "Enter Sourcing Event (Rfi) With Maximum Allowed Suppliers details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Maximum Allowed Suppliers",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Maximum Allowed Suppliers",
+                "action": "Verify Sourcing Event (Rfi) With Maximum Allowed Suppliers created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event (RFI) with Maximum Allowed Suppliers is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-007",
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event (RFI) with Minimum Allowed Suppliers",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Minimum Allowed Suppliers",
+                "action": "Open Sourcing Event (Rfi) With Minimum Allowed Suppliers",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Minimum Allowed Suppliers",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Minimum Allowed Suppliers",
+                "action": "Enter Sourcing Event (Rfi) With Minimum Allowed Suppliers details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Minimum Allowed Suppliers",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event (Rfi) With Minimum Allowed Suppliers",
+                "action": "Verify Sourcing Event (Rfi) With Minimum Allowed Suppliers created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event (RFI) with Minimum Allowed Suppliers is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-008",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management",
+        "scenario": "Supplier receives email invitation to participate in sourcing event",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "Open Sourcing Event",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier receives email invitation to participate in sourcing event is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-009",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management",
+        "scenario": "Supplier attempts to participate in sourcing event via CSP with invalid credentials",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Invalid Credentials",
+                "action": "Open Invalid Credentials",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Invalid Credentials",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Invalid Credentials",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier attempts to participate in sourcing event via CSP with invalid credentials is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-010",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management",
+        "scenario": "Supplier receives email invitation to participate in sourcing event and successfully logs in to CSP",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "To Csp",
+                "action": "Open To Csp",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "To Csp",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "To Csp",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier receives email invitation to participate in sourcing event and successfully logs in to CSP is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-011",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management",
+        "scenario": "Supplier with 'Supplier' role attempts to participate in sourcing event via CSP",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Via Csp",
+                "action": "Open Via Csp",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Via Csp",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Via Csp",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier with 'Supplier' role attempts to participate in sourcing event via CSP is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-012",
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management",
+        "scenario": "Supplier receives email invitation to participate in sourcing event with a very long supplier name",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Name",
+                "action": "Open Supplier Name",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Name",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Name",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier receives email invitation to participate in sourcing event with a very long supplier name is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-013",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event with Valid Timeline, Evaluation, Scoring, and Award Decision",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision",
+                "action": "Open Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision",
+                "action": "Enter Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision",
+                "action": "Verify Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Valid Timeline, Evaluation, Scoring, and Award Decision is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-014",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management",
+        "scenario": "Attempt to Create Sourcing Event without Timeline",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Timeline",
+                "action": "Open Sourcing Event Without Timeline",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Timeline",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Timeline",
+                "action": "Enter Sourcing Event Without Timeline details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Timeline",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Timeline",
+                "action": "Verify Sourcing Event Without Timeline created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event without Timeline is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-015",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management",
+        "scenario": "Validate Sourcing Event Timeline and Evaluation Dates",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Evaluation Dates",
+                "action": "Open Evaluation Dates",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Evaluation Dates",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Evaluation Dates",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Sourcing Event Timeline and Evaluation Dates is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-016",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event with Inactive User and Verify Error Message",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Inactive User And Verify Error Message",
+                "action": "Open Sourcing Event With Inactive User And Verify Error Message",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Inactive User And Verify Error Message",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Inactive User And Verify Error Message",
+                "action": "Enter Sourcing Event With Inactive User And Verify Error Message details",
+                "expected_result": "Displayed information matches expected values."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Inactive User And Verify Error Message",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Inactive User And Verify Error Message",
+                "action": "Verify Sourcing Event With Inactive User And Verify Error Message created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Inactive User and Verify Error Message is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-017",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event with Valid Timeline, Evaluation, Scoring, and Award Decision by Non-Admin User",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision By Non-Admin User",
+                "action": "Open Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision By Non-Admin User",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision By Non-Admin User",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision By Non-Admin User",
+                "action": "Enter Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision By Non-Admin User details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision By Non-Admin User",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision By Non-Admin User",
+                "action": "Verify Sourcing Event With Valid Timeline, Evaluation, Scoring, And Award Decision By Non-Admin User created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Valid Timeline, Evaluation, Scoring, and Award Decision by Non-Admin User is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-018",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event with Timeline and Evaluation Dates set to Maximum Allowed Values",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Timeline And Evaluation Dates Set To Maximum Allowed Values",
+                "action": "Open Sourcing Event With Timeline And Evaluation Dates Set To Maximum Allowed Values",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Timeline And Evaluation Dates Set To Maximum Allowed Values",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Timeline And Evaluation Dates Set To Maximum Allowed Values",
+                "action": "Enter Sourcing Event With Timeline And Evaluation Dates Set To Maximum Allowed Values details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Timeline And Evaluation Dates Set To Maximum Allowed Values",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Timeline And Evaluation Dates Set To Maximum Allowed Values",
+                "action": "Verify Sourcing Event With Timeline And Evaluation Dates Set To Maximum Allowed Values created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Timeline and Evaluation Dates set to Maximum Allowed Values is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-019",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event with Approved Supplier within Limits of Authority",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Approved Supplier Within Limits Of Authority",
+                "action": "Open Sourcing Event With Approved Supplier Within Limits Of Authority",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Approved Supplier Within Limits Of Authority",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Approved Supplier Within Limits Of Authority",
+                "action": "Enter Sourcing Event With Approved Supplier Within Limits Of Authority details",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Approved Supplier Within Limits Of Authority",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Approved Supplier Within Limits Of Authority",
+                "action": "Verify Sourcing Event With Approved Supplier Within Limits Of Authority created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Approved Supplier within Limits of Authority is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-020",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management",
+        "scenario": "Attempt to Create Sourcing Event with Supplier Exceeding Limits of Authority",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Exceeding Limits Of Authority",
+                "action": "Open Sourcing Event With Supplier Exceeding Limits Of Authority",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Exceeding Limits Of Authority",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Exceeding Limits Of Authority",
+                "action": "Enter Sourcing Event With Supplier Exceeding Limits Of Authority details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Exceeding Limits Of Authority",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Exceeding Limits Of Authority",
+                "action": "Verify Sourcing Event With Supplier Exceeding Limits Of Authority created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event with Supplier Exceeding Limits of Authority is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-021",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management",
+        "scenario": "Verify Approval Workflow for Sourcing Event within Limits of Authority",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Of Authority",
+                "action": "Open Of Authority",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Of Authority",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Of Authority",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify Approval Workflow for Sourcing Event within Limits of Authority is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-022",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management",
+        "scenario": "Attempt to Create Sourcing Event with Supplier without Limits of Authority Defined",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Without Limits Of Authority Defined",
+                "action": "Open Sourcing Event With Supplier Without Limits Of Authority Defined",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Without Limits Of Authority Defined",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Without Limits Of Authority Defined",
+                "action": "Enter Sourcing Event With Supplier Without Limits Of Authority Defined details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Without Limits Of Authority Defined",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Supplier Without Limits Of Authority Defined",
+                "action": "Verify Sourcing Event With Supplier Without Limits Of Authority Defined created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event with Supplier without Limits of Authority Defined is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-023",
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management",
+        "scenario": "Verify that Sourcing Event is Approved by Authorized User within Limits of Authority",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Of Authority",
+                "action": "Open Of Authority",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Of Authority",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Of Authority",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Sourcing Event is Approved by Authorized User within Limits of Authority is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-024",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event with Planned Savings",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings",
+                "action": "Open Sourcing Event With Planned Savings",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings",
+                "action": "Enter Sourcing Event With Planned Savings details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings",
+                "action": "Verify Sourcing Event With Planned Savings created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Planned Savings is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-025",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management",
+        "scenario": "Attempt to Create Sourcing Event without Planned Savings",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Planned Savings",
+                "action": "Open Sourcing Event Without Planned Savings",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Planned Savings",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Planned Savings",
+                "action": "Enter Sourcing Event Without Planned Savings details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Planned Savings",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Planned Savings",
+                "action": "Verify Sourcing Event Without Planned Savings created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event without Planned Savings is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-026",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management",
+        "scenario": "Validate Planned Savings Calculation for Sourcing Event",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "Open Sourcing Event",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Planned Savings Calculation for Sourcing Event is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-027",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event with Negotiated Savings by Authorized User",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Negotiated Savings By Authorized User",
+                "action": "Open Sourcing Event With Negotiated Savings By Authorized User",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Negotiated Savings By Authorized User",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Negotiated Savings By Authorized User",
+                "action": "Enter Sourcing Event With Negotiated Savings By Authorized User details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Negotiated Savings By Authorized User",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Negotiated Savings By Authorized User",
+                "action": "Verify Sourcing Event With Negotiated Savings By Authorized User created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Negotiated Savings by Authorized User is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-028",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management",
+        "scenario": "Attempt to Create Sourcing Event with Cost Avoidance Savings by Unauthorized User",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Cost Avoidance Savings By Unauthorized User",
+                "action": "Open Sourcing Event With Cost Avoidance Savings By Unauthorized User",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Cost Avoidance Savings By Unauthorized User",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Cost Avoidance Savings By Unauthorized User",
+                "action": "Enter Sourcing Event With Cost Avoidance Savings By Unauthorized User details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Cost Avoidance Savings By Unauthorized User",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Cost Avoidance Savings By Unauthorized User",
+                "action": "Verify Sourcing Event With Cost Avoidance Savings By Unauthorized User created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event with Cost Avoidance Savings by Unauthorized User is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-029",
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management",
+        "scenario": "Create Sourcing Event with Planned Savings at Maximum Limit (e.g. $1,000,000)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings At Maximum Limit (E.G. $1,000,000)",
+                "action": "Open Sourcing Event With Planned Savings At Maximum Limit (E.G. $1,000,000)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings At Maximum Limit (E.G. $1,000,000)",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings At Maximum Limit (E.G. $1,000,000)",
+                "action": "Enter Sourcing Event With Planned Savings At Maximum Limit (E.G. $1,000,000) details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings At Maximum Limit (E.G. $1,000,000)",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Planned Savings At Maximum Limit (E.G. $1,000,000)",
+                "action": "Verify Sourcing Event With Planned Savings At Maximum Limit (E.G. $1,000,000) created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Planned Savings at Maximum Limit (e.g. $1,000,000) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-030",
+        "requirement_id": "REQ-006",
+        "module": "Reporting",
+        "scenario": "Create Advanced Report for Sourcing Events with All Required Fields",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With All Required Fields",
+                "action": "Open Advanced Report For Sourcing Events With All Required Fields",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With All Required Fields",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With All Required Fields",
+                "action": "Enter Advanced Report For Sourcing Events With All Required Fields details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With All Required Fields",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With All Required Fields",
+                "action": "Verify Advanced Report For Sourcing Events With All Required Fields created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Advanced Report for Sourcing Events with All Required Fields is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-031",
+        "requirement_id": "REQ-006",
+        "module": "Reporting",
+        "scenario": "Attempt to Create Advanced Report for Sourcing Events with Missing Required Fields",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Missing Required Fields",
+                "action": "Open Advanced Report For Sourcing Events With Missing Required Fields",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Missing Required Fields",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Missing Required Fields",
+                "action": "Enter Advanced Report For Sourcing Events With Missing Required Fields details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Missing Required Fields",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Missing Required Fields",
+                "action": "Verify Advanced Report For Sourcing Events With Missing Required Fields created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Advanced Report for Sourcing Events with Missing Required Fields is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-032",
+        "requirement_id": "REQ-006",
+        "module": "Reporting",
+        "scenario": "Validate Advanced Report for Sourcing Events with Correct Data",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Correct Data",
+                "action": "Open Correct Data",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Correct Data",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Correct Data",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Advanced Report for Sourcing Events with Correct Data is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-033",
+        "requirement_id": "REQ-006",
+        "module": "Reporting",
+        "scenario": "Attempt to View Advanced Report for Sourcing Events without Required Permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events Without Required Permissions",
+                "action": "Open Advanced Report For Sourcing Events Without Required Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events Without Required Permissions",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events Without Required Permissions",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt to View Advanced Report for Sourcing Events without Required Permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-034",
+        "requirement_id": "REQ-006",
+        "module": "Reporting",
+        "scenario": "Create Advanced Report for Sourcing Events with Maximum Allowed Data Range",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Maximum Allowed Data Range",
+                "action": "Open Advanced Report For Sourcing Events With Maximum Allowed Data Range",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Maximum Allowed Data Range",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Maximum Allowed Data Range",
+                "action": "Enter Advanced Report For Sourcing Events With Maximum Allowed Data Range details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Maximum Allowed Data Range",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Advanced Report For Sourcing Events With Maximum Allowed Data Range",
+                "action": "Verify Advanced Report For Sourcing Events With Maximum Allowed Data Range created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Advanced Report for Sourcing Events with Maximum Allowed Data Range is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-035",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodity",
+                "action": "Open Centre-Managed Commodity",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodity",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodity",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Category Manager initiates strategic sourcing activity for centre-managed commodity is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-036",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing",
+        "scenario": "Category Manager attempts to initiate strategic sourcing activity for non-centre-managed commodity",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Non-Centre-Managed Commodity",
+                "action": "Open Non-Centre-Managed Commodity",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Non-Centre-Managed Commodity",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Non-Centre-Managed Commodity",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Category Manager attempts to initiate strategic sourcing activity for non-centre-managed commodity is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-037",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity and verifies it is visible in the dashboard",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "The Dashboard",
+                "action": "Open The Dashboard",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "The Dashboard",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "The Dashboard",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Category Manager initiates strategic sourcing activity for centre-managed commodity and verifies it is visible in the dashboard is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-038",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing",
+        "scenario": "Procurement team member attempts to initiate strategic sourcing activity without Category Manager approval",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Manager Approval",
+                "action": "Open Manager Approval",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Manager Approval",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Manager Approval",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Procurement team member attempts to initiate strategic sourcing activity without Category Manager approval is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-039",
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing",
+        "scenario": "Category Manager initiates strategic sourcing activity for centre-managed commodity on the first day of the month",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "The Month",
+                "action": "Open The Month",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "The Month",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "The Month",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Category Manager initiates strategic sourcing activity for centre-managed commodity on the first day of the month is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-040",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing",
+        "scenario": "Create Purchase Request for Operational Sourcing and Flip it into Sourcing Event",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Request For Operational Sourcing And Flip It Into Sourcing Event",
+                "action": "Open Purchase Request For Operational Sourcing And Flip It Into Sourcing Event",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Request For Operational Sourcing And Flip It Into Sourcing Event",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Request For Operational Sourcing And Flip It Into Sourcing Event",
+                "action": "Enter Purchase Request For Operational Sourcing And Flip It Into Sourcing Event details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Request For Operational Sourcing And Flip It Into Sourcing Event",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Request For Operational Sourcing And Flip It Into Sourcing Event",
+                "action": "Verify Purchase Request For Operational Sourcing And Flip It Into Sourcing Event created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Request for Operational Sourcing and Flip it into Sourcing Event is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-041",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing",
+        "scenario": "Attempt to Flip Purchase Request into Sourcing Event without Approval",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Without Approval",
+                "action": "Open Without Approval",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Without Approval",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Without Approval",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt to Flip Purchase Request into Sourcing Event without Approval is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-042",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing",
+        "scenario": "Validate that Purchase Request is Successfully Flipped into Sourcing Event",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "Open Sourcing Event",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate that Purchase Request is Successfully Flipped into Sourcing Event is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-043",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing",
+        "scenario": "Buyer without Operational Sourcing Permission Attempts to Create Purchase Request",
+        "priority": "Medium",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Request",
+                "action": "Open Purchase Request",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Request",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Request",
+                "action": "Enter Purchase Request details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Request",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Request",
+                "action": "Verify Purchase Request created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer without Operational Sourcing Permission Attempts to Create Purchase Request is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-044",
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing",
+        "scenario": "Create Purchase Request with Zero Quantity for Operational Sourcing",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Purchase Request With Zero Quantity For Operational Sourcing",
+                "action": "Open Purchase Request With Zero Quantity For Operational Sourcing",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Purchase Request With Zero Quantity For Operational Sourcing",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Purchase Request With Zero Quantity For Operational Sourcing",
+                "action": "Enter Purchase Request With Zero Quantity For Operational Sourcing details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Purchase Request With Zero Quantity For Operational Sourcing",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Purchase Request With Zero Quantity For Operational Sourcing",
+                "action": "Verify Purchase Request With Zero Quantity For Operational Sourcing created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Purchase Request with Zero Quantity for Operational Sourcing is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-045",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events",
+        "scenario": "Create RFI for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfi For Approved Supplier",
+                "action": "Open Rfi For Approved Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfi For Approved Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfi For Approved Supplier",
+                "action": "Enter Rfi For Approved Supplier details",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Rfi For Approved Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Rfi For Approved Supplier",
+                "action": "Verify Rfi For Approved Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create RFI for Approved Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-046",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events",
+        "scenario": "Attempt to Create RFI with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfi With Inactive Supplier",
+                "action": "Open Rfi With Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfi With Inactive Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfi With Inactive Supplier",
+                "action": "Enter Rfi With Inactive Supplier details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Rfi With Inactive Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Rfi With Inactive Supplier",
+                "action": "Verify Rfi With Inactive Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create RFI with Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-047",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events",
+        "scenario": "Validate RFI Details (RFI Name, Description, Supplier, etc.)",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier, Etc.)",
+                "action": "Open Supplier, Etc.)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier, Etc.)",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier, Etc.)",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate RFI Details (RFI Name, Description, Supplier, etc.) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-048",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events",
+        "scenario": "Create RFI as Non-Procurement User",
+        "priority": "Low",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfi As Non-Procurement User",
+                "action": "Open Rfi As Non-Procurement User",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfi As Non-Procurement User",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfi As Non-Procurement User",
+                "action": "Enter Rfi As Non-Procurement User details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Rfi As Non-Procurement User",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Rfi As Non-Procurement User",
+                "action": "Verify Rfi As Non-Procurement User created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create RFI as Non-Procurement User is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-049",
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events",
+        "scenario": "Create RFI with Maximum Allowed Characters in RFI Name",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfi With Maximum Allowed Characters In Rfi Name",
+                "action": "Open Rfi With Maximum Allowed Characters In Rfi Name",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfi With Maximum Allowed Characters In Rfi Name",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfi With Maximum Allowed Characters In Rfi Name",
+                "action": "Enter Rfi With Maximum Allowed Characters In Rfi Name details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Rfi With Maximum Allowed Characters In Rfi Name",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Rfi With Maximum Allowed Characters In Rfi Name",
+                "action": "Verify Rfi With Maximum Allowed Characters In Rfi Name created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create RFI with Maximum Allowed Characters in RFI Name is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-050",
+        "requirement_id": "REQ-004",
+        "module": "Auctions",
+        "scenario": "Create Reverse Auction with Standard Sourcing Objective",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Standard Sourcing Objective",
+                "action": "Open Reverse Auction With Standard Sourcing Objective",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Standard Sourcing Objective",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Standard Sourcing Objective",
+                "action": "Enter Reverse Auction With Standard Sourcing Objective details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Standard Sourcing Objective",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Standard Sourcing Objective",
+                "action": "Verify Reverse Auction With Standard Sourcing Objective created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Reverse Auction with Standard Sourcing Objective is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-051",
+        "requirement_id": "REQ-004",
+        "module": "Auctions",
+        "scenario": "Attempt to Create Reverse Auction with Invalid Sourcing Objective",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Invalid Sourcing Objective",
+                "action": "Open Reverse Auction With Invalid Sourcing Objective",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Invalid Sourcing Objective",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Invalid Sourcing Objective",
+                "action": "Enter Reverse Auction With Invalid Sourcing Objective details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Invalid Sourcing Objective",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Invalid Sourcing Objective",
+                "action": "Verify Reverse Auction With Invalid Sourcing Objective created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Reverse Auction with Invalid Sourcing Objective is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-052",
+        "requirement_id": "REQ-004",
+        "module": "Auctions",
+        "scenario": "Validate Reverse Auction Details after Successful Creation",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Successful Creation",
+                "action": "Open Successful Creation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Successful Creation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Successful Creation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Reverse Auction Details after Successful Creation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-053",
+        "requirement_id": "REQ-004",
+        "module": "Auctions",
+        "scenario": "Create Reverse Auction as Non-Procurement User",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Reverse Auction As Non-Procurement User",
+                "action": "Open Reverse Auction As Non-Procurement User",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Reverse Auction As Non-Procurement User",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Reverse Auction As Non-Procurement User",
+                "action": "Enter Reverse Auction As Non-Procurement User details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Reverse Auction As Non-Procurement User",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Reverse Auction As Non-Procurement User",
+                "action": "Verify Reverse Auction As Non-Procurement User created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Reverse Auction as Non-Procurement User is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-054",
+        "requirement_id": "REQ-004",
+        "module": "Auctions",
+        "scenario": "Create Reverse Auction with Maximum Allowed Suppliers (10)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Maximum Allowed Suppliers (10)",
+                "action": "Open Reverse Auction With Maximum Allowed Suppliers (10)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Maximum Allowed Suppliers (10)",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Maximum Allowed Suppliers (10)",
+                "action": "Enter Reverse Auction With Maximum Allowed Suppliers (10) details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Maximum Allowed Suppliers (10)",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Reverse Auction With Maximum Allowed Suppliers (10)",
+                "action": "Verify Reverse Auction With Maximum Allowed Suppliers (10) created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Reverse Auction with Maximum Allowed Suppliers (10) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-055",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing",
+        "scenario": "Create Savings Definition with Valid Supplier",
+        "priority": "Low",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier",
+                "action": "Open Savings Definition With Valid Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier",
+                "action": "Enter Savings Definition With Valid Supplier details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier",
+                "action": "Verify Savings Definition With Valid Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Savings Definition with Valid Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-056",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing",
+        "scenario": "Attempt to Create Savings Definition with Inactive Supplier",
+        "priority": "Low",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Inactive Supplier",
+                "action": "Open Savings Definition With Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Inactive Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Inactive Supplier",
+                "action": "Enter Savings Definition With Inactive Supplier details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Inactive Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Inactive Supplier",
+                "action": "Verify Savings Definition With Inactive Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Savings Definition with Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-057",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing",
+        "scenario": "Validate Savings Definition Details (Supplier Name, Description, etc.)",
+        "priority": "Low",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Description, Etc.)",
+                "action": "Open Description, Etc.)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Description, Etc.)",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Description, Etc.)",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Savings Definition Details (Supplier Name, Description, etc.) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-058",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing",
+        "scenario": "Create Savings Definition with Valid Supplier by User with 'Savings Definition Sourcing' Permission",
+        "priority": "Low",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier By User With 'Savings Definition Sourcing' Permission",
+                "action": "Open Savings Definition With Valid Supplier By User With 'Savings Definition Sourcing' Permission",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier By User With 'Savings Definition Sourcing' Permission",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier By User With 'Savings Definition Sourcing' Permission",
+                "action": "Enter Savings Definition With Valid Supplier By User With 'Savings Definition Sourcing' Permission details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier By User With 'Savings Definition Sourcing' Permission",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier By User With 'Savings Definition Sourcing' Permission",
+                "action": "Verify Savings Definition With Valid Supplier By User With 'Savings Definition Sourcing' Permission created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Savings Definition with Valid Supplier by User with 'Savings Definition Sourcing' Permission is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-059",
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing",
+        "scenario": "Create Savings Definition with Valid Supplier at Maximum Character Limit",
+        "priority": "Low",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier At Maximum Character Limit",
+                "action": "Open Savings Definition With Valid Supplier At Maximum Character Limit",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier At Maximum Character Limit",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier At Maximum Character Limit",
+                "action": "Enter Savings Definition With Valid Supplier At Maximum Character Limit details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier At Maximum Character Limit",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Savings Definition With Valid Supplier At Maximum Character Limit",
+                "action": "Verify Savings Definition With Valid Supplier At Maximum Character Limit created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Savings Definition with Valid Supplier at Maximum Character Limit is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-060",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations",
+        "scenario": "Create Custom Sourcing Setting for Active Supplier",
+        "priority": "Low",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Active Supplier",
+                "action": "Open Custom Sourcing Setting For Active Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Active Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Active Supplier",
+                "action": "Enter Custom Sourcing Setting For Active Supplier details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Active Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Active Supplier",
+                "action": "Verify Custom Sourcing Setting For Active Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Custom Sourcing Setting for Active Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-061",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations",
+        "scenario": "Attempt to Create Custom Sourcing Setting for Inactive Supplier",
+        "priority": "Low",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Inactive Supplier",
+                "action": "Open Custom Sourcing Setting For Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Inactive Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Inactive Supplier",
+                "action": "Enter Custom Sourcing Setting For Inactive Supplier details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Inactive Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting For Inactive Supplier",
+                "action": "Verify Custom Sourcing Setting For Inactive Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Custom Sourcing Setting for Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-062",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations",
+        "scenario": "Verify Custom Sourcing Setting is Displayed Correctly for Active Supplier",
+        "priority": "Low",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Active Supplier",
+                "action": "Open Active Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Active Supplier",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Active Supplier",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify Custom Sourcing Setting is Displayed Correctly for Active Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-063",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations",
+        "scenario": "Procurement Admin (Buyer) without Sourcing Setting Permission Attempts to Create Custom Sourcing Setting",
+        "priority": "Low",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting",
+                "action": "Open Custom Sourcing Setting",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting",
+                "action": "Enter Custom Sourcing Setting details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting",
+                "action": "Verify Custom Sourcing Setting created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Procurement Admin (Buyer) without Sourcing Setting Permission Attempts to Create Custom Sourcing Setting is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-064",
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations",
+        "scenario": "Create Custom Sourcing Setting with Maximum Allowed Characters",
+        "priority": "Low",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting With Maximum Allowed Characters",
+                "action": "Open Custom Sourcing Setting With Maximum Allowed Characters",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting With Maximum Allowed Characters",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting With Maximum Allowed Characters",
+                "action": "Enter Custom Sourcing Setting With Maximum Allowed Characters details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting With Maximum Allowed Characters",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Custom Sourcing Setting With Maximum Allowed Characters",
+                "action": "Verify Custom Sourcing Setting With Maximum Allowed Characters created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Custom Sourcing Setting with Maximum Allowed Characters is completed successfully and the system reflects the expected business outcome."
+    }
+]

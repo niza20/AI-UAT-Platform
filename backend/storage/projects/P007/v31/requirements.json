@@ -1,0 +1,330 @@
+[
+    {
+        "id": "REQ-001",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process is designed for engaging suppliers with whom the organization intends to conduct business with or procure goods and services.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier data is accurate and current, and information for all suppliers is visible and up-to-date.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Unvetted suppliers or services go through the proper approval channels before being onboarded.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Multiple channels of managing information (e.g. paper forms, emails, phone calls, spreadsheets) are eliminated.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier participation is encouraged through the onboarding process.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "id": "REQ-006",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier creation and onboarding process is managed by Coupa SIM, and a Supplier will only be created in Coupa once they have completed the onboarding process.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "id": "REQ-013",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal supplier registration initiated by business users is supported.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "id": "REQ-014",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "External supplier updates via Coupa Supplier Portal (CSP) are supported.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "id": "REQ-015",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal supplier updates initiated by AECI users are supported.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "id": "REQ-016",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier status management, including purchase block, payment block, supplier deactivation, and reactivation, is supported.",
+        "requirement_id": "REQ-010"
+    },
+    {
+        "id": "REQ-017",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows involving Procurement, Finance, General Accounting, and Master Data teams are supported.",
+        "requirement_id": "REQ-011"
+    },
+    {
+        "id": "REQ-018",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Integration touchpoints between Coupa SIM and SAP for supplier creation, updates, and activation are supported.",
+        "requirement_id": "REQ-012"
+    },
+    {
+        "id": "REQ-019",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier status definitions in Coupa and CSP are supported.",
+        "requirement_id": "REQ-013"
+    },
+    {
+        "id": "REQ-020",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Key decisions, exceptions, and geographical deviations impacting the supplier management process are supported.",
+        "requirement_id": "REQ-014"
+    },
+    {
+        "id": "REQ-001",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal supplier registration is used when a supplier is onboarded by internal users due to urgency, business constraints, or specific supplier types.",
+        "requirement_id": "REQ-015"
+    },
+    {
+        "id": "REQ-002",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Internal supplier registration adheres to governance and approval controls.",
+        "requirement_id": "REQ-016"
+    },
+    {
+        "id": "REQ-003",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The One-Time Vendor (OTV) process is designed for suppliers engaged for a single or non-recurring transaction.",
+        "requirement_id": "REQ-017"
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The OTV process enables faster vendor creation with a simplified approval flow and reduced data requirements.",
+        "requirement_id": "REQ-018"
+    },
+    {
+        "id": "REQ-005",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The OTV process retains the existing structure while streamlining approvals and reducing data capture and documentation requirements.",
+        "requirement_id": "REQ-019"
+    },
+    {
+        "id": "REQ-006",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The Supplier Onboarding Form (Form 2) is updated for the OTV process.",
+        "requirement_id": "REQ-020"
+    },
+    {
+        "id": "REQ-007",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 1 (General Vendor Information) updated for the OTV process.",
+        "requirement_id": "REQ-021"
+    },
+    {
+        "id": "REQ-008",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 2 (Attachments) updated for the OTV process.",
+        "requirement_id": "REQ-022"
+    },
+    {
+        "id": "REQ-009",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 3 (Banking Information) updated for the OTV process.",
+        "requirement_id": "REQ-023"
+    },
+    {
+        "id": "REQ-010",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 4 (Declaration) updated for the OTV process.",
+        "requirement_id": "REQ-024"
+    },
+    {
+        "id": "REQ-011",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 5 (AECI Internal Use Only) updated for the OTV process.",
+        "requirement_id": "REQ-025"
+    },
+    {
+        "id": "REQ-012",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa uses different status labels to help users quickly see the status of each supplier.",
+        "requirement_id": "REQ-026"
+    },
+    {
+        "id": "REQ-013",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa Supplier Portal (CSP) Status is used to see CSP statuses.",
+        "requirement_id": "REQ-027"
+    },
+    {
+        "id": "REQ-014",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Country-specific attachments are required for vendor onboarding and update processes.",
+        "requirement_id": "REQ-028"
+    },
+    {
+        "id": "REQ-015",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Language requirements are supported for auto-translation of standard information on the user interface.",
+        "requirement_id": "REQ-029"
+    },
+    {
+        "id": "REQ-001",
+        "module": "Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create sourcing events for approved suppliers.",
+        "requirement_id": "REQ-030"
+    },
+    {
+        "id": "REQ-002",
+        "module": "Procurement",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Buyer can create purchase requisitions for approved suppliers.",
+        "requirement_id": "REQ-031"
+    },
+    {
+        "id": "REQ-003",
+        "module": "Contract Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System supports contract approval and management for approved suppliers.",
+        "requirement_id": "REQ-032"
+    },
+    {
+        "id": "REQ-004",
+        "module": "Supplier Information Management (SIM)",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier information is accurately captured and updated in the system.",
+        "requirement_id": "REQ-033"
+    },
+    {
+        "id": "REQ-005",
+        "module": "Invoicing",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Invoice matching is automated for approved suppliers.",
+        "requirement_id": "REQ-034"
+    },
+    {
+        "id": "REQ-006",
+        "module": "Receiving",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System supports goods receipt and verification for approved suppliers.",
+        "requirement_id": "REQ-035"
+    },
+    {
+        "id": "REQ-007",
+        "module": "Spend Analytics",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System provides accurate spend analytics for approved suppliers.",
+        "requirement_id": "REQ-036"
+    },
+    {
+        "id": "REQ-008",
+        "module": "Community AI",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System uses AI to provide recommendations for approved suppliers.",
+        "requirement_id": "REQ-037"
+    },
+    {
+        "id": "REQ-009",
+        "module": "Savings Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System supports savings management for approved suppliers.",
+        "requirement_id": "REQ-038"
+    },
+    {
+        "id": "REQ-010",
+        "module": "Contingent Workforce",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "System supports contingent workforce management for approved suppliers.",
+        "requirement_id": "REQ-039"
+    },
+    {
+        "id": "REQ-011",
+        "module": "ESG & Compliance",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System supports ESG and compliance management for approved suppliers.",
+        "requirement_id": "REQ-040"
+    },
+    {
+        "id": "REQ-012",
+        "module": "Fraud Detection",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System supports fraud detection for approved suppliers.",
+        "requirement_id": "REQ-041"
+    }
+]

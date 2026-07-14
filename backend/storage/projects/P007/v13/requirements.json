@@ -1,0 +1,93 @@
+[
+    {
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create and manage sourcing events (RFI, RFQ, RFP, Auctions) in Coupa.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can participate in sourcing events via email and the Coupa Supplier Portal (CSP).",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Sourcing events can be configured with timelines, evaluations, scoring, and award decisions in Coupa.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows aligned with Limits of Authority (DOA / LOA) are implemented in Coupa.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Savings tracking (planned, negotiated, cost avoidance) is implemented in Coupa.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Reporting capabilities offer actionable insights into sourcing events, supplier performance, and spend data in Coupa.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Sourcing Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Roles and responsibilities are clearly defined and implemented in Coupa.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Strategic Sourcing",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Category Managers/Procurement team can initiate and manage strategic sourcing activities for centre-managed commodities and services.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Operational Sourcing",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Buyers can create purchase requests that can be 'flipped' into sourcing events to streamline supplier engagement and ensure competitive pricing.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Sourcing Module",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can conduct RFx (RFI, RFP, RFQ) and auctions (English reverse auction, Dutch reverse auction, Japanese reverse auction) in the Coupa sourcing module.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Auction Process",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Users can leverage auctions as a streamlined approach to direct negotiations, particularly effective when suppliers are well-known or when the sourcing event involves a limited number of items without complex pricing structures.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Savings Definition Sourcing",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can define savings in the sourcing module to enable cost-saving opportunities and foster transparency throughout the supplier selection process.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Sourcing Settings and Configurations",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Coupa Admins can customize sourcing settings and configurations to enable certain controls at the Procurement Admin (Buyer) side.",
+        "requirement_id": "REQ-006"
+    }
+]

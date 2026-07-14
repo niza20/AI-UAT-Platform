@@ -1,0 +1,268 @@
+[
+    {
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Buyer can create sourcing events for RFIs, RFQs, and RFPs in Coupa.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Supplier can participate in sourcing events via email and the Coupa Supplier Portal (CSP).",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-006",
+            "TC-007",
+            "TC-008",
+            "TC-009",
+            "TC-010"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Coupa supports automated scoring and evaluation of supplier responses for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-011",
+            "TC-012",
+            "TC-013",
+            "TC-014",
+            "TC-015"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Buyer can configure event timelines, evaluations, scoring, and award decisions in Coupa.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-016",
+            "TC-017",
+            "TC-018",
+            "TC-019",
+            "TC-020"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Approval workflows aligned with Limits of Authority (DOA / LOA) are supported in Coupa for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-021",
+            "TC-022",
+            "TC-023",
+            "TC-024",
+            "TC-025"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Follow-on events, event extensions, and resend-to-production scenarios are supported in Coupa for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-026",
+            "TC-027",
+            "TC-028",
+            "TC-029",
+            "TC-030"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Savings tracking (planned, negotiated, cost avoidance) is supported in Coupa for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-031",
+            "TC-032",
+            "TC-033",
+            "TC-034",
+            "TC-035"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Relevant sourcing-related system settings and administrative configurations are supported in Coupa.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-036",
+            "TC-037",
+            "TC-038",
+            "TC-039",
+            "TC-040"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Business scenarios for UAT validation are supported in Coupa for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-041",
+            "TC-042",
+            "TC-043",
+            "TC-044",
+            "TC-045"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Buyer can initiate sourcing events for centre-managed commodities and services.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-046",
+            "TC-047",
+            "TC-048",
+            "TC-049",
+            "TC-050"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Buyer can create sourcing events for operational sourcing needs.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-051",
+            "TC-052",
+            "TC-053",
+            "TC-054",
+            "TC-055"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Users can conduct RFx (RFI, RFP, RFQ) events in Coupa sourcing module.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-056",
+            "TC-057",
+            "TC-058",
+            "TC-059",
+            "TC-060"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Users can conduct auctions (English reverse auction, Dutch reverse auction, Japanese reverse auction) in Coupa sourcing module.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-064",
+            "TC-065"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Auction event is implemented in the same way as any event in Coupa Sourcing.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-066",
+            "TC-067",
+            "TC-068",
+            "TC-069",
+            "TC-070"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Buyer can leverage three distinct types of reverse auctions in Coupa.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-071",
+            "TC-072",
+            "TC-073",
+            "TC-074",
+            "TC-075"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "English reverse auction is characterized by direct feedback on a submitted quote.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-076",
+            "TC-077",
+            "TC-078",
+            "TC-079",
+            "TC-080"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Dutch reverse auction opens at a high starting price, which automatically decreases at scheduled intervals.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-081",
+            "TC-082",
+            "TC-083",
+            "TC-084",
+            "TC-085"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Japanese reverse auction begins at a low price point, which increases incrementally.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-086",
+            "TC-087",
+            "TC-088",
+            "TC-089",
+            "TC-090"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)",
+        "requirement": "Coupa allows customizable settings for sourcing, such as those found in Setup > Sourcing > Sourcing Settings.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-091",
+            "TC-092",
+            "TC-093",
+            "TC-094",
+            "TC-095"
+        ],
+        "testcase_count": 5
+    }
+]

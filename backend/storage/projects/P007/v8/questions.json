@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What are the specific data requirements for the One-Time Vendor process?",
+        "reason": "Data requirements missing",
+        "options": [
+            "Minimal data required, only basic information",
+            "Standard data required, including address and contact details",
+            "Enhanced data required, including certifications and tax information",
+            "Customizable data required, based on user input"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system accommodate geography-specific requirements?",
+        "reason": "Geography-specific requirements missing",
+        "options": [
+            "Field-level requirements are supported, but attachments and language support are not",
+            "Attachments and language support are supported, but field-level requirements are not",
+            "All three - field-level requirements, attachments, and language support are supported",
+            "None of the above, the system does not accommodate geography-specific requirements"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the approval workflow for the One-Time Vendor process?",
+        "reason": "Approval workflow missing",
+        "options": [
+            "Single-level approval by Procurement",
+            "Multi-level approval by Procurement, Finance, and General Accounting",
+            "Automated approval based on predefined rules",
+            "Manual approval by a designated user"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system support local language requirements?",
+        "reason": "Language support missing",
+        "options": [
+            "System supports local language requirements for user interface only",
+            "System supports local language requirements for data entry only",
+            "System supports local language requirements for both user interface and data entry",
+            "System does not support local language requirements"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for updating vendor information in Coupa?",
+        "reason": "Update process missing",
+        "options": [
+            "Buyers can update vendor information manually, but require approval from Procurement",
+            "Buyers can update vendor information automatically, without approval",
+            "Buyers can update vendor information, but require approval from Finance",
+            "Buyers cannot update vendor information, only Procurement can"
+        ]
+    }
+]

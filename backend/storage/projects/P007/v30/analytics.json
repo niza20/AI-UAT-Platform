@@ -1,0 +1,18 @@
+{
+    "summary": {
+        "requirements": 25,
+        "testcases": 100,
+        "covered": 20,
+        "missing": 5,
+        "coverage": 80.0
+    },
+    "modules": {
+        "Sourcing": 80,
+        "Contract Management": 5,
+        "Procurement": 15
+    },
+    "priorities": {
+        "High": 71,
+        "Medium": 29
+    }
+}

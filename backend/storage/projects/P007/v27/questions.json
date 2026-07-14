@@ -1,0 +1,62 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a supplier to be considered 'preferred'?",
+        "reason": "Supplier classification missing",
+        "options": [
+            "Lowest Cost",
+            "Best Quality",
+            "Longest History",
+            "Custom Criteria"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q2",
+        "question": "How are supplier performance metrics tracked and measured?",
+        "reason": "Performance metrics unclear",
+        "options": [
+            "Manual Reporting",
+            "Automated System",
+            "Regular Audits",
+            "Supplier Self-Reporting"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling supplier disputes or complaints?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Escalation to Manager",
+            "Mediation with Supplier",
+            "Arbitration with Third Party",
+            "Internal Review Committee"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q4",
+        "question": "How are supplier contracts managed and renewed?",
+        "reason": "Contract management unclear",
+        "options": [
+            "Automated System",
+            "Manual Renewal Process",
+            "Contract Review Committee",
+            "Supplier Self-Management"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the threshold for supplier diversification (e.g. number of suppliers, spend percentage)?",
+        "reason": "Diversification threshold missing",
+        "options": [
+            "Single Supplier",
+            "Multiple Suppliers",
+            "Supplier Spend Threshold",
+            "Custom Threshold"
+        ],
+        "module": "Sourcing"
+    }
+]

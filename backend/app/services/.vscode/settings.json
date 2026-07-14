@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "/Users/nizagarg/AI-UAT-Platform/backend/venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/backend"
+    ]
+}

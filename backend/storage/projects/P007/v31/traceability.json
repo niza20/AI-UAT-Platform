@@ -1,0 +1,528 @@
+[
+    {
+        "requirement_id": "REQ-001",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Supplier onboarding process is designed for engaging suppliers with whom the organization intends to conduct business with or procure goods and services.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-002",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Supplier data is accurate and current, and information for all suppliers is visible and up-to-date.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-003",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Unvetted suppliers or services go through the proper approval channels before being onboarded.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Multiple channels of managing information (e.g. paper forms, emails, phone calls, spreadsheets) are eliminated.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-006",
+            "TC-007",
+            "TC-008",
+            "TC-009",
+            "TC-010"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Supplier participation is encouraged through the onboarding process.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Supplier creation and onboarding process is managed by Coupa SIM, and a Supplier will only be created in Coupa once they have completed the onboarding process.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-011",
+            "TC-012",
+            "TC-013",
+            "TC-014",
+            "TC-015"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Internal supplier registration initiated by business users is supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-016",
+            "TC-017",
+            "TC-018",
+            "TC-019",
+            "TC-020"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "External supplier updates via Coupa Supplier Portal (CSP) are supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-021",
+            "TC-022",
+            "TC-023",
+            "TC-024",
+            "TC-025"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-009",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Internal supplier updates initiated by AECI users are supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-026",
+            "TC-027",
+            "TC-028",
+            "TC-029",
+            "TC-030"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-010",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Supplier status management, including purchase block, payment block, supplier deactivation, and reactivation, is supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-031",
+            "TC-032",
+            "TC-033",
+            "TC-034",
+            "TC-035"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-011",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Approval workflows involving Procurement, Finance, General Accounting, and Master Data teams are supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-036",
+            "TC-037",
+            "TC-038",
+            "TC-039",
+            "TC-040"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-012",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Integration touchpoints between Coupa SIM and SAP for supplier creation, updates, and activation are supported.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Supplier status definitions in Coupa and CSP are supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-041",
+            "TC-042",
+            "TC-043",
+            "TC-044",
+            "TC-045"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-014",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Key decisions, exceptions, and geographical deviations impacting the supplier management process are supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-046",
+            "TC-047",
+            "TC-048",
+            "TC-049",
+            "TC-050"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Internal supplier registration is used when a supplier is onboarded by internal users due to urgency, business constraints, or specific supplier types.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-051",
+            "TC-052",
+            "TC-053",
+            "TC-054",
+            "TC-055"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Internal supplier registration adheres to governance and approval controls.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-056",
+            "TC-057",
+            "TC-058",
+            "TC-059",
+            "TC-060"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The One-Time Vendor (OTV) process is designed for suppliers engaged for a single or non-recurring transaction.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-064",
+            "TC-065"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-018",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The OTV process enables faster vendor creation with a simplified approval flow and reduced data requirements.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-066",
+            "TC-067",
+            "TC-068",
+            "TC-069",
+            "TC-070"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-019",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The OTV process retains the existing structure while streamlining approvals and reducing data capture and documentation requirements.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-071",
+            "TC-072",
+            "TC-073",
+            "TC-074",
+            "TC-075"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-020",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The Supplier Onboarding Form (Form 2) is updated for the OTV process.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-021",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 1 (General Vendor Information) updated for the OTV process.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 2 (Attachments) updated for the OTV process.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-076",
+            "TC-077",
+            "TC-078",
+            "TC-079",
+            "TC-080"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-023",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 3 (Banking Information) updated for the OTV process.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-081",
+            "TC-082",
+            "TC-083",
+            "TC-084",
+            "TC-085"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-024",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 4 (Declaration) updated for the OTV process.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-086",
+            "TC-087",
+            "TC-088",
+            "TC-089",
+            "TC-090"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-025",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "The Supplier Onboarding Form (Form 2) has Section 5 (AECI Internal Use Only) updated for the OTV process.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-091",
+            "TC-092",
+            "TC-093",
+            "TC-094",
+            "TC-095"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-026",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Coupa uses different status labels to help users quickly see the status of each supplier.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-096",
+            "TC-097",
+            "TC-098",
+            "TC-099",
+            "TC-100"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-027",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Coupa Supplier Portal (CSP) Status is used to see CSP statuses.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-101",
+            "TC-102",
+            "TC-103",
+            "TC-104",
+            "TC-105"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-028",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Country-specific attachments are required for vendor onboarding and update processes.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-106",
+            "TC-107",
+            "TC-108",
+            "TC-109",
+            "TC-110"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-029",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Language requirements are supported for auto-translation of standard information on the user interface.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-111",
+            "TC-112",
+            "TC-113",
+            "TC-114",
+            "TC-115"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-030",
+        "module": "Sourcing",
+        "requirement": "Buyer can create sourcing events for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-116",
+            "TC-117",
+            "TC-118",
+            "TC-119",
+            "TC-120"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-031",
+        "module": "Procurement",
+        "requirement": "Buyer can create purchase requisitions for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-121",
+            "TC-122",
+            "TC-123",
+            "TC-124",
+            "TC-125"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-032",
+        "module": "Contract Management",
+        "requirement": "System supports contract approval and management for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-126",
+            "TC-127",
+            "TC-128",
+            "TC-129",
+            "TC-130"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-033",
+        "module": "Supplier Information Management (SIM)",
+        "requirement": "Supplier information is accurately captured and updated in the system.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-131",
+            "TC-132",
+            "TC-133",
+            "TC-134",
+            "TC-135"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-034",
+        "module": "Invoicing",
+        "requirement": "Invoice matching is automated for approved suppliers.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-035",
+        "module": "Receiving",
+        "requirement": "System supports goods receipt and verification for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-136",
+            "TC-137",
+            "TC-138",
+            "TC-139",
+            "TC-140"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-036",
+        "module": "Spend Analytics",
+        "requirement": "System provides accurate spend analytics for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-141",
+            "TC-142",
+            "TC-143",
+            "TC-144",
+            "TC-145"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-037",
+        "module": "Community AI",
+        "requirement": "System uses AI to provide recommendations for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-146",
+            "TC-147",
+            "TC-148",
+            "TC-149",
+            "TC-150"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-038",
+        "module": "Savings Management",
+        "requirement": "System supports savings management for approved suppliers.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-039",
+        "module": "Contingent Workforce",
+        "requirement": "System supports contingent workforce management for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-151",
+            "TC-152",
+            "TC-153",
+            "TC-154",
+            "TC-155"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-040",
+        "module": "ESG & Compliance",
+        "requirement": "System supports ESG and compliance management for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-156",
+            "TC-157",
+            "TC-158",
+            "TC-159",
+            "TC-160"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-041",
+        "module": "Fraud Detection",
+        "requirement": "System supports fraud detection for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-161",
+            "TC-162",
+            "TC-163",
+            "TC-164",
+            "TC-165"
+        ],
+        "testcase_count": 5
+    }
+]

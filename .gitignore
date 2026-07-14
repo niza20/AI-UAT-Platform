@@ -1,0 +1,23 @@
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node
+frontend/node_modules/
+node_modules/
+dist/
+
+# Environment
+.env
+.env.*
+
+# Generated files
+uploads/
+outputs/
+storage/projects/
+generated_testcases.xlsx
+
+# macOS
+.DS_Store

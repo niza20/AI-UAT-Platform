@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "Who initiates the approval process for a new supplier request?",
+        "reason": "Approval initiator missing",
+        "options": [
+            "Requester Selected",
+            "Procurement Team",
+            "Vendor Management Team",
+            "Finance Team"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "What is the criteria for a supplier to be classified as local, foreign, or individual?",
+        "reason": "Classification criteria missing",
+        "options": [
+            "Supplier Type",
+            "Supplier Location",
+            "Supplier Size",
+            "Supplier Industry"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "Who reviews and validates tax information provided by the supplier?",
+        "reason": "Tax reviewer missing",
+        "options": [
+            "Tax Team",
+            "Finance Team",
+            "Procurement Team",
+            "Vendor Management Team"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "What is the process for a supplier to be onboarded with required details such as company name, address, contact information, and bank details?",
+        "reason": "Onboarding process missing",
+        "options": [
+            "Supplier submits an onboarding form",
+            "Vendor Management Team validates supplier details",
+            "Risk Manager reviews and approves or rejects the onboarding form",
+            "Finance Vendor Team reviews and approves or rejects the onboarding form"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "Who verifies submitted details and approves or rejects the form based on the supplier's data?",
+        "reason": "Verifier missing",
+        "options": [
+            "Head of Procurement",
+            "Procurement Team",
+            "Vendor Management Team",
+            "Finance Team"
+        ]
+    }
+]

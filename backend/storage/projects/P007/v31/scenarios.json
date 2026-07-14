@@ -1,0 +1,1322 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier with Valid Data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Attempt Supplier Creation with Incomplete Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Validate Supplier Information for Accuracy and Completeness",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Attempt Supplier Update with Invalid Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Test Supplier Deactivation and Reactivation Process",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Create One-Time Vendor (OTV) with complete and valid information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt to create OTV with incomplete information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Validate OTV creation with invalid email address",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Create OTV with valid information, but without required attachments",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt to create OTV with country-specific attachment in unsupported format",
+        "priority": "Medium",
+        "type": "Exception",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier completes onboarding process successfully, and a new Supplier is created in Coupa SIM",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier attempts to create a new Supplier in Coupa SIM without completing the onboarding process",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier onboarding process fails due to missing required information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier onboarding process completes successfully, but the system fails to create a new Supplier in Coupa SIM",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier onboarding process is initiated with country-specific attachments for vendor onboarding and update processes",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Internal Supplier Registration Initiated by Business User",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Attempt Internal Supplier Registration with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Validate Internal Supplier Registration with Duplicate Information",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Attempt Internal Supplier Registration without Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Internal Supplier Registration with Country-Specific Attachments",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "External supplier updates via Coupa Supplier Portal (CSP) are successfully processed",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Attempt external supplier update via CSP with invalid credentials",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Verify that country-specific attachments are correctly handled for vendor onboarding and update processes",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Attempt external supplier update via CSP with unsupported country-specific attachment",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Verify that internal supplier registration initiated by business users follows the correct approval workflow",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Internal supplier update initiated by AECI user is successful",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Internal supplier update initiated by non-AECI user fails",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Internal supplier update with missing required fields fails",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Internal supplier update with invalid email format fails",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Internal supplier update with valid data is successfully saved",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-009",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Supplier is successfully deactivated with purchase block and payment block enabled",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Supplier is successfully reactivated with purchase block and payment block disabled",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Attempt to deactivate supplier with active purchase order",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Attempt to reactivate supplier with pending payment",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Validate supplier status change notification sent to approvers",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-010",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Procurement Approves Supplier Registration Request",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-011",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Finance Rejects Supplier Registration Request",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "General Accounting Approves Supplier Registration Request with Valid Attachments",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-011",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Master Data Rejects Supplier Registration Request with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Procurement Approves Supplier Registration Request with Country-Specific Attachments",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-011",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Create One-Time Vendor (OTV) with valid data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Attempt to create OTV with missing required data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Validate OTV creation with valid data",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Attempt to create OTV with invalid country-specific attachment",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Test country-specific attachment upload for vendor onboarding and update processes",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Create One-Time Vendor (OTV) with required data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-014",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Attempt to create OTV without required data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-014",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Validate OTV data format and completeness",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-014",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Create OTV with country-specific attachments for vendor onboarding",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-014",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Attempt to create OTV with invalid country-specific attachments",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-014",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Internal Supplier Registration with Complete and Valid Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Attempt Internal Supplier Registration with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Internal Supplier Registration with Invalid Email Address",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Internal Supplier Registration with Valid Information but Missing Country-Specific Attachment",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Internal Supplier Registration with Valid Information and Country-Specific Attachment in Unsupported Format",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Internal Supplier Registration with Valid Governance and Approval Controls",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Attempt Internal Supplier Registration with Missing Governance and Approval Controls",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Validate Internal Supplier Registration with Valid Governance and Approval Controls",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Attempt Internal Supplier Registration with Inactive Business User",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Internal Supplier Registration with Valid Governance and Approval Controls at Maximum Character Limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create One-Time Vendor (OTV) with valid data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Attempt to create OTV with missing required data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Validate OTV creation with invalid email format",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create OTV with valid data by a user without OTV creation permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create OTV with valid data at maximum allowed character limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Create OTV with Minimal Required Data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-018",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Attempt OTV Creation with Incomplete Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Validate OTV Data Format and Syntax",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-018",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "OTV Creation with Country-Specific Attachments",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-018",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "OTV Creation with Non-Supported Country Attachments",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Create OTV with Complete and Valid Data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-019",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Attempt OTV with Incomplete Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-019",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Validate OTV Data for Duplicate Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-019",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Attempt OTV with Invalid Country-Specific Attachment",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-019",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Test Approval Workflow for Internal Supplier Registration",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-019",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Create Supplier Onboarding Form (Form 2) with valid OTV process data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Attempt to create Supplier Onboarding Form (Form 2) with missing OTV process data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Validate OTV process data format in Supplier Onboarding Form (Form 2)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Attempt to create Supplier Onboarding Form (Form 2) with country-specific attachments for non-OTV process",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Validate country-specific attachments for OTV process in Supplier Onboarding Form (Form 2)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Create Supplier Onboarding Form (Form 2) with updated Section 3 (Banking Information) for OTV process",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-023",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Attempt to create Supplier Onboarding Form (Form 2) without Section 3 (Banking Information) for OTV process",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-023",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Validate that Section 3 (Banking Information) is updated correctly for OTV process",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-023",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Attempt to create Supplier Onboarding Form (Form 2) with invalid country-specific attachment for OTV process",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-023",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Validate that country-specific attachments are handled correctly for vendor onboarding and update processes",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-023",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Supplier Onboarding Form (Form 2) has Section 4 (Declaration) updated for the OTV process with valid data",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-024",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Attempt to update Supplier Onboarding Form (Form 2) with invalid data for OTV process",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-024",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Verify that country-specific attachments are handled correctly for vendor onboarding and update processes",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-024",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Test approval workflow for internal supplier registration initiated by business users",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-024",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Verify that language requirements are handled correctly for auto-translation of standard information on the user interface",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-024",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Create Supplier Onboarding Form with OTV process enabled",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-025",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Attempt to create Supplier Onboarding Form without OTV process enabled",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-025",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Validate OTV process enabled for Supplier Onboarding Form",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-025",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Attempt to create Supplier Onboarding Form with invalid OTV process data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-025",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Test country-specific attachments for vendor onboarding and update processes",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-025",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Create Supplier with Active Status and Verify Status Label",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-026",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Create Supplier with Inactive Status and Verify Status Label",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-026",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Attempt to Create Supplier with Invalid Status Label",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-026",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Verify that System Displays Country-Specific Attachments for Vendor Onboarding",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-026",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Verify that System Displays Country-Specific Attachments for Vendor Update",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-026",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Create Supplier with Active Coupa Supplier Portal (CSP) Status",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-027",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Attempt to Create Supplier with Inactive CSP Status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-027",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Validate Supplier CSP Status is Displayed Correctly",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-027",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Attempt to Create Supplier with Missing CSP Status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-027",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Create Supplier with CSP Status and Verify Approval Workflow",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-027",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Create One-Time Vendor (OTV) with country-specific attachments for vendor onboarding",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-028",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Attempt OTV creation without country-specific attachments",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-028",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Verify country-specific attachments are required for vendor update process",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-028",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Attempt to onboard vendor with invalid country-specific attachments",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-028",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Test approval workflow for internal supplier registration initiated by business users",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-028",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Create Supplier with Supported Language for Auto-Translation",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-029",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Attempt Supplier Creation with Unsupported Language",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-029",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Validate Auto-Translation of Standard Information on User Interface",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-029",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Attempt Supplier Creation with Missing Language Requirements",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-029",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Supplier Deactivation and Reactivation with Purchase Block and Payment Block",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-029",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "Buyer creates sourcing event for approved supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-030",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "Buyer attempts to create sourcing event for unapproved supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-030",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "Buyer creates sourcing event with missing supplier information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-030",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "Buyer creates sourcing event with invalid supplier status (e.g. pending, inactive)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-030",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "Buyer attempts to create sourcing event for supplier that was approved in the past but is no longer approved",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-030",
+        "module": "Sourcing"
+    },
+    {
+        "scenario_id": "SC-121",
+        "scenario": "Buyer creates a purchase requisition for an approved supplier with valid details.",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-031",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-121",
+        "scenario": "Buyer attempts to create a purchase requisition for an unapproved supplier.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-031",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-121",
+        "scenario": "Buyer creates a purchase requisition with missing supplier details.",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-031",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-121",
+        "scenario": "Buyer creates a purchase requisition with invalid supplier details (e.g., invalid email, phone number).",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-031",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-121",
+        "scenario": "Buyer attempts to create a purchase requisition with a supplier that has been deactivated.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-031",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-126",
+        "scenario": "Create Contract for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-032",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-126",
+        "scenario": "Attempt Contract Creation with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-032",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-126",
+        "scenario": "Validate Contract Approval Status for Approved Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-032",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-126",
+        "scenario": "Attempt Contract Approval for Unapproved Supplier",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-032",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-126",
+        "scenario": "Create Contract with Approver at Maximum Contract Threshold",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-032",
+        "module": "Contract Management"
+    },
+    {
+        "scenario_id": "SC-131",
+        "scenario": "Create Supplier with Complete Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-033",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-131",
+        "scenario": "Attempt to Create Supplier with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-033",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-131",
+        "scenario": "Validate Supplier Information for Accuracy",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-033",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-131",
+        "scenario": "Attempt to Update Supplier Information with Invalid Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-033",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-131",
+        "scenario": "Test Country-Specific Attachments for Vendor Onboarding",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-033",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-136",
+        "scenario": "Create Goods Receipt for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-035",
+        "module": "Receiving"
+    },
+    {
+        "scenario_id": "SC-136",
+        "scenario": "Attempt Goods Receipt with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-035",
+        "module": "Receiving"
+    },
+    {
+        "scenario_id": "SC-136",
+        "scenario": "Verify Goods Receipt for Approved Supplier with Valid Verification Code",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-035",
+        "module": "Receiving"
+    },
+    {
+        "scenario_id": "SC-136",
+        "scenario": "Verify Goods Receipt for Approved Supplier with Invalid Verification Code",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-035",
+        "module": "Receiving"
+    },
+    {
+        "scenario_id": "SC-136",
+        "scenario": "Create Goods Receipt for Approved Supplier with Maximum Allowed Quantity",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-035",
+        "module": "Receiving"
+    },
+    {
+        "scenario_id": "SC-141",
+        "scenario": "Create Purchase Order for Approved Supplier and Verify Spend Analytics Accurately Reflects the Purchase",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-036",
+        "module": "Spend Analytics"
+    },
+    {
+        "scenario_id": "SC-141",
+        "scenario": "Attempt Purchase Order with Inactive Supplier and Verify Spend Analytics Does Not Reflect the Purchase",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-036",
+        "module": "Spend Analytics"
+    },
+    {
+        "scenario_id": "SC-141",
+        "scenario": "Create Multiple Purchase Orders for Approved Supplier and Verify Spend Analytics Accurately Reflects Total Spend",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-036",
+        "module": "Spend Analytics"
+    },
+    {
+        "scenario_id": "SC-141",
+        "scenario": "Create Purchase Order with Approved Supplier but Incorrect Currency and Verify Spend Analytics Reflects Correct Currency",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-036",
+        "module": "Spend Analytics"
+    },
+    {
+        "scenario_id": "SC-141",
+        "scenario": "Attempt to Access Spend Analytics with Inactive User and Verify Access is Denied",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-036",
+        "module": "Spend Analytics"
+    },
+    {
+        "scenario_id": "SC-146",
+        "scenario": "Create Purchase Order with Approved Supplier and Receive AI Recommendation",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-037",
+        "module": "Community AI"
+    },
+    {
+        "scenario_id": "SC-146",
+        "scenario": "Attempt Purchase Order with Inactive Supplier and Verify AI Recommendation is Not Provided",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-037",
+        "module": "Community AI"
+    },
+    {
+        "scenario_id": "SC-146",
+        "scenario": "Verify AI Recommendation is Displayed for Approved Supplier with No Purchase History",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-037",
+        "module": "Community AI"
+    },
+    {
+        "scenario_id": "SC-146",
+        "scenario": "Verify AI Recommendation is Not Displayed for Inactive Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-037",
+        "module": "Community AI"
+    },
+    {
+        "scenario_id": "SC-146",
+        "scenario": "Create Purchase Order with Approved Supplier and Verify AI Recommendation is Displayed for First Purchase",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-037",
+        "module": "Community AI"
+    },
+    {
+        "scenario_id": "SC-151",
+        "scenario": "Create Contingent Worker for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-039",
+        "module": "Contingent Workforce"
+    },
+    {
+        "scenario_id": "SC-151",
+        "scenario": "Attempt to Create Contingent Worker for Unapproved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-039",
+        "module": "Contingent Workforce"
+    },
+    {
+        "scenario_id": "SC-151",
+        "scenario": "Validate Contingent Worker Details (Name, Email, Phone Number)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-039",
+        "module": "Contingent Workforce"
+    },
+    {
+        "scenario_id": "SC-151",
+        "scenario": "Create Contingent Worker with Maximum Allowed Characters in Name",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-039",
+        "module": "Contingent Workforce"
+    },
+    {
+        "scenario_id": "SC-151",
+        "scenario": "Attempt to Create Contingent Worker with Invalid Email Format",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-039",
+        "module": "Contingent Workforce"
+    },
+    {
+        "scenario_id": "SC-156",
+        "scenario": "Create ESG and Compliance Profile for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-040",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-156",
+        "scenario": "Attempt to Create ESG and Compliance Profile for Unapproved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-040",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-156",
+        "scenario": "Validate ESG and Compliance Profile for Approved Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-040",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-156",
+        "scenario": "Create ESG and Compliance Profile for Approved Supplier with Maximum Allowed Fields",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-040",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-156",
+        "scenario": "Attempt to Create ESG and Compliance Profile for Approved Supplier with Invalid Data",
+        "priority": "High",
+        "type": "Exception",
+        "requirement_id": "REQ-040",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-161",
+        "scenario": "Create Purchase Order for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-041",
+        "module": "Fraud Detection"
+    },
+    {
+        "scenario_id": "SC-161",
+        "scenario": "Attempt Purchase Order with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-041",
+        "module": "Fraud Detection"
+    },
+    {
+        "scenario_id": "SC-161",
+        "scenario": "Create Purchase Order for Approved Supplier with Valid Payment Terms",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-041",
+        "module": "Fraud Detection"
+    },
+    {
+        "scenario_id": "SC-161",
+        "scenario": "Attempt Purchase Order with Approved Supplier but Invalid Payment Terms",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-041",
+        "module": "Fraud Detection"
+    },
+    {
+        "scenario_id": "SC-161",
+        "scenario": "Create Purchase Order for Approved Supplier with Valid Payment Terms and Validate Payment Terms",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-041",
+        "module": "Fraud Detection"
+    }
+]

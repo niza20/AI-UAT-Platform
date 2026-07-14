@@ -1,0 +1,23 @@
+{
+    "coverage": 50,
+    "covered_requirements": 10,
+    "missing_requirements": 10,
+    "priority_summary": {
+        "High": 73,
+        "Medium": 24,
+        "Low": 24
+    },
+    "module_summary": {
+        "Supplier Onboarding": 45,
+        "Supplier Information Management": 15,
+        "Supplier Management": 5,
+        "Supplier Status Management": 10,
+        "Approval Workflows": 6,
+        "Integration": 9,
+        "One-Time Vendor": 5,
+        "Coupa Supplier Portal": 5,
+        "Geographical Process Deviations": 11,
+        "Language Requirements": 5,
+        "System Configuration": 5
+    }
+}

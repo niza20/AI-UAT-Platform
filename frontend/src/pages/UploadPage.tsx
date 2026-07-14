@@ -1,363 +1,321 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
 import api from "../services/api";
 
-function UploadPage() {
-  const navigate = useNavigate();
+import Layout from "../components/Layout";
+import UploadCard from "../components/UploadCard";
+import StatCard from "../components/StatCard";
+import ProgressCard from "../components/ProgressCard";
+import RecentProjectCard from "../components/RecentProjectCard";
 
-  const [file, setFile] = useState<File | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [stage, setStage] = useState("");
+export default function UploadPage() {
 
-  // NEW
-  const [projects, setProjects] = useState<any[]>([]);
-  const [loadingProjects, setLoadingProjects] = useState(true);
+    console.log("✅ UploadPage rendered");
+    console.log("🔥 UploadPage rendered");
 
-  useEffect(() => {
-    loadProjects();
-  }, []);
+    const navigate = useNavigate();
 
-  async function loadProjects() {
-    try {
-      const res = await api.get("/projects");
-      setProjects(res.data);
-    } catch (err) {
-      console.error(err);
-    } finally {
-      setLoadingProjects(false);
-    }
-  }
+    const [file, setFile] = useState<File | null>(null);
 
-  async function openProject(projectId: string) {
-    try {
-      const res = await api.get(`/projects/${projectId}`);
+    const [loading, setLoading] = useState(false);
 
-      localStorage.setItem(
-        "uat_result",
-        JSON.stringify(res.data)
-      );
+    const [stage, setStage] = useState("");
 
-      navigate("/dashboard");
+    const [projects, setProjects] = useState<any[]>([]);
 
-    } catch (err) {
-      console.error(err);
-      alert("Unable to open project.");
-    }
-  }
+    const [loadingProjects, setLoadingProjects] = useState(true);
 
-  const uploadBRD = async () => {
+    useEffect(() => {
+        console.log("✅ useEffect running");
+        console.log("🔥 useEffect running");
+        loadProjects();
+    }, []);
 
-    if (!file) {
-      alert("Please select a BRD");
-      return;
-    }
+    async function loadProjects() {
 
-    const formData = new FormData();
-    formData.append("file", file);
+        console.log("✅ loadProjects called");
+        console.log("🔥 loadProjects called");
 
-    setLoading(true);
-    setStage("Uploading BRD...");
+        try {
 
-    try {
+            console.log("📡 Calling /projects...");
 
-      setTimeout(
-        () => setStage("Parsing Document..."),
-        500
-      );
+            const res = await api.get("/projects");
 
-      setTimeout(
-        () => setStage("Extracting Requirements..."),
-        1200
-      );
+            console.log("📦 Response:", res.data);
 
-      setTimeout(
-        () => setStage("Generating Questions..."),
-        2200
-      );
+            setProjects(res.data);
 
-      setTimeout(
-        () => setStage("Generating Test Cases..."),
-        3400
-      );
+        } catch (err) {
 
-      setTimeout(
-        () => setStage("Preparing Dashboard..."),
-        4700
-      );
+            console.error("❌ Error:", err);
 
-      const response = await api.post(
-        "/upload",
-        formData
-      );
+        } finally {
 
-      localStorage.setItem(
-        "uat_result",
-        JSON.stringify(response.data)
-      );
+            console.log("🏁 Finished");
 
-      navigate("/dashboard");
+            setLoadingProjects(false);
 
-    } catch (err) {
-
-      console.error(err);
-
-      alert("Upload failed.");
-
-    } finally {
-
-      setLoading(false);
-      setStage("");
-
-      // refresh project list
-      loadProjects();
+        }
 
     }
-  };
 
-  return (
+    async function openProject(projectId: string) {
 
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-blue-50 to-indigo-100 p-10">
+        try {
 
-      <div className="max-w-7xl mx-auto">
+            const res = await api.get(`/projects/${projectId}`);
 
-        {/* Header */}
+            localStorage.setItem(
 
-        <div className="text-center">
+                "uat_result",
 
-          <div className="text-6xl">
-            🤖
-          </div>
+                JSON.stringify(res.data)
 
-          <h1 className="text-5xl font-bold mt-3">
-            AI UAT Platform
-          </h1>
+            );
 
-          <p className="text-gray-500 mt-3 text-lg">
-            Enterprise AI Powered Test Case Generator
-          </p>
+            navigate("/dashboard");
 
-        </div>
+        }
 
-        {/* Upload Box */}
+        catch (err) {
 
-        <div className="bg-white rounded-3xl shadow-xl mt-10 p-10">
+            console.error(err);
 
-          <div className="border-2 border-dashed border-blue-400 rounded-2xl bg-blue-50 p-10 text-center">
+            alert("Unable to open project.");
 
-            <div className="text-6xl">
-              📄
-            </div>
+        }
 
-            <h2 className="text-2xl font-bold mt-4">
-              Upload Business Requirement Document
-            </h2>
+    }
 
-            <p className="text-gray-500 mt-2">
-              PDF / DOC / DOCX
-            </p>
+    async function uploadBRD() {
 
-            <input
-              type="file"
-              accept=".pdf,.doc,.docx"
-              className="mt-8 block w-full border rounded-lg p-3 bg-white"
-              onChange={(e) => {
+        if (!file) {
 
-                if (
-                  e.target.files &&
-                  e.target.files.length > 0
-                ) {
+            alert("Please select a BRD");
 
-                  setFile(e.target.files[0]);
+            return;
 
-                }
+        }
 
-              }}
-            />
+        const formData = new FormData();
 
-            {file && (
+        formData.append("file", file);
 
-              <div className="bg-green-50 rounded-xl mt-6 p-4">
+        setLoading(true);
 
-                <div className="font-semibold text-green-700">
+        setStage("Uploading BRD");
 
-                  ✅ {file.name}
+        try {
 
-                </div>
+            setTimeout(() => setStage("Parsing Document"), 600);
 
-                <div className="text-gray-500 text-sm">
+            setTimeout(() => setStage("Extracting Requirements"), 1500);
 
-                  Ready for AI Processing
+            setTimeout(() => setStage("Generating Questions"), 2500);
 
-                </div>
+            setTimeout(() => setStage("Generating Test Cases"), 3800);
 
-              </div>
+            setTimeout(() => setStage("Preparing Dashboard"), 5200);
 
-            )}
+            const uploadResponse = await api.post(
+                "/upload",
+                formData
+            );
 
-            {loading && (
+            // Get project ID returned by upload
+            const projectId = uploadResponse.data.project_id;
 
-              <div className="mt-8">
+            // Fetch complete project data
+            const projectResponse = await api.get(
+                `/projects/${projectId}`
+            );
 
-                <div className="flex justify-between">
+            // Save complete workflow result
+            localStorage.setItem(
+                "uat_result",
+                JSON.stringify(projectResponse.data)
+            );
 
-                  <span>{stage}</span>
+            // Open dashboard
+            navigate("/dashboard");
 
-                  <span>AI Working...</span>
+        }
 
-                </div>
+        catch (err) {
 
-                <div className="bg-gray-200 h-3 rounded-full mt-3 overflow-hidden">
+            console.error(err);
 
-                  <div className="bg-blue-600 h-3 w-full animate-pulse"></div>
+            alert("Upload failed.");
 
-                </div>
+        }
 
-              </div>
+        finally {
 
-            )}
+            setLoading(false);
 
-            <button
-              onClick={uploadBRD}
-              disabled={loading}
-              className="mt-8 w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-xl py-4 text-lg font-bold"
-            >
-              {loading
-                ? "AI Processing..."
-                : "🚀 Generate AI Test Cases"}
-            </button>
+            setStage("");
+
+            loadProjects();
+
+        }
+
+    }    
+    return (
+
+      <Layout
+          title="AI UAT Platform"
+          subtitle="Enterprise AI Powered User Acceptance Testing"
+      >
+
+          {/* Top Statistics */}
+
+          <div className="grid grid-cols-4 gap-6 mb-8">
+
+              <StatCard
+                  title="Projects"
+                  value={projects.length}
+              />
+
+              <StatCard
+                  title="Requirements"
+                  value="AI"
+                  color="text-purple-600"
+              />
+
+              <StatCard
+                  title="Test Cases"
+                  value="Auto"
+                  color="text-green-600"
+              />
+
+              <StatCard
+                  title="Coverage"
+                  value="100%"
+                  color="text-orange-600"
+              />
 
           </div>
 
-        </div>
+          {/* Main Section */}
 
-        {/* Recent Projects */}
-        <div className="mt-10">
+          <div className="grid grid-cols-3 gap-8">
 
-<div className="flex justify-between items-center mb-6">
+              {/* Left Side */}
 
-  <h2 className="text-3xl font-bold">
-    📂 Recent Projects
-  </h2>
+              <div className="col-span-2">
 
-  <span className="text-gray-500">
-    {projects.length} Project(s)
-  </span>
+                  <UploadCard
+                      file={file}
+                      loading={loading}
+                      stage={stage}
+                      onSelect={setFile}
+                      onUpload={uploadBRD}
+                  />
 
-</div>
+              </div>
 
-{loadingProjects ? (
+              {/* Right Side */}
 
-  <div className="bg-white rounded-2xl shadow p-10 text-center">
+              <div>
+
+                  <ProgressCard
+                      loading={loading}
+                      stage={stage}
+                  />
+
+              </div>
+
+          </div>
+
+          {/* Recent Projects */}
+
+          <div className="mt-12">
+
+              <div className="flex justify-between items-center mb-6">
+
+                  <div>
+
+                      <h2 className="text-2xl font-bold">
+
+                          Recent Projects
+
+                      </h2>
+
+                      <p className="text-slate-500">
+
+                          Open previous AI UAT analyses
+
+                      </p>
+
+                  </div>
+
+                  <span className="text-sm text-slate-500">
+
+                      {projects.length} Project(s)
+
+                  </span>
+
+              </div>
+              {loadingProjects ? (
+
+<div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-12 text-center">
 
     <div className="text-5xl mb-4">
-      ⏳
+        ⏳
     </div>
 
     <h3 className="text-xl font-semibold">
-      Loading Projects...
+        Loading Projects...
     </h3>
 
-  </div>
+</div>
 
 ) : projects.length === 0 ? (
 
-  <div className="bg-white rounded-2xl shadow p-10 text-center">
+<div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-12 text-center">
 
     <div className="text-6xl mb-4">
-      📄
+        📂
     </div>
 
     <h3 className="text-2xl font-bold">
-      No Projects Yet
+
+        No Projects Yet
+
     </h3>
 
-    <p className="text-gray-500 mt-3">
-      Upload your first BRD to start generating AI test cases.
+    <p className="text-slate-500 mt-3">
+
+        Upload your first BRD to start generating AI-powered UAT documentation.
+
     </p>
 
-  </div>
+</div>
 
 ) : (
 
-  <div className="grid grid-cols-2 gap-6">
+<div className="grid grid-cols-3 gap-6">
 
     {projects.map((project) => (
 
-      <div
-        key={project.project_id}
-        className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-6 border border-gray-100"
-      >
-
-        <div className="flex justify-between items-start">
-
-          <div>
-
-            <div className="text-2xl font-bold text-blue-700">
-
-              {project.project_id}
-
-            </div>
-
-            <div className="mt-2 text-lg font-semibold">
-
-              {project.file_name}
-
-            </div>
-
-          </div>
-
-          <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">
-
-            {project.status}
-
-          </span>
-
-        </div>
-
-        <div className="mt-5 text-gray-500">
-
-          Created
-
-          <div className="font-medium text-gray-700 mt-1">
-
-            {new Date(
-              project.created_at
-            ).toLocaleString()}
-
-          </div>
-
-        </div>
-
-        <button
-
-          onClick={() =>
-            openProject(project.project_id)
-          }
-
-          className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white rounded-xl py-3 font-semibold"
-
-        >
-
-          📂 Open Project
-
-        </button>
-
-      </div>
+        <RecentProjectCard
+            key={project.project_id}
+            project={project}
+            onOpen={openProject}
+        />
 
     ))}
 
-  </div>
+</div>
 
 )}
 
 </div>
 
-</div>
-
-</div>
+</Layout>
 
 );
 
 }
-
-export default UploadPage;

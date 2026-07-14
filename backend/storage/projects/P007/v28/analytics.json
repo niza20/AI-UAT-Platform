@@ -1,0 +1,16 @@
+{
+    "summary": {
+        "requirements": 19,
+        "testcases": 95,
+        "covered": 19,
+        "missing": 0,
+        "coverage": 100.0
+    },
+    "modules": {
+        "Source-to-Contract (S2C)": 95
+    },
+    "priorities": {
+        "High": 51,
+        "Medium": 44
+    }
+}

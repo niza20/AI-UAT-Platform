@@ -1,0 +1,238 @@
+[
+    {
+        "requirement_id": "REQ-001",
+        "module": "Sourcing Management",
+        "requirement": "Buyer can create a sourcing event (RFI, RFQ, RFP, Auction) for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005",
+            "TC-006",
+            "TC-007",
+            "TC-035",
+            "TC-036",
+            "TC-037",
+            "TC-038",
+            "TC-039"
+        ],
+        "testcase_count": 12
+    },
+    {
+        "requirement_id": "REQ-002",
+        "module": "Sourcing Management",
+        "requirement": "Supplier can participate in sourcing events via email and the Coupa Supplier Portal (CSP).",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-008",
+            "TC-009",
+            "TC-010",
+            "TC-011",
+            "TC-012",
+            "TC-040",
+            "TC-041",
+            "TC-042",
+            "TC-043",
+            "TC-044"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Management",
+        "requirement": "Sourcing events can be configured with timelines, evaluations, scoring, and award decisions.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-013",
+            "TC-014",
+            "TC-015",
+            "TC-016",
+            "TC-017",
+            "TC-018",
+            "TC-045",
+            "TC-046",
+            "TC-047",
+            "TC-048",
+            "TC-049"
+        ],
+        "testcase_count": 11
+    },
+    {
+        "requirement_id": "REQ-004",
+        "module": "Sourcing Management",
+        "requirement": "Approval workflows are aligned with Limits of Authority (DOA / LOA) for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-019",
+            "TC-020",
+            "TC-021",
+            "TC-022",
+            "TC-023",
+            "TC-050",
+            "TC-051",
+            "TC-052",
+            "TC-053",
+            "TC-054"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-005",
+        "module": "Sourcing Management",
+        "requirement": "Savings tracking (planned, negotiated, cost avoidance) is supported for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-024",
+            "TC-025",
+            "TC-026",
+            "TC-027",
+            "TC-028",
+            "TC-029",
+            "TC-055",
+            "TC-056",
+            "TC-057",
+            "TC-058",
+            "TC-059"
+        ],
+        "testcase_count": 11
+    },
+    {
+        "requirement_id": "REQ-006",
+        "module": "Reporting",
+        "requirement": "Advanced reporting capabilities are available for sourcing events, supplier performance, and spend data.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-030",
+            "TC-031",
+            "TC-032",
+            "TC-033",
+            "TC-034",
+            "TC-060",
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-064"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-001",
+        "module": "Strategic Sourcing",
+        "requirement": "Category Managers/Procurement team can initiate and manage strategic sourcing activities for centre-managed commodities and services.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005",
+            "TC-006",
+            "TC-007",
+            "TC-035",
+            "TC-036",
+            "TC-037",
+            "TC-038",
+            "TC-039"
+        ],
+        "testcase_count": 12
+    },
+    {
+        "requirement_id": "REQ-002",
+        "module": "Operational Sourcing",
+        "requirement": "Buyers can create purchase requests that can be 'flipped' into sourcing events for operational sourcing.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-008",
+            "TC-009",
+            "TC-010",
+            "TC-011",
+            "TC-012",
+            "TC-040",
+            "TC-041",
+            "TC-042",
+            "TC-043",
+            "TC-044"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-003",
+        "module": "Sourcing Events",
+        "requirement": "Users can conduct RFx (RFI, RFP, RFQ) and auctions (English reverse auction, Dutch reverse auction, Japanese reverse auction) in Coupa sourcing module.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-013",
+            "TC-014",
+            "TC-015",
+            "TC-016",
+            "TC-017",
+            "TC-018",
+            "TC-045",
+            "TC-046",
+            "TC-047",
+            "TC-048",
+            "TC-049"
+        ],
+        "testcase_count": 11
+    },
+    {
+        "requirement_id": "REQ-004",
+        "module": "Auctions",
+        "requirement": "Users can leverage three distinct types of reverse auctions in Coupa, each designed to align with specific sourcing objectives and supplier engagement models.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-019",
+            "TC-020",
+            "TC-021",
+            "TC-022",
+            "TC-023",
+            "TC-050",
+            "TC-051",
+            "TC-052",
+            "TC-053",
+            "TC-054"
+        ],
+        "testcase_count": 10
+    },
+    {
+        "requirement_id": "REQ-005",
+        "module": "Savings Definition Sourcing",
+        "requirement": "Savings definition sourcing is supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-024",
+            "TC-025",
+            "TC-026",
+            "TC-027",
+            "TC-028",
+            "TC-029",
+            "TC-055",
+            "TC-056",
+            "TC-057",
+            "TC-058",
+            "TC-059"
+        ],
+        "testcase_count": 11
+    },
+    {
+        "requirement_id": "REQ-006",
+        "module": "Sourcing Settings and Configurations",
+        "requirement": "Coupa allows customizable sourcing settings and configurations for Procurement Admin (Buyer) side.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-030",
+            "TC-031",
+            "TC-032",
+            "TC-033",
+            "TC-034",
+            "TC-060",
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-064"
+        ],
+        "testcase_count": 10
+    }
+]

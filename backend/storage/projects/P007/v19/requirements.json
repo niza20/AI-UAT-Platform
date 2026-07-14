@@ -1,0 +1,114 @@
+[
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the supplier onboarding process by providing basic supplier information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process undergoes internal approval workflow.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approved supplier receives invitation to register with AECI and complete due diligence steps.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurate and current.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier certifications and contact information are visible.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Multiple channels of managing supplier information are eliminated.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Supplier Creation and Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier is created in Coupa only after completing the onboarding process.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Supplier Status Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Supplier status can be managed, including purchase block, payment block, deactivation, and reactivation.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can register new suppliers in Coupa for urgent or business-critical situations, adhering to governance and approval controls.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can update existing supplier information in Coupa, following the same approval workflow as new supplier registration.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can change the status of a supplier in Coupa, including blocking purchase orders or payments, deactivating, or reactivating the supplier.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "One-Time Vendor",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can create a one-time vendor in Coupa with a simplified approval flow and reduced data requirements, while ensuring basic compliance and procurement controls.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Coupa Supplier Portal",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can view the status of each supplier in Coupa, including the supplier record status and Coupa Supplier Portal status.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Geography-Specific Requirements",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The system will display geography-specific field requirements and attachments based on the selected country for the supplier.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Language Support",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The system will support auto-translation of standard information on the user interface for multiple languages, and allow for custom translation configuration.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Acknowledgment and Signature",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Process owners and document reviewers can acknowledge and sign the document.",
+        "requirement_id": "REQ-001"
+    }
+]

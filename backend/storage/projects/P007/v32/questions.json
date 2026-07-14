@@ -1,0 +1,62 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining a supplier as 'internal' for registration in Coupa?",
+        "reason": "Ambiguity in internal supplier registration criteria",
+        "options": [
+            "Supplier type",
+            "Urgency of transaction",
+            "Business constraints",
+            "All of the above"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle supplier self-service updates when there are conflicting changes made by the buyer?",
+        "reason": "Ambiguity in supplier self-service update conflict resolution",
+        "options": [
+            "Buyer's changes override supplier's changes",
+            "Supplier's changes override buyer's changes",
+            "System administrator must resolve conflicts",
+            "System automatically merges changes"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for notifying suppliers of updates and changes made by the buyer or system administrator?",
+        "reason": "Ambiguity in supplier notification process",
+        "options": [
+            "Email notification only",
+            "In-app notification only",
+            "Both email and in-app notification",
+            "No notification is sent"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system ensure data accuracy, completeness, and consistency of supplier master data across Coupa and SAP?",
+        "reason": "Ambiguity in data synchronization process",
+        "options": [
+            "Real-time data synchronization",
+            "Scheduled data synchronization",
+            "Manual data synchronization",
+            "No data synchronization"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for handling supplier registration for One-Time Vendor (OTV) process?",
+        "reason": "Ambiguity in OTV supplier registration process",
+        "options": [
+            "Same as internal supplier registration",
+            "Different approval channels",
+            "Streamlined approval process",
+            "No approval required"
+        ],
+        "module": "Supplier Information Management (SIM)"
+    }
+]

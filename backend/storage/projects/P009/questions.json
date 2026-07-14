@@ -1,0 +1,57 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the trigger for the internal approval workflow in REQ-002?",
+        "reason": "Approval trigger missing",
+        "options": [
+            "Supplier onboarding initiation",
+            "Supplier registration",
+            "Supplier information update",
+            "Supplier status change"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "What is the purpose of the simplified approval flow in REQ-005?",
+        "reason": "Approval flow purpose missing",
+        "options": [
+            "Reduced data requirements for one-time vendors",
+            "Faster approval process for one-time vendors",
+            "Automated approval for one-time vendors",
+            "No approval required for one-time vendors"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "What is the scope of the auto-translation feature in REQ-007?",
+        "reason": "Auto-translation scope missing",
+        "options": [
+            "Only standard information on the user interface",
+            "All information on the user interface",
+            "Only supplier information on the user interface",
+            "Only internal user information on the user interface"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "What is the impact of extending the supplier onboarding process in REQ-004?",
+        "reason": "Extension impact missing",
+        "options": [
+            "No impact on supplier onboarding process",
+            "Delayed supplier onboarding process",
+            "Additional approval steps required",
+            "Reduced data requirements for suppliers"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "What is the relationship between Coupa Supplier Portal (CSP) status and supplier status in REQ-006?",
+        "reason": "CSP status relationship missing",
+        "options": [
+            "CSP status is a subset of supplier status",
+            "CSP status is a superset of supplier status",
+            "CSP status is independent of supplier status",
+            "CSP status is a duplicate of supplier status"
+        ]
+    }
+]

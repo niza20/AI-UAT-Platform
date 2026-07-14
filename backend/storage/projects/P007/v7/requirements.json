@@ -1,0 +1,100 @@
+[
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the supplier onboarding process by providing basic supplier information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal approval workflow is triggered after buyer initiates the supplier onboarding process.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier receives an invitation to register with AECI and complete due diligence steps after internal approval.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurate and current.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Visibility to certifications and contact information is provided.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Multiple channels of managing information are eliminated.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier participation is facilitated.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Supplier Creation and Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier is created in Coupa only after completing the onboarding process.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can register a new supplier in Coupa for urgent or business-critical situations, adhering to governance and approval controls.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyers can create a purchase order for approved suppliers.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Suppliers can be updated with new information in Coupa, including changes to their status.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "The One-Time Vendor (OTV) process enables faster vendor creation with a simplified approval flow and reduced data requirements for suppliers engaged for a single or non-recurring transaction.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Management",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa supports auto-translation of standard information on the user interface for internal users and suppliers in multiple languages.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Acknowledgment and Signature",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "Process owners and document reviewers can acknowledge and sign the document.",
+        "requirement_id": "REQ-001"
+    }
+]

@@ -1,0 +1,1666 @@
+[
+    {
+        "requirement_id": "REQ-001",
+        "module": "General",
+        "requirement": "Buyer can create a sourcing event for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-001",
+            "TC-002",
+            "TC-003",
+            "TC-004",
+            "TC-005"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-002",
+        "module": "General",
+        "requirement": "Buyer can manage and automate the sourcing event lifecycle, including notifications and workflows.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-006",
+            "TC-007",
+            "TC-008",
+            "TC-009",
+            "TC-010"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-003",
+        "module": "General",
+        "requirement": "Supplier can collaborate with the buyer in real-time through the platform.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-011",
+            "TC-012",
+            "TC-013",
+            "TC-014",
+            "TC-015"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-004",
+        "module": "General",
+        "requirement": "Buyer can evaluate and award contracts to suppliers based on a structured and user-friendly interface.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-016",
+            "TC-017",
+            "TC-018",
+            "TC-019",
+            "TC-020"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-005",
+        "module": "General",
+        "requirement": "Buyer can manage and track sourcing events, including RFIs, RFQs, and RFPs.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-021",
+            "TC-022",
+            "TC-023",
+            "TC-024",
+            "TC-025"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-006",
+        "module": "General",
+        "requirement": "Buyer can customize templates for sourcing events to promote consistency and reduce setup time.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-026",
+            "TC-027",
+            "TC-028",
+            "TC-029",
+            "TC-030"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-007",
+        "module": "General",
+        "requirement": "Buyer can track and manage supplier responses and bids throughout the sourcing event lifecycle.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-031",
+            "TC-032",
+            "TC-033",
+            "TC-034",
+            "TC-035"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-008",
+        "module": "General",
+        "requirement": "Buyer can analyze and compare supplier responses and bids to make informed decisions.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-036",
+            "TC-037",
+            "TC-038",
+            "TC-039",
+            "TC-040"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-009",
+        "module": "General",
+        "requirement": "Buyer can award contracts to suppliers based on a structured and user-friendly interface.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-041",
+            "TC-042",
+            "TC-043",
+            "TC-044",
+            "TC-045"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-010",
+        "module": "General",
+        "requirement": "Buyer can track and manage contract awards and supplier performance.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-046",
+            "TC-047",
+            "TC-048",
+            "TC-049",
+            "TC-050"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-011",
+        "module": "General",
+        "requirement": "Buyer can initiate a sourcing request form with required information.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-051",
+            "TC-052",
+            "TC-053",
+            "TC-054",
+            "TC-055"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-012",
+        "module": "General",
+        "requirement": "Supplier can participate and respond to sourcing events via email.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-056",
+            "TC-057",
+            "TC-058",
+            "TC-059",
+            "TC-060"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-013",
+        "module": "General",
+        "requirement": "Evaluators can manually collate and evaluate supplier responses in a spreadsheet.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-061",
+            "TC-062",
+            "TC-063",
+            "TC-064",
+            "TC-065"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-014",
+        "module": "General",
+        "requirement": "Procurement buyer can review and approve comparative schedules.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-066",
+            "TC-067",
+            "TC-068",
+            "TC-069",
+            "TC-070"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-015",
+        "module": "General",
+        "requirement": "New suppliers can be onboarded by procurement buyer.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-071",
+            "TC-072",
+            "TC-073",
+            "TC-074",
+            "TC-075"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-016",
+        "module": "General",
+        "requirement": "Supplier can be awarded by procurement buyer.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-076",
+            "TC-077",
+            "TC-078",
+            "TC-079",
+            "TC-080"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-017",
+        "module": "General",
+        "requirement": "Users can conduct RFx (RFI, RFP, RFQ) and auctions (English reverse auction, Dutch reverse auction, Japanese reverse auction) events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-081",
+            "TC-082",
+            "TC-083",
+            "TC-084",
+            "TC-085"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-018",
+        "module": "General",
+        "requirement": "Advanced reporting capabilities offer actionable insights into sourcing events, supplier performance, and spend data.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-086",
+            "TC-087",
+            "TC-088",
+            "TC-089",
+            "TC-090"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-019",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a sourcing event from scratch, using a template, or copying from a previous event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-091",
+            "TC-092",
+            "TC-093",
+            "TC-094",
+            "TC-095"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-020",
+        "module": "General",
+        "requirement": "Procurement Buyer can configure event settings, including event name, currency, terms and conditions, and sourcing team.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-096",
+            "TC-097",
+            "TC-098",
+            "TC-099",
+            "TC-100"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-021",
+        "module": "General",
+        "requirement": "Procurement Buyer can add suppliers to the sourcing event and set evaluations.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-101",
+            "TC-102",
+            "TC-103",
+            "TC-104",
+            "TC-105"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-022",
+        "module": "General",
+        "requirement": "Procurement Buyer can view and manage event timelines, details, and settings.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-106",
+            "TC-107",
+            "TC-108",
+            "TC-109",
+            "TC-110"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-023",
+        "module": "General",
+        "requirement": "Procurement Buyer can select the type of sourcing event, including RFx stage, allow multiple responses, hide supplier responses, and allow suppliers to respond with attachments.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-111",
+            "TC-112",
+            "TC-113",
+            "TC-114",
+            "TC-115"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-024",
+        "module": "General",
+        "requirement": "Procurement Buyer can attach terms and conditions or other relevant documents to the sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-116",
+            "TC-117",
+            "TC-118",
+            "TC-119",
+            "TC-120"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-025",
+        "module": "General",
+        "requirement": "Procurement Buyer can track cost avoidance and planned savings for the sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-121",
+            "TC-122",
+            "TC-123",
+            "TC-124",
+            "TC-125"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-026",
+        "module": "General",
+        "requirement": "Procurement Buyer can create and manage sourcing events, including adding event owners, watchers, and evaluators.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-126",
+            "TC-127",
+            "TC-128",
+            "TC-129",
+            "TC-130"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-027",
+        "module": "General",
+        "requirement": "Procurement Buyer can configure event details, including timelines, attachments, and forms.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-028",
+        "module": "General",
+        "requirement": "Procurement Buyer can add and manage items, including quantity, price, and specifications.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-131",
+            "TC-132",
+            "TC-133",
+            "TC-134",
+            "TC-135"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-029",
+        "module": "General",
+        "requirement": "Procurement Buyer can add and invite suppliers to sourcing events, including selecting from existing suppliers or adding new ones.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-030",
+        "module": "General",
+        "requirement": "Procurement Buyer can add and manage evaluators for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-136",
+            "TC-137",
+            "TC-138",
+            "TC-139",
+            "TC-140"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-031",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a sourcing event with evaluation criteria and weights.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-141",
+            "TC-142",
+            "TC-143",
+            "TC-144",
+            "TC-145"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-032",
+        "module": "General",
+        "requirement": "Procurement Buyer can assign evaluators for technical and commercial evaluations.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-146",
+            "TC-147",
+            "TC-148",
+            "TC-149",
+            "TC-150"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-033",
+        "module": "General",
+        "requirement": "Procurement Buyer can launch a sourcing event and make it visible to suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-151",
+            "TC-152",
+            "TC-153",
+            "TC-154",
+            "TC-155"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-034",
+        "module": "General",
+        "requirement": "Suppliers receive an invitation email with a link to the login page and system-generated OTP.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-156",
+            "TC-157",
+            "TC-158",
+            "TC-159",
+            "TC-160"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-035",
+        "module": "General",
+        "requirement": "Suppliers must accept T&C before participating in the event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-161",
+            "TC-162",
+            "TC-163",
+            "TC-164",
+            "TC-165"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-036",
+        "module": "General",
+        "requirement": "Suppliers can access and participate in the event after accepting T&C.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-166",
+            "TC-167",
+            "TC-168",
+            "TC-169",
+            "TC-170"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-037",
+        "module": "General",
+        "requirement": "Suppliers can resolve queries via the chat window.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-171",
+            "TC-172",
+            "TC-173",
+            "TC-174",
+            "TC-175"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-038",
+        "module": "General",
+        "requirement": "Procurement Buyer can communicate with suppliers via the Messages Centre.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-176",
+            "TC-177",
+            "TC-178",
+            "TC-179",
+            "TC-180"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-039",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a purchase order for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-181",
+            "TC-182",
+            "TC-183",
+            "TC-184",
+            "TC-185"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-040",
+        "module": "General",
+        "requirement": "Supplier can submit their responses to the event, including mandatory information.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-186",
+            "TC-187",
+            "TC-188",
+            "TC-189",
+            "TC-190"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-041",
+        "module": "General",
+        "requirement": "Procurement Buyer can view the list of suppliers who were invited to the event and the ones who have responded.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-191",
+            "TC-192",
+            "TC-193",
+            "TC-194",
+            "TC-195"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-042",
+        "module": "General",
+        "requirement": "Procurement Buyer can send email reminders to suppliers and extend the timeline of the bid.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-196",
+            "TC-197",
+            "TC-198",
+            "TC-199",
+            "TC-200"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-043",
+        "module": "General",
+        "requirement": "Event can be auto-closed or manually ended by Procurement Buyer, after which the bidding closes and the event gets sealed.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-201",
+            "TC-202",
+            "TC-203",
+            "TC-204",
+            "TC-205"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-044",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a follow-up event for further negotiations with the supplier.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-206",
+            "TC-207",
+            "TC-208",
+            "TC-209",
+            "TC-210"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-045",
+        "module": "General",
+        "requirement": "Evaluation process starts once responses are submitted, and Procurement Buyer can request internal users for evaluation.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-211",
+            "TC-212",
+            "TC-213",
+            "TC-214",
+            "TC-215"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-046",
+        "module": "General",
+        "requirement": "Procurement Buyer can review and evaluate responses accordingly, and finalize the supplier to be awarded based on the supplier responses.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-216",
+            "TC-217",
+            "TC-218",
+            "TC-219",
+            "TC-220"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-047",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a sourcing event for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-221",
+            "TC-222",
+            "TC-223",
+            "TC-224",
+            "TC-225"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-048",
+        "module": "General",
+        "requirement": "Evaluators can add their scores and evaluations for a sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-226",
+            "TC-227",
+            "TC-228",
+            "TC-229",
+            "TC-230"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-049",
+        "module": "General",
+        "requirement": "Procurement Buyer can review evaluator's evaluations for a sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-231",
+            "TC-232",
+            "TC-233",
+            "TC-234",
+            "TC-235"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-050",
+        "module": "General",
+        "requirement": "Procurement Buyer can award the selected winner(s) in a sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-236",
+            "TC-237",
+            "TC-238",
+            "TC-239",
+            "TC-240"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-051",
+        "module": "General",
+        "requirement": "The system triggers the award approval process based on LOA and workflow configuration.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-241",
+            "TC-242",
+            "TC-243",
+            "TC-244",
+            "TC-245"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-052",
+        "module": "General",
+        "requirement": "Once approvals are completed, the event is marked as awarded.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-246",
+            "TC-247",
+            "TC-248",
+            "TC-249",
+            "TC-250"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-053",
+        "module": "General",
+        "requirement": "Procurement Buyer can flip the Sourcing event into a new Requisition or Purchase Order.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-251",
+            "TC-252",
+            "TC-253",
+            "TC-254",
+            "TC-255"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-054",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a new sourcing event from scratch, using a template, or copying from a previous event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-256",
+            "TC-257",
+            "TC-258",
+            "TC-259",
+            "TC-260"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-055",
+        "module": "General",
+        "requirement": "Procurement Buyer can configure event settings, including event name, currency, terms and conditions, and sourcing team/stakeholders.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-261",
+            "TC-262",
+            "TC-263",
+            "TC-264",
+            "TC-265"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-056",
+        "module": "General",
+        "requirement": "Procurement Buyer can add suppliers to the sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-266",
+            "TC-267",
+            "TC-268",
+            "TC-269",
+            "TC-270"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-057",
+        "module": "General",
+        "requirement": "Procurement Buyer can set evaluations for the sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-271",
+            "TC-272",
+            "TC-273",
+            "TC-274",
+            "TC-275"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-058",
+        "module": "General",
+        "requirement": "Procurement Buyer can initiate the sourcing process by flipping a PR to a sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-276",
+            "TC-277",
+            "TC-278",
+            "TC-279",
+            "TC-280"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-059",
+        "module": "General",
+        "requirement": "Procurement Buyer can select the option to skip the DOA approval workflow for the sourcing event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-281",
+            "TC-282",
+            "TC-283",
+            "TC-284",
+            "TC-285"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-060",
+        "module": "General",
+        "requirement": "Procurement Buyer can view multiple sections to fill in sourcing information for the event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-286",
+            "TC-287",
+            "TC-288",
+            "TC-289",
+            "TC-290"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-061",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a sourcing event with various options such as RFx stage, event type, and attachments.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-291",
+            "TC-292",
+            "TC-293",
+            "TC-294",
+            "TC-295"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-062",
+        "module": "General",
+        "requirement": "Procurement Buyer can configure event details such as attachments, forms, and items.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-296",
+            "TC-297",
+            "TC-298",
+            "TC-299",
+            "TC-300"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-063",
+        "module": "General",
+        "requirement": "Procurement Buyer can configure timelines specific to the event, including event time zone, start, and end dates.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-301",
+            "TC-302",
+            "TC-303",
+            "TC-304",
+            "TC-305"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-064",
+        "module": "General",
+        "requirement": "Procurement Buyer can invite internal team members to participate in the sourcing process and assign tasks.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-306",
+            "TC-307",
+            "TC-308",
+            "TC-309",
+            "TC-310"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-065",
+        "module": "General",
+        "requirement": "Procurement Buyer can manage event currencies and exchange rates, and allow suppliers to bid in different currencies.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-311",
+            "TC-312",
+            "TC-313",
+            "TC-314",
+            "TC-315"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-066",
+        "module": "General",
+        "requirement": "Procurement Buyer can attach terms and conditions or other relevant documents for suppliers to accept.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-316",
+            "TC-317",
+            "TC-318",
+            "TC-319",
+            "TC-320"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-067",
+        "module": "General",
+        "requirement": "Procurement Buyer can add event owner, watcher, and evaluator to the event team.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-321",
+            "TC-322",
+            "TC-323",
+            "TC-324",
+            "TC-325"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-068",
+        "module": "General",
+        "requirement": "Procurement Buyer can allow suppliers to add multiple responses for the same item and hide supplier responses.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-326",
+            "TC-327",
+            "TC-328",
+            "TC-329",
+            "TC-330"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-069",
+        "module": "General",
+        "requirement": "Procurement Buyer can allow suppliers to respond with attachments in the message centre.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-331",
+            "TC-332",
+            "TC-333",
+            "TC-334",
+            "TC-335"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-070",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a sourcing event with details such as item information, supplier information, and evaluation criteria.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-336",
+            "TC-337",
+            "TC-338",
+            "TC-339",
+            "TC-340"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-071",
+        "module": "General",
+        "requirement": "Procurement Buyer can add suppliers to the sourcing event by selecting from the Coupa supplier list or adding new suppliers.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-072",
+        "module": "General",
+        "requirement": "Procurement Buyer can add evaluators for the sourcing event and assign weights to specific categories.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-341",
+            "TC-342",
+            "TC-343",
+            "TC-344",
+            "TC-345"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-073",
+        "module": "General",
+        "requirement": "Procurement Buyer can launch the sourcing event and make it visible to suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-346",
+            "TC-347",
+            "TC-348",
+            "TC-349",
+            "TC-350"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-074",
+        "module": "General",
+        "requirement": "Procurement Buyer can edit the sourcing event after launch, except for changes in currency, Terms and Conditions, and Event Type Settings.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-351",
+            "TC-352",
+            "TC-353",
+            "TC-354",
+            "TC-355"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-075",
+        "module": "General",
+        "requirement": "Supplier receives an invitation email for participating in the event and viewing the event details.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-356",
+            "TC-357",
+            "TC-358",
+            "TC-359",
+            "TC-360"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-076",
+        "module": "General",
+        "requirement": "Supplier accepts the T&C before participating in the event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-361",
+            "TC-362",
+            "TC-363",
+            "TC-364",
+            "TC-365"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-077",
+        "module": "General",
+        "requirement": "Supplier can access and participate in the event after accepting the T&C.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-366",
+            "TC-367",
+            "TC-368",
+            "TC-369",
+            "TC-370"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-078",
+        "module": "General",
+        "requirement": "Supplier can resolve queries via the chat window.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-371",
+            "TC-372",
+            "TC-373",
+            "TC-374",
+            "TC-375"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-079",
+        "module": "General",
+        "requirement": "Supplier submits their responses to the event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-376",
+            "TC-377",
+            "TC-378",
+            "TC-379",
+            "TC-380"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-080",
+        "module": "General",
+        "requirement": "Supplier can export the questionnaire to Excel and import responses from Excel.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-381",
+            "TC-382",
+            "TC-383",
+            "TC-384",
+            "TC-385"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-081",
+        "module": "General",
+        "requirement": "Supplier can view the history of changes made to the form.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-386",
+            "TC-387",
+            "TC-388",
+            "TC-389",
+            "TC-390"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-082",
+        "module": "General",
+        "requirement": "Supplier can save their responses and fill them up later.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-391",
+            "TC-392",
+            "TC-393",
+            "TC-394",
+            "TC-395"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-083",
+        "module": "General",
+        "requirement": "Supplier can submit the response back to the Procurement Buyer.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-396",
+            "TC-397",
+            "TC-398",
+            "TC-399",
+            "TC-400"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-084",
+        "module": "General",
+        "requirement": "Procurement Buyer can send email reminders to the suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-401",
+            "TC-402",
+            "TC-403",
+            "TC-404",
+            "TC-405"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-085",
+        "module": "General",
+        "requirement": "Procurement Buyer can extend the timeline of the bid.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-406",
+            "TC-407",
+            "TC-408",
+            "TC-409",
+            "TC-410"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-086",
+        "module": "General",
+        "requirement": "Event gets auto-closed or Procurement Buyer can manually end the event after which the bidding closes and the event gets sealed.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-411",
+            "TC-412",
+            "TC-413",
+            "TC-414",
+            "TC-415"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-087",
+        "module": "General",
+        "requirement": "Procurement Buyer can create a follow-on event for RFP or RFQ or Auction.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-416",
+            "TC-417",
+            "TC-418",
+            "TC-419",
+            "TC-420"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-088",
+        "module": "General",
+        "requirement": "Procurement Buyer can evaluate supplier responses and request internal users for evaluation.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-089",
+        "module": "General",
+        "requirement": "Evaluators can add their scores and evaluations, and upload the file in the system.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-421",
+            "TC-422",
+            "TC-423",
+            "TC-424",
+            "TC-425"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-090",
+        "module": "General",
+        "requirement": "Event status remains as Pending Evaluation until all invited Evaluators have submitted their evaluations.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-426",
+            "TC-427",
+            "TC-428",
+            "TC-429",
+            "TC-430"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-091",
+        "module": "General",
+        "requirement": "Buyer can create an auction event from scratch, template, or by copying a previous event.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-431",
+            "TC-432",
+            "TC-433",
+            "TC-434",
+            "TC-435"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-092",
+        "module": "General",
+        "requirement": "Buyer can configure auction-specific settings, including Docusign Envelope ID.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-436",
+            "TC-437",
+            "TC-438",
+            "TC-439",
+            "TC-440"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-093",
+        "module": "General",
+        "requirement": "Buyer can select Automatic Bid Extensions to give suppliers time to react on a new best bid.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-441",
+            "TC-442",
+            "TC-443",
+            "TC-444",
+            "TC-445"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-094",
+        "module": "General",
+        "requirement": "Buyer can set the number of minutes to extend the timeline upon arrival of a new best bid.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-446",
+            "TC-447",
+            "TC-448",
+            "TC-449",
+            "TC-450"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-095",
+        "module": "General",
+        "requirement": "Buyer can select which cost to compare the new quote to, including total cost for the event or individual items.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-451",
+            "TC-452",
+            "TC-453",
+            "TC-454",
+            "TC-455"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-096",
+        "module": "General",
+        "requirement": "Buyer can apply bidding rules to ensure fair and efficient price development.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-456",
+            "TC-457",
+            "TC-458",
+            "TC-459",
+            "TC-460"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-097",
+        "module": "General",
+        "requirement": "Buyer can configure bidding rules to force suppliers to improve their bids by at least the specified change.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-461",
+            "TC-462",
+            "TC-463",
+            "TC-464",
+            "TC-465"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-098",
+        "module": "General",
+        "requirement": "Buyer can configure bidding rules to specify the required improvement as a percent of the best bid or monetary amount.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-466",
+            "TC-467",
+            "TC-468",
+            "TC-469",
+            "TC-470"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-099",
+        "module": "General",
+        "requirement": "Buyer can configure bidding rules to apply to individual items or lots.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-471",
+            "TC-472",
+            "TC-473",
+            "TC-474",
+            "TC-475"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-100",
+        "module": "General",
+        "requirement": "Buyer can configure feedback to suppliers, including showing the currently best price per item or lot.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-476",
+            "TC-477",
+            "TC-478",
+            "TC-479",
+            "TC-480"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-101",
+        "module": "General",
+        "requirement": "Buyer can configure feedback to suppliers, including showing the number of responses.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-481",
+            "TC-482",
+            "TC-483",
+            "TC-484",
+            "TC-485"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-102",
+        "module": "General",
+        "requirement": "Buyer can create a purchase order for approved suppliers.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-486",
+            "TC-487",
+            "TC-488",
+            "TC-489",
+            "TC-490"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-103",
+        "module": "General",
+        "requirement": "Buyer can award an auction to a selected supplier after approval.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-491",
+            "TC-492",
+            "TC-493",
+            "TC-494",
+            "TC-495"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-104",
+        "module": "General",
+        "requirement": "Buyer can monitor the bidding process in the competitive chart.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-496",
+            "TC-497",
+            "TC-498",
+            "TC-499",
+            "TC-500"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-105",
+        "module": "General",
+        "requirement": "Buyer can remove bids on behalf of suppliers and record the removal in the event history.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-501",
+            "TC-502",
+            "TC-503",
+            "TC-504",
+            "TC-505"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-106",
+        "module": "General",
+        "requirement": "Buyer can prevent inadvertently incorrect submissions by showing a warning message when a supplier attempts to submit a quote which is more than 50% lower than the previous one.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-506",
+            "TC-507",
+            "TC-508",
+            "TC-509",
+            "TC-510"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-107",
+        "module": "General",
+        "requirement": "Buyer can calculate and display savings definitions, including cost avoidance and planned savings.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-511",
+            "TC-512",
+            "TC-513",
+            "TC-514",
+            "TC-515"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-108",
+        "module": "General",
+        "requirement": "System automatically calculates and enters negotiated savings into the Negotiated Savings field.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-516",
+            "TC-517",
+            "TC-518",
+            "TC-519",
+            "TC-520"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-109",
+        "module": "General",
+        "requirement": "Buyer can view and manage sourcing settings and configurations.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-521",
+            "TC-522",
+            "TC-523",
+            "TC-524",
+            "TC-525"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-110",
+        "module": "General",
+        "requirement": "Buyer can customize sourcing settings such as requiring suppliers to login, allowing suppliers to provide multiple responses, and sealing responses.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-526",
+            "TC-527",
+            "TC-528",
+            "TC-529",
+            "TC-530"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-111",
+        "module": "General",
+        "requirement": "Buyer can enable or disable features such as sealed bidding, auto-population of supplier responses, and public events.",
+        "coverage": "Missing",
+        "linked_testcases": [],
+        "testcase_count": 0
+    },
+    {
+        "requirement_id": "REQ-112",
+        "module": "General",
+        "requirement": "System enforces maximum number of line items, suppliers for RFx and auctions, and maximum number of suppliers for sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-531",
+            "TC-532",
+            "TC-533",
+            "TC-534",
+            "TC-535"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-113",
+        "module": "General",
+        "requirement": "Buyer can view and manage sourcing advantage events based on commodity.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-536",
+            "TC-537",
+            "TC-538",
+            "TC-539",
+            "TC-540"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-114",
+        "module": "General",
+        "requirement": "Buyer can enable or disable features such as supplier community search and allow public events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-541",
+            "TC-542",
+            "TC-543",
+            "TC-544",
+            "TC-545"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-115",
+        "module": "General",
+        "requirement": "Buyer can run 'what if' scenarios to support the award decision.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-546",
+            "TC-547",
+            "TC-548",
+            "TC-549",
+            "TC-550"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-116",
+        "module": "General",
+        "requirement": "Suppliers can access and participate in public sourcing events created by the company.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-551",
+            "TC-552",
+            "TC-553",
+            "TC-554",
+            "TC-555"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-117",
+        "module": "General",
+        "requirement": "Coupa helps users find and connect with fellow users in the Coupa Community to share experiences of sourcing for a particular commodity.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-556",
+            "TC-557",
+            "TC-558",
+            "TC-559",
+            "TC-560"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-118",
+        "module": "General",
+        "requirement": "Content groups are subgroups of users within a department and provide a way to manage individual users' access to content at the department level.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-561",
+            "TC-562",
+            "TC-563",
+            "TC-564",
+            "TC-565"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-119",
+        "module": "General",
+        "requirement": "Automatically approve supplier participation requests for public sourcing events.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-566",
+            "TC-567",
+            "TC-568",
+            "TC-569",
+            "TC-570"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-120",
+        "module": "General",
+        "requirement": "Publish public sourcing events on CSP.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-571",
+            "TC-572",
+            "TC-573",
+            "TC-574",
+            "TC-575"
+        ],
+        "testcase_count": 5
+    },
+    {
+        "requirement_id": "REQ-121",
+        "module": "General",
+        "requirement": "Forward and reverse auctions are supported.",
+        "coverage": "Covered",
+        "linked_testcases": [
+            "TC-576",
+            "TC-577",
+            "TC-578",
+            "TC-579",
+            "TC-580"
+        ],
+        "testcase_count": 5
+    }
+]

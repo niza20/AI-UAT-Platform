@@ -1,0 +1,2903 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice with Required Fields",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Invoice without Supplier Name",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Invoice with Valid Supplier Name, but Invalid Invoice Number",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Invoice with Valid Fields, but Invalid Currency",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Invoice with Valid Fields, but Invalid Chart of Accounts",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Create Invoice with Valid Fields, but Invalid Payment Term",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Create Invoice with Valid Fields, but Invalid Control Total",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Create Invoice with Valid Fields, but Invalid Invoice Date",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Create Invoice with Valid Fields, but Supplier is Inactive",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Create Invoice with Valid Fields, but User does not have Invoice Management Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Create Invoice with Valid Fields, but Approver has not been assigned",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "View Invoice Status for Approved Invoice",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to View Invoice Status for Draft Invoice",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that Invoice Status is Updated When Invoice is Approved",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Only Authorized Users Can View Invoice Status",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "View Invoice Status for Invoice with Approver at Maximum Approval Level",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Attach Document to Invoice with Valid File Type",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Attach Invalid File Type to Invoice",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Document is Attached to Invoice and Displayed Correctly",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Invoice Approver Attaches Document to Invoice",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attach Document to Invoice with Maximum File Size",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "View Invoice History for Approved Invoice",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to View Invoice History for Non-Approved Invoice",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Revision History for Invoice with Multiple Revisions",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify Document Reviewers for Invoice with Multiple Reviewers",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify Invoice History Permissions for Non-Approver User",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Verify Invoice History Permissions for Approver User",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "View Invoice History for Invoice with Date Range Filter",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "View Invoice History for Invoice with Large Number of Revisions",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Submit Invoice for Approval as Authorized User",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Submit Invoice without Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Invoice Status Updates after Approval",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Submit Invoice for Approval as Non-Authorized User",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Submit Invoice with Maximum Allowed Date Range",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "View Invoice Report with Valid Invoice Control Total",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "View Invoice Report with Invalid Invoice Control Total (e.g., negative value)",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Invoice Report Display with Correct Payment Terms",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to View Invoice Report with Inactive User",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "View Invoice Report with Invoice Control Total at Maximum Limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "View Invoice Report with Invoice Control Total at Minimum Limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Configure Invoice Tolerance for Approved Supplier",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Configure Invoice Tolerance for Unapproved Supplier",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Configure Invoice Blocker for Existing Tolerance",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Configure Invoice Tolerance by User with Limited Permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Configure Invoice Tolerance with Maximum Allowed Value",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "View On-Hold Invoice for Valid Invoice",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to View On-Hold Invoice for Non-Existent Invoice",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "View On-Hold Invoice with Valid Invoice ID but Invalid User Permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "View On-Hold Invoice with Invoice Date at Maximum Allowed Date",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "View On-Hold Invoice with Invoice Date at Minimum Allowed Date",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Edit Invoice and Save Changes Successfully",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Edit Invoice with Invalid Data and Validate Error Messages",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Edit Invoice and Validate Changes are Saved in the Correct Sequence",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "User without Invoice Management Permission Attempts to Edit Invoice",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Edit Invoice with Maximum Allowed Characters in Description Field",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "View Credit Note for Approved Invoice",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Void Inactive Invoice",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Credit Note Details for Approved Invoice",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "View Credit Note for Non-Approved Invoice",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Credit Note for Invoice with Zero Amount",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order for Approved Supplier with Valid Data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Purchase Order"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Purchase Order with Inactive Approved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Purchase Order"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Purchase Order for Approved Supplier with Invalid Data (Missing Supplier)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Purchase Order"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Validate Purchase Order Details for Approved Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Purchase Order"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt Purchase Order Creation by Non-Approved Buyer",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Purchase Order"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier creates an invoice via Coupa Supplier Portal",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier attempts to create an invoice via Coupa Supplier Portal with invalid credentials",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier creates an invoice via SAN/PO Link",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier attempts to create an invoice via SAN/PO Link with invalid PO number",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier creates an invoice via AP Mailbox/Invoice Smash",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Supplier attempts to create an invoice via AP Mailbox/Invoice Smash with invalid email format",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Supplier creates an invoice via Direct Entry",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Supplier attempts to create an invoice via Direct Entry with invalid invoice data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "System validates invoice data created via Coupa Supplier Portal",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "System validates invoice data created via SAN/PO Link",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "System validates invoice data created via AP Mailbox/Invoice Smash",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-012",
+        "scenario": "System validates invoice data created via Direct Entry",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-013",
+        "scenario": "Only approved suppliers can create an invoice via Coupa Supplier Portal",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-014",
+        "scenario": "Only suppliers with active accounts can create an invoice via Coupa Supplier Portal",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-015",
+        "scenario": "Supplier creates an invoice via Coupa Supplier Portal on the first day of the next month",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Supplier creates an invoice via Coupa Supplier Portal on the last day of the month",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier creates a PO-backed invoice for an approved supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier attempts to create a PO-backed invoice for an unapproved supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier creates a PO-backed invoice for a supplier with an approved PO but invalid PO status",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier attempts to create a PO-backed invoice without PO approval",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier creates a PO-backed invoice for a supplier with an approved PO but PO is at maximum allowed quantity",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create PO, GRN, and Invoice for 3-way matching",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt 3-way matching with incomplete PO details",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify auto-matching of PO, GRN, and Invoice for 3-way matching",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt 3-way matching without GRN",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt 3-way matching without Invoice",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt 3-way matching with PO, GRN, and Invoice from different suppliers",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Verify 3-way matching for PO, GRN, and Invoice created by different users",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice with all required fields for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Invoice with missing required fields for Approved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Invoice fields for Approved Supplier (e.g., Line Number, Line Type, Description, Quantity, UOM, Unit Price, Total Price, PO Line, Contract, Supplier Part Number, Commodity, Period, Billing String, Tax, WHT Applicable, Car Plate ID, and Inspection Code)",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Create Invoice for Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Invoice with all required fields for Approved Supplier with User having Supplier Management permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Create Invoice with all required fields for Approved Supplier at maximum allowed quantity (e.g., 9999)",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP Team creates a purchase order-backed invoice for an existing purchase order with a valid supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP Team attempts to create a purchase order-backed invoice for a purchase order with an inactive supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP Team verifies that the purchase order-backed invoice is correctly linked to the purchase order in Coupa",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP Team with 'Invoice Management' permission creates a purchase order-backed invoice, while AP Team without 'Invoice Management' permission is denied",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP Team creates a purchase order-backed invoice for a purchase order with a supplier having a zero balance",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier creates a non-PO backed invoice successfully",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier attempts to create a non-PO backed invoice with invalid supplier information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier attempts to create a non-PO backed invoice with invalid invoice data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier attempts to create a non-PO backed invoice without required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier creates a non-PO backed invoice with a large number of line items (boundary test)",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP Team can review and update invoice details in Coupa for an existing invoice",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP Team cannot review and update invoice details in Coupa for an invoice with invalid data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP Team can view invoice details in Coupa, but cannot update due to lack of permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP Team can review and update invoice details in Coupa when invoice is in draft state",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP Team can review and update invoice details in Coupa when invoice is in approved state",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Requester Approves Invoice with Valid Invoice Number",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Requester Attempts to Approve Invoice with Invalid Invoice Number",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Requester Approves Invoice with Valid Invoice Number and Validates Invoice Details",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Requester with Approver Role Approves Invoice",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Requester Approves Invoice with Invoice Number at Maximum Character Limit",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Financial Manager Approves Invoice",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Financial Manager Attempts to Approve Invoice without Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Invoice Approval Status after Approval",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Non-Financial Manager Attempts to Approve Invoice",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Approve Invoice with Due Date in the Future",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP Team rejects invoice and disputes with supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP Team attempts to reject invoice without sufficient permissions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP Team rejects invoice and disputes with supplier, but supplier is not registered in Coupa",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP Team rejects invoice and disputes with supplier, but invoice is already paid",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP Team rejects invoice and disputes with supplier, but invoice is not in draft status",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP Team successfully rectifies an invoice and resubmits for approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP Team attempts to rectify an invoice with invalid data and resubmits for approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP Team validates that the rectified invoice is successfully resubmitted for approval",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP Team without approval rights attempts to rectify an invoice and resubmit for approval",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP Team attempts to rectify an invoice with a large number of line items and resubmits for approval",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice with VAT and other charges, and approve it",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Invoice with VAT and other charges, but reject it",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Attempt to create Invoice without VAT and other charges",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Invoice with VAT and other charges, but supplier is not set up for VAT",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Invoice with VAT and other charges, and verify that VAT and other charges are calculated correctly",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Create Invoice with VAT and other charges, and verify that only authorized users can view and edit it",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Create Invoice with VAT and other charges, and verify that it is stored correctly in the database",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice in NetSuite and verify payment is processed in Coupa",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to process payment in Coupa for an Invoice not created in NetSuite",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify payment update is sent to Coupa when Invoice is updated in NetSuite",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Test payment processing in Coupa with different user roles (e.g. Approver, Administrator)",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify payment processing in Coupa for large volume of Invoices (e.g. 100+)",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-009",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Update Final Payment Status as 'Paid' for a Valid Invoice",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Update Final Payment Status as 'Paid' for an Invoiced but Not Paid Invoice",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that the Final Payment Status is Updated as 'Paid' in the Invoice History",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Update Final Payment Status as 'Paid' by a User without Invoice Payment Approval Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Update Final Payment Status as 'Paid' for an Invoice with a Payment Date in the Future",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-010",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Requester creates a non-PO invoice through the invoice form, adds the invoice category, and submits it in draft status successfully",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Requester attempts to create a non-PO invoice through the invoice form without adding the invoice category",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Requester attempts to submit a non-PO invoice in draft status without creating the invoice first",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Requester attempts to create a non-PO invoice with an invalid invoice category",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Requester creates a non-PO invoice through the invoice form, adds the invoice category, and submits it in draft status as a user without the 'Invoice Management' permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Requester attempts to create a non-PO invoice through the invoice form with a large number of line items (e.g. 1000+)",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP User Reviews and Submits Invoice for Approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP User Attempts to Submit Invoice without Approver Assignment",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP User Updates Invoice and Submits for Approval",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP User Submits Invoice for Approval with Missing Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP User without Invoice Management Permission Attempts to Review Invoice",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Requester Approves Invoice for Legitimate Spend",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Requester Rejects Invoice for Illegitimate Spend",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Requester Attempts to Approve Invoice without Sufficient Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Requester Does Not Have Permission to Approve Invoice",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Approving Invoice with Zero Amount",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Final AP Clerk Approves Invoice for Payment",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Final AP Clerk Attempts to Approve Invoice without Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Invoice Status Changes to Ready for Payment after Final Approval",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Final AP Clerk with Inactive Role Attempts to Approve Invoice",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Final AP Clerk Approves Invoice with Expiration Date in the Past",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Process Approved Invoice for Payment",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Process Invoice without Approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Invoice Status after Payment Processing",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Process Invoice for Payment by User without Payment Approval Role",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Process Invoice for Payment with Approver Deadline Expired",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Extract Report for Active Invoice Category",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Extract Report for Inactive Invoice Category",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that Report Extracted per Invoice Category Includes Correct Spend Data",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify that Only Authorized Users Can Extract Reports per Invoice Category",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Extract Report for Invoice Category with Zero Spend",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier creates a credit note by flipping an approved invoice to credit note in the Purchase Order section",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier attempts to create a credit note by flipping an invoice to credit note in the Purchase Order section, but the invoice is not approved",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier creates a credit note by flipping an approved invoice to credit note in the Purchase Order section, and verifies that the credit note is created successfully",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier attempts to create a credit note by flipping an invoice to credit note in the Purchase Order section, but does not have the required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier creates a credit note by flipping an approved invoice to credit note in the Purchase Order section, and verifies that the credit note is created successfully when the invoice is on the boundary of the allowed date range (e.g. today's date)",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP Team reviews and approves credit note submitted by supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP Team rejects credit note submitted by supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP Team attempts to approve credit note without sufficient approval permissions",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP Team attempts to review credit note that has already been approved",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP Team reviews credit note with invalid or missing information",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP Team creates a credit note directly in Coupa for a PO-backed credit note with approved supplier and valid PO",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-009",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP Team attempts to create a credit note directly in Coupa for a PO-backed credit note with inactive supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-009",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP Team creates a credit note directly in Coupa for a PO-backed credit note with approved supplier and valid PO, but with incorrect PO number",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-009",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP Team attempts to create a credit note directly in Coupa for a PO-backed credit note without required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-009",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP Team creates a credit note directly in Coupa for a PO-backed credit note with approved supplier and valid PO, but on the last day of the month",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-009",
+        "module": "Credit Note Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP Team voids an approved invoice by clicking the red 'u-turn' icon and confirming the action",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "Void Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP Team attempts to void an invoice that is not approved",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Void Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP Team voids an invoice without confirming the action",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Void Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP Team attempts to void an invoice with an invalid status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "Void Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP Team voids an invoice as a user without the required permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-010",
+        "module": "Void Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP Team successfully bulk loads invoices in Coupa by downloading a template, filling in the required details, and uploading the template.",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-011",
+        "module": "Invoice Bulk Activity"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP Team attempts to bulk load invoices in Coupa with missing required details in the template.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "Invoice Bulk Activity"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP Team validates that the bulk loaded invoices are correctly imported into Coupa with accurate details.",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-011",
+        "module": "Invoice Bulk Activity"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP Team with 'AP Team' role successfully bulk loads invoices in Coupa, while AP Team with 'Read-only' role fails to do so.",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-011",
+        "module": "Invoice Bulk Activity"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP Team attempts to bulk load invoices in Coupa with a template containing more than the allowed 1000 rows.",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-011",
+        "module": "Invoice Bulk Activity"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Supplier submits invoice for approved supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Supplier attempts to submit invoice for inactive supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Supplier submits invoice with missing required fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Supplier submits invoice with invalid payment terms",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Supplier submits invoice without login credentials",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Update Invoice Status to Draft",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Update Invoice Status to Invalid Stage (e.g., 'Test')",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that Invoice Status is updated correctly when changing from Draft to Processing",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Update Invoice Status to Approved by User with 'AP Approver' Role",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Update Invoice Status to Approved when Invoice is already in 'Approved' Stage",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Dispute Invoice and Send to Supplier for Corrections",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Dispute Invoice without Invoice Status being 'Paid'",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that Disputed Invoice is Marked as 'In Dispute' and Supplier is Notified",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Invoice is Disputed by User without 'Invoice Dispute' Permission",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Dispute Invoice with Invalid Supplier Contact Information",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Approve Invoice and Mark for Payment after Successful Sync with ERP",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Approve Invoice without Successful Sync with ERP",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Invoice Approval and Payment Status after Sync with ERP",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Approve Invoice and Mark for Payment as User with Invoice Approval Permission",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Approve Invoice and Mark for Payment at Maximum Invoice Approval Limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "NetSuite processes the payment and sends the update to Coupa for a valid payment",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "NetSuite fails to process the payment and does not send the update to Coupa for an invalid payment",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that the payment update is sent to Coupa with the correct payment details",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify that the payment update is not sent to Coupa when the payment is not approved",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify that only authorized users can view the payment update in Coupa",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Verify that the payment update is sent to Coupa within the expected time frame (e.g. within 1 minute)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order with Final Payment Status 'Paid' and Verify in Coupa",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Purchase Order with Final Payment Status 'Pending' and Verify in Coupa",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Attempt to Create Purchase Order with Invalid Final Payment Status",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify that Final Payment Status is updated in Coupa after Payment is Made",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify that Final Payment Status is updated in Coupa after Payment is Cancelled",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Verify that only Authorized Users can View Final Payment Status in Coupa",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Verify that Final Payment Status is updated in Coupa when Payment Due Date is Approaching",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Payment"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Standard Invoice for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Standard Invoice for Unapproved Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Standard Invoice Details (Supplier Name, Invoice Date, Total Amount)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Standard Invoice as Non-Approved Buyer",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Standard Invoice with Zero or Negative Total Amount",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Submit Invoice for Approval with Valid Data",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Submit Invoice for Approval with Invalid Data (Missing Required Fields)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Submit Invoice for Approval with Valid Data and Validate Invoice Amount",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Submit Invoice for Approval with Valid Data by User with Approval Role",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Submit Invoice for Approval with Valid Data on the Last Day of the Month",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice and Place on Hold for Additional Review and Approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Place Invoice on Hold without Required Approval",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Invoice Status after Placing on Hold",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Invoice Placed on Hold by User with Inactive Role",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Invoice with Large Quantity and Place on Hold",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order and Match Invoice Against It",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Match Invoice Against Non-Existent Purchase Order",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Invoice Matching Against Purchase Order and Receipt",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Match Invoice Against Purchase Order as Non-AP User",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Purchase Order with Zero-Value Items and Match Invoice Against It",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice with 2-way matching and verify automatic approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Invoice with 2-way matching but with incorrect PO number and verify that it is not automatically approved",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that system validates 2-way matching rules before automatically approving Invoice",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to automatically approve Invoice without satisfying 2-way or 3-way matching rules",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify that Invoice is automatically approved by system with correct 3-way matching",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Dispute Invoice with Valid Reason and Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Dispute Invoice without Valid Reason",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Disputed Invoice Status is Updated in Coupa",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Dispute Invoice by User without Dispute Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Dispute Invoice with Reason Exceeding Maximum Character Limit",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Void Invoice by AP User",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Void Invoice without Permission",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Void Invoice by Admin User",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Void Invoice with Invalid Invoice Status",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Void Invoice with Invoice Status at Boundary (e.g. Voided)",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Adjust Invoice to Apply Available Balance",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create an invoice with available balance, then adjust the invoice to apply the available balance to the invoice net balance.",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Adjust Invoice Without Available Balance",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Create an invoice without available balance, then attempt to adjust the invoice to apply available balance to the invoice net balance.",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Adjusted Invoice Balance",
+        "priority": "Medium",
+        "type": "Validation",
+        "description": "Create an invoice with available balance, adjust the invoice to apply the available balance, and then verify that the invoice balance is updated correctly.",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Adjust Invoice by User with Required Permission",
+        "priority": "High",
+        "type": "Permission",
+        "description": "Create an invoice with available balance, then adjust the invoice to apply the available balance by a user with the required permission to perform this action.",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Adjust Invoice with Zero Available Balance",
+        "priority": "Medium",
+        "type": "Boundary",
+        "description": "Create an invoice with zero available balance, then attempt to adjust the invoice to apply available balance to the invoice net balance.",
+        "requirement_id": "REQ-008",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP user selects and edits multiple invoices in sequence without exiting the current screen",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP user attempts to select and edit multiple invoices in sequence but exits the current screen before completing the action",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP user attempts to select and edit multiple invoices in sequence but the system does not allow it due to a technical issue",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP user attempts to select and edit multiple invoices in sequence but does not have the necessary permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP user attempts to select and edit 100 invoices in sequence to test the system's performance",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "AP user saves an invoice and is able to move to the next invoice",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "AP user attempts to move to the next invoice without saving an invoice",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "AP user saves an invoice but it is not approved, and is still able to move to the next invoice",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "AP user does not have permission to move to the next invoice",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "AP user attempts to move to the next invoice with an invoice date in the past",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Management"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice with Tolerances and Verify Automatic Approval",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Invoice with Tolerances Outside of Configured Thresholds and Verify Manual Review",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Invoice Tolerance Thresholds are Configured Correctly",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Create Invoice with Tolerances without Required Configuration",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify that only Authorized Users can Configure Invoice Tolerance Thresholds",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice Tolerance for Malaysia with 8% SST variance",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Invoice Tolerance for Non-Malaysian Entity with 8% SST variance",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Invoice Tolerance for Malaysia with 8% SST variance",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Invoice Tolerance for Malaysia with 8% SST variance by User with 'Invoice Tolerance Admin' role",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Invoice Tolerance for Malaysia with 8% SST variance at Maximum Entity Limit",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Invoice with Matching Rule Satisfied",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Status"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Invoice with Matching Rule Not Satisfied",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Status"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Create Invoice with Invoice Tolerance Rule Satisfied",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Status"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Invoice with Invoice Tolerance Rule Not Satisfied",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Status"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Invoice with No Matching or Invoice Tolerance Rules",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Status"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Create Invoice with Inactive Supplier",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Status"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Create Invoice with Zero Amount",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Invoice Status"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Chart of Accounts-level Tolerance with Valid Values",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Chart of Accounts-level Tolerance with Invalid Values",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Chart of Accounts-level Tolerance Settings",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Create Commodity-level Tolerance with Valid Values",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Attempt to Create Commodity-level Tolerance with Invalid Values",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Validate Commodity-level Tolerance Settings",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-007",
+        "scenario": "Create Chart of Accounts-level Tolerance with Valid Values by User with Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-008",
+        "scenario": "Attempt to Create Chart of Accounts-level Tolerance with Valid Values by User without Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-009",
+        "scenario": "Create Chart of Accounts-level Tolerance with Maximum Allowed Value",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-010",
+        "scenario": "Create Chart of Accounts-level Tolerance with Minimum Allowed Value",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Commodity with Tolerance and Verify it Overrides Chart of Accounts Tolerance",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Create Chart of Accounts with Tolerance and Attempt to Create Commodity with Higher Tolerance",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify that Commodity-level Tolerance Applies to All Charts of Accounts",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Attempt to Create Commodity with Tolerance without Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Commodity with Tolerance at Maximum Allowed Value",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-007",
+        "module": "Invoice Tolerances"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Submit Invoice that meets admin-set criteria",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Submission"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Submit Invoice that doesn't meet admin-set criteria",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Submission"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Submit Invoice that meets admin-set criteria and verify soft warning message is not displayed",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Submission"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Submit Invoice as non-admin user and verify system blocks submission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Submission"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Submit Invoice with criteria set to 'any' and verify system allows submission",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Invoice Submission"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Standard Report with Valid Filter Criteria",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Reporting"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Report with Invalid Filter Criteria",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Reporting"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Report Customization Options",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Reporting"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify User Permissions to Access Advanced Reporting Features",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Reporting"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Test Scheduled Report Generation with Boundary Values (e.g., maximum report size)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Reporting"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Manually Enter Invoice Total and Verify Calculated Total Matches",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Control Total"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Manually Enter Invoice Total and Verify Error Message Displays When Calculated Total Does Not Match",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Control Total"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Calculated Total is Correctly Calculated When All Line Items are Entered",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Control Total"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify User with Invoice Approver Role Can View Invoice Total Comparison",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Control Total"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Verify System Displays Error When Invoice Total is Manually Entered with Very Large or Very Small Value",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-004",
+        "module": "Invoice Control Total"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order as Admin User",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Roles"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Purchase Order as User without Purchase Order Approval Permission",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Roles"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate that Admin User has Access to All Purchase Order Fields",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Roles"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Verify that Buyer User can only View and Edit Purchase Order as Approver",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-005",
+        "module": "Roles"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Test that System Allows Admin User to Create Purchase Order with Maximum Number of Line Items",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-005",
+        "module": "Roles"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Payment information is successfully integrated from NetSuite to Coupa for a new purchase order",
+        "priority": "Low",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Payment Integration"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Payment information is not integrated from NetSuite to Coupa when the NetSuite API is down",
+        "priority": "Low",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Payment Integration"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Payment information is validated correctly when integrated from NetSuite to Coupa",
+        "priority": "Low",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Payment Integration"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Only users with the 'Payment Integration' permission can view payment information integrated from NetSuite to Coupa",
+        "priority": "Low",
+        "type": "Permission",
+        "requirement_id": "REQ-006",
+        "module": "Payment Integration"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Payment information is integrated from NetSuite to Coupa for a purchase order with a payment due date in the future (boundary value: 1 day from today)",
+        "priority": "Low",
+        "type": "Boundary",
+        "requirement_id": "REQ-006",
+        "module": "Payment Integration"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Configure Invoicing Tolerance with '0' Value Tolerance",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-001",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Configure Invoicing Tolerance with Non-Zero Value Tolerance",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-001",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Configure Invoicing Tolerance with Negative Value Tolerance",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-001",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Configure Invoicing Tolerance without User Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-001",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Configure Invoicing Tolerance with Maximum Allowed Tolerance Value",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-001",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Group Report with USD Currency",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-002",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt Group Report Creation with Non-USD Currency",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-002",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Verify Group Report Currency is USD",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-002",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Group Report Creation by User without Group Reporting Permission",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-002",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Group Report with USD Currency at Maximum Allowed Decimal Places",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-002",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Purchase Order with Central Receiving Role for Exception Case",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-003",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-002",
+        "scenario": "Attempt to Create Purchase Order without Central Receiving Role for Exception Case",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-003",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-003",
+        "scenario": "Validate Central Receiving Role for Exception Case in Purchase Order Details",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-003",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-004",
+        "scenario": "Central Receiving Role for Exception Case is assigned to User with Correct Permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-003",
+        "module": "Procure To Pay"
+    },
+    {
+        "scenario_id": "SC-005",
+        "scenario": "Create Purchase Order with Central Receiving Role for Exception Case on Edge of Allowed Quantity",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-003",
+        "module": "Procure To Pay"
+    }
+]

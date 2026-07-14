@@ -1,0 +1,122 @@
+[
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining the 'centre-managed commodities and services'?",
+        "reason": "Criteria for centre-managed commodities and services missing",
+        "options": [
+            "Commodities and services with annual spend above $100,000",
+            "Commodities and services with annual spend above $500,000",
+            "Commodities and services with annual spend above $1,000,000",
+            "Commodities and services with annual spend above $5,000,000"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q2",
+        "question": "How does Coupa handle supplier responses for sourcing events when the supplier is not registered in Coupa?",
+        "reason": "Supplier registration and response handling missing",
+        "options": [
+            "Automatically registers the supplier and allows them to participate",
+            "Requires manual registration by the buyer before allowing participation",
+            "Does not allow the supplier to participate unless they are registered",
+            "Requires the supplier to register before allowing participation, but does not automatically allow them to participate"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for awarding the business to the lowest bidder in the auction process?",
+        "reason": "Award process missing",
+        "options": [
+            "Automatically awards the business to the lowest bidder at the end of the event",
+            "Requires manual review and approval by the buyer before awarding the business",
+            "Uses a weighted scoring system to determine the winner",
+            "Uses a combination of price and other factors to determine the winner"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q4",
+        "question": "How does Coupa handle direct negotiations with suppliers in the auction process?",
+        "reason": "Direct negotiation process missing",
+        "options": [
+            "Allows for real-time direct negotiations between the buyer and suppliers",
+            "Allows for scheduled direct negotiations between the buyer and suppliers",
+            "Does not allow for direct negotiations between the buyer and suppliers",
+            "Requires manual approval by the buyer before allowing direct negotiations"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for conducting RFx events in Coupa for centre-managed commodities and services?",
+        "reason": "RFx process missing",
+        "options": [
+            "Requires manual configuration by the buyer before conducting the event",
+            "Automatically configures the event based on the centre-managed commodities and services",
+            "Uses a pre-defined template for centre-managed commodities and services",
+            "Requires approval by the buyer before conducting the event"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for converting a sourcing event into a contract?",
+        "reason": "Conversion criteria missing",
+        "options": [
+            "Sourcing event completion",
+            "Sourcing event budget approval",
+            "Sourcing event supplier selection",
+            "Sourcing event contract negotiation"
+        ],
+        "module": "Contract Management"
+    },
+    {
+        "id": "Q2",
+        "question": "How are contract terms and conditions managed during the conversion process?",
+        "reason": "Contract terms management unclear",
+        "options": [
+            "Automatically inherited from sourcing event",
+            "Manually updated by contract administrator",
+            "Approved by procurement team",
+            "Approved by contract manager"
+        ],
+        "module": "Contract Management"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling contract amendments or changes after conversion?",
+        "reason": "Contract amendment process unclear",
+        "options": [
+            "Amendments require new sourcing event",
+            "Amendments require contract manager approval",
+            "Amendments require procurement team approval",
+            "Amendments can be made directly in contract"
+        ],
+        "module": "Contract Management"
+    },
+    {
+        "id": "Q4",
+        "question": "How are contract renewals or extensions handled?",
+        "reason": "Contract renewal process unclear",
+        "options": [
+            "Renewals require new sourcing event",
+            "Renewals require contract manager approval",
+            "Renewals require procurement team approval",
+            "Renewals are automatically extended"
+        ],
+        "module": "Contract Management"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for terminating or canceling a contract after conversion?",
+        "reason": "Contract termination process unclear",
+        "options": [
+            "Termination requires contract manager approval",
+            "Termination requires procurement team approval",
+            "Termination requires finance department approval",
+            "Termination can be initiated by contract administrator"
+        ],
+        "module": "Contract Management"
+    }
+]

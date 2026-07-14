@@ -1,0 +1,786 @@
+[
+    {
+        "testcase_id": "TC-001",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer initiates supplier onboarding with valid basic information",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates supplier onboarding with valid basic information completed successfully."
+    },
+    {
+        "testcase_id": "TC-002",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer attempts to initiate supplier onboarding with missing required information",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to initiate supplier onboarding with missing required information completed successfully."
+    },
+    {
+        "testcase_id": "TC-003",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer initiates supplier onboarding with invalid email format",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates supplier onboarding with invalid email format completed successfully."
+    },
+    {
+        "testcase_id": "TC-004",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer attempts to initiate supplier onboarding without login credentials",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to initiate supplier onboarding without login credentials completed successfully."
+    },
+    {
+        "testcase_id": "TC-005",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Onboarding",
+        "scenario": "Buyer initiates supplier onboarding with maximum allowed characters in company name",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates supplier onboarding with maximum allowed characters in company name completed successfully."
+    },
+    {
+        "testcase_id": "TC-006",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approver Approves Supplier Onboarding Request",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Internal Approver Approves Supplier Onboarding Request completed successfully."
+    },
+    {
+        "testcase_id": "TC-007",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approver Rejects Supplier Onboarding Request",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Internal Approver Rejects Supplier Onboarding Request completed successfully."
+    },
+    {
+        "testcase_id": "TC-008",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approver Does Not Approve Supplier Onboarding Request Within Deadline",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "R Does Not Approve Supplier Onboarding Request Within Deadline",
+                "action": "Open R Does Not Approve Supplier Onboarding Request Within Deadline",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "R Does Not Approve Supplier Onboarding Request Within Deadline",
+                "action": "Review details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "R Does Not Approve Supplier Onboarding Request Within Deadline",
+                "action": "Click Approve",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "R Does Not Approve Supplier Onboarding Request Within Deadline",
+                "action": "Confirm approval",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "R Does Not Approve Supplier Onboarding Request Within Deadline",
+                "action": "Verify Approved",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Internal Approver Does Not Approve Supplier Onboarding Request Within Deadline completed successfully."
+    },
+    {
+        "testcase_id": "TC-009",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approver Does Not Have Required Permissions to Approve Supplier Onboarding Request",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "R Does Not Have Required Permissions To Approve Supplier Onboarding Request",
+                "action": "Open R Does Not Have Required Permissions To Approve Supplier Onboarding Request",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "R Does Not Have Required Permissions To Approve Supplier Onboarding Request",
+                "action": "Review details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "R Does Not Have Required Permissions To Approve Supplier Onboarding Request",
+                "action": "Click Approve",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "R Does Not Have Required Permissions To Approve Supplier Onboarding Request",
+                "action": "Confirm approval",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "R Does Not Have Required Permissions To Approve Supplier Onboarding Request",
+                "action": "Verify Approved",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Internal Approver Does Not Have Required Permissions to Approve Supplier Onboarding Request completed successfully."
+    },
+    {
+        "testcase_id": "TC-010",
+        "requirement_id": "REQ-002",
+        "module": "Supplier Onboarding",
+        "scenario": "Internal Approver Submits Supplier Onboarding Request with Incomplete Information",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Internal Approver Submits Supplier Onboarding Request with Incomplete Information completed successfully."
+    },
+    {
+        "testcase_id": "TC-011",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier Registers with AECI and Completes Due Diligence after Receiving Invitation via Email",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Supplier Registers with AECI and Completes Due Diligence after Receiving Invitation via Email completed successfully."
+    },
+    {
+        "testcase_id": "TC-012",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier Attempts to Register with AECI without Invitation via Email",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Supplier Attempts to Register with AECI without Invitation via Email completed successfully."
+    },
+    {
+        "testcase_id": "TC-013",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Validation of Supplier Registration and Due Diligence Completion",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Validation of Supplier Registration and Due Diligence Completion completed successfully."
+    },
+    {
+        "testcase_id": "TC-014",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier Attempts to Complete Due Diligence without Registration",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Supplier Attempts to Complete Due Diligence without Registration completed successfully."
+    },
+    {
+        "testcase_id": "TC-015",
+        "requirement_id": "REQ-003",
+        "module": "Supplier Onboarding",
+        "scenario": "Supplier with Inactive Status Attempts to Register with AECI",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Supplier with Inactive Status Attempts to Register with AECI completed successfully."
+    },
+    {
+        "testcase_id": "TC-016",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Create Supplier Information with Valid Metadata",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Valid Metadata",
+                "action": "Open Supplier Information With Valid Metadata",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Valid Metadata",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Valid Metadata",
+                "action": "Enter Supplier Information With Valid Metadata details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Valid Metadata",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Valid Metadata",
+                "action": "Verify Supplier Information With Valid Metadata created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Information with Valid Metadata completed successfully."
+    },
+    {
+        "testcase_id": "TC-017",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Attempt to Create Supplier Information with Invalid Metadata",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Invalid Metadata",
+                "action": "Open Supplier Information With Invalid Metadata",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Invalid Metadata",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Invalid Metadata",
+                "action": "Enter Supplier Information With Invalid Metadata details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Invalid Metadata",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Invalid Metadata",
+                "action": "Verify Supplier Information With Invalid Metadata created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Supplier Information with Invalid Metadata completed successfully."
+    },
+    {
+        "testcase_id": "TC-018",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Validate Supplier Information Metadata for Consistency",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Open Business Object",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "View details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Business Object",
+                "action": "Verify information",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Validate Supplier Information Metadata for Consistency completed successfully."
+    },
+    {
+        "testcase_id": "TC-019",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Create Supplier Information as a Non-Approved User",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Information As A Non-Approved User",
+                "action": "Open Supplier Information As A Non-Approved User",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Information As A Non-Approved User",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Information As A Non-Approved User",
+                "action": "Enter Supplier Information As A Non-Approved User details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Information As A Non-Approved User",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Information As A Non-Approved User",
+                "action": "Verify Supplier Information As A Non-Approved User created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Information as a Non-Approved User completed successfully."
+    },
+    {
+        "testcase_id": "TC-020",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management",
+        "scenario": "Create Supplier Information with Maximum Allowed Characters in Metadata",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Maximum Allowed Characters In Metadata",
+                "action": "Open Supplier Information With Maximum Allowed Characters In Metadata",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Maximum Allowed Characters In Metadata",
+                "action": "Click Create",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Maximum Allowed Characters In Metadata",
+                "action": "Enter Supplier Information With Maximum Allowed Characters In Metadata details",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Maximum Allowed Characters In Metadata",
+                "action": "Submit",
+                "expected_result": "Step completed successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Supplier Information With Maximum Allowed Characters In Metadata",
+                "action": "Verify Supplier Information With Maximum Allowed Characters In Metadata created",
+                "expected_result": "Step completed successfully."
+            }
+        ],
+        "overall_expected_result": "Create Supplier Information with Maximum Allowed Characters in Metadata completed successfully."
+    }
+]

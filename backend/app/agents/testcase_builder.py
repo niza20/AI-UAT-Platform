@@ -27,7 +27,8 @@ def build_testcases(scenarios):
 
             "steps": build_steps(sc["scenario"]),
 
-            "overall_expected_result": sc["scenario"] + " completed successfully."
+            "overall_expected_result":
+    f"{sc['scenario']} is completed successfully and the system reflects the expected business outcome."
 
         })
 

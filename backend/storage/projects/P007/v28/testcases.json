@@ -1,0 +1,3831 @@
+[
+    {
+        "testcase_id": "TC-001",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer creates sourcing event for RFI with centre-managed commodities and services",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Open And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer creates sourcing event for RFI with centre-managed commodities and services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-002",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to create sourcing event for RFI with centre-managed commodities and services without required permissions",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfi With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Open Sourcing Event For Rfi With Centre-Managed Commodities And Services Without Required Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfi With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfi With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Enter Sourcing Event For Rfi With Centre-Managed Commodities And Services Without Required Permissions details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfi With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfi With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Verify Sourcing Event For Rfi With Centre-Managed Commodities And Services Without Required Permissions created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to create sourcing event for RFI with centre-managed commodities and services without required permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-003",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer creates sourcing event for RFQ with centre-managed commodities and services but does not select any suppliers",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Any Suppliers",
+                "action": "Open Any Suppliers",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Any Suppliers",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Any Suppliers",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer creates sourcing event for RFQ with centre-managed commodities and services but does not select any suppliers is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-004",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer creates sourcing event for RFP with centre-managed commodities and services but exceeds the Limits of Authority (DOA/LOA)",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Authority (Doa/Loa)",
+                "action": "Open Authority (Doa/Loa)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Authority (Doa/Loa)",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Authority (Doa/Loa)",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer creates sourcing event for RFP with centre-managed commodities and services but exceeds the Limits of Authority (DOA/LOA) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-005",
+        "requirement_id": "REQ-001",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to create sourcing event for RFP with centre-managed commodities and services when Coupa is in maintenance mode",
+        "priority": "High",
+        "type": "Exception",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfp With Centre-Managed Commodities And Services When Coupa Is In Maintenance Mode",
+                "action": "Open Sourcing Event For Rfp With Centre-Managed Commodities And Services When Coupa Is In Maintenance Mode",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfp With Centre-Managed Commodities And Services When Coupa Is In Maintenance Mode",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfp With Centre-Managed Commodities And Services When Coupa Is In Maintenance Mode",
+                "action": "Enter Sourcing Event For Rfp With Centre-Managed Commodities And Services When Coupa Is In Maintenance Mode details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfp With Centre-Managed Commodities And Services When Coupa Is In Maintenance Mode",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Rfp With Centre-Managed Commodities And Services When Coupa Is In Maintenance Mode",
+                "action": "Verify Sourcing Event For Rfp With Centre-Managed Commodities And Services When Coupa Is In Maintenance Mode created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to create sourcing event for RFP with centre-managed commodities and services when Coupa is in maintenance mode is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-006",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Supplier participates in sourcing event via email and CSP",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Csp",
+                "action": "Open And Csp",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Csp",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Csp",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier participates in sourcing event via email and CSP is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-007",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Supplier attempts to participate in sourcing event via email with invalid email address",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Email Address",
+                "action": "Open Email Address",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Email Address",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Email Address",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier attempts to participate in sourcing event via email with invalid email address is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-008",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Supplier participates in sourcing event via CSP with valid credentials",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Valid Credentials",
+                "action": "Open Valid Credentials",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Valid Credentials",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Valid Credentials",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier participates in sourcing event via CSP with valid credentials is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-009",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Supplier attempts to participate in sourcing event via CSP with invalid credentials",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Invalid Credentials",
+                "action": "Open Invalid Credentials",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Invalid Credentials",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Invalid Credentials",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier attempts to participate in sourcing event via CSP with invalid credentials is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-010",
+        "requirement_id": "REQ-002",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Supplier receives sourcing event via email and participates via CSP",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Via Csp",
+                "action": "Open Via Csp",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Via Csp",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Via Csp",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Supplier receives sourcing event via email and participates via CSP is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-011",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Open Sourcing Event With Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Enter Sourcing Event With Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Verify Sourcing Event With Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-012",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Open And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-013",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Verify Automated Scoring and Evaluation of Supplier Responses",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Supplier Responses",
+                "action": "Open Supplier Responses",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Supplier Responses",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Supplier Responses",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify Automated Scoring and Evaluation of Supplier Responses is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-014",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Conflict Between Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Exception",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Open Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Conflict Between Automated Scoring and Manual Evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-015",
+        "requirement_id": "REQ-003",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend Sourcing Event to Production",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Open To Production",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend Sourcing Event to Production is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-016",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer configures event timelines with valid dates",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Valid Dates",
+                "action": "Open Valid Dates",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Valid Dates",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Valid Dates",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer configures event timelines with valid dates is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-017",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to configure event timelines with invalid dates",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Invalid Dates",
+                "action": "Open Invalid Dates",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Invalid Dates",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Invalid Dates",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to configure event timelines with invalid dates is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-018",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer validates event timelines configuration",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Timelines Configuration",
+                "action": "Open Timelines Configuration",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Timelines Configuration",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Timelines Configuration",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer validates event timelines configuration is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-019",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to configure event timelines without required permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Required Permissions",
+                "action": "Open Required Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Required Permissions",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Required Permissions",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to configure event timelines without required permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-020",
+        "requirement_id": "REQ-004",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer configures event timelines with maximum allowed dates",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Allowed Dates",
+                "action": "Open Allowed Dates",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Allowed Dates",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Allowed Dates",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer configures event timelines with maximum allowed dates is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-021",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Sourcing Event for Centre-Managed Commodities and Services with Valid DOA/LOA",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Valid Doa/Loa",
+                "action": "Open Sourcing Event For Centre-Managed Commodities And Services With Valid Doa/Loa",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Valid Doa/Loa",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Valid Doa/Loa",
+                "action": "Enter Sourcing Event For Centre-Managed Commodities And Services With Valid Doa/Loa details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Valid Doa/Loa",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Valid Doa/Loa",
+                "action": "Verify Sourcing Event For Centre-Managed Commodities And Services With Valid Doa/Loa created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event for Centre-Managed Commodities and Services with Valid DOA/LOA is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-022",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to Create Sourcing Event for Centre-Managed Commodities and Services with Invalid DOA/LOA",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Invalid Doa/Loa",
+                "action": "Open Sourcing Event For Centre-Managed Commodities And Services With Invalid Doa/Loa",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Invalid Doa/Loa",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Invalid Doa/Loa",
+                "action": "Enter Sourcing Event For Centre-Managed Commodities And Services With Invalid Doa/Loa details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Invalid Doa/Loa",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Invalid Doa/Loa",
+                "action": "Verify Sourcing Event For Centre-Managed Commodities And Services With Invalid Doa/Loa created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event for Centre-Managed Commodities and Services with Invalid DOA/LOA is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-023",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate Sourcing Event Approval Workflow Aligned with DOA/LOA",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "With Doa/Loa",
+                "action": "Open With Doa/Loa",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "With Doa/Loa",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "With Doa/Loa",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Sourcing Event Approval Workflow Aligned with DOA/LOA is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-024",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to Create Sourcing Event with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Open Sourcing Event With Conflicting Automated Scoring And Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Enter Sourcing Event With Conflicting Automated Scoring And Manual Evaluation details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Verify Sourcing Event With Conflicting Automated Scoring And Manual Evaluation created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event with Conflicting Automated Scoring and Manual Evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-025",
+        "requirement_id": "REQ-005",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend Sourcing Event to Production with Valid Reason",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Valid Reason",
+                "action": "Open Valid Reason",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Valid Reason",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Valid Reason",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend Sourcing Event to Production with Valid Reason is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-026",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create sourcing event with centre-managed commodities and services",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Open Sourcing Event With Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Enter Sourcing Event With Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Verify Sourcing Event With Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create sourcing event with centre-managed commodities and services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-027",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt sourcing event with conflicting automated scoring and manual evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Open Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt sourcing event with conflicting automated scoring and manual evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-028",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend sourcing event to production",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Open To Production",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend sourcing event to production is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-029",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Source centre-managed commodities and services for operational sourcing needs",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "Open Sourcing Needs",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Source centre-managed commodities and services for operational sourcing needs is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-030",
+        "requirement_id": "REQ-006",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Approve sourcing event with Limits of Authority (DOA/LOA)",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Limits Of Authority (Doa/Loa)",
+                "action": "Open Sourcing Event With Limits Of Authority (Doa/Loa)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Limits Of Authority (Doa/Loa)",
+                "action": "Review details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Limits Of Authority (Doa/Loa)",
+                "action": "Click Approve",
+                "expected_result": "Request is approved successfully."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Limits Of Authority (Doa/Loa)",
+                "action": "Confirm approval",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Limits Of Authority (Doa/Loa)",
+                "action": "Verify Approved",
+                "expected_result": "Request is approved successfully."
+            }
+        ],
+        "overall_expected_result": "Approve sourcing event with Limits of Authority (DOA/LOA) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-031",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Open Sourcing Event With Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Enter Sourcing Event With Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Verify Sourcing Event With Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-032",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services Criteria",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Services Criteria",
+                "action": "Open Services Criteria",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Services Criteria",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Services Criteria",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services Criteria is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-033",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate Centre-Managed Commodities and Services Criteria for Savings Tracking",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Savings Tracking",
+                "action": "Open Savings Tracking",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Savings Tracking",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Savings Tracking",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Centre-Managed Commodities and Services Criteria for Savings Tracking is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-034",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Sourcing Event with Automated Scoring Conflict",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Automated Scoring Conflict",
+                "action": "Open Sourcing Event With Automated Scoring Conflict",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Automated Scoring Conflict",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Automated Scoring Conflict",
+                "action": "Enter Sourcing Event With Automated Scoring Conflict details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Automated Scoring Conflict",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Automated Scoring Conflict",
+                "action": "Verify Sourcing Event With Automated Scoring Conflict created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Automated Scoring Conflict is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-035",
+        "requirement_id": "REQ-007",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate Conflict Resolution between Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Open Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Conflict Resolution between Automated Scoring and Manual Evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-036",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create centre-managed commodities and services with valid settings",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Valid Settings",
+                "action": "Open Centre-Managed Commodities And Services With Valid Settings",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Valid Settings",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Valid Settings",
+                "action": "Enter Centre-Managed Commodities And Services With Valid Settings details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Valid Settings",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Valid Settings",
+                "action": "Verify Centre-Managed Commodities And Services With Valid Settings created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create centre-managed commodities and services with valid settings is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-037",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to create centre-managed commodities and services with invalid settings",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Invalid Settings",
+                "action": "Open Centre-Managed Commodities And Services With Invalid Settings",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Invalid Settings",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Invalid Settings",
+                "action": "Enter Centre-Managed Commodities And Services With Invalid Settings details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Invalid Settings",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services With Invalid Settings",
+                "action": "Verify Centre-Managed Commodities And Services With Invalid Settings created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to create centre-managed commodities and services with invalid settings is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-038",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate centre-managed commodities and services settings for completeness",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "For Completeness",
+                "action": "Open For Completeness",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "For Completeness",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "For Completeness",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate centre-managed commodities and services settings for completeness is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-039",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Test centre-managed commodities and services settings for centre-managed commodities and services",
+        "priority": "Medium",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Open And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Test centre-managed commodities and services settings for centre-managed commodities and services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-040",
+        "requirement_id": "REQ-008",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to create centre-managed commodities and services without required permissions",
+        "priority": "High",
+        "type": "Permission",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Open Centre-Managed Commodities And Services Without Required Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Enter Centre-Managed Commodities And Services Without Required Permissions details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Verify Centre-Managed Commodities And Services Without Required Permissions created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to create centre-managed commodities and services without required permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-041",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Open Sourcing Event With Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Enter Sourcing Event With Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Centre-Managed Commodities And Services",
+                "action": "Verify Sourcing Event With Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-042",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services Criteria",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Services Criteria",
+                "action": "Open Services Criteria",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Services Criteria",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Services Criteria",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Sourcing Event with Incomplete Centre-Managed Commodities and Services Criteria is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-043",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate Sourcing Event with Automated Scoring and Manual Evaluation Conflict",
+        "priority": "High",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Evaluation Conflict",
+                "action": "Open Evaluation Conflict",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Evaluation Conflict",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Evaluation Conflict",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Sourcing Event with Automated Scoring and Manual Evaluation Conflict is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-044",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend Sourcing Event to Production with Valid Reason",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Valid Reason",
+                "action": "Open Valid Reason",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Valid Reason",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Valid Reason",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend Sourcing Event to Production with Valid Reason is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-045",
+        "requirement_id": "REQ-009",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt Resend Sourcing Event to Production with Invalid Reason",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Invalid Reason",
+                "action": "Open Invalid Reason",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Invalid Reason",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Invalid Reason",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Resend Sourcing Event to Production with Invalid Reason is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-046",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer initiates sourcing event for centre-managed commodity with automated scoring enabled",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Scoring Enabled",
+                "action": "Open Scoring Enabled",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Scoring Enabled",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Scoring Enabled",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates sourcing event for centre-managed commodity with automated scoring enabled is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-047",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer initiates sourcing event for centre-managed commodity with manual evaluation enabled",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Evaluation Enabled",
+                "action": "Open Evaluation Enabled",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Evaluation Enabled",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Evaluation Enabled",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates sourcing event for centre-managed commodity with manual evaluation enabled is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-048",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to initiate sourcing event for non-centre-managed commodity",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Non-Centre-Managed Commodity",
+                "action": "Open Non-Centre-Managed Commodity",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Non-Centre-Managed Commodity",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Non-Centre-Managed Commodity",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to initiate sourcing event for non-centre-managed commodity is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-049",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer initiates sourcing event with conflicting automated scoring and manual evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Open Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer initiates sourcing event with conflicting automated scoring and manual evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-050",
+        "requirement_id": "REQ-010",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to resend sourcing event to production without approval",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Without Approval",
+                "action": "Open Without Approval",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Without Approval",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Without Approval",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to resend sourcing event to production without approval is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-051",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer creates sourcing event for operational sourcing need with centre-managed commodities and services",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Open And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer creates sourcing event for operational sourcing need with centre-managed commodities and services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-052",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to create sourcing event for operational sourcing need with centre-managed commodities and services without required permissions",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Open Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services Without Required Permissions",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Enter Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services Without Required Permissions details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services Without Required Permissions",
+                "action": "Verify Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services Without Required Permissions created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to create sourcing event for operational sourcing need with centre-managed commodities and services without required permissions is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-053",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer creates sourcing event for operational sourcing need with centre-managed commodities and services but centre-managed commodities and services criteria is not met",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Not Met",
+                "action": "Open Not Met",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Not Met",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Not Met",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer creates sourcing event for operational sourcing need with centre-managed commodities and services but centre-managed commodities and services criteria is not met is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-054",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to create sourcing event for operational sourcing need with centre-managed commodities and services but Coupa handles conflict between automated scoring and manual evaluation incorrectly",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services But Coupa Handles Conflict Between Automated Scoring And Manual Evaluation Incorrectly",
+                "action": "Open Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services But Coupa Handles Conflict Between Automated Scoring And Manual Evaluation Incorrectly",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services But Coupa Handles Conflict Between Automated Scoring And Manual Evaluation Incorrectly",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services But Coupa Handles Conflict Between Automated Scoring And Manual Evaluation Incorrectly",
+                "action": "Enter Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services But Coupa Handles Conflict Between Automated Scoring And Manual Evaluation Incorrectly details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services But Coupa Handles Conflict Between Automated Scoring And Manual Evaluation Incorrectly",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services But Coupa Handles Conflict Between Automated Scoring And Manual Evaluation Incorrectly",
+                "action": "Verify Sourcing Event For Operational Sourcing Need With Centre-Managed Commodities And Services But Coupa Handles Conflict Between Automated Scoring And Manual Evaluation Incorrectly created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to create sourcing event for operational sourcing need with centre-managed commodities and services but Coupa handles conflict between automated scoring and manual evaluation incorrectly is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-055",
+        "requirement_id": "REQ-011",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Buyer attempts to resend sourcing event to production but process is not followed correctly",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Followed Correctly",
+                "action": "Open Followed Correctly",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Followed Correctly",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Followed Correctly",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Buyer attempts to resend sourcing event to production but process is not followed correctly is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-056",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create RFI event for centre-managed commodities and services",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfi Event For Centre-Managed Commodities And Services",
+                "action": "Open Rfi Event For Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfi Event For Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfi Event For Centre-Managed Commodities And Services",
+                "action": "Enter Rfi Event For Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Rfi Event For Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Rfi Event For Centre-Managed Commodities And Services",
+                "action": "Verify Rfi Event For Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create RFI event for centre-managed commodities and services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-057",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to create RFP event with missing centre-managed commodities and services criteria",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Missing Centre-Managed Commodities And Services Criteria",
+                "action": "Open Rfp Event With Missing Centre-Managed Commodities And Services Criteria",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Missing Centre-Managed Commodities And Services Criteria",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Missing Centre-Managed Commodities And Services Criteria",
+                "action": "Enter Rfp Event With Missing Centre-Managed Commodities And Services Criteria details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Missing Centre-Managed Commodities And Services Criteria",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Missing Centre-Managed Commodities And Services Criteria",
+                "action": "Verify Rfp Event With Missing Centre-Managed Commodities And Services Criteria created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to create RFP event with missing centre-managed commodities and services criteria is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-058",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate centre-managed commodities and services criteria in RFP event",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfp Event",
+                "action": "Open Rfp Event",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfp Event",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfp Event",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate centre-managed commodities and services criteria in RFP event is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-059",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create RFP event with centre-managed commodities and services criteria exceeding Limits of Authority (LOA)",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Exceeding Limits Of Authority (Loa)",
+                "action": "Open Rfp Event With Centre-Managed Commodities And Services Criteria Exceeding Limits Of Authority (Loa)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Exceeding Limits Of Authority (Loa)",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Exceeding Limits Of Authority (Loa)",
+                "action": "Enter Rfp Event With Centre-Managed Commodities And Services Criteria Exceeding Limits Of Authority (Loa) details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Exceeding Limits Of Authority (Loa)",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Exceeding Limits Of Authority (Loa)",
+                "action": "Verify Rfp Event With Centre-Managed Commodities And Services Criteria Exceeding Limits Of Authority (Loa) created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create RFP event with centre-managed commodities and services criteria exceeding Limits of Authority (LOA) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-060",
+        "requirement_id": "REQ-012",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to create RFP event with centre-managed commodities and services criteria below minimum threshold",
+        "priority": "High",
+        "type": "Boundary",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Below Minimum Threshold",
+                "action": "Open Rfp Event With Centre-Managed Commodities And Services Criteria Below Minimum Threshold",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Below Minimum Threshold",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Below Minimum Threshold",
+                "action": "Enter Rfp Event With Centre-Managed Commodities And Services Criteria Below Minimum Threshold details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Below Minimum Threshold",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Rfp Event With Centre-Managed Commodities And Services Criteria Below Minimum Threshold",
+                "action": "Verify Rfp Event With Centre-Managed Commodities And Services Criteria Below Minimum Threshold created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to create RFP event with centre-managed commodities and services criteria below minimum threshold is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-061",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create English Reverse Auction for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Open English Reverse Auction For Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Enter English Reverse Auction For Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Verify English Reverse Auction For Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create English Reverse Auction for Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-062",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to Create English Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Inactive Supplier",
+                "action": "Open English Reverse Auction With Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Inactive Supplier",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Inactive Supplier",
+                "action": "Enter English Reverse Auction With Inactive Supplier details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Inactive Supplier",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Inactive Supplier",
+                "action": "Verify English Reverse Auction With Inactive Supplier created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create English Reverse Auction with Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-063",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate English Reverse Auction Details (Supplier, Category, Event Type)",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Event Type)",
+                "action": "Open Event Type)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Event Type)",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Event Type)",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate English Reverse Auction Details (Supplier, Category, Event Type) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-064",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create English Reverse Auction with Centre-Managed Commodities and Services - Insufficient Authority",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Insufficient Authority",
+                "action": "Open English Reverse Auction With Centre-Managed Commodities And Services - Insufficient Authority",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Insufficient Authority",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Insufficient Authority",
+                "action": "Enter English Reverse Auction With Centre-Managed Commodities And Services - Insufficient Authority details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Insufficient Authority",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Insufficient Authority",
+                "action": "Verify English Reverse Auction With Centre-Managed Commodities And Services - Insufficient Authority created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create English Reverse Auction with Centre-Managed Commodities and Services - Insufficient Authority is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-065",
+        "requirement_id": "REQ-013",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create English Reverse Auction with Centre-Managed Commodities and Services - Exceeding Limits of Authority (DOA/LOA)",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Exceeding Limits Of Authority (Doa/Loa)",
+                "action": "Open English Reverse Auction With Centre-Managed Commodities And Services - Exceeding Limits Of Authority (Doa/Loa)",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Exceeding Limits Of Authority (Doa/Loa)",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Exceeding Limits Of Authority (Doa/Loa)",
+                "action": "Enter English Reverse Auction With Centre-Managed Commodities And Services - Exceeding Limits Of Authority (Doa/Loa) details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Exceeding Limits Of Authority (Doa/Loa)",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services - Exceeding Limits Of Authority (Doa/Loa)",
+                "action": "Verify English Reverse Auction With Centre-Managed Commodities And Services - Exceeding Limits Of Authority (Doa/Loa) created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create English Reverse Auction with Centre-Managed Commodities and Services - Exceeding Limits of Authority (DOA/LOA) is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-066",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Auction Event with Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Auction Event With Centre-Managed Commodities And Services",
+                "action": "Open Auction Event With Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Auction Event With Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Auction Event With Centre-Managed Commodities And Services",
+                "action": "Enter Auction Event With Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Auction Event With Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Auction Event With Centre-Managed Commodities And Services",
+                "action": "Verify Auction Event With Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Auction Event with Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-067",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to Create Auction Event without Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Auction Event Without Centre-Managed Commodities And Services",
+                "action": "Open Auction Event Without Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Auction Event Without Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Auction Event Without Centre-Managed Commodities And Services",
+                "action": "Enter Auction Event Without Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Auction Event Without Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Auction Event Without Centre-Managed Commodities And Services",
+                "action": "Verify Auction Event Without Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Auction Event without Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-068",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Auction Event with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Auction Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Open Auction Event With Conflicting Automated Scoring And Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Auction Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Auction Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Enter Auction Event With Conflicting Automated Scoring And Manual Evaluation details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Auction Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Auction Event With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Verify Auction Event With Conflicting Automated Scoring And Manual Evaluation created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Auction Event with Conflicting Automated Scoring and Manual Evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-069",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend Sourcing Event to Production",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Open To Production",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend Sourcing Event to Production is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-070",
+        "requirement_id": "REQ-014",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "Open Sourcing Needs",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-071",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Reverse Auction for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Open Reverse Auction For Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Enter Reverse Auction For Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Reverse Auction For Centre-Managed Commodities And Services",
+                "action": "Verify Reverse Auction For Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Reverse Auction for Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-072",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Open Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Reverse Auction with Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-073",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate Automated Scoring and Manual Evaluation Conflict Resolution",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Conflict Resolution",
+                "action": "Open Conflict Resolution",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Conflict Resolution",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Conflict Resolution",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Automated Scoring and Manual Evaluation Conflict Resolution is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-074",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend Sourcing Event to Production",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Open To Production",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend Sourcing Event to Production is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-075",
+        "requirement_id": "REQ-015",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "Open Sourcing Needs",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-076",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create English Reverse Auction with Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Open English Reverse Auction With Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Enter English Reverse Auction With Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "English Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Verify English Reverse Auction With Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create English Reverse Auction with Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-077",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt English Reverse Auction with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Open Inactive Supplier",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Inactive Supplier",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt English Reverse Auction with Inactive Supplier is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-078",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "English Reverse Auction with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Open Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "English Reverse Auction with Conflicting Automated Scoring and Manual Evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-079",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend Sourcing Event to Production",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Open To Production",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "To Production",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend Sourcing Event to Production is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-080",
+        "requirement_id": "REQ-016",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "Open Sourcing Needs",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Needs",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Source Centre-Managed Commodities and Services for Operational Sourcing Needs is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-081",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Dutch Reverse Auction with High Starting Price and Scheduled Price Decrease",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With High Starting Price And Scheduled Price Decrease",
+                "action": "Open Dutch Reverse Auction With High Starting Price And Scheduled Price Decrease",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With High Starting Price And Scheduled Price Decrease",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With High Starting Price And Scheduled Price Decrease",
+                "action": "Enter Dutch Reverse Auction With High Starting Price And Scheduled Price Decrease details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With High Starting Price And Scheduled Price Decrease",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With High Starting Price And Scheduled Price Decrease",
+                "action": "Verify Dutch Reverse Auction With High Starting Price And Scheduled Price Decrease created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Dutch Reverse Auction with High Starting Price and Scheduled Price Decrease is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-082",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to Create Dutch Reverse Auction with Low Starting Price",
+        "priority": "Medium",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Low Starting Price",
+                "action": "Open Dutch Reverse Auction With Low Starting Price",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Low Starting Price",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Low Starting Price",
+                "action": "Enter Dutch Reverse Auction With Low Starting Price details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Low Starting Price",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Low Starting Price",
+                "action": "Verify Dutch Reverse Auction With Low Starting Price created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Dutch Reverse Auction with Low Starting Price is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-083",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Verify that Dutch Reverse Auction Automatically Decreases Price at Scheduled Intervals",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Scheduled Intervals",
+                "action": "Open Scheduled Intervals",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Scheduled Intervals",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Scheduled Intervals",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Verify that Dutch Reverse Auction Automatically Decreases Price at Scheduled Intervals is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-084",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Dutch Reverse Auction with Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Open Dutch Reverse Auction With Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Enter Dutch Reverse Auction With Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Centre-Managed Commodities And Services",
+                "action": "Verify Dutch Reverse Auction With Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Dutch Reverse Auction with Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-085",
+        "requirement_id": "REQ-017",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to Create Dutch Reverse Auction with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Open Dutch Reverse Auction With Conflicting Automated Scoring And Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Enter Dutch Reverse Auction With Conflicting Automated Scoring And Manual Evaluation details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Dutch Reverse Auction With Conflicting Automated Scoring And Manual Evaluation",
+                "action": "Verify Dutch Reverse Auction With Conflicting Automated Scoring And Manual Evaluation created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Dutch Reverse Auction with Conflicting Automated Scoring and Manual Evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-086",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Sourcing Event for Centre-Managed Commodities and Services with Low Price Point",
+        "priority": "High",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Low Price Point",
+                "action": "Open Sourcing Event For Centre-Managed Commodities And Services With Low Price Point",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Low Price Point",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Low Price Point",
+                "action": "Enter Sourcing Event For Centre-Managed Commodities And Services With Low Price Point details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Low Price Point",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event For Centre-Managed Commodities And Services With Low Price Point",
+                "action": "Verify Sourcing Event For Centre-Managed Commodities And Services With Low Price Point created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event for Centre-Managed Commodities and Services with Low Price Point is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-087",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt Sourcing Event with High Price Point for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Open And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Sourcing Event with High Price Point for Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-088",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate Sourcing Event Price Incremental Increase",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Incremental Increase",
+                "action": "Open Incremental Increase",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Incremental Increase",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Incremental Increase",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Sourcing Event Price Incremental Increase is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-089",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt Sourcing Event with Inactive Supplier for Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Open And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Attempt Sourcing Event with Inactive Supplier for Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-090",
+        "requirement_id": "REQ-018",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend Sourcing Event to Production with Conflicting Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Exception",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Open Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend Sourcing Event to Production with Conflicting Automated Scoring and Manual Evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-091",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Create Sourcing Event with Customizable Settings for Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Customizable Settings For Centre-Managed Commodities And Services",
+                "action": "Open Sourcing Event With Customizable Settings For Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Customizable Settings For Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Customizable Settings For Centre-Managed Commodities And Services",
+                "action": "Enter Sourcing Event With Customizable Settings For Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Customizable Settings For Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event With Customizable Settings For Centre-Managed Commodities And Services",
+                "action": "Verify Sourcing Event With Customizable Settings For Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Create Sourcing Event with Customizable Settings for Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-092",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Attempt to Create Sourcing Event without Defining Centre-Managed Commodities and Services",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Defining Centre-Managed Commodities And Services",
+                "action": "Open Sourcing Event Without Defining Centre-Managed Commodities And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Defining Centre-Managed Commodities And Services",
+                "action": "Click Create",
+                "expected_result": "Record is created successfully."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Defining Centre-Managed Commodities And Services",
+                "action": "Enter Sourcing Event Without Defining Centre-Managed Commodities And Services details",
+                "expected_result": "Expected business outcome is achieved."
+            },
+            {
+                "step_number": 4,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Defining Centre-Managed Commodities And Services",
+                "action": "Submit",
+                "expected_result": "Submission completes successfully."
+            },
+            {
+                "step_number": 5,
+                "actor": "Business User",
+                "navigation": "Sourcing Event Without Defining Centre-Managed Commodities And Services",
+                "action": "Verify Sourcing Event Without Defining Centre-Managed Commodities And Services created",
+                "expected_result": "Record is created successfully."
+            }
+        ],
+        "overall_expected_result": "Attempt to Create Sourcing Event without Defining Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-093",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Validate Customizable Settings for Sourcing Event with Centre-Managed Commodities and Services",
+        "priority": "Medium",
+        "type": "Validation",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Open And Services",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "And Services",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Validate Customizable Settings for Sourcing Event with Centre-Managed Commodities and Services is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-094",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Test Conflict Resolution between Automated Scoring and Manual Evaluation",
+        "priority": "High",
+        "type": "Negative",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Open Manual Evaluation",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Manual Evaluation",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Test Conflict Resolution between Automated Scoring and Manual Evaluation is completed successfully and the system reflects the expected business outcome."
+    },
+    {
+        "testcase_id": "TC-095",
+        "requirement_id": "REQ-019",
+        "module": "Source-to-Contract (S2C)",
+        "scenario": "Resend Sourcing Event to Production with Customizable Settings",
+        "priority": "Medium",
+        "type": "Positive",
+        "preconditions": [
+            "User is logged into application"
+        ],
+        "steps": [
+            {
+                "step_number": 1,
+                "actor": "Business User",
+                "navigation": "Customizable Settings",
+                "action": "Open Customizable Settings",
+                "expected_result": "Requested page is displayed successfully."
+            },
+            {
+                "step_number": 2,
+                "actor": "Business User",
+                "navigation": "Customizable Settings",
+                "action": "View details",
+                "expected_result": "Relevant information is displayed."
+            },
+            {
+                "step_number": 3,
+                "actor": "Business User",
+                "navigation": "Customizable Settings",
+                "action": "Verify information",
+                "expected_result": "Displayed information matches expected values."
+            }
+        ],
+        "overall_expected_result": "Resend Sourcing Event to Production with Customizable Settings is completed successfully and the system reflects the expected business outcome."
+    }
+]

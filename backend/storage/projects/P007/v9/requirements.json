@@ -1,0 +1,107 @@
+[
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate the supplier onboarding process by providing basic information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process undergoes internal approval workflow.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approved supplier receives invitation to register with AECI and complete due diligence steps.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurate and current.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Supplier Information Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier participation is ensured through multiple channels of managing information.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Supplier Status Management",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier status can be managed, including purchase block, payment block, supplier deactivation, and reactivation.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "Approval Workflows",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Approval workflows involve Procurement, Finance, General Accounting, and Master Data teams.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "module": "Integration",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Integration touchpoints exist between Coupa SIM and SAP for supplier creation, updates, and activation.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can register new suppliers in Coupa for urgent or business-critical situations, adhering to governance and approval controls.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can update existing supplier information in Coupa, including status changes.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "module": "Supplier Onboarding",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can extend supplier contracts in Coupa.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "module": "One-Time Vendor",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal users can create one-time vendors in Coupa with a simplified approval flow and reduced data requirements.",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "module": "Coupa Supplier Portal",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Users can view supplier portal status in the Suppliers table.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "module": "Language Support",
+        "type": "Functional",
+        "priority": "Medium",
+        "requirement": "Coupa supports auto-translation of standard information on the user interface for multiple languages.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "module": "System Configuration",
+        "type": "Functional",
+        "priority": "Low",
+        "requirement": "System supports local language requirements.",
+        "requirement_id": "REQ-001"
+    }
+]

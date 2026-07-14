@@ -1,0 +1,18 @@
+{
+    "summary": {
+        "requirements": 30,
+        "testcases": 120,
+        "covered": 24,
+        "missing": 6,
+        "coverage": 80.0
+    },
+    "modules": {
+        "Supplier Information Management (SIM)": 55,
+        "ESG & Compliance": 45,
+        "Procurement": 20
+    },
+    "priorities": {
+        "High": 76,
+        "Medium": 44
+    }
+}

@@ -1,0 +1,982 @@
+[
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Create Supplier Account for Internal Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create a new supplier account for an internal supplier with valid credentials and verify that the account is successfully created.",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Attempt Supplier Registration with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Attempt to create a new supplier account for an inactive supplier and verify that the registration is rejected.",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Update Supplier Information through Self-Service",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Update supplier information through self-service and verify that the changes are successfully saved.",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Attempt Supplier Self-Service Update with Conflicting Changes",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Attempt to update supplier information through self-service with conflicting changes and verify that the system rejects the changes.",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-001",
+        "scenario": "Notify Supplier of Update through Email",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Update supplier information and verify that the supplier is notified through email.",
+        "requirement_id": "REQ-001",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Register Internal Supplier with Complete and Accurate Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Attempt Supplier Registration with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Validate Supplier Information for Accuracy and Completeness",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Register Supplier with Conflicting Changes Made by Buyer",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-006",
+        "scenario": "Notify Supplier of Update Made by Buyer",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-004",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier with valid certifications and contact information is successfully registered in Coupa",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier with invalid certifications and contact information is not registered in Coupa",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier self-service update with conflicting changes made by buyer is rejected by system",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier is notified of updates and changes made by buyer or system administrator via email",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-011",
+        "scenario": "Supplier master data is accurately and consistently updated across Coupa and SAP",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-005",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Register Internal Supplier through Coupa",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Attempt Supplier Registration with Incomplete Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Validate Supplier Registration with Correct Internal Criteria",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Test Supplier Self-Service Update with Conflicting Changes",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-016",
+        "scenario": "Verify Supplier Notification Process for Buyer Updates",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-006",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Create Supplier with Internal Flag as True",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create a new supplier with internal flag set to true and verify that it is registered successfully.",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Attempt Supplier Registration with Internal Flag as False",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Attempt to create a new supplier with internal flag set to false and verify that it fails with an error message.",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Verify Supplier Self-Service Updates",
+        "priority": "High",
+        "type": "Validation",
+        "description": "Create a supplier and update its information through self-service. Verify that the changes are reflected in the system and that there are no conflicts with changes made by the buyer.",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Notify Supplier of Updates and Changes",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create a supplier and update its information. Verify that the supplier is notified of the changes through email or other communication channel.",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-021",
+        "scenario": "Verify Data Accuracy and Consistency",
+        "priority": "High",
+        "type": "Validation",
+        "description": "Create multiple suppliers with different information and verify that the data is accurate and consistent across Coupa and SAP.",
+        "requirement_id": "REQ-007",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Create Supplier with Valid Internal Criteria",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Attempt Supplier Creation with Invalid Internal Criteria",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Validate Supplier Information for Completeness and Consistency",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Supplier Self-Service Update Conflicts with Buyer Changes",
+        "priority": "Medium",
+        "type": "Exception",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-026",
+        "scenario": "Notify Supplier of Update and Changes Made by Buyer or System Administrator",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-008",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Supplier Master Data is accurately synced from Coupa to SAP",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-010",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Supplier Master Data is incomplete in Coupa, resulting in errors during sync to SAP",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-010",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Validation of supplier master data in Coupa shows no errors, but sync to SAP fails due to data inconsistencies",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-010",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Supplier Master Data is synced from Coupa to SAP on the exact date of the scheduled sync (boundary condition)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-010",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-031",
+        "scenario": "Supplier Master Data is synced from Coupa to SAP when the supplier is inactive in Coupa (exception condition)",
+        "priority": "Medium",
+        "type": "Exception",
+        "requirement_id": "REQ-010",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Create a new supplier with accurate and current data, verify that the data is saved successfully and is displayed correctly on the supplier details page.",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-011",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Attempt to create a new supplier with incomplete data, verify that the system displays an error message and does not save the data.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Update an existing supplier's data with accurate and current information, verify that the data is updated successfully and is displayed correctly on the supplier details page.",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-011",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Attempt to update an existing supplier's data with invalid information, verify that the system displays an error message and does not update the data.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-011",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-036",
+        "scenario": "Verify that the system checks for duplicate supplier data and prevents creation of duplicate suppliers.",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-011",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Create Purchase Order with Valid Supplier Information",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-012",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Attempt Purchase Order with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-012",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Create Purchase Order with Supplier Information Missing Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-012",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Validate Supplier Information on Purchase Order",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-012",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-041",
+        "scenario": "Attempt to Create Purchase Order with Supplier Information Exceeding Character Limit",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-012",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Internal Supplier Registration with Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Attempt Internal Supplier Registration with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Internal Supplier Registration with Supplier Self-Service Update Conflict",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Notify Supplier of Update and Change via Email",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-046",
+        "scenario": "Internal Supplier Registration with Incomplete Supplier Master Data",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-013",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Register Internal Supplier with Existing Structure",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Supplier is registered as internal with existing structure, and approval process is streamlined.",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Attempt Supplier Registration with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Supplier registration fails when supplier is inactive.",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Validate Supplier Self-Service Updates",
+        "priority": "Medium",
+        "type": "Validation",
+        "description": "System validates supplier self-service updates for conflicting changes made by buyer.",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Notify Supplier of Updates and Changes",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "System notifies supplier of updates and changes made by buyer or system administrator.",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-051",
+        "scenario": "Ensure Data Accuracy and Consistency",
+        "priority": "High",
+        "type": "Validation",
+        "description": "System ensures data accuracy, completeness, and consistency of supplier master data across Coupa and SAP.",
+        "requirement_id": "REQ-015",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Create Supplier with 'Internal' Status",
+        "priority": "High",
+        "type": "Positive",
+        "description": "Create a new supplier with 'Internal' status and verify it is successfully registered in Coupa.",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Attempt Supplier Registration with Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "description": "Attempt to create a new supplier with an inactive supplier ID and verify the system prevents registration.",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Verify Supplier Self-Service Updates",
+        "priority": "Medium",
+        "type": "Validation",
+        "description": "Update supplier information through self-service and verify the changes are reflected in Coupa.",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Test Supplier Notification Process",
+        "priority": "Medium",
+        "type": "Positive",
+        "description": "Update supplier information and verify the system sends notifications to the supplier and system administrator.",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-056",
+        "scenario": "Verify Data Accuracy and Consistency",
+        "priority": "High",
+        "type": "Validation",
+        "description": "Create a new supplier and verify data accuracy and consistency across Coupa and SAP.",
+        "requirement_id": "REQ-016",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Create Supplier with Internal Status",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Attempt Supplier Registration with Inactive Company",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Validate Supplier Portal Status for Active Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Supplier Self-Service Update Conflicts with Buyer Changes",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-061",
+        "scenario": "Notify Suppliers of Updates and Changes",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-017",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Vendor uploads accurate, complete, and up-to-date documentation to facilitate timely review and approval.",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-018",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Vendor uploads incomplete documentation, resulting in delayed review and approval.",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Vendor uploads documentation with incorrect information, resulting in review and approval issues.",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Vendor uploads documentation that is not in the required format, resulting in review and approval issues.",
+        "priority": "Medium",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-066",
+        "scenario": "Vendor attempts to upload documentation without logging in to the system.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-018",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Vendors can view and upload required documents during onboarding process as per the Excel sheet reference",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-019",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Attempt to upload invalid document type during onboarding process",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-019",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Verify that system displays required documents for vendors to upload during onboarding process",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-019",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Test that system allows vendors to upload required documents during onboarding process when user has necessary permissions",
+        "priority": "Medium",
+        "type": "Permission",
+        "requirement_id": "REQ-019",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-071",
+        "scenario": "Attempt to upload required documents during onboarding process when user is not logged in",
+        "priority": "High",
+        "type": "Exception",
+        "requirement_id": "REQ-019",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Subject Matter Experts Provide Translation for Custom Information",
+        "priority": "Medium",
+        "type": "Positive",
+        "requirement_id": "REQ-020",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Attempt to Create Purchase Order without Translation for Custom Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-020",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Validate Translation for Custom Information is Saved Correctly",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-020",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Attempt to Create Purchase Order with Incomplete Translation for Custom Information",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-020",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-076",
+        "scenario": "Create Purchase Order with Translation for Custom Information within Geography's Allowed Characters Limit",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-020",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Create Purchase Order with English Language and Verify Auto-Translation of UI",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-021",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Create Purchase Order with French Language and Verify Auto-Translation of UI",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-021",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Create Purchase Order with Non-Supported Language and Verify Error Message",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-021",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Verify that UI is translated for all supported languages",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-021",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-081",
+        "scenario": "Verify that UI is not translated for non-supported languages",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-021",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer verifies and updates supplier information for an approved supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer attempts to update supplier information for an inactive supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer updates supplier information with conflicting changes made by the supplier",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer updates supplier information without proper authorization",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-086",
+        "scenario": "Buyer attempts to update supplier information with incomplete data",
+        "priority": "High",
+        "type": "Validation",
+        "requirement_id": "REQ-022",
+        "module": "Supplier Information Management (SIM)"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Buyer creates a purchase requisition for an approved supplier with valid details.",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Buyer attempts to create a purchase requisition for an unapproved supplier.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Buyer creates a purchase requisition with invalid supplier details (e.g., missing supplier name).",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Buyer creates a purchase requisition with a large quantity of items.",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-091",
+        "scenario": "Buyer attempts to create a purchase requisition with a negative quantity of items.",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-025",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Create Purchase Requisition with Valid Data and Approve it Successfully",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-026",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Attempt to Create Purchase Requisition with Invalid Data (Missing Fields)",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-026",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Validate Purchase Requisition Approval Workflow (Multiple Levels of Approval)",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-026",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Approve Purchase Requisition at the Last Level of Approval (Boundary)",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-026",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-096",
+        "scenario": "Attempt to Approve Purchase Requisition without Required Permissions",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-026",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Create Purchase Requisition and Approve it, then System generates Purchase Order automatically",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-027",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Create Purchase Requisition but do not Approve it, then System does not generate Purchase Order",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-027",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Create Purchase Requisition with invalid data, then System prevents Purchase Order generation",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-027",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Create Purchase Requisition with valid data, then System generates Purchase Order with correct details",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-027",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-101",
+        "scenario": "Approve Purchase Requisition at 11:59 PM on the last day of the month, then System generates Purchase Order on the next day",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-027",
+        "module": "Procurement"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Create ESG Metric for Approved Supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-028",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Attempt to Create ESG Metric for Inactive Supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-028",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Validate ESG Metric for Existing Supplier",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-028",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Create ESG Metric for Supplier with Duplicate Metric",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-028",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-106",
+        "scenario": "Attempt to Create ESG Metric without Required Fields",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-028",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Create Purchase Order with Local Language Support",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-029",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Attempt Purchase Order with Non-Supported Local Language",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-029",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Verify Local Language Support for ESG & Compliance Module",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-029",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Attempt Purchase Order with Local Language Support when User is not Authorized",
+        "priority": "High",
+        "type": "Permission",
+        "requirement_id": "REQ-029",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-111",
+        "scenario": "Create Purchase Order with Local Language Support at Maximum Character Limit",
+        "priority": "High",
+        "type": "Boundary",
+        "requirement_id": "REQ-029",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "System generates report on compliance status for approved supplier",
+        "priority": "High",
+        "type": "Positive",
+        "requirement_id": "REQ-030",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "System does not generate report on compliance status for inactive supplier",
+        "priority": "High",
+        "type": "Negative",
+        "requirement_id": "REQ-030",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "System validates compliance status report for supplier with valid data",
+        "priority": "Medium",
+        "type": "Validation",
+        "requirement_id": "REQ-030",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "System generates report on compliance status for supplier with missing data",
+        "priority": "Medium",
+        "type": "Boundary",
+        "requirement_id": "REQ-030",
+        "module": "ESG & Compliance"
+    },
+    {
+        "scenario_id": "SC-116",
+        "scenario": "System generates report on compliance status for supplier with invalid data",
+        "priority": "Medium",
+        "type": "Exception",
+        "requirement_id": "REQ-030",
+        "module": "ESG & Compliance"
+    }
+]

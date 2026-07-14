@@ -1,0 +1,242 @@
+[
+    {
+        "id": "Q1",
+        "question": "What constitutes an 'approved supplier' for sourcing event creation?",
+        "reason": "Definition of approved supplier missing",
+        "options": [
+            "Supplier with active contract",
+            "Supplier with completed onboarding process",
+            "Supplier with a minimum spend threshold",
+            "Supplier with a specific certification"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q2",
+        "question": "How are 'centre-managed commodities and services' defined for strategic sourcing activities?",
+        "reason": "Definition of centre-managed commodities and services missing",
+        "options": [
+            "Commodities and services with a minimum spend threshold",
+            "Commodities and services with a specific category",
+            "Commodities and services with a designated procurement team",
+            "Commodities and services with a specific approval process"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for 'flipping' a purchase request into a sourcing event?",
+        "reason": "Flipping process missing",
+        "options": [
+            "Automated process triggered by purchase request",
+            "Manual process initiated by Buyer",
+            "Approval process required for purchase request",
+            "No specific process required"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q4",
+        "question": "How are 'savings' tracked and defined in the Coupa sourcing module?",
+        "reason": "Savings tracking process missing",
+        "options": [
+            "Planned savings vs. negotiated savings",
+            "Cost avoidance vs. cost savings",
+            "Savings percentage vs. dollar amount",
+            "Savings tracked by supplier vs. category"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q5",
+        "question": "Who has the authority to customize sourcing settings and configurations in Coupa?",
+        "reason": "Customization authority missing",
+        "options": [
+            "Coupa Admins only",
+            "Buyers with specific permissions",
+            "Category Managers with approval",
+            "Procurement team with designated roles"
+        ],
+        "module": "Sourcing"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for a supplier to be considered 'active'?",
+        "reason": "Ambiguity in supplier status",
+        "options": [
+            "Last order within the last 6 months",
+            "Last order within the last year",
+            "No outstanding issues",
+            "Registered with the system"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q2",
+        "question": "How are supplier ratings calculated?",
+        "reason": "Supplier rating calculation missing",
+        "options": [
+            "Average rating from all orders",
+            "Weighted average rating from recent orders",
+            "Rating from a specific set of customers",
+            "Manual rating by procurement team"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the process for handling supplier disputes?",
+        "reason": "Dispute resolution process missing",
+        "options": [
+            "Escalation to procurement team",
+            "Escalation to finance team",
+            "Escalation to supplier directly",
+            "Automated resolution through system"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q4",
+        "question": "How are supplier contracts managed and tracked?",
+        "reason": "Contract management process missing",
+        "options": [
+            "Manual tracking by procurement team",
+            "Automated tracking through system",
+            "Contract management software integration",
+            "No formal contract management process"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q5",
+        "question": "What are the consequences for a supplier's performance issues?",
+        "reason": "Performance issue consequences missing",
+        "options": [
+            "Warning and improvement plan",
+            "Temporary suspension of services",
+            "Permanent termination of contract",
+            "No consequences for performance issues"
+        ],
+        "module": "Supplier"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the maximum number of bidders allowed per auction?",
+        "reason": "Unclear auction participation limits",
+        "options": [
+            "5",
+            "10",
+            "Unlimited",
+            "Dependent on user role"
+        ],
+        "module": "Auction"
+    },
+    {
+        "id": "Q2",
+        "question": "How does the system handle tie-breakers in English reverse auctions?",
+        "reason": "Tie-breaker logic unclear",
+        "options": [
+            "Randomly selects the winner",
+            "Winner is selected based on lowest price",
+            "Winner is selected based on highest rating",
+            "Customizable tie-breaker logic"
+        ],
+        "module": "Auction"
+    },
+    {
+        "id": "Q3",
+        "question": "Can users cancel or pause auctions after they have started?",
+        "reason": "Auction state management unclear",
+        "options": [
+            "Yes, with approval from a manager",
+            "Yes, without approval",
+            "No, once started auctions cannot be modified",
+            "Dependent on user role"
+        ],
+        "module": "Auction"
+    },
+    {
+        "id": "Q4",
+        "question": "How does the system handle bid validity in Dutch reverse auctions?",
+        "reason": "Bid validity rules unclear",
+        "options": [
+            "Bids are valid for a fixed time period",
+            "Bids are valid until the auction closes",
+            "Bids are valid until a specific date/time",
+            "Bids are valid until a specific event occurs"
+        ],
+        "module": "Auction"
+    },
+    {
+        "id": "Q5",
+        "question": "Can users participate in multiple auctions simultaneously?",
+        "reason": "User participation limits unclear",
+        "options": [
+            "Yes, with approval from a manager",
+            "Yes, without approval",
+            "No, users can only participate in one auction at a time",
+            "Dependent on user role"
+        ],
+        "module": "Auction"
+    },
+    {
+        "id": "Q1",
+        "question": "What is the criteria for determining a report is 'critical'?",
+        "reason": "Ambiguous report classification",
+        "options": [
+            "Report contains sensitive information",
+            "Report is used for high-level decision making",
+            "Report is generated by a third-party system",
+            "Report is not used for regular business operations"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q2",
+        "question": "How often should the report be refreshed?",
+        "reason": "Refresh frequency missing",
+        "options": [
+            "Daily",
+            "Weekly",
+            "Monthly",
+            "On-demand"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q3",
+        "question": "What is the expected format for the report output?",
+        "reason": "Output format missing",
+        "options": [
+            "CSV",
+            "PDF",
+            "Excel",
+            "HTML"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q4",
+        "question": "Who is responsible for data quality issues in the report?",
+        "reason": "Data quality responsibility missing",
+        "options": [
+            "Report Developer",
+            "Data Analyst",
+            "Business Owner",
+            "IT Support"
+        ],
+        "module": "Reporting"
+    },
+    {
+        "id": "Q5",
+        "question": "What is the process for handling report errors or exceptions?",
+        "reason": "Error handling process missing",
+        "options": [
+            "Notify the report developer",
+            "Escalate to IT support",
+            "Notify the business owner",
+            "Log the error and continue running"
+        ],
+        "module": "Reporting"
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "id": "REQ-001",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can initiate supplier onboarding process by providing basic information.",
+        "requirement_id": "REQ-001"
+    },
+    {
+        "id": "REQ-002",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Internal approval workflow is triggered after buyer initiates supplier onboarding process.",
+        "requirement_id": "REQ-002"
+    },
+    {
+        "id": "REQ-003",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier receives invitation to register with AECI and complete due diligence steps after internal approval.",
+        "requirement_id": "REQ-003"
+    },
+    {
+        "id": "REQ-004",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can register with AECI and complete due diligence steps via Coupa Supplier Portal (CSP).",
+        "requirement_id": "REQ-004"
+    },
+    {
+        "id": "REQ-005",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information is accurate and current after completion of due diligence steps.",
+        "requirement_id": "REQ-005"
+    },
+    {
+        "id": "REQ-006",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier creation and onboarding process is managed by Coupa SIM.",
+        "requirement_id": "REQ-006"
+    },
+    {
+        "id": "REQ-007",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier can be deactivated or reactivated in Coupa SIM.",
+        "requirement_id": "REQ-007"
+    },
+    {
+        "id": "REQ-008",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier status management includes purchase block, payment block, and supplier deactivation/reactivation.",
+        "requirement_id": "REQ-008"
+    },
+    {
+        "id": "REQ-001",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Buyer can create a purchase order for approved suppliers.",
+        "requirement_id": "REQ-009"
+    },
+    {
+        "id": "REQ-002",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier onboarding process allows internal registration for urgent or specific supplier types.",
+        "requirement_id": "REQ-010"
+    },
+    {
+        "id": "REQ-003",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier information can be updated by internal users.",
+        "requirement_id": "REQ-011"
+    },
+    {
+        "id": "REQ-004",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Supplier status can be updated to block purchase or payment, deactivate, or reactivate.",
+        "requirement_id": "REQ-012"
+    },
+    {
+        "id": "REQ-005",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "One-time vendor process allows faster vendor creation with simplified approval flow and reduced data requirements.",
+        "requirement_id": "REQ-013"
+    },
+    {
+        "id": "REQ-006",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "Coupa supports auto-translation of standard information on the user interface for multiple languages.",
+        "requirement_id": "REQ-014"
+    },
+    {
+        "id": "REQ-002",
+        "module": "P",
+        "type": "Functional",
+        "priority": "High",
+        "requirement": "System must support local language requirements.",
+        "requirement_id": "REQ-015"
+    }
+]
