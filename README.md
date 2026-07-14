@@ -31,6 +31,7 @@ The AI UAT Platform reduces this effort to minutes using AI.
 PDF,DOCX
 
 Automatically parses documents and extracts structured text for downstream AI processing.
+![Dashboard](backend/screenshots/DASHBOARD.jpeg)
 
 🧩 Business Module Detection
 
@@ -72,6 +73,7 @@ High
 
 Requirement:
 Supplier onboarding process should support approval workflows.
+![Requirements](backend/screenshots/Requirements.jpeg)
 
 ❓ AI Clarification Question Generation
 
@@ -104,6 +106,7 @@ Test Steps
 Expected Result
 Requirement Mapping
 Priority
+![Excel Export](backend/screenshots/EXCEL.jpeg)
 
 🔗 Requirement Traceability Matrix (RTM)
 
@@ -121,6 +124,8 @@ Covered Requirements
 Missing Requirements
 Coverage Percentage
 Linked Test Cases
+![Requirements](backend/screenshots/Requirements.jpeg)
+
 📊 AI Analytics Dashboard
 
 Interactive dashboard displaying:
@@ -148,6 +153,7 @@ Search Requirements
 Filter Covered/Missing
 View Requirement Details
 Inspect Linked Test Cases
+![AI Insights](backend/screenshots/AI%20INSIGHTS.jpeg)
 
 🤖 AI Copilot (RAG Powered)
 Ask questions about any requirement.
@@ -159,6 +165,7 @@ Why is this required?
 What business rules apply?
 What risks exist?
 How should QA validate this?
+![AI Copilot](backend/screenshots/AI%20COPILOT.jpeg)
 
 The AI:
 
