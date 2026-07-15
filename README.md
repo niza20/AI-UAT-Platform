@@ -1,4 +1,4 @@
-# 🤖 AI UAT Platform
+#  AI UAT Platform
 
 ##  Automating Business Requirement Analysis & User Acceptance Testing using Generative AI
 
@@ -70,7 +70,7 @@ Automatically identifies enterprise business domains including:
 </p>
 ---
 
-## 🤖 AI Requirement Extraction
+## AI Requirement Extraction
 
 Uses LLMs to transform unstructured BRDs into structured business requirements.
 
@@ -103,7 +103,7 @@ Supplier onboarding process should support approval workflows.
 
 ---
 
-## ❓ AI Clarification Question Generation
+##  AI Clarification Question Generation
 
 Generates intelligent clarification questions for ambiguous requirements.
 <p align="center">
@@ -170,12 +170,12 @@ Provides:
 - Coverage Percentage
 - Linked Test Cases
 
-<<<<<<< HEAD
+
 =======
 <p align="center">
 <img src="backend/screenshots/RTM.jpeg" width="750">
 </p>
->>>>>>> 9d6b7d5 (Enhance README with project documentation and screenshots)
+
 
 ---
 
