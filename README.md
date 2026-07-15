@@ -146,7 +146,7 @@ Each generated test case contains:
 - Priority
 
 <p align="center">
-<img src="backend/screenshots/Test%20Cases.jpeg" width="750">
+  <img src="backend/screenshots/Test%20cases.jpeg" width="750">
 </p>
 
 ---
