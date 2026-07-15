@@ -1,6 +1,6 @@
 # 🤖 AI UAT Platform
 
-## 🚀 Automating Business Requirement Analysis & User Acceptance Testing using Generative AI
+##  Automating Business Requirement Analysis & User Acceptance Testing using Generative AI
 
 Transform **Business Requirement Documents (BRDs)** into structured requirements, AI-generated clarification questions, comprehensive UAT test cases, traceability matrices, analytics dashboards, and an intelligent AI Copilot.
 
@@ -16,7 +16,7 @@ Designed for **Business Analysts, QA Engineers, Test Managers, and Product Teams
 
 ---
 
-# 🎯 Problem Statement
+#  Problem Statement
 
 Traditional UAT preparation requires teams to:
 
@@ -35,7 +35,7 @@ The **AI UAT Platform** reduces this effort to **minutes** using Generative AI.
 
 ---
 
-# ✨ Key Features
+#  Key Features
 
 ## 📄 Smart BRD Upload
 
@@ -52,7 +52,7 @@ Automatically parses documents and extracts structured text for downstream AI pr
 
 ---
 
-## 🧩 Business Module Detection
+##  Business Module Detection
 
 Automatically identifies enterprise business domains including:
 
@@ -126,15 +126,15 @@ Generates intelligent clarification questions for ambiguous requirements.
 
 ---
 
-## 🧪 AI Test Case Generation
+##  AI Test Case Generation
 
 Automatically generates:
 
-- ✅ Positive Test Cases
-- ❌ Negative Test Cases
-- 📏 Boundary Value Cases
-- ⚠️ Exception Scenarios
-- 🔀 Alternate Flow Scenarios
+-  Positive Test Cases
+-  Negative Test Cases
+-  Boundary Value Cases
+-  Exception Scenarios
+-  Alternate Flow Scenarios
 
 Each generated test case contains:
 
