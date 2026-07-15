@@ -39,17 +39,13 @@ The **AI UAT Platform** reduces this effort to **minutes** using Generative AI.
 
 ## 📄 Smart BRD Upload
 
-Supports:
-
-- PDF
-- DOCX
+Accepts PDF and DOCX formats. Each document is parsed and converted into structured text, giving analysts a clean, searchable base to work from instead of raw, unformatted pages.
 
 Automatically parses documents and extracts structured text for downstream AI processing.
 
 <p align="center">
-<img src="backend/screenshots/DASHBOARD.jpeg" width="750">
+<img src="backend/screenshots/Upload.jpeg" width="750">
 </p>
-
 ---
 
 ##  Business Module Detection
@@ -69,6 +65,9 @@ Automatically identifies enterprise business domains including:
 - Savings Management
 - Contingent Workforce
 
+<p align="center">
+<img src="backend/screenshots/DASHBOARD.jpeg" width="750">
+</p>
 ---
 
 ## 🤖 AI Requirement Extraction
@@ -110,6 +109,7 @@ Generates intelligent clarification questions for ambiguous requirements.
 <p align="center">
   <img src="backend/screenshots/Clarification%20Questions.jpeg" width="750">
 </p>
+
 ### Example
 
 **Requirement**
@@ -146,7 +146,7 @@ Each generated test case contains:
 - Priority
 
 <p align="center">
-<img src="backend/screenshots/EXCEL.jpeg" width="750">
+<img src="backend/screenshots/Test%20Questions.jpeg" width="750">
 </p>
 
 ---
@@ -170,6 +170,12 @@ Provides:
 - Coverage Percentage
 - Linked Test Cases
 
+<<<<<<< HEAD
+=======
+<p align="center">
+<img src="backend/screenshots/RTM.jpeg" width="750">
+</p>
+>>>>>>> 9d6b7d5 (Enhance README with project documentation and screenshots)
 
 ---
 
