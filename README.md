@@ -170,9 +170,6 @@ Provides:
 - Coverage Percentage
 - Linked Test Cases
 
-<p align="center">
-<img src="backend/screenshots/Requirements.jpeg" width="750">
-</p>
 
 ---
 
